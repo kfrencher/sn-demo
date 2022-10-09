@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ac1353a397565110fa6733121153af97" sys_domain="global" table="x_53417_demo_demo_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 00:41:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f1453e397565110fa6733121153afee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_53417_demo_demo_request" name="x_53417_demo_demo_request" sys_domain="global" view="Default view">ac1353a397565110fa6733121153af97</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_task" sys_domain="global" view="Default view">f97f32ef97d25110fa6733121153afd4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 00:41:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 00:41:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1345be397565110fa6733121153af26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_53417_demo_demo_request" name="x_53417_demo_demo_request" sys_domain="global" view="Default view">ac1353a397565110fa6733121153af97</sys_ui_form>
+            <sys_ui_section caption="Assignment Details" display_value="Assignment Details" name="x_53417_demo_task" sys_domain="global" view="Default view">b2bf4baf97165110fa6733121153af38</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 00:41:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 00:41:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3044d7e397565110fa6733121153af06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_53417_demo_demo_request" name="x_53417_demo_demo_request" sys_domain="global" view="Default view">ac1353a397565110fa6733121153af97</sys_ui_form>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_53417_demo_task" sys_domain="global" view="Default view">3ebf4baf97165110fa6733121153af38</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 00:41:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 00:47:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e95136797565110fa6733121153af29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_53417_demo_demo_request" name="x_53417_demo_demo_request" sys_domain="global" view="Default view">ac1353a397565110fa6733121153af97</sys_ui_form>
+            <sys_ui_section caption="Demo Request Details" display_value="Demo Request Details" name="x_53417_demo_demo_request" sys_domain="global" view="Default view">8e95136797565110fa6733121153af26</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 00:47:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_53417_demo_demo_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 00:36:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac1353a397565110fa6733121153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_53417_demo_demo_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ac1353a397565110fa6733121153af97</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 00:36:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
