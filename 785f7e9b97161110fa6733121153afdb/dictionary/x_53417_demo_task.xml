@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="426f7a1397561110fa6733121153afb9" label="Task" max_length="40" name="x_53417_demo_task" type="collection">
+        <element label="Assigned Group" max_length="32" name="assigned_group" reference="sys_user_group" type="reference"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Description" max_length="5000" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Short Description" max_length="255" name="short_description" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="assigned_group"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
