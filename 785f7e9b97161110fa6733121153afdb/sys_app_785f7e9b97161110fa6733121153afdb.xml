@@ -35,7 +35,7 @@
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=785f7e9b97161110fa6733121153afdb"/>
 </record_update>
