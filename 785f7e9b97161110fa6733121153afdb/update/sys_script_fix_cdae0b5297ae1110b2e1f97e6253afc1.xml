@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Random Date</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var start = new GlideDateTime();
+start.setDisplayValue('2012/01/01', 'YYYY/MM/dd');
+for(let x=0; x<10; x++) {
+    gs.debug(Utils.randomDateBetween(start, new GlideDateTime()).toString());
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 13:20:20</sys_created_on>
+        <sys_id>cdae0b5297ae1110b2e1f97e6253afc1</sys_id>
+        <sys_name>Random Date</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_script_fix_cdae0b5297ae1110b2e1f97e6253afc1</sys_update_name>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

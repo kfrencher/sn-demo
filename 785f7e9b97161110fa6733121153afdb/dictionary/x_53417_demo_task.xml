@@ -2,9 +2,20 @@
     <element db_object_id="426f7a1397561110fa6733121153afb9" label="Task" max_length="40" name="x_53417_demo_task" type="collection">
         <element label="Assigned Group" max_length="32" name="assigned_group" reference="sys_user_group" type="reference"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Closed On" max_length="40" name="closed_on" type="glide_date"/>
         <element label="Description" max_length="5000" name="description" type="string"/>
         <element label="Label" max_length="255" name="label" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Opened On" max_length="40" name="opened_on" type="glide_date"/>
+        <element choice="1" label="Status" max_length="255" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Draft" value="draft"/>
+                <element inactive_on_update="false" label="In Progress" value="in_progress"/>
+                <element inactive_on_update="false" label="New" value="new"/>
+                <element inactive_on_update="false" label="Submitted" value="submitted"/>
+            </choice>
+        </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="assigned_group"/>
