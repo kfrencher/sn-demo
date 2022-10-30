@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Demo - New Tab">52dc479c97fe5110b2e1f97e6253af15</legacy_page>
+        <name>PA Demo - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-23 18:20:21</sys_created_on>
+        <sys_id>96dc479c97fe5110b2e1f97e6253af16</sys_id>
+        <sys_name>PA Demo - New Tab</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_grid_canvas_96dc479c97fe5110b2e1f97e6253af16</sys_update_name>
+    </sys_grid_canvas>
+</record_update>

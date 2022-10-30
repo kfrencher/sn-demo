@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widget_indicators">
+    <pa_widget_indicators action="DELETE">
+        <aggregate display_value="By fiscal year SUM +">355f6d00eb31020065deac6aa206fee3</aggregate>
+        <breakdown/>
+        <breakdown_level2/>
+        <chart_type>line</chart_type>
+        <color/>
+        <element/>
+        <element_level2/>
+        <elements_filter/>
+        <follow_element>false</follow_element>
+        <follow_managed_element>false</follow_managed_element>
+        <followed_breakdown/>
+        <indicator display_value="DemoTask OpenedOn Monthly">1a5c364497325110b2e1f97e6253af5e</indicator>
+        <label/>
+        <order/>
+        <second_y_axis>false</second_y_axis>
+        <sys_class_name>pa_widget_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-23 18:18:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd4c4b5c97fe5110b2e1f97e6253af97</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_widget_indicators_fd4c4b5c97fe5110b2e1f97e6253af97</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-29 10:53:41</sys_updated_on>
+        <widget display_value="DemoTask Closed to Open Ratio">f4e60f1897fe5110b2e1f97e6253af95</widget>
+        <widget_indicator/>
+    </pa_widget_indicators>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>pa_widget_indicators_fd4c4b5c97fe5110b2e1f97e6253af97</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widget_indicators"><pa_widget_indicators action="INSERT_OR_UPDATE"><aggregate display_value="By fiscal year SUM +">355f6d00eb31020065deac6aa206fee3</aggregate><breakdown/><breakdown_level2/><chart_type>line</chart_type><color/><element/><element_level2/><elements_filter/><follow_element>false</follow_element><follow_managed_element>false</follow_managed_element><followed_breakdown/><indicator display_value="DemoTask OpenedOn Monthly">1a5c364497325110b2e1f97e6253af5e</indicator><label/><order/><second_y_axis>false</second_y_axis><sys_class_name>pa_widget_indicators</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-23 18:18:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fd4c4b5c97fe5110b2e1f97e6253af97</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>pa_widget_indicators_fd4c4b5c97fe5110b2e1f97e6253af97</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-29 10:53:41</sys_updated_on><widget display_value="DemoTask Closed to Open Ratio">f4e60f1897fe5110b2e1f97e6253af95</widget><widget_indicator/></pa_widget_indicators></record_update>]]></payload>
+        <payload_hash>509126653</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 10:53:41</sys_created_on>
+        <sys_id>6520209a97fa1110b2e1f97e6253afd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184236041120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-29 10:53:41</sys_updated_on>
+        <type>Widget Indicator</type>
+        <update_guid>6d20209aecfa111036f537e9f3ab8fd1</update_guid>
+        <update_guid_history>6d20209aecfa111036f537e9f3ab8fd1:509126653,a44bd424f6369110053d6b798a498982:288460351,e1685c6048369110b44abd81a96d1eaf:-272246068,856c0b5c13fe51105b1dfc2d75d6753d:317332362</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">92e1e41e97fa1110b2e1f97e6253af4c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 11:01:23</sys_created_on>
+        <sys_db_object display_value="" name="pa_widget_indicators">pa_widget_indicators</sys_db_object>
+        <sys_id>2006a4ce47b6498eb288f4c9f824c0f9</sys_id>
+        <sys_metadata>fd4c4b5c97fe5110b2e1f97e6253af97</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>pa_widget_indicators_fd4c4b5c97fe5110b2e1f97e6253af97</sys_update_name>
+        <sys_update_version display_value="pa_widget_indicators_fd4c4b5c97fe5110b2e1f97e6253af97">6520209a97fa1110b2e1f97e6253afd2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

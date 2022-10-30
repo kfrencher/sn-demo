@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="PA Widget Includes">4fbe3df5673322002c658aaad485ef29</sp_dependency>
+        <sp_widget display_value="Demo Performance Analytics">bcd0501e97ba1110b2e1f97e6253af21</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 09:46:44</sys_created_on>
+        <sys_id>fcd0501e97ba1110b2e1f97e6253af25</sys_id>
+        <sys_name>PA Widget Includes.Demo Performance Analytics</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_fcd0501e97ba1110b2e1f97e6253af25</sys_update_name>
+    </m2m_sp_widget_dependency>
+</record_update>

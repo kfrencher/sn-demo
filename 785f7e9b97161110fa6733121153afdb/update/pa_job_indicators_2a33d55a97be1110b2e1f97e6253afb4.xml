@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>DemoTask Historical Collector - DemoTask.Closed.Yearly</display>
+        <indicator display_value="DemoTask.Closed.Yearly">6a72515a97be1110b2e1f97e6253af00</indicator>
+        <job display_value="DemoTask Historical Collector">b4edfac497325110b2e1f97e6253afd9</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 14:36:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a33d55a97be1110b2e1f97e6253afb4</sys_id>
+        <sys_name>DemoTask.Closed.Yearly.DemoTask Historical Collector</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_job_indicators_2a33d55a97be1110b2e1f97e6253afb4</sys_update_name>
+    </pa_job_indicators>
+</record_update>

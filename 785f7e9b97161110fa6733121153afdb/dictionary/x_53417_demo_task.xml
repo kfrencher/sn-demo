@@ -7,7 +7,7 @@
         <element label="Label" max_length="255" name="label" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Opened On" max_length="40" name="opened_on" type="glide_date"/>
-        <element choice="1" label="Status" max_length="255" name="status" type="string">
+        <element choice="1" label="Status" max_length="255" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" value="approved"/>
                 <element inactive_on_update="false" label="Draft" value="draft"/>

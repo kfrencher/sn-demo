@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="INSERT_OR_UPDATE">
+        <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
+        <conditions table="x_53417_demo_task">opened_onONThis quarter@javascript:gs.beginningOfThisQuarter()@javascript:gs.endOfThisQuarter()<item endquery="false" field="opened_on" goto="false" newquery="false" operator="ON" or="false" value="This quarter@javascript:gs.beginningOfThisQuarter()@javascript:gs.endOfThisQuarter()"/>
+        </conditions>
+        <description/>
+        <facts_table>x_53417_demo_task</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>65</frequency>
+        <max_record_fetch_count>50000</max_record_fetch_count>
+        <name>DemoTask.OpenedOn.FiscalQuarterly</name>
+        <override_record_collection>false</override_record_collection>
+        <report_source/>
+        <report_source_updated_at/>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 18:08:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ab34ad697725110b2e1f97e6253af95</sys_id>
+        <sys_name>DemoTask.OpenedOn.FiscalQuarterly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_cubes_8ab34ad697725110b2e1f97e6253af95</sys_update_name>
+    </pa_cubes>
+    <sys_translated_text action="delete_multiple" query="documentkey=8ab34ad697725110b2e1f97e6253af95"/>
+</record_update>

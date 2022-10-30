@@ -45,7 +45,7 @@
         var tasks = [];
         for (let x = 0; x < numberOfTasks; x++) {
             const randomStatusIndex = Math.floor(Math.random() * statusCount);
-            const randomStatus = statusKeys[randomStatusIndex];
+            const randomStatus = this.STATUS[statusKeys[randomStatusIndex]];
             task.newRecord();
             task.status = randomStatus;
             task.label = `${tag}: ${task.getValue('number')}`;
