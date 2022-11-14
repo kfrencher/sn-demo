@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>true</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Request Filter</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_53417_demo_request_filter</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="My Request Filter" name="request_filter">50fe798c752401100acb0f6766fcbf7c</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-06 18:39:39</sys_created_on>
+        <sys_id>0347df7c97431510b2e1f97e6253af92</sys_id>
+        <sys_name>Request Filter</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_db_object_0347df7c97431510b2e1f97e6253af92</sys_update_name>
+        <update_access>true</update_access>
+        <user_role display_value="x_53417_demo.request_filter_user" name="x_53417_demo.request_filter_user">9987d33097831510b2e1f97e6253af80</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

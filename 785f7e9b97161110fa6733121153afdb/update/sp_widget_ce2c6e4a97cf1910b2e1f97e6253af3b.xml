@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.ring {
+  display: inline-block;
+  border: 5px solid gold;
+  border-radius: 200px / 100px;
+  height: 100px;
+  width: 200px;
+  line-height: 88px;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  border-image: linear-gradient(red, yellow) 1;
+}
+
+.box {
+  display: inline-block;
+  line-height: 88px;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  height: 100px;
+  width: 200px
+}
+.box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 200px / 100px;
+  padding: 10px; 
+  background:linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>demo_rings</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Demo Rings</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 12:42:36</sys_created_on>
+        <sys_id>ce2c6e4a97cf1910b2e1f97e6253af3b</sys_id>
+        <sys_name>Demo Rings</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sp_widget_ce2c6e4a97cf1910b2e1f97e6253af3b</sys_update_name>
+        <template><![CDATA[<div class="ring">
+	This is a test
+</div>
+
+<div class="box">
+  This is a test
+</div>
+<div class="box" style="margin-left: -20px;">
+  This is a test 2
+</div>]]></template>
+    </sp_widget>
+</record_update>

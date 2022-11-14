@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>LDAP</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var ldap = new GlideLDAP();
+ldap.setConfigID('4de8c4f197ba9110b2e1f97e6253af75');
+var ldapResult = ldap.getMatching('', '', false, 1000);
+var result;
+while (ldapResult.hasMore()) {
+    result = ldapResult.next();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-11 07:28:26</sys_created_on>
+        <sys_id>bddd669297cf5910b2e1f97e6253af4e</sys_id>
+        <sys_name>LDAP</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_script_fix_bddd669297cf5910b2e1f97e6253af4e</sys_update_name>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

@@ -23,7 +23,37 @@
         <sys_update_name>sp_instance_menu_e1a8df1897329110b2e1f97e6253afd3</sys_update_name>
         <title>Demo</title>
         <url/>
-        <widget_parameters/>
+        <widget_parameters><![CDATA[{
+	"enable_cart":{
+		"displayValue":"false",
+		"value":false
+	},
+	"auto_update_cart":{
+		"displayValue":"true",
+		"value":true
+	},
+	"exclude_search_on_homepage":{
+		"displayValue":"false",
+		"value":false
+	},
+	"enable_wishlist":{
+		"displayValue":"false",
+		"value":false
+	},
+	"enable_requests":{
+		"displayValue":"false",
+		"value":false
+	},
+	"enable_tasks":{
+		"displayValue":"false",
+		"value":false
+	},
+    "enable_more_items":{
+      	"displayValue":"true",
+      	"value":true,
+        "sysId":"6acbcc8597471510b2e1f97e6253af09"
+    }
+}]]></widget_parameters>
     </sp_instance_menu>
     <sys_translated_text action="delete_multiple" query="documentkey=e1a8df1897329110b2e1f97e6253afd3"/>
 </record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">53b1833e9772d110b2e1f97e6253afdb</canvas>
+        <component display_value="Line">18ac962264404bcc0039359d184b15f3</component>
+        <component_props>{"configVersion":"22.1.7","showDataLabels":false,"disableTooltip":false,"showXGrid":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Title":"Opened Tasks","yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"showMaximumRange":false,"chartVariation":"stacked","extensionType":"line","dataSources":[{"allowRealTime":true,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":false,"label":"DemoTask.Opened.FiscalQuarter","sourceType":"indicator","uuid":{"indicator":"21e8afd297f65110b2e1f97e6253af17","breakdowns":[]},"id":"aW5kaWNhdG9yMjFlOGFmZDI5N2Y2NTExMGIyZTFmOTdlNjI1M2FmMTcxNjY3MjE3OTY3Njc4","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Opened Tasks by Fiscal Year","description":"Showing tasks opened by fiscal quarter","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"aW5kaWNhdG9yMjFlOGFmZDI5N2Y2NTExMGIyZTFmOTdlNjI1M2FmMTcxNjY3MjE3OTY3Njc4","id":"YVc1a2FXTmhkRzl5TWpGbE9HRm1aREk1TjJZMk5URXhNR0l5WlRGbU9UZGxOakkxTTJGbU1UY3hOalkzTWpFM09UWTNOamM0MTY2NzIxNzk2ODM5NA==","aggregateIndicator":"","frequency":10,"numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":null,"sortByOrder":null,"trendBy":{"trendByFrequency":"date","trendByFields":[{"field":"anything","metric":"YVc1a2FXTmhkRzl5TWpGbE9HRm1aREk1TjJZMk5URXhNR0l5WlRGbU9UZGxOakkxTTJGbU1UY3hOalkzTWpFM09UWTNOamM0MTY2NzIxNzk2ODM5NA=="}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"refreshFrequency":false,"filterConfigurations":[],"applyDateRange":false,"numberOfPeriods":36,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":null,"startTime":null,"endTime":null,"period":"M","dateFormat":"default"}</component_props>
+        <h>26</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 12:14:07</sys_created_on>
+        <sys_id>5fb5833e9772d110b2e1f97e6253afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_widget_5fb5833e9772d110b2e1f97e6253afe3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 12:14:07</sys_updated_on>
+        <visualization/>
+        <w>5</w>
+        <x>0</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>par_dashboard_widget_5fb5833e9772d110b2e1f97e6253afe3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">53b1833e9772d110b2e1f97e6253afdb</canvas><component display_value="Line">18ac962264404bcc0039359d184b15f3</component><component_props>{"configVersion":"22.1.7","showDataLabels":false,"disableTooltip":false,"showXGrid":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Title":"Opened Tasks","yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"showMaximumRange":false,"chartVariation":"stacked","extensionType":"line","dataSources":[{"allowRealTime":true,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":false,"label":"DemoTask.Opened.FiscalQuarter","sourceType":"indicator","uuid":{"indicator":"21e8afd297f65110b2e1f97e6253af17","breakdowns":[]},"id":"aW5kaWNhdG9yMjFlOGFmZDI5N2Y2NTExMGIyZTFmOTdlNjI1M2FmMTcxNjY3MjE3OTY3Njc4","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Opened Tasks by Fiscal Year","description":"Showing tasks opened by fiscal quarter","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"aW5kaWNhdG9yMjFlOGFmZDI5N2Y2NTExMGIyZTFmOTdlNjI1M2FmMTcxNjY3MjE3OTY3Njc4","id":"YVc1a2FXTmhkRzl5TWpGbE9HRm1aREk1TjJZMk5URXhNR0l5WlRGbU9UZGxOakkxTTJGbU1UY3hOalkzTWpFM09UWTNOamM0MTY2NzIxNzk2ODM5NA==","aggregateIndicator":"","frequency":10,"numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":null,"sortByOrder":null,"trendBy":{"trendByFrequency":"date","trendByFields":[{"field":"anything","metric":"YVc1a2FXTmhkRzl5TWpGbE9HRm1aREk1TjJZMk5URXhNR0l5WlRGbU9UZGxOakkxTTJGbU1UY3hOalkzTWpFM09UWTNOamM0MTY2NzIxNzk2ODM5NA=="}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"refreshFrequency":false,"filterConfigurations":[],"applyDateRange":false,"numberOfPeriods":36,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":null,"startTime":null,"endTime":null,"period":"M","dateFormat":"default"}</component_props><h>26</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-31 12:14:07</sys_created_on><sys_id>5fb5833e9772d110b2e1f97e6253afe3</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>par_dashboard_widget_5fb5833e9772d110b2e1f97e6253afe3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-31 12:14:07</sys_updated_on><visualization/><w>5</w><x>0</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1276216383</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 12:14:07</sys_created_on>
+        <sys_id>13b5833e9772d110b2e1f97e6253afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1842df69bb20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 12:14:07</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>5bb5833e0c72d110d01d3cc238f4cce4</update_guid>
+        <update_guid_history>5bb5833e0c72d110d01d3cc238f4cce4:1276216383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">84168b3297b2d110b2e1f97e6253af8b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 12:15:32</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>54ab64a2260f4e2aa58c2e9da0cdd304</sys_id>
+        <sys_metadata>5fb5833e9772d110b2e1f97e6253afe3</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_5fb5833e9772d110b2e1f97e6253afe3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_5fb5833e9772d110b2e1f97e6253afe3">13b5833e9772d110b2e1f97e6253afe5</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

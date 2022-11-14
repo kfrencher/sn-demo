@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Demo">9bb1833e9772d110b2e1f97e6253afd2</dashboard>
+        <experience display_value="Platform Analytics Workspace">08c73d60537101100834ddeeff7b1287</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 11:56:39</sys_created_on>
+        <sys_id>1fb1833e9772d110b2e1f97e6253afdc</sys_id>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_visibility_1fb1833e9772d110b2e1f97e6253afdc</sys_update_name>
+    </par_dashboard_visibility>
+</record_update>

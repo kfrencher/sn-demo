@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>All Demo Tasks</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="demo_all_tasks">4d51abf897831510b2e1f97e6253af73</sp_page>
+        <sp_rectangle_menu/>
+        <sp_rectangle_menu_item display_value="Demo More">6acbcc8597471510b2e1f97e6253af09</sp_rectangle_menu_item>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-06 22:28:54</sys_created_on>
+        <sys_id>84fbcc4597471510b2e1f97e6253af7c</sys_id>
+        <sys_name>All Demo Tasks</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_84fbcc4597471510b2e1f97e6253af7c</sys_update_name>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=84fbcc4597471510b2e1f97e6253af7c"/>
+</record_update>

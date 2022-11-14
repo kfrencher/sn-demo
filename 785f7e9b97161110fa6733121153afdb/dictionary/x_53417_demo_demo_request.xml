@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="db90075397561110fa6733121153af39" extends="x_53417_demo_request" label="Demo Request" max_length="40" name="x_53417_demo_demo_request" type="collection"/>
+    <element db_object_id="db90075397561110fa6733121153af39" extends="x_53417_demo_request" label="Demo Request" max_length="40" name="x_53417_demo_demo_request" text_index="true" type="collection">
+        <element label="Demo Group" max_length="32" name="demo_group" reference="x_53417_demo_st_demo_group" type="reference"/>
+        <index name="index">
+            <element name="demo_group"/>
+        </index>
+    </element>
 </database>

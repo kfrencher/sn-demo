@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">53b1833e9772d110b2e1f97e6253afdb</canvas>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"title-primary","label":"We make work, work better for people with modern digital workflows","wontWrap":true,"hasNoMargin":false,"level":"4"}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 12:16:01</sys_created_on>
+        <sys_id>47260ffe9772d110b2e1f97e6253af29</sys_id>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_widget_47260ffe9772d110b2e1f97e6253af29</sys_update_name>
+        <visualization/>
+        <w>3</w>
+        <x>1</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e7af36df97161110fa6733121153af5e" extends="x_53417_demo_task" label="Request" max_length="40" name="x_53417_demo_request" type="collection">
+    <element db_object_id="e7af36df97161110fa6733121153af5e" extends="x_53417_demo_task" label="Request" max_length="40" name="x_53417_demo_request" text_index="true" type="collection">
         <element label="Submitter" max_length="32" name="submitter" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="submitter"/>

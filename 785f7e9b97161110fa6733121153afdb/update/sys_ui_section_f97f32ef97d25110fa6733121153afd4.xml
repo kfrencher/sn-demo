@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-09 01:25:52</sys_created_on>
-            <sys_id>056e9b6f97565110fa6733121153af59</sys_id>
+            <sys_created_on>2022-11-11 08:54:05</sys_created_on>
+            <sys_id>5071c71e97039910b2e1f97e6253afda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_task" sys_domain="global" view="Default view">f97f32ef97d25110fa6733121153afd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-09 01:25:52</sys_updated_on>
+            <sys_updated_on>2022-11-11 08:54:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-09 01:25:52</sys_created_on>
-            <sys_id>0d6e9b6f97565110fa6733121153af59</sys_id>
+            <sys_created_on>2022-11-11 08:54:05</sys_created_on>
+            <sys_id>5471c71e97039910b2e1f97e6253afda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_task" sys_domain="global" view="Default view">f97f32ef97d25110fa6733121153afd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-09 01:25:52</sys_updated_on>
+            <sys_updated_on>2022-11-11 08:54:05</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>status</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 12:48:19</sys_created_on>
-            <sys_id>7cf0e68197e69510b2e1f97e6253affe</sys_id>
+            <sys_created_on>2022-11-11 08:54:05</sys_created_on>
+            <sys_id>5871c71e97039910b2e1f97e6253afda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_task" sys_domain="global" view="Default view">f97f32ef97d25110fa6733121153afd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 12:48:19</sys_updated_on>
+            <sys_updated_on>2022-11-11 08:54:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>opened_on</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 13:21:35</sys_created_on>
-            <sys_id>9898ea4997e69510b2e1f97e6253af99</sys_id>
+            <sys_created_on>2022-11-11 08:54:05</sys_created_on>
+            <sys_id>5c71c71e97039910b2e1f97e6253afda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_task" sys_domain="global" view="Default view">f97f32ef97d25110fa6733121153afd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 13:21:35</sys_updated_on>
+            <sys_updated_on>2022-11-11 08:54:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,27 @@
             <element>closed_on</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 13:21:46</sys_created_on>
-            <sys_id>3e986e4997e69510b2e1f97e6253af7d</sys_id>
+            <sys_created_on>2022-11-11 08:54:05</sys_created_on>
+            <sys_id>5071c71e97039910b2e1f97e6253afdb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_task" sys_domain="global" view="Default view">f97f32ef97d25110fa6733121153afd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 13:21:46</sys_updated_on>
+            <sys_updated_on>2022-11-11 08:54:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-11 08:54:05</sys_created_on>
+            <sys_id>5471c71e97039910b2e1f97e6253afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_task" sys_domain="global" view="Default view">f97f32ef97d25110fa6733121153afd4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-11 08:54:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

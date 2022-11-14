@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ts_table_attribute_map">
+    <ts_table_attribute_map action="INSERT_OR_UPDATE">
+        <name display_value="Text Index Auto Stop Threshold">454ea93b53032300d0baddeeff7b12d4</name>
+        <sys_class_name>ts_table_attribute_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 14:52:33</sys_created_on>
+        <sys_id>a42d6b0997c35510b2e1f97e6253afb1</sys_id>
+        <sys_name>454ea93b53032300d0baddeeff7b12d4</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>ts_table_attribute_map_a42d6b0997c35510b2e1f97e6253afb1</sys_update_name>
+        <table>x_53417_demo_task</table>
+        <ts_configuration display_value="x_53417_demo_task">a42d6b0997c35510b2e1f97e6253afac</ts_configuration>
+        <value>250000</value>
+    </ts_table_attribute_map>
+</record_update>

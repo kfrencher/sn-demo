@@ -20,7 +20,7 @@
         <column_target>false</column_target>
         <column_trend>true</column_trend>
         <compare_main_label/>
-        <compare_number_of_periods>3</compare_number_of_periods>
+        <compare_number_of_periods/>
         <compare_period>year</compare_period>
         <cube_facts_table>x_53417_demo_task</cube_facts_table>
         <cutoff>1</cutoff>
@@ -51,19 +51,19 @@
         <include_thresholds>false</include_thresholds>
         <include_trend>false</include_trend>
         <indicator display_value="DemoTask.Opened.FiscalQuarter">21e8afd297f65110b2e1f97e6253af17</indicator>
-        <is_compare_chart>true</is_compare_chart>
+        <is_compare_chart>false</is_compare_chart>
         <lastscore_compare>previous_score</lastscore_compare>
-        <lastscore_periods_back>1</lastscore_periods_back>
+        <lastscore_periods_back/>
         <limit>50</limit>
         <lookup_name/>
         <manual_elements>false</manual_elements>
-        <max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</max_color>
+        <max_color/>
         <multiple_elements_view/>
         <name>DemoTask Opened FiscalQuarter</name>
         <number_of_records>5</number_of_records>
         <overlap_data_labels>false</overlap_data_labels>
         <percentages>no_percentages</percentages>
-        <period>7d</period>
+        <period>max</period>
         <pivot_breakdown/>
         <pivot_elements_filter/>
         <related_dashboards>1</related_dashboards>
@@ -82,7 +82,7 @@
         <show_on_click_link_label>true</show_on_click_link_label>
         <show_range_selector>false</show_range_selector>
         <show_target>false</show_target>
-        <show_top_x>10</show_top_x>
+        <show_top_x/>
         <show_total>false</show_total>
         <show_trend>true</show_trend>
         <show_visualization_selector>true</show_visualization_selector>
@@ -106,7 +106,7 @@
         <treemap_max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</treemap_max_color>
         <treemap_min_color display_value="Red">65b30395a9fe3dba003277a7b660b5db</treemap_min_color>
         <type>time</type>
-        <visualization>line</visualization>
+        <visualization>column</visualization>
         <words_in_trendline>5</words_in_trendline>
         <yaxis2_from/>
         <yaxis2_title/>
