@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Demo">a4ccc39c97fe5110b2e1f97e6253af6a</dashboard>
+        <delete>false</delete>
+        <group display_value="Software" name="Software">8a4dde73c6112278017a6a4baf547aa7</group>
+        <identity>8a4dde73c6112278017a6a4baf547aa7</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-20 23:24:03</sys_created_on>
+        <sys_id>f3de18ed979fd110b2e1f97e6253afaf</sys_id>
+        <sys_name>8a4dde73c6112278017a6a4baf547aa7</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_f3de18ed979fd110b2e1f97e6253afaf</sys_update_name>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

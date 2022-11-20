@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request Demo">281fb93097535110b2e1f97e6253af94</sc_cat_item>
+        <sc_catalog display_value="Demo">fbcf33e8975b1110b2e1f97e6253af56</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 22:29:59</sys_created_on>
+        <sys_id>185f717897535110b2e1f97e6253af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo.Request Demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_185f717897535110b2e1f97e6253af93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 22:29:59</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>sc_cat_item_catalog_185f717897535110b2e1f97e6253af93</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Demo">281fb93097535110b2e1f97e6253af94</sc_cat_item><sc_catalog display_value="Demo">fbcf33e8975b1110b2e1f97e6253af56</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-18 22:29:59</sys_created_on><sys_id>185f717897535110b2e1f97e6253af93</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo.Request Demo</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sc_cat_item_catalog_185f717897535110b2e1f97e6253af93</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-18 22:29:59</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-915637327</payload_hash>
+        <record_name>Demo.Request Demo</record_name>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 22:29:59</sys_created_on>
+        <sys_id>dc5f717897535110b2e1f97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1848cdceb380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 22:29:59</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>545f717896535110ef7bb0c34d166b96</update_guid>
+        <update_guid_history>545f717896535110ef7bb0c34d166b96:-915637327</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Demo.Request Demo">7d5fb17897535110b2e1f97e6253af5b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 22:30:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2d3cacf5f74a4b878965fdf3ad9fc911</sys_id>
+        <sys_metadata>185f717897535110b2e1f97e6253af93</sys_metadata>
+        <sys_name>Demo.Request Demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent display_value="Request Demo">281fb93097535110b2e1f97e6253af94</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_185f717897535110b2e1f97e6253af93</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_185f717897535110b2e1f97e6253af93">dc5f717897535110b2e1f97e6253af96</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

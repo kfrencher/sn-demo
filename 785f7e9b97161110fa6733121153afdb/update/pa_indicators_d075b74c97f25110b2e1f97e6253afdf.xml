@@ -29,7 +29,7 @@
         <formula_aggregate_whole>false</formula_aggregate_whole>
         <formula_allow_null>false</formula_allow_null>
         <frequency>10</frequency>
-        <groups/>
+        <groups name="Software">8a4dde73c6112278017a6a4baf547aa7</groups>
         <has_managed_indicators>false</has_managed_indicators>
         <key>false</key>
         <label/>
@@ -72,7 +72,7 @@
         <unit/>
         <users/>
         <value_when_nil/>
-        <visible_to>2</visible_to>
+        <visible_to>3</visible_to>
     </pa_indicators>
     <sys_translated_text action="delete_multiple" query="documentkey=d075b74c97f25110b2e1f97e6253afdf"/>
 </record_update>

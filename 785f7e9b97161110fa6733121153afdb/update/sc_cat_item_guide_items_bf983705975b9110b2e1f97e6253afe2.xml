@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition/>
+        <guide display_value="Demo Guide">60507705971b9110b2e1f97e6253af56</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Demo Task">829c3b20975b1110b2e1f97e6253afad</item>
+        <order>100</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-20 01:59:20</sys_created_on>
+        <sys_id>bf983705975b9110b2e1f97e6253afe2</sys_id>
+        <sys_name>829c3b20975b1110b2e1f97e6253afad</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_bf983705975b9110b2e1f97e6253afe2</sys_update_name>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>

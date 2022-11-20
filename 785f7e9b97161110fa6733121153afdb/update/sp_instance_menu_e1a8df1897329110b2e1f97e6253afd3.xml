@@ -33,16 +33,16 @@
 		"value":true
 	},
 	"exclude_search_on_homepage":{
-		"displayValue":"false",
-		"value":false
+		"displayValue":"true",
+		"value":true
 	},
 	"enable_wishlist":{
 		"displayValue":"false",
 		"value":false
 	},
 	"enable_requests":{
-		"displayValue":"false",
-		"value":false
+		"displayValue":"true",
+		"value":true
 	},
 	"enable_tasks":{
 		"displayValue":"false",

@@ -18,7 +18,7 @@
         <sc_cat_item/>
         <sc_category/>
         <short_description/>
-        <sp_page display_value="demo_all_tasks">4d51abf897831510b2e1f97e6253af73</sp_page>
+        <sp_page/>
         <sp_rectangle_menu display_value="Demo">e1a8df1897329110b2e1f97e6253afd3</sp_rectangle_menu>
         <sp_rectangle_menu_item/>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
@@ -32,7 +32,7 @@
         <sys_update_name>sp_rectangle_menu_item_c381a73c97831510b2e1f97e6253afbf</sys_update_name>
         <table/>
         <type>url</type>
-        <url>/demo?id=demo_all_tasks&amp;table=x_53417_demo_task</url>
+        <url>/demo?table=x_53417_demo_task&amp;id=demo_all_tasks</url>
         <url_target/>
     </sp_rectangle_menu_item>
     <sys_translated_text action="delete_multiple" query="documentkey=c381a73c97831510b2e1f97e6253afbf"/>

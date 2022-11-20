@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>yellow</background_color>
+        <description>Catalog for demo items</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page>/catalog_home.do?sysparm_catalog=fbcf33e8975b1110b2e1f97e6253af56&amp;sysparm_catalog_view=demo_catalog_homepage</desktop_home_page>
+        <desktop_image>e9a9f9cd97139110b2e1f97e6253af47</desktop_image>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager display_value="Kenneth Frencher">aeece57e97cbd910b2e1f97e6253afd8</manager>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 13:13:42</sys_created_on>
+        <sys_id>fbcf33e8975b1110b2e1f97e6253af56</sys_id>
+        <sys_name>Demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_catalog_fbcf33e8975b1110b2e1f97e6253af56</sys_update_name>
+        <title>Demo</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=fbcf33e8975b1110b2e1f97e6253af56"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <encryption_context/>
+        <file_name>desktop_image</file_name>
+        <hash>2fab3cd4592c1bb336ce3d52789ffb955ba72d183622c1741dab9e38ec8d9751</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1452</size_bytes>
+        <size_compressed>589</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-19 16:43:42</sys_created_on>
+        <sys_id>e9a9f9cd97139110b2e1f97e6253af47</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2022-11-19 16:43:43</sys_updated_on>
+        <table_name>ZZ_YYsc_catalog</table_name>
+        <table_sys_id>fbcf33e8975b1110b2e1f97e6253af56</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="desktop_image" sys_id="e9a9f9cd97139110b2e1f97e6253af47">e9a9f9cd97139110b2e1f97e6253af47</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-19 16:43:42</sys_created_on>
+        <sys_id>2da9f9cd97139110b2e1f97e6253af47</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>dZRNj+IwDIb/StS9zBxI03w4DaJcuDLSnueGoEA1DKDSBfbfr+0U0q6YA3rt5LUfJ6mYXa47cWs23b7KAmRiXze7fRfj+/fheKmyfdedp3l+u93kzchTu8u1UirHwt4yvR+a49crYxFCyHmXrdPLebWuq+zc1pe6vdaZOF3rdns43bC42WzqYzafbertZT5bH5rz71W3F82myihRuNXW607cq8wFnYm/VWYK1NfD5/NZ/uiBYWy6E7Q0Oa+o4E97ePvFnd8z0bWr42V7ar+rjMPDqqvfJsgRE4S8I5uKBM7yAeCECVZAMVCjBWgYaCnA2YHiOrDv8wOsEkbbBdhCgvMUC7AG1UmDGmPfa8mep9cowfWkpmR/jH3yckwKMvi+r2e79ppwUvF2kEEVEU+xwTm1kfhkMQef8jgyzs6LgIdSA8WzsBbShwLNCFIBc5oVSJfAzdUCTPTwnhnUcGyXUbFvQXPDAgrV+3GNe/rop9hgX9KAPtbIfdRYpbgP6pLmRl0ABPbwni9SDcewZDXoI32w+hqeIZ7/k76v9EVYvFVLlxGSOjq8Jn1hdmVv6hV0NIN+YfYqmp5qo9nbF+ZSR9NTIZrL/2emi1d4GOslDoHvXGLseA2/YInPhc9oKDP4FDa6wTipAuWGq9jntLS4Nur4A8yFBHN+CAOVYM6MYc4lGNgxjDr+APNFguETDmBeJxi4MQx8gnkYw6jjD7DSJFhZDGGlTTDvxzAfEqwsxzDqyLB8hz/8t53/A3LUwdisBQAA</data>
+        <length>772</length>
+        <position>1</position>
+        <sys_attachment display_value="desktop_image" sys_id="e9a9f9cd97139110b2e1f97e6253af47">e9a9f9cd97139110b2e1f97e6253af47</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-19 16:43:42</sys_created_on>
+        <sys_id>ada9f9cd97139110b2e1f97e6253af47</sys_id>
+    </sys_attachment_doc>
+</record_update>

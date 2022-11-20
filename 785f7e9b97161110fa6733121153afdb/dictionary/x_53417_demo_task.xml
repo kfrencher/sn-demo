@@ -2,6 +2,7 @@
     <element audit="true" db_object_id="426f7a1397561110fa6733121153afb9" label="Task" max_length="40" name="x_53417_demo_task" text_index="true" type="collection">
         <element label="Assigned Group" max_length="32" name="assigned_group" reference="sys_user_group" type="reference"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Categories" max_length="4000" name="categories" type="glide_list"/>
         <element label="Closed On" max_length="40" name="closed_on" type="glide_date"/>
         <element label="Description" max_length="5000" name="description" type="string"/>
         <element label="Label" max_length="255" name="label" type="string"/>
@@ -18,6 +19,7 @@
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
         <index name="index">
             <element name="assigned_group"/>
         </index>

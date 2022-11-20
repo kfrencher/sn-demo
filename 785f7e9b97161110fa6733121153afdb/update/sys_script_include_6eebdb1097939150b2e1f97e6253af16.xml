@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_53417_demo.MetricUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>MetricUtils</name>
+        <script><![CDATA[var MetricUtils = function() {};
+
+MetricUtils.prototype = (function() {
+    return {
+        createMetricInstance: function(glideRecord, metricDefinition) {
+            var metricInstance = new GlideRecord('metric_instance');
+            metricInstance.newRecord();
+            metricInstance.table = glideRecord.getRecordClassName();
+            metricInstance.id = glideRecord.sys_id;
+            metricInstance.definition = metricDefinition.sys_id;
+            metricInstance.field = metricDefinition.field;
+            return metricInstance;
+        },
+
+        clearMetricsByRelatedRecord: function(table, sysId) {
+            if(table && sysId) {
+                var metricInstance = new GlideRecord('metric_instance');
+                metricInstance.addQuery('table', table);
+                metricInstance.addQuery('id', sysId);
+                metricInstance.deleteMultiple();
+            }
+        }
+    };
+})();]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 15:57:35</sys_created_on>
+        <sys_id>6eebdb1097939150b2e1f97e6253af16</sys_id>
+        <sys_name>MetricUtils</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_script_include_6eebdb1097939150b2e1f97e6253af16</sys_update_name>
+    </sys_script_include>
+</record_update>

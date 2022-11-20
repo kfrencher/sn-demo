@@ -34,7 +34,7 @@ Opened On on This quarter</description>
         <formula_aggregate_whole>false</formula_aggregate_whole>
         <formula_allow_null>false</formula_allow_null>
         <frequency>65</frequency>
-        <groups/>
+        <groups name="Software">8a4dde73c6112278017a6a4baf547aa7</groups>
         <has_managed_indicators>false</has_managed_indicators>
         <key>false</key>
         <label/>
@@ -54,7 +54,7 @@ Opened On on This quarter</description>
         <roles/>
         <score_periods>-1</score_periods>
         <scores_format>kMGTPE</scores_format>
-        <scores_modified_at>2022-10-30 04:00:04</scores_modified_at>
+        <scores_modified_at>2022-11-20 05:00:06</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
@@ -77,7 +77,7 @@ Opened On on This quarter</description>
         <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
         <users/>
         <value_when_nil>0</value_when_nil>
-        <visible_to>2</visible_to>
+        <visible_to>3</visible_to>
     </pa_indicators>
     <sys_translated_text action="delete_multiple" query="documentkey=3ff3c21a97725110b2e1f97e6253af59"/>
 </record_update>

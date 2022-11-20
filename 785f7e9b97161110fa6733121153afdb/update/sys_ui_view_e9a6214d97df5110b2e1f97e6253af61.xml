@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>demo_catalog</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-19 15:20:41</sys_created_on>
+        <sys_id>e9a6214d97df5110b2e1f97e6253af61</sys_id>
+        <sys_name>Demo_catalog</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ui_view_e9a6214d97df5110b2e1f97e6253af61</sys_update_name>
+        <title>Demo_catalog</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
