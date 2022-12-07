@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Demo App Engine">cf6af83353d39110e6f538a09a6e123b</page>
+        <required_translations>[ {
+  "message" : "New Demo Request",
+  "comment" : ""
+}, {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New Request",
+  "comment" : ""
+}, {
+  "message" : "New Task",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-28 01:10:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>4b6af833c5d39110fa4e795319521a3f</sys_id>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_page_property_4b6af833c5d39110fa4e795319521a3f</sys_update_name>
+        <type>json</type>
+        <unique_name>x_53417_demo.cf6af83353d39110e6f538a09a6e123b.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Task"},"routeInfo":{"route":"record","fields":{"table":"x_53417_demo_task","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_53417_demo_task","canCreate":true}}},{"label":{"translatable":true,"message":"New Demo Request"},"routeInfo":{"route":"record","fields":{"table":"x_53417_demo_demo_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_53417_demo_demo_request","canCreate":true}}},{"label":{"translatable":true,"message":"New Request"},"routeInfo":{"route":"record","fields":{"table":"x_53417_demo_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_53417_demo_request","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=4b6af833c5d39110fa4e795319521a3f"/>
+</record_update>

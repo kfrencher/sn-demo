@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Demo Experience">4b8b5bea97d75910b2e1f97e6253afc9</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>home2</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home2</route_type>
+        <screen_type display_value="home2">d603335397db1110b2e1f97e6253af13</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-27 01:20:24</sys_created_on>
+        <sys_id>e203f75397db1110b2e1f97e6253affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>home2</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_app_route_e203f75397db1110b2e1f97e6253affd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-27 01:20:24</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=e203f75397db1110b2e1f97e6253affd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>sys_ux_app_route_e203f75397db1110b2e1f97e6253affd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Demo Experience">4b8b5bea97d75910b2e1f97e6253afc9</app_config><description/><extension_point/><fields/><icon/><name>home2</name><optional_parameters/><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>home2</route_type><screen_type display_value="home2">d603335397db1110b2e1f97e6253af13</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-27 01:20:24</sys_created_on><sys_id>e203f75397db1110b2e1f97e6253affd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>home2</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_app_route_e203f75397db1110b2e1f97e6253affd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-27 01:20:24</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=e203f75397db1110b2e1f97e6253affd"/></record_update>]]></payload>
+        <payload_hash>-336309819</payload_hash>
+        <record_name>home2</record_name>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-27 01:20:24</sys_created_on>
+        <sys_id>ae03f75397db1110b2e1f97e6253affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184b6abd15f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-27 01:20:24</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>e603f753d0db11108a913541a55723fe</update_guid>
+        <update_guid_history>e603f753d0db11108a913541a55723fe:-336309819</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-27 01:49:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>13fe0a2b26f546d485f05919605c36e4</sys_id>
+        <sys_metadata>e203f75397db1110b2e1f97e6253affd</sys_metadata>
+        <sys_name>home2</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_e203f75397db1110b2e1f97e6253affd</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_e203f75397db1110b2e1f97e6253affd">ae03f75397db1110b2e1f97e6253affe</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -4,6 +4,7 @@
         <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="Categories" max_length="4000" name="categories" type="glide_list"/>
         <element label="Closed On" max_length="40" name="closed_on" type="glide_date"/>
+        <element attributes="format=glide_duration" default="3600" label="Close Time" max_length="40" name="close_time" type="integer"/>
         <element label="Description" max_length="5000" name="description" type="string"/>
         <element label="Label" max_length="255" name="label" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>

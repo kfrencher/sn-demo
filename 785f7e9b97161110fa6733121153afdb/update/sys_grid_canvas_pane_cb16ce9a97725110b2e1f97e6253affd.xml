@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Demo - New Tab">96dc479c97fe5110b2e1f97e6253af16</grid_canvas>
-        <height>10</height>
+        <height>18</height>
         <portal_widget display_value="Created 2022-10-29 14:19:09">cf16ce9a97725110b2e1f97e6253affb</portal_widget>
-        <posx>0</posx>
-        <posy>10</posy>
+        <posx>6</posx>
+        <posy>36</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-29 18:19:09</sys_created_on>

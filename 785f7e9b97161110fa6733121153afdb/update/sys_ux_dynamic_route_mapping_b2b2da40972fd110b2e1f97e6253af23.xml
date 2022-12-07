@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_dynamic_route_mapping">
+    <sys_ux_dynamic_route_mapping action="INSERT_OR_UPDATE">
+        <param_payload>{&#13;
+    "route" : "record",&#13;
+    "targetRoute": "",&#13;
+    "fields": {"table":"{{table}}","sysId":"{{sys_id}}"},&#13;
+    "params":"",&#13;
+    "redirect":"",&#13;
+    "passiveNavigation" : "",&#13;
+    "title" : "",&#13;
+    "multiInstField" : "sysId",&#13;
+    "external": ""&#13;
+ }</param_payload>
+        <route_config display_value="Demo Route Config">d9e63f23975f5110b2e1f97e6253af43</route_config>
+        <source_component>list</source_component>
+        <sys_class_name>sys_ux_dynamic_route_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 02:15:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2b2da40972fd110b2e1f97e6253af23</sys_id>
+        <sys_name>list</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_dynamic_route_mapping_b2b2da40972fd110b2e1f97e6253af23</sys_update_name>
+        <table>x_53417_demo_task</table>
+    </sys_ux_dynamic_route_mapping>
+</record_update>

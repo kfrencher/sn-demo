@@ -4,7 +4,7 @@
         <description/>
         <is_legacy_schedule>false</is_legacy_schedule>
         <label>Fiscal Quarter</label>
-        <parent/>
+        <parent display_value="Federal Fiscal Year">ebe4ba1697f25110b2e1f97e6253afd0</parent>
         <plural_label>Fiscal Quarters</plural_label>
         <sys_class_name>business_calendar</sys_class_name>
         <sys_created_by>admin</sys_created_by>

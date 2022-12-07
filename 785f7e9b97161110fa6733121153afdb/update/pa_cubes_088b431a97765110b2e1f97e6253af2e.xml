@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
     <pa_cubes action="INSERT_OR_UPDATE">
         <benchmarking>false</benchmarking>
-        <calendar>04ad17d7531110107c5eddeeff7b120d</calendar>
+        <calendar>e1b0380d97271110b2e1f97e6253af20</calendar>
         <calendar_freq>ebe4ba1697f25110b2e1f97e6253afd0</calendar_freq>
-        <conditions table="x_53417_demo_task">opened_onONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()<item endquery="false" field="opened_on" goto="false" newquery="false" operator="ON" or="false" value="This year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()"/>
+        <conditions table="x_53417_demo_task">opened_onONThis Federal Fiscal Year@javascript:sn_bc.GlideBusinessCalendarUtil.getCalendarStart('Federal Fiscal Year', '0')@javascript:sn_bc.GlideBusinessCalendarUtil.getCalendarEnd('Federal Fiscal Year', '0')<item endquery="false" field="opened_on" goto="false" newquery="false" operator="ON" or="false" value="This Federal Fiscal Year@javascript:sn_bc.GlideBusinessCalendarUtil.getCalendarStart('Federal Fiscal Year', '0')@javascript:sn_bc.GlideBusinessCalendarUtil.getCalendarEnd('Federal Fiscal Year', '0')"/>
         </conditions>
         <description/>
         <facts_table>x_53417_demo_task</facts_table>
         <facts_table_pk/>
         <facts_table_pktable/>
         <facts_table_pkview/>
-        <frequency>10</frequency>
+        <frequency>85</frequency>
         <max_record_fetch_count>50000</max_record_fetch_count>
         <name>DemoTask.OpenedOn.FiscalYear</name>
         <override_record_collection>false</override_record_collection>

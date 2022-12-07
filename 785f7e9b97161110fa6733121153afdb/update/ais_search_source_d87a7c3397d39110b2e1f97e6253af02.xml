@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <datasource display_value="">x_53417_demo_demo_request</datasource>
+        <name>Demo Request</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-28 01:10:51</sys_created_on>
+        <sys_id>d87a7c3397d39110b2e1f97e6253af02</sys_id>
+        <sys_name>Demo Request</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>ais_search_source_d87a7c3397d39110b2e1f97e6253af02</sys_update_name>
+    </ais_search_source>
+</record_update>

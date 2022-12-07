@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_calendars_retention">
+    <pa_calendars_retention action="INSERT_OR_UPDATE">
+        <business_calendar display_value="Federal Fiscal Year">ebe4ba1697f25110b2e1f97e6253afd0</business_calendar>
+        <forecast_periodicity>3</forecast_periodicity>
+        <score_periods>15</score_periods>
+        <snapshot_periods>5</snapshot_periods>
+        <sys_class_name>pa_calendars_retention</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-01 19:05:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c61d0c4197a31110b2e1f97e6253af10</sys_id>
+        <sys_name>ebe4ba1697f25110b2e1f97e6253afd0</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_calendars_retention_c61d0c4197a31110b2e1f97e6253af10</sys_update_name>
+    </pa_calendars_retention>
+</record_update>

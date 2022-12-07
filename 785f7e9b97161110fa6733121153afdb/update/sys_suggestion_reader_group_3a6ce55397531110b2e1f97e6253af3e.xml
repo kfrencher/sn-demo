@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>false</click_in_mode>
+        <context_config_id display_value="Demo Workspace Search Config">2c6ca55397531110b2e1f97e6253af42</context_config_id>
+        <limit>5</limit>
+        <order>600</order>
+        <section_header>Suggested</section_header>
+        <suggestion_type>Search-based Suggested Results Reader Group for Demo</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-26 15:32:14</sys_created_on>
+        <sys_id>3a6ce55397531110b2e1f97e6253af3e</sys_id>
+        <sys_name>Search-based Suggested Results Reader Group for Demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_3a6ce55397531110b2e1f97e6253af3e</sys_update_name>
+    </sys_suggestion_reader_group>
+</record_update>

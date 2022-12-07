@@ -4,7 +4,7 @@
         <condition/>
         <group/>
         <name>Demo Task</name>
-        <roles/>
+        <roles>x_53417_demo.user</roles>
         <source_table>x_53417_demo_task</source_table>
         <sys_class_name>sys_search_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>

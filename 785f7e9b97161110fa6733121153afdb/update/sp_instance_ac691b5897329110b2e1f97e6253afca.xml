@@ -25,8 +25,8 @@
         <url/>
         <widget_parameters><![CDATA[{
 	"widget_id": {
-		"value": "f4e60f1897fe5110b2e1f97e6253af95",
-		"displayValue": "DemoTask Closed to Open Ratio"
+		"value": "00043c0197671110b2e1f97e6253afee",
+		"displayValue": "DemoTask.OpenedOn.FiscalYear"
 	},
 	"show_title": {
 		"value": "true",
