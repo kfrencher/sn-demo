@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation>Puts an event on the event queue</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>demo_event_queue</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Demo Event Queue</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-15 13:27:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc26cf9d97fbd110b2e1f97e6253af13</sys_id>
+        <sys_name>Demo Event Queue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_dc26cf9d97fbd110b2e1f97e6253af13</sys_update_name>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_variable_value action="delete_multiple" query="document_key=dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_hub_action_input action="delete_multiple" query="model=dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_hub_action_output action="delete_multiple" query="model=dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_dc26cf9d97fbd110b2e1f97e6253af13"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=dc26cf9d97fbd110b2e1f97e6253af13"/>
+</record_update>

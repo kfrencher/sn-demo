@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">4ed55c8997c06d10b2e1f97e6253af34</canvas>
+        <component display_value="">b999eb8ac52f85df203e43cbf2352fde</component>
+        <component_props>{"filterId":"1gl872lgenb2l3h8t5ko","filterName":"Opened On","filterProperties":"{\"tablefields\":[{\"table\":{\"id\":\"x_53417_demo_task\",\"label\":\"Task\",\"count\":0,\"hierarchy\":[\"x_53417_demo_task\",\"x_53417_demo_request\",\"x_53417_demo_demo_request\",[\"x_53417_demo_demo_task_audit\",\"t\"]]},\"field\":{\"id\":\"opened_on\",\"label\":\"Opened On\",\"type\":\"glide_date\",\"reference\":null}}],\"defaults\":[],\"booleanLabels\":{},\"emptyOption\":null,\"maxElements\":500}","filterConfigurations":[{"order":1,"filterId":"1gl872lgenb2l3h8t5ko","type":"date","label":"Opened On","apply_to":["x_53417_demo_task.opened_on","x_53417_demo_task.opened_on","x_53417_demo_request.opened_on","x_53417_demo_demo_request.opened_on","x_53417_demo_demo_task_audit.t_opened_on"],"start":"2022-07-01","end":"2023-01-01"}]}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 22:02:59</sys_created_on>
+        <sys_id>d785214997486d10b2e1f97e6253af45</sys_id>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_widget_d785214997486d10b2e1f97e6253af45</sys_update_name>
+        <visualization/>
+        <w>2</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

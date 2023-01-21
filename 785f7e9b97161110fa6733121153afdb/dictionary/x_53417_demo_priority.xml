@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="51442ca897902110b2e1f97e6253af9e" label="Priority" max_length="40" name="x_53417_demo_priority" text_index="true" type="collection">
+        <element label="Name" max_length="255" name="name" type="string"/>
+    </element>
+</database>

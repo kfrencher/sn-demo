@@ -19,13 +19,13 @@
         <run_period/>
         <run_start>2022-10-22 22:36:31</run_start>
         <run_time>1970-01-01 05:00:00</run_time>
-        <run_type>monthly</run_type>
+        <run_type>on_demand</run_type>
         <score_fixed_end>00000000</score_fixed_end>
         <score_fixed_start>00000000</score_fixed_start>
         <score_operator>relative</score_operator>
         <score_relative_end>1</score_relative_end>
         <score_relative_end_interval>days</score_relative_end_interval>
-        <score_relative_start>120</score_relative_start>
+        <score_relative_start>40</score_relative_start>
         <score_relative_start_interval>months</score_relative_start_interval>
         <sys_class_name>sysauto_pa</sys_class_name>
         <sys_created_by>admin</sys_created_by>

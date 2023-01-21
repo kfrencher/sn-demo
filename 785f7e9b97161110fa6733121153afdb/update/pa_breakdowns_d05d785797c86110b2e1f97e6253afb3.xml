@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdowns">
+    <pa_breakdowns action="INSERT_OR_UPDATE">
+        <data_source/>
+        <default_filter/>
+        <description/>
+        <dimension display_value="Demo Category Count">3aec345797c86110b2e1f97e6253afc7</dimension>
+        <display>true</display>
+        <facts_table/>
+        <field/>
+        <groups/>
+        <name>Demo Category Count</name>
+        <role_override>true</role_override>
+        <roles/>
+        <script/>
+        <scripted>false</scripted>
+        <sql_statement/>
+        <sys_class_name>pa_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 18:53:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d05d785797c86110b2e1f97e6253afb3</sys_id>
+        <sys_name>Demo Category Count</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_breakdowns_d05d785797c86110b2e1f97e6253afb3</sys_update_name>
+        <type>1</type>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_breakdowns>
+    <sys_translated_text action="delete_multiple" query="documentkey=d05d785797c86110b2e1f97e6253afb3"/>
+</record_update>

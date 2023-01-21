@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_sources">
+    <pa_m2m_dashboard_sources action="INSERT_OR_UPDATE">
+        <breakdown_source display_value="DemoTask.AssignedGroups">2bfca8959708ad10b2e1f97e6253af6d</breakdown_source>
+        <dashboard display_value="Demo">a4ccc39c97fe5110b2e1f97e6253af6a</dashboard>
+        <order>200</order>
+        <publisher/>
+        <sys_class_name>pa_m2m_dashboard_sources</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 13:03:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4c338d19748ad10b2e1f97e6253afd4</sys_id>
+        <sys_name>Demo.DemoTask.AssignedGroups</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_sources_d4c338d19748ad10b2e1f97e6253afd4</sys_update_name>
+    </pa_m2m_dashboard_sources>
+</record_update>

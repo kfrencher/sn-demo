@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="Assigned To">99b05263eb00020065deac6aa206fe82</breakdown>
+        <display>true</display>
+        <indicator display_value="DemoTask ClosedOn Monthly">76e41f4c97725110b2e1f97e6253af4d</indicator>
+        <order/>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-03 14:26:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9cc9cde397cca110b2e1f97e6253af2c</sys_id>
+        <sys_name>Assigned To.DemoTask ClosedOn Monthly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_9cc9cde397cca110b2e1f97e6253af2c</sys_update_name>
+    </pa_indicator_breakdowns>
+</record_update>

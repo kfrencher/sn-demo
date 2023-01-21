@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="461ab50c97006910b2e1f97e6253af43" label="Demo ST Task" max_length="40" name="x_53417_demo_st_demo_task" type="collection">
+        <element label="State Updated On" max_length="40" name="state_updated_on" type="glide_date"/>
+        <element label="Status" max_length="255" name="status" type="string"/>
+        <element label="Task" max_length="32" name="task" reference="x_53417_demo_task" type="reference"/>
+        <index name="index">
+            <element name="task"/>
+        </index>
+    </element>
+</database>

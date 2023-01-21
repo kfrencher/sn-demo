@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>true</can_cancel>
+        <category display_value="Services">904088b8975b1110b2e1f97e6253afcc</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Standard task for the demo application assigned to complete demo requests</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Demo Task</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture>37e6d4b097db1110b2e1f97e6253afc8</picture>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=829c3b20975b1110b2e1f97e6253afad&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs>fbcf33e8975b1110b2e1f97e6253af56</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template display_value="AES Record Producer">211f71ca73202010ae42d31ee2f6a785</sc_template>
+        <script/>
+        <short_description>Task for the demo application</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 13:12:20</sys_created_on>
+        <sys_id>829c3b20975b1110b2e1f97e6253afad</sys_id>
+        <sys_name>Demo Task</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_cat_item_producer_829c3b20975b1110b2e1f97e6253afad</sys_update_name>
+        <table_name>x_53417_demo_task</table_name>
+        <taxonomy_topic display_value="Demo">8b722b7c97831510b2e1f97e6253af20</taxonomy_topic>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=829c3b20975b1110b2e1f97e6253afad"/>
+    <fx_price action="delete_multiple" query="id=829c3b20975b1110b2e1f97e6253afad"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>829c3b20975b1110b2e1f97e6253afad</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 13:12:20</sys_created_on>
+        <sys_id>63af3fa8975b1110b2e1f97e6253afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 13:12:20</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <encryption_context/>
+        <file_name>task.svg</file_name>
+        <hash>daf2afd7bbc3e862e14185546f7a7e6bf95f90dab3f9e40c15df4da9ae147d0d</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2445</size_bytes>
+        <size_compressed>888</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:53:55</sys_created_on>
+        <sys_id>37e6d4b097db1110b2e1f97e6253afc8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-12-07 17:42:34</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>829c3b20975b1110b2e1f97e6253afad</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="task.svg" sys_id="37e6d4b097db1110b2e1f97e6253afc8">37e6d4b097db1110b2e1f97e6253afc8</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:53:55</sys_created_on>
+        <sys_id>3fe6d4b097db1110b2e1f97e6253afca</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>dVbJchoxEP2VqcnFPlhoX1zAhSuuyjk3yoyBCgYKiHH+Pr1IMyM7HGy9Vne/7tcSgunlY9PcduvrdtYm3zbbbrfZXhl/vu8Pl1m7vV5Pz5PJ7XYTNyOO581ESyknkJhDnj/3u8Pv/wWqlNKEvBT6fDmtXrtZezp3l+780bXN8aM7v+2PN0jerdfdoZ1P193bZT593e9OP1fXbbNbz1o0JLjO3eu1+Zy1Kqa2+QurD+2d5ifz6aRwAGTSTYNbT6cVJvw57x9+EPNj21zPq8Pl7Xh+n7UE96tr9/AEdZonKPIItTGpgV5etAmNimGhTRTJGMSNtlI4QE5Y2CmWgf8FK+E8xPU5smEeudTGi4QIGK1IiXaFNBYijLAhcXYKZPe8iKXJNTXYTkgfwfbEkbv89UL0QKaizpsaCgURdcx7kUi18GGwuARjK4xOzZDjMg+uXqigMnZ9dOwt5inYptpSYyt6smwM3E1kem5TSOWbkZRfeMDDkWglggM2GYSLcAAqCuuAQFqhsYoKQloYqHQiSOihxCsprELVMser7E85XnJ+zf+lOHQlJToNTB5IXLhjO7b7eLK/K3HoVNDBWImCJDtSAqt1rITiYU2oBDoPEuNNVhJBAcbrXsmI/44S5erOv9mhVsL2HTId6uRvdqrJ2L5DZlKd/NW2qiZj++uM4RbgTHS+HVrnGZbbk4TGGerh9nD8cHskfuhhtlSs+E2ecck35Qwyv8m3rdTv/SHHlzOCi6PcwF/8ff2q/zviYAKVOJhUJa74++ZDLQ7erUqctbU462pxVtfien9uvuQXcYW/Fx9qcdzfF3Ge3h2RQlowhglCr94BB7+T4ALbFLzUNg77iEPidIvX0IMN9VXiftGEJxjHZA1jpDCq4AV9nmwOQ7V4z8zAon2psCRcKitV8ALUgkLNNnLIwBwkhh6ZInKJWDu14NWQSs6HOPz4K1qXqBjWRZkE+fwoh7CCbwNsHgpRU/S0jnAZDeEI7zi/J4Zm4TmOZuHzaPv9BR6vd2GIs37gsKOhIC41naxxwnoWV2iUFJms0MAEkoj49YF7pFALhfeFsFry+eerQdiKGPAJ57y+EJ2EySekRwMAjPfOjdbi86ZgmLCluoPPDbW8G07OOz45WnOvOZc0sD6635MN/MHPqfk/4puYmI0JAAA=</data>
+        <length>1172</length>
+        <position>1</position>
+        <sys_attachment display_value="task.svg" sys_id="37e6d4b097db1110b2e1f97e6253afc8">37e6d4b097db1110b2e1f97e6253afc8</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:53:55</sys_created_on>
+        <sys_id>77e6d4b097db1110b2e1f97e6253afcb</sys_id>
+    </sys_attachment_doc>
+</record_update>

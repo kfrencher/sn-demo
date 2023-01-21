@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ts_table_attribute_map">
+    <ts_table_attribute_map action="INSERT_OR_UPDATE">
+        <name display_value="Text Index Enable IDF">91fd293b53032300d0baddeeff7b12fb</name>
+        <sys_class_name>ts_table_attribute_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 14:21:33</sys_created_on>
+        <sys_id>df65606c97902110b2e1f97e6253afbf</sys_id>
+        <sys_name>91fd293b53032300d0baddeeff7b12fb</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>ts_table_attribute_map_df65606c97902110b2e1f97e6253afbf</sys_update_name>
+        <table>x_53417_demo_priority</table>
+        <ts_configuration display_value="x_53417_demo_priority">4365206c97902110b2e1f97e6253af80</ts_configuration>
+        <value>true</value>
+    </ts_table_attribute_map>
+</record_update>

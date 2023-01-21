@@ -13,7 +13,7 @@
         <facts_table>sys_choice</facts_table>
         <field>sys_id</field>
         <manual_breakdown/>
-        <name>Task Status</name>
+        <name>Demo Task Status</name>
         <security_type>1</security_type>
         <sys_class_name>pa_dimensions</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -21,7 +21,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>559cab0497f25110b2e1f97e6253af5e</sys_id>
-        <sys_name>Task Status</sys_name>
+        <sys_name>Demo Task Status</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>

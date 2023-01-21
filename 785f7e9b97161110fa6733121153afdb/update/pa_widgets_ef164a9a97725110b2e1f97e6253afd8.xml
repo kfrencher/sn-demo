@@ -36,9 +36,9 @@
         <field/>
         <filter/>
         <flip_axes>false</flip_axes>
-        <follow_element>false</follow_element>
+        <follow_element>true</follow_element>
         <follow_managed_element>false</follow_managed_element>
-        <followed_breakdown/>
+        <followed_breakdown display_value="Demo Task Status">1d9cab0497f25110b2e1f97e6253af60</followed_breakdown>
         <followed_breakdown_relation/>
         <gauge_autoscale>false</gauge_autoscale>
         <gauge_from/>
@@ -58,7 +58,7 @@
         <lookup_name/>
         <manual_elements>false</manual_elements>
         <max_color/>
-        <multiple_elements_view/>
+        <multiple_elements_view>aggregate</multiple_elements_view>
         <name>DemoTaskScore</name>
         <number_of_records>5</number_of_records>
         <overlap_data_labels>false</overlap_data_labels>

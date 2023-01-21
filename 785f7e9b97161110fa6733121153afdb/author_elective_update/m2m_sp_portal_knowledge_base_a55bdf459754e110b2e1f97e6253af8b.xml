@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="DELETE">
+        <active>true</active>
+        <kb_knowledge_base display_value="Demo">f30b9f459754e110b2e1f97e6253af28</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="Demo">79f7171897329110b2e1f97e6253affa</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-08 16:53:17</sys_created_on>
+        <sys_id>a55bdf459754e110b2e1f97e6253af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo.Demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_a55bdf459754e110b2e1f97e6253af8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-08 16:53:17</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>m2m_sp_portal_knowledge_base_a55bdf459754e110b2e1f97e6253af8b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base"><m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE"><active>true</active><kb_knowledge_base display_value="Demo">f30b9f459754e110b2e1f97e6253af28</kb_knowledge_base><order>100</order><sp_portal display_value="Demo">79f7171897329110b2e1f97e6253affa</sp_portal><sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-08 16:53:17</sys_created_on><sys_id>a55bdf459754e110b2e1f97e6253af8b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo.Demo</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>m2m_sp_portal_knowledge_base_a55bdf459754e110b2e1f97e6253af8b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-08 16:53:17</sys_updated_on></m2m_sp_portal_knowledge_base></record_update>]]></payload>
+        <payload_hash>-1960491258</payload_hash>
+        <record_name>Demo.Demo</record_name>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-08 16:53:17</sys_created_on>
+        <sys_id>615bdf459754e110b2e1f97e6253af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185924cfe180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-08 16:53:17</sys_updated_on>
+        <type>Portal Knowledge Base</type>
+        <update_guid>a95bdf45d654e110e6db6ddb4c66f08d</update_guid>
+        <update_guid_history>a95bdf45d654e110e6db6ddb4c66f08d:-1960491258</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Demo.Demo">6a6b97859754e110b2e1f97e6253af16</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-08 16:53:38</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_knowledge_base">m2m_sp_portal_knowledge_base</sys_db_object>
+        <sys_id>6afa4a65ab094d1fb1f0a81c406cdb99</sys_id>
+        <sys_metadata>a55bdf459754e110b2e1f97e6253af8b</sys_metadata>
+        <sys_name>Demo.Demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_knowledge_base_a55bdf459754e110b2e1f97e6253af8b</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_knowledge_base_a55bdf459754e110b2e1f97e6253af8b">615bdf459754e110b2e1f97e6253af8e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

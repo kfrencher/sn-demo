@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2023-01-06 12:02:17</from>
+        <glyph>info</glyph>
+        <glyph_alt_text/>
+        <name>Demo Upgrade</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Demo 2.0 coming with Next Experience&#13;
+More information and features to come</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 12:07:06</sys_created_on>
+        <sys_id>66340c2497102110b2e1f97e6253af2b</sys_id>
+        <sys_name>Demo Upgrade</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>announcement_66340c2497102110b2e1f97e6253af2b</sys_update_name>
+        <title>Demo 2.0 coming with Next Experience</title>
+        <to/>
+        <type>52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=66340c2497102110b2e1f97e6253af2b"/>
+</record_update>

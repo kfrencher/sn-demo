@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate the values as follows:
+'Text &lt;input&gt;: Label' = 'Saved by demo save', Page area = 'Label'
+</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"f18dce54ddedc683222e530780fa48f7":"{\"area\":\"Form\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Label\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [sp_formfield_label]: Label with value Saved by demo save: create demo test in page area Form\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Label\",\"type\":\"text\",\"version\":\"21.0\",\"label_for_input\":{\"inner_text\":\"Label\"},\"sn_atf_mugshot_label_for_label_path\":\"Label\",\"interesting_element_path\":[\"body\",\"div\",\"div\",\"sp-page-row\",\"span\",\"div\",\"form\",\"sp-variable-layout\",\"div\",\"div\",\"input\"],\"get_value_result\":\"Saved by demo save: create demo test\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"label\",\"sn_atf_mugshot_value\":\"Saved by demo save: create demo test\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"sp_formfield_label\",\"label_path\":[\"Label\"],\"hash\":\"f18dce54ddedc683222e530780fa48f7\",\"html_value\":\"Saved by demo save: create demo test\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-20 14:48:37</sys_created_on>
+        <sys_id>7cc1788997a0e510b2e1f97e6253af82</sys_id>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_atf_step_7cc1788997a0e510b2e1f97e6253af82</sys_update_name>
+        <table/>
+        <test display_value="Create Demo Task">7bff32ec97a46510b2e1f97e6253af81</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=7cc1788997a0e510b2e1f97e6253af82"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>7cc1788997a0e510b2e1f97e6253af82</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-20 14:48:37</sys_created_on>
+        <sys_id>c8e1bc8997a0e510b2e1f97e6253afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-20 14:48:37</sys_updated_on>
+        <value>f18dce54ddedc683222e530780fa48f7=Saved by demo save^EQ</value>
+        <variable display_value="Component values">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_b4758c7453370300c792ddeeff7b128d^id=7cc1788997a0e510b2e1f97e6253af82"/>
+</record_update>

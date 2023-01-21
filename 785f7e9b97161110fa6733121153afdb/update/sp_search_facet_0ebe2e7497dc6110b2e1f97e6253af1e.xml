@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_search_facet">
+    <sp_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <field>status</field>
+        <mapped_facet>false</mapped_facet>
+        <name>Status</name>
+        <order>100</order>
+        <search_source display_value="Demo">ccef57b897831510b2e1f97e6253af9d</search_source>
+        <selection_type>multi</selection_type>
+        <sort>asc</sort>
+        <sys_class_name>sp_search_facet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-07 19:01:27</sys_created_on>
+        <sys_id>0ebe2e7497dc6110b2e1f97e6253af1e</sys_id>
+        <sys_name>Status</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sp_search_facet_0ebe2e7497dc6110b2e1f97e6253af1e</sys_update_name>
+        <table>x_53417_demo_task</table>
+    </sp_search_facet>
+    <sys_translated_text action="delete_multiple" query="documentkey=0ebe2e7497dc6110b2e1f97e6253af1e"/>
+</record_update>

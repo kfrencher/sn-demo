@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="pa_buckets">bucket_group=507b349397c86110b2e1f97e6253af1e<item display_table="pa_bucket_groups" display_value="Demo Category Count" endquery="false" field="bucket_group" goto="false" newquery="false" operator="=" or="false" value="507b349397c86110b2e1f97e6253af1e"/>
+        </conditions>
+        <description/>
+        <empty_value>Unknown</empty_value>
+        <facts_table>pa_buckets</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown/>
+        <name>Demo Category Count</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 18:52:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3aec345797c86110b2e1f97e6253afc7</sys_id>
+        <sys_name>Demo Category Count</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_dimensions_3aec345797c86110b2e1f97e6253afc7</sys_update_name>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=3aec345797c86110b2e1f97e6253afc7"/>
+</record_update>

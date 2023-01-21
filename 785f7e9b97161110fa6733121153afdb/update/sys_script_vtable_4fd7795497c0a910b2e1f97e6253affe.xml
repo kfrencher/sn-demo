@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Demo ST Task</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+    // Main API:
+    //    v_table.addRow({ ... }) - adds a row to the result set
+
+    // There are also query helper methods
+    //    v_query.getEncodedQuery() - returns encoded querystring
+    //    v_query.getCondition(field) - returns encoded querystring for the given field (includes field name, operator, and value)
+    //    v_query.getParameter(field) - returns parameter for the given field (only includes value for equality conditions)
+    //    v_query.isGet() - returns whether the query is a single get by sys_id
+    //    v_query.getSysId() - returns parameter for sys_id field
+    //    v_query.isTextSearch() - returns whether the query contains a text query parameter
+    //    v_query.getTextSearch() - returns text search query parameter (internal field name 123TEXTQUERY321)
+    //    v_query.getFirstRowWanted() - returns the first row to include
+    //    v_query.getLastRowWanted() - returns the last row to include
+
+    // Note: You must define sys_id for each row so that forms and lists for this table work properly
+
+    // Your code goes here
+    // v_table.addRow({...})
+	/**
+	 * @returns {object} Returns an object keyed by x_53417_demo_task.sys_id. It uses a join table
+	 * of x_53417_demo_task and sys_audit to find the latest updates of the x_53417_demo_task.state field
+	 */
+    function getTaskAudits() {
+		const tasks = {};
+        const audit = new GlideAggregate('x_53417_demo_demo_task_audit');
+        audit.addQuery('audit_fieldname', 'state');
+        audit.groupBy('t_sys_id');
+        audit.groupBy('t_number');
+        audit.addAggregate('MAX', 'audit_sys_created_on');
+        audit.query();
+        while (audit.next()) {
+			const taskSysId = audit.getValue('t_sys_id');
+			tasks[taskSysId] = {
+				sys_id: taskSysId,
+				task: taskSysId,
+				state_updated_on: new GlideDateTime(audit.getAggregate('MAX','audit_sys_created_on')).getLocalDate(),
+				status: audit.getDisplayValue('t_state')
+			};
+        }
+		return tasks;
+    }
+	
+    if (v_query.isGet()) {
+        v_table.addRow({
+            sys_id: v_query.getSysId(),
+            task: v_query.getSysId()
+        });
+    } else {
+		const tasks = {};
+		
+        const task = new GlideRecord('x_53417_demo_task');
+        var encodedQuery = v_query.getEncodedQuery();
+        if (encodedQuery) {
+			// Remove the task prefix and the GROUPBY clause
+            var processedEncodedQuery = encodedQuery.replace(/task\./g, '').replace(/\^GROUPBY.+$/, '');
+            task.addEncodedQuery(processedEncodedQuery);
+        }
+        task.query();
+        while (task.next()) {
+			const sysId = task.getUniqueValue();
+			tasks[sysId] = {
+				sys_id: sysId,
+				task: sysId,
+				state_updated_on: new GlideDateTime(task.getDisplayValue('sys_created_on')).getDate(),
+				status: task.getDisplayValue('state')
+			};
+        }
+		
+		const auditTasks = getTaskAudits();
+		
+		Object.keys(tasks).forEach(function(sysId) {
+			// This is preferring the audit tasks record if one exists. That means an update
+			// has been made to the field. If an audit record does not exist that means the value
+			// of the field has not been updated since the record was created. Audit records are
+			// not created for newly inserted records
+			v_table.addRow(auditTasks[sysId] || tasks[sysId]);
+		});
+    }
+
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 15:27:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fd7795497c0a910b2e1f97e6253affe</sys_id>
+        <sys_name>Demo ST Task</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_script_vtable_4fd7795497c0a910b2e1f97e6253affe</sys_update_name>
+        <table>x_53417_demo_st_demo_task</table>
+    </sys_script_vtable>
+</record_update>

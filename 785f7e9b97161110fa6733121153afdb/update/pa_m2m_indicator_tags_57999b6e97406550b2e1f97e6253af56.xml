@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_indicator_tags">
+    <pa_m2m_indicator_tags action="INSERT_OR_UPDATE">
+        <indicator display_value="DemoTask Ratio Closed to Opened">d075b74c97f25110b2e1f97e6253afdf</indicator>
+        <order>400</order>
+        <sys_class_name>pa_m2m_indicator_tags</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-31 22:20:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57999b6e97406550b2e1f97e6253af56</sys_id>
+        <sys_name>DemoTask Ratio Closed to Opened.Demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_m2m_indicator_tags_57999b6e97406550b2e1f97e6253af56</sys_update_name>
+        <tag display_value="Demo">82499b6697406550b2e1f97e6253af0f</tag>
+    </pa_m2m_indicator_tags>
+</record_update>

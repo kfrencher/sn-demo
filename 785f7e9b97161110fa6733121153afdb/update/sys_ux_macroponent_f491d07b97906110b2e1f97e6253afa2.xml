@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "calendar_container",
+  "elementLabel" : "Calendar Container",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "calendar_report_1",
+      "elementLabel" : "Calendar Report 1",
+      "propertyValues" : {
+        "eventDisplayFields" : {
+          "type" : "JSON_LITERAL",
+          "value" : "label,opened_on,closed_on,status"
+        },
+        "componentDescription" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "showFilterOverview" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "startDateField" : {
+          "type" : "JSON_LITERAL",
+          "value" : "opened_on"
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "showDescription" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "encodedQuery" : {
+          "type" : "JSON_LITERAL",
+          "value" : "closed_onISNOTEMPTY^opened_onISNOTEMPTY"
+        },
+        "endDateField" : {
+          "type" : "JSON_LITERAL",
+          "value" : "closed_on"
+        },
+        "componentTitle" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Demo Tasks",
+            "comment" : ""
+          }
+        },
+        "eventColor" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "viewType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "MONTH"
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_53417_demo_task"
+        },
+        "reportSource" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "259e0221ff18a75c5f5f0fb28fa5d32f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"calendar_report_1","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"calendar_container","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Demo Calendar</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "Demo Tasks",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-16 15:15:04</sys_created_on>
+        <sys_id>f491d07b97906110b2e1f97e6253afa2</sys_id>
+        <sys_name>Demo Calendar</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_macroponent_f491d07b97906110b2e1f97e6253afa2</sys_update_name>
+    </sys_ux_macroponent>
+</record_update>

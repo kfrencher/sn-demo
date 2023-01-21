@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_53417_demo_task_assigned_group_lookup">
+    <x_53417_demo_task_assigned_group_lookup action="DELETE">
+        <active>true</active>
+        <assigned_group/>
+        <order>100</order>
+        <status>approved</status>
+        <sys_class_name>x_53417_demo_task_assigned_group_lookup</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-09 02:17:54</sys_created_on>
+        <sys_id>2933f91f97e31110b2e1f97e6253af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>x_53417_demo_task_assigned_group_lookup_2933f91f97e31110b2e1f97e6253af22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-09 02:17:54</sys_updated_on>
+    </x_53417_demo_task_assigned_group_lookup>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>x_53417_demo_task_assigned_group_lookup_2933f91f97e31110b2e1f97e6253af22</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_53417_demo_task_assigned_group_lookup"><x_53417_demo_task_assigned_group_lookup action="INSERT_OR_UPDATE"><active>true</active><assigned_group/><order>100</order><status>approved</status><sys_class_name>x_53417_demo_task_assigned_group_lookup</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-09 02:17:54</sys_created_on><sys_id>2933f91f97e31110b2e1f97e6253af22</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>x_53417_demo_task_assigned_group_lookup_2933f91f97e31110b2e1f97e6253af22</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-09 02:17:54</sys_updated_on></x_53417_demo_task_assigned_group_lookup></record_update>]]></payload>
+        <payload_hash>-1941369246</payload_hash>
+        <record_name>100</record_name>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-09 02:17:54</sys_created_on>
+        <sys_id>8243f91f97e31110b2e1f97e6253af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184f4acc7a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-09 02:17:54</sys_updated_on>
+        <type>Demo Task Assigned Group Lookup</type>
+        <update_guid>ca43f91f92e311105d755093caa8ad24</update_guid>
+        <update_guid_history>ca43f91f92e311105d755093caa8ad24:-1941369246</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="100">1b2234119748ad10b2e1f97e6253af82</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 12:57:00</sys_created_on>
+        <sys_db_object display_value="" name="x_53417_demo_task_assigned_group_lookup">x_53417_demo_task_assigned_group_lookup</sys_db_object>
+        <sys_id>aa02069d48aa49e4bf2aba95357d3824</sys_id>
+        <sys_metadata>2933f91f97e31110b2e1f97e6253af22</sys_metadata>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>x_53417_demo_task_assigned_group_lookup_2933f91f97e31110b2e1f97e6253af22</sys_update_name>
+        <sys_update_version display_value="x_53417_demo_task_assigned_group_lookup_2933f91f97e31110b2e1f97e6253af22">8243f91f97e31110b2e1f97e6253af25</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

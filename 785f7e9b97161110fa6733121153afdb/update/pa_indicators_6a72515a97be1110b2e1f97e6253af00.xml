@@ -47,14 +47,14 @@ Closed On on This year</description>
         <order/>
         <override_periods>false</override_periods>
         <precision>0</precision>
-        <related_breakdowns>0</related_breakdowns>
+        <related_breakdowns>4</related_breakdowns>
         <related_jobs>1</related_jobs>
         <render_continuous_lines>false</render_continuous_lines>
         <role_override>false</role_override>
         <roles/>
         <score_periods>-1</score_periods>
         <scores_format>kMGTPE</scores_format>
-        <scores_modified_at>2022-11-20 05:00:06</scores_modified_at>
+        <scores_modified_at>2023-01-21 05:00:06</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_manual_breakdowns">
+    <pa_manual_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="Favorite Sports Teams">8e98a7ee97806550b2e1f97e6253afbd</breakdown>
+        <order>100</order>
+        <sys_class_name>pa_manual_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-31 23:27:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5eb86bee97806550b2e1f97e6253af37</sys_id>
+        <sys_name>Wolverines</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>pa_manual_breakdowns_5eb86bee97806550b2e1f97e6253af37</sys_update_name>
+        <value>Wolverines</value>
+    </pa_manual_breakdowns>
+</record_update>

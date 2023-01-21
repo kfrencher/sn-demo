@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">4ed55c8997c06d10b2e1f97e6253af34</canvas>
+        <component display_value="">b999eb8ac52f85df203e43cbf2352fde</component>
+        <component_props>{"filterId":"1gl872lgenb2l3h8t5ko","filterName":"Opened On","filterProperties":"{\"tablefields\":[{\"table\":{\"id\":\"x_53417_demo_task\",\"label\":\"Task\",\"count\":0,\"hierarchy\":[\"x_53417_demo_task\",\"x_53417_demo_request\",\"x_53417_demo_demo_request\",[\"x_53417_demo_demo_task_audit\",\"t\"]]},\"field\":{\"id\":\"opened_on\",\"label\":\"Opened On\",\"type\":\"glide_date\",\"reference\":null}}],\"defaults\":[],\"booleanLabels\":{},\"emptyOption\":null,\"maxElements\":500}","filterConfigurations":[{"order":0,"filterId":"1gl872lgenb2l3h8t5ko","type":"date","label":"Opened On","apply_to":["x_53417_demo_task.opened_on","x_53417_demo_task.opened_on","x_53417_demo_request.opened_on","x_53417_demo_demo_request.opened_on","x_53417_demo_demo_task_audit.t_opened_on"],"start":"2022-01-01","end":"2022-12-26"}]}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 21:59:41</sys_created_on>
+        <sys_id>8fc4ad0997486d10b2e1f97e6253af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_widget_8fc4ad0997486d10b2e1f97e6253af12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-26 21:59:41</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>par_dashboard_widget_8fc4ad0997486d10b2e1f97e6253af12</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">4ed55c8997c06d10b2e1f97e6253af34</canvas><component display_value="">b999eb8ac52f85df203e43cbf2352fde</component><component_props>{"filterId":"1gl872lgenb2l3h8t5ko","filterName":"Opened On","filterProperties":"{\"tablefields\":[{\"table\":{\"id\":\"x_53417_demo_task\",\"label\":\"Task\",\"count\":0,\"hierarchy\":[\"x_53417_demo_task\",\"x_53417_demo_request\",\"x_53417_demo_demo_request\",[\"x_53417_demo_demo_task_audit\",\"t\"]]},\"field\":{\"id\":\"opened_on\",\"label\":\"Opened On\",\"type\":\"glide_date\",\"reference\":null}}],\"defaults\":[],\"booleanLabels\":{},\"emptyOption\":null,\"maxElements\":500}","filterConfigurations":[{"order":0,"filterId":"1gl872lgenb2l3h8t5ko","type":"date","label":"Opened On","apply_to":["x_53417_demo_task.opened_on","x_53417_demo_task.opened_on","x_53417_demo_request.opened_on","x_53417_demo_demo_request.opened_on","x_53417_demo_demo_task_audit.t_opened_on"],"start":"2022-01-01","end":"2022-12-26"}]}</component_props><h>3</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-26 21:59:41</sys_created_on><sys_id>8fc4ad0997486d10b2e1f97e6253af12</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>par_dashboard_widget_8fc4ad0997486d10b2e1f97e6253af12</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-26 21:59:41</sys_updated_on><visualization/><w>12</w><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1472276515</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 21:59:41</sys_created_on>
+        <sys_id>07c4ad0997486d10b2e1f97e6253af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1855072d7af0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-26 21:59:41</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>4fc4ad09b5486d10c0abd5474e736313</update_guid>
+        <update_guid_history>4fc4ad09b5486d10c0abd5474e736313:-1472276515</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5f45e58997486d10b2e1f97e6253af2c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 22:01:54</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>454ef14c1dd24e818cb90f026d5e2791</sys_id>
+        <sys_metadata>8fc4ad0997486d10b2e1f97e6253af12</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_8fc4ad0997486d10b2e1f97e6253af12</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_8fc4ad0997486d10b2e1f97e6253af12">07c4ad0997486d10b2e1f97e6253af14</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

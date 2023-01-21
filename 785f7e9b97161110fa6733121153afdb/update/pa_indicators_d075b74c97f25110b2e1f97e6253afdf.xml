@@ -42,7 +42,7 @@
         <order/>
         <override_periods>false</override_periods>
         <precision>2</precision>
-        <related_breakdowns>0</related_breakdowns>
+        <related_breakdowns>2</related_breakdowns>
         <related_jobs>0</related_jobs>
         <render_continuous_lines>false</render_continuous_lines>
         <role_override>false</role_override>

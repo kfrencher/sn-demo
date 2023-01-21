@@ -2,23 +2,92 @@
     <sp_search_source action="INSERT_OR_UPDATE">
         <advanced_typeahead_config>false</advanced_typeahead_config>
         <condition/>
-        <data_fetch_script><![CDATA[(function(query) {
-  var results = [];
-  /* Calculate your results here. */
-  
-  return results;
-})(query);]]></data_fetch_script>
+        <data_fetch_script><![CDATA[(function(query, queryLocation, count, facets) {
+	gs.debug('query: ' + query + ', ' + 'queryLocation: ' + queryLocation + ', ' + 'count: ' + count + ', ' + 'facets: ' + JSON.stringify(facets));
+	gs.debug(`before query1`);
+	const task = new GlideRecord('x_53417_demo_task');
+	const row = parseInt(queryLocation) || 0;
+	task.addQuery('123TEXTQUERY321', query);
+ 	task.orderBy('number');
+	task.chooseWindow(row, row + count);
+	Object.entries(facets).forEach(([fieldName, fieldValue]) => {
+		gs.debug('Adding facet ' + fieldName + ': ' + fieldValue);
+		task.addQuery(fieldName, fieldValue);
+	});
+	
+	gs.debug(`before query`);
+	task.query();
+	gs.debug(`Results count ${task.getRowCount()}`);
+	
+	var results = [];
+	while(task.next()) {
+		results.push({
+			sys_id: task.getUniqueValue(),
+			table: task.getRecordClassName(),
+			primary: task.getDisplayValue(),
+			query_location: parseInt(row + results.length),
+			fields: [{
+				display_value: task.getValue('label'),
+				label: task.getLabel('label')
+			}]
+		});
+	}
+
+	return results;
+})(query, queryLocation, count, facets);]]></data_fetch_script>
         <display_fields>number,status</display_fields>
         <enable_typeahead>true</enable_typeahead>
         <facet_generation_script><![CDATA[(function(query, facetService, searchResults) {
+	function getCategories(task) {
+		let categories = {};
+		const categoryValues = task.getValue('categories');
+		const categoryDisplayValues = task.getDisplayValue('categories');
+		if(categoryValues) {
+			const catValueParts = categoryValues.split(',');
+			const catDisplayParts = categoryDisplayValues.split(',');
+			// categories is an object where the key is the category value
+			// and the value is the category display value
+			categories = catValueParts.reduce((categories, value, index) => {
+				categories[value] = catDisplayParts[index];
+				return categories;
+			}, {});
+		}
+		return categories;
+	}
+	
+	const categoryRecords = [];
+	
 	/* Calculate your facets here using facetService */
 	/* var stateFacet = facetService.createFacet('State', 'state'); */
 	/* stateFacet.addFacetItem('Facet Item Label', '123'); */
+	const task = new GlideRecord('x_53417_demo_task');
+	task.addQuery('123TEXTQUERY321', query);
+	task.addNotNullQuery('categories');
+	task.query();
+	while(task.next()) {
+		categoryRecords.push(getCategories(task));
+	}
+	
+	const categoryFacet = facetService.createMultiChoiceFacet('Demo Category', 'categories');
+	// This is taking the category record which a an object where the key is the category
+	// value and the value is the category label and combining all the category records into
+	// one set of category value, label pairs. Basically taking the list or category records
+	// that will have duplicates of the pairs and making a set that won't have the duplicates
+	const facets = categoryRecords.reduce((facets, categories) => {
+		return {...facets, ...categories};
+	}, {});
+	
+	// this gets the key, value pairs of the categories object which represent the category value, label
+	// and creates a facet for each entry
+	Object.entries(facets).forEach(([facetValue, facetLabel]) => {
+		categoryFacet.addFacetItem(facetLabel, facetValue);
+	});
+	
 
 })(query, facetService, searchResults);]]></facet_generation_script>
         <id>demo_search_source</id>
-        <is_scripted_source>false</is_scripted_source>
-        <name>Demo Search Source</name>
+        <is_scripted_source>true</is_scripted_source>
+        <name>Demo</name>
         <page/>
         <pagination_supported>true</pagination_supported>
         <primary_display_field>label</primary_display_field>
@@ -31,13 +100,14 @@
     <span class="m-l-xs m-r-xs" ng-if="!$first"> &middot; </span>
     {{f.label}}: <span ng-bind-html="highlight(f.display_value, data.q)"></span>
   </span>
-</div>]]></search_page_template>
+</div>
+<div><button class="btn btn-default">Create Request</button></div>]]></search_page_template>
         <source_table>x_53417_demo_task</source_table>
         <sys_class_name>sp_search_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-06 19:17:20</sys_created_on>
         <sys_id>ccef57b897831510b2e1f97e6253af9d</sys_id>
-        <sys_name>Demo Search Source</sys_name>
+        <sys_name>Demo</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>

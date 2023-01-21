@@ -8,12 +8,12 @@
         <description/>
         <name>GlideRecordUtils</name>
         <script><![CDATA[//@ts-ignore
-var x_snb_common = x_snb_common || {};
+var x_53417_demo = x_53417_demo || {};
 /**
  * @class x_snb_common.GlideRecordUtils
  * contains utility functions
  */
-x_snb_common.GlideRecordUtils = (function() {
+x_53417_demo.GlideRecordUtils = (function() {
     return {
         /**
          * Quickly retrieve a GlideRecord by sys_id

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widgets">
     <pa_widgets action="INSERT_OR_UPDATE">
-        <aggregate display_value="By fiscal year SUM +">355f6d00eb31020065deac6aa206fee3</aggregate>
+        <aggregate display_value="3m running SUM">61b05051d7001100ba986f14ce61031f</aggregate>
         <alignment>left</alignment>
         <breakdown/>
         <breakdown_level2/>
@@ -36,9 +36,9 @@
         <field/>
         <filter/>
         <flip_axes>false</flip_axes>
-        <follow_element>false</follow_element>
+        <follow_element>true</follow_element>
         <follow_managed_element>false</follow_managed_element>
-        <followed_breakdown/>
+        <followed_breakdown display_value="Demo Task Status">1d9cab0497f25110b2e1f97e6253af60</followed_breakdown>
         <followed_breakdown_relation/>
         <gauge_autoscale>false</gauge_autoscale>
         <gauge_from/>
@@ -58,12 +58,12 @@
         <lookup_name/>
         <manual_elements>false</manual_elements>
         <max_color/>
-        <multiple_elements_view/>
+        <multiple_elements_view>separate</multiple_elements_view>
         <name>DemoTask OpenedMonthly</name>
         <number_of_records>5</number_of_records>
         <overlap_data_labels>false</overlap_data_labels>
         <percentages>no_percentages</percentages>
-        <period>2y</period>
+        <period>1y</period>
         <pivot_breakdown/>
         <pivot_elements_filter/>
         <related_dashboards>0</related_dashboards>

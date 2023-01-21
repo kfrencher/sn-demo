@@ -50,7 +50,7 @@
         <name>Demo Rings</name>
         <option_schema/>
         <public>false</public>
-        <roles/>
+        <roles>x_53417_demo.user</roles>
         <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>

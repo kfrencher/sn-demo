@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">4ed55c8997c06d10b2e1f97e6253af34</canvas>
+        <component display_value="">b999eb8ac52f85df203e43cbf2352fde</component>
+        <component_props>{"filterId":"1glniqpvd6vi5k9pbq6","filterName":"Status","filterProperties":"{\"tablefields\":[{\"table\":{\"id\":\"x_53417_demo_task\",\"label\":\"Task\",\"count\":6,\"hierarchy\":[\"x_53417_demo_task\",\"x_53417_demo_request\",\"x_53417_demo_demo_request\",[\"x_53417_demo_demo_task_audit\",\"t\"]]},\"field\":{\"id\":\"status\",\"label\":\"Status\",\"type\":\"choice\",\"reference\":null}}],\"defaults\":[],\"booleanLabels\":{},\"emptyOption\":null,\"maxElements\":500}","filterConfigurations":[]}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 21:15:04</sys_created_on>
+        <sys_id>b314940b97442110b2e1f97e6253afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_widget_b314940b97442110b2e1f97e6253afce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 21:15:04</sys_updated_on>
+        <visualization/>
+        <w>1</w>
+        <x>1</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>par_dashboard_widget_b314940b97442110b2e1f97e6253afce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">4ed55c8997c06d10b2e1f97e6253af34</canvas><component display_value="">b999eb8ac52f85df203e43cbf2352fde</component><component_props>{"filterId":"1glniqpvd6vi5k9pbq6","filterName":"Status","filterProperties":"{\"tablefields\":[{\"table\":{\"id\":\"x_53417_demo_task\",\"label\":\"Task\",\"count\":6,\"hierarchy\":[\"x_53417_demo_task\",\"x_53417_demo_request\",\"x_53417_demo_demo_request\",[\"x_53417_demo_demo_task_audit\",\"t\"]]},\"field\":{\"id\":\"status\",\"label\":\"Status\",\"type\":\"choice\",\"reference\":null}}],\"defaults\":[],\"booleanLabels\":{},\"emptyOption\":null,\"maxElements\":500}","filterConfigurations":[]}</component_props><h>3</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-01 21:15:04</sys_created_on><sys_id>b314940b97442110b2e1f97e6253afce</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>par_dashboard_widget_b314940b97442110b2e1f97e6253afce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-01 21:15:04</sys_updated_on><visualization/><w>1</w><x>1</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1747359613</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 21:15:04</sys_created_on>
+        <sys_id>7714940b97442110b2e1f97e6253afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1856f3025060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 21:15:04</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>bf14940b4b442110c331900f65ab64ce</update_guid>
+        <update_guid_history>bf14940b4b442110c331900f65ab64ce:-1747359613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3154944b97442110b2e1f97e6253afbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 21:16:00</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>10b03cec906f4b709b202132df657100</sys_id>
+        <sys_metadata>b314940b97442110b2e1f97e6253afce</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_b314940b97442110b2e1f97e6253afce</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_b314940b97442110b2e1f97e6253afce">7714940b97442110b2e1f97e6253afcf</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

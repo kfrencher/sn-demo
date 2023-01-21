@@ -7,7 +7,7 @@
         <desktop_home_page>/catalog_home.do?sysparm_catalog=fbcf33e8975b1110b2e1f97e6253af56&amp;sysparm_catalog_view=demo_catalog_homepage</desktop_home_page>
         <desktop_image>e9a9f9cd97139110b2e1f97e6253af47</desktop_image>
         <editors/>
-        <enable_wish_list>false</enable_wish_list>
+        <enable_wish_list>true</enable_wish_list>
         <manager display_value="Kenneth Frencher">aeece57e97cbd910b2e1f97e6253afd8</manager>
         <sys_class_name>sc_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>

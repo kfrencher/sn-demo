@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Demo - New Tab">96dc479c97fe5110b2e1f97e6253af16</grid_canvas>
-        <height>18</height>
+        <height>4</height>
         <portal_widget display_value="Created 2022-11-21 09:05:49">5cb8632d975f1510b2e1f97e6253af72</portal_widget>
         <posx>6</posx>
         <posy>0</posy>

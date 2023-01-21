@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_publisher">
     <sys_ui_hp_publisher action="INSERT_OR_UPDATE">
-        <allow_database_view_filter>false</allow_database_view_filter>
+        <allow_database_view_filter>true</allow_database_view_filter>
         <allow_extended_table>true</allow_extended_table>
         <boolean_field>assigned_to</boolean_field>
         <boolean_table>x_53417_demo_task</boolean_table>

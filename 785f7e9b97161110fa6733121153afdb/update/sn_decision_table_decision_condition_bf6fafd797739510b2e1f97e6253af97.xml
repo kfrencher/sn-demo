@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Assigned Group">034e63d797739510b2e1f97e6253af93</decision_input>
+        <decision_table display_value="Demo Category Decision">40e59e5f97bb5510b2e1f97e6253af00</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Assigned Group</label>
+        <order>200</order>
+        <reference display_value="Group" name="sys_user_group">ca9bf900752001100acb0f6766fcbff6</reference>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-21 21:36:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bf6fafd797739510b2e1f97e6253af97</sys_id>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_bf6fafd797739510b2e1f97e6253af97</sys_update_name>
+        <type display_value="Reference">52a227c1bf3320001875647fcf07396a</type>
+    </sn_decision_table_decision_condition>
+</record_update>

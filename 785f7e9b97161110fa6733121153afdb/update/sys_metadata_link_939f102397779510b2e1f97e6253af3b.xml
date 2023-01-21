@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1f9f102397779510b2e1f97e6253af3a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>989ff83397bbd510b2e1f97e6253af27</answer>
+        <condition/>
+        <decision_table display_value="Demo Category Decision">40e59e5f97bb5510b2e1f97e6253af00</decision_table>
+        <default_answer>true</default_answer>
+        <input_table>var__m_sys_decision_input_40e59e5f97bb5510b2e1f97e6253af00</input_table>
+        <label>Demo Category Decision_300</label>
+        <order>300</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 01:06:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f9f102397779510b2e1f97e6253af3a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Demo Category Decision_300</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_decision_question_1f9f102397779510b2e1f97e6253af3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-22 22:04:38</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 01:06:32</sys_created_on>
+        <sys_id>939f102397779510b2e1f97e6253af3b</sys_id>
+        <sys_name>Demo Category Decision_300</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_metadata_link_939f102397779510b2e1f97e6253af3b</sys_update_name>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>
