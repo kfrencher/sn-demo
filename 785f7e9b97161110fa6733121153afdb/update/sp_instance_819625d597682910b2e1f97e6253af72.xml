@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a09629d597682910b2e1f97e6253af85</sp_column>
+        <sp_widget display_value="KLF Form">bef4a95597682910b2e1f97e6253af86</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-21 13:17:21</sys_created_on>
+        <sys_id>819625d597682910b2e1f97e6253af72</sys_id>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sp_instance_819625d597682910b2e1f97e6253af72</sys_update_name>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=819625d597682910b2e1f97e6253af72"/>
+</record_update>

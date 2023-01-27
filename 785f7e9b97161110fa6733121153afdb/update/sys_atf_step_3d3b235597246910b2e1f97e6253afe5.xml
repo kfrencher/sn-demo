@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt;: Enter some kind of classification' = 'free to publish', Page area = 'Enter some kind of classification'
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"bf75efe9022c39352a03f9a9bb3b89b5":"{\"area\":\"klf-modal\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Enter some kind of classification\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [xpInput]: Enter some kind of classification with value testing classification in page area klf-modal\",\"methods\":[\"setValue\"],\"sn-atf-id\":\"klf-modal-text\",\"sn_atf_mugshot_label\":\"Enter some kind of classification\",\"type\":\"text\",\"version\":\"21.0\",\"label_for_input\":{\"inner_text\":\"Enter some kind of classification\"},\"sn_atf_mugshot_label_for_label_path\":\"Enter some kind of classification\",\"interesting_element_path\":[\"body\",\"div\",\"div\",\"form\",\"input\"],\"get_value_result\":\"testing classification\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"sn_atf_mugshot_value\":\"testing classification\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"xpInput\",\"label_path\":[\"Enter some kind of classification\"],\"hash\":\"bf75efe9022c39352a03f9a9bb3b89b5\",\"html_value\":\"testing classification\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-21 22:57:14</sys_created_on>
+        <sys_id>3d3b235597246910b2e1f97e6253afe5</sys_id>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_atf_step_3d3b235597246910b2e1f97e6253afe5</sys_update_name>
+        <table/>
+        <test display_value="Create Demo Task">7bff32ec97a46510b2e1f97e6253af81</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3d3b235597246910b2e1f97e6253afe5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3d3b235597246910b2e1f97e6253afe5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-21 22:57:14</sys_created_on>
+        <sys_id>df4b6b1597246910b2e1f97e6253afd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-21 22:57:14</sys_updated_on>
+        <value>bf75efe9022c39352a03f9a9bb3b89b5=free to publish^EQ</value>
+        <variable display_value="Component values">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_e5dd168473330300c79260bdfaf6a794^id=3d3b235597246910b2e1f97e6253afe5"/>
+</record_update>

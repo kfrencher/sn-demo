@@ -7,70 +7,7 @@
         <client_callable>false</client_callable>
         <description/>
         <name>ListMetric</name>
-        <script><![CDATA[var ListMetric = (function() {
-    // variables available
-    // current: GlideRecord -  target incident
-    // definition: GlideRecord -  (this row)
-    function getSavedValues(instanceSysId, fieldName) {
-        var mi = new GlideRecord('metric_instance');
-        mi.addQuery('id', instanceSysId);
-        mi.addQuery('field', fieldName);
-        mi.query();
-        var values = [];
-        while (mi.next()) {
-            values.push(mi.getValue('value'));
-        }
-        return values;
-    }
-
-    function exists(instanceSysId, fieldName, value) {
-        var mi = new GlideRecord('metric_instance');
-        mi.addQuery('id', instanceSysId);
-        mi.addQuery('field', fieldName);
-        mi.addQuery('value', value);
-        mi.query();
-        return mi.hasNext();
-    }
-
-    function createMetric(glideRecord, metricDefinition) {
-        var fieldName = metricDefinition.getValue('field');
-        gs.debug('current operation: ' + glideRecord.operation());
-        if (!glideRecord[fieldName].nil()) {
-            var values = glideRecord.getValue(fieldName).split(',');
-            var savedValues = getSavedValues(glideRecord.getUniqueValue(), fieldName);
-            var removedValues = new global.ArrayUtil().diff(savedValues, values);
-            values.forEach(function(value) {
-                if (!exists(glideRecord.getUniqueValue(), fieldName, value)) {
-                    var mi = new MetricUtils().createMetricInstance(glideRecord, metricDefinition);
-                    mi.value = value;
-                    mi.update();
-                }
-            });
-
-            if (removedValues.length > 0) {
-                var mi = new GlideRecord('metric_instance');
-                mi.addQuery('id', glideRecord.getUniqueValue());
-                mi.addQuery('definition', metricDefinition.getUniqueValue());
-                mi.addQuery('value', 'IN', removedValues);
-                mi.deleteMultiple();
-            }
-        } else {
-            var mi = new GlideRecord('metric_instance');
-            mi.addQuery('id', glideRecord.getUniqueValue());
-            mi.addQuery('definition', metricDefinition.getUniqueValue());
-            mi.query();
-            while (mi.next()) {
-                mi.deleteRecord();
-            }
-        }
-    }
-
-    return {
-        createMetric: createMetric
-    };
-
-})();
-]]></script>
+        <script/>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 16:04:23</sys_created_on>

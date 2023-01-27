@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <copied_from/>
         <description>Set the values on the form as follows:
 Assigned Group = Hardware
@@ -13,7 +13,7 @@ and Description = trying to create a test demo</description>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>2</order>
+        <order>3</order>
         <step_config display_value="Set Field Values (SP)">ba49e51de7420300b2888f49c2f6a93c</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the component: 'Button &lt;button&gt;: OK', Page area: 'default'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"82045bdcec565609bb75e8af9ba69559":"{\"area\":\"klf-modal\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: OK\",\"inner_text\":\"OK\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: OK in page area klf-modal\",\"methods\":[\"click\"],\"sn-atf-id\":\"klf-button-OK\",\"sn_atf_mugshot_label\":\"OK\",\"index\":1,\"type\":\"button\",\"version\":\"21.0\",\"sn_atf_mugshot_label_for_label_path\":\"\",\"interesting_element_path\":[\"body\",\"div\",\"button\"],\"get_value_result\":\"OK\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"OK\",\"tag\":\"button\",\"isDisabled\":true,\"label_path\":[\"default\"],\"hash\":\"82045bdcec565609bb75e8af9ba69559\",\"html_value\":\"\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>9</order>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-21 22:58:18</sys_created_on>
+        <sys_id>698bef1597246910b2e1f97e6253af8a</sys_id>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_atf_step_698bef1597246910b2e1f97e6253af8a</sys_update_name>
+        <table/>
+        <test display_value="Create Demo Task">7bff32ec97a46510b2e1f97e6253af81</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=698bef1597246910b2e1f97e6253af8a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>698bef1597246910b2e1f97e6253af8a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-21 22:58:18</sys_created_on>
+        <sys_id>cb8bab5597246910b2e1f97e6253af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-21 22:58:18</sys_updated_on>
+        <value>82045bdcec565609bb75e8af9ba69559</value>
+        <variable display_value="Component">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt;: Label' = 'setting my my value', Page area = 'Label'
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"f18dce54ddedc683222e530780fa48f7":"{\"area\":\"Form\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Label\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [sp_formfield_label]: Label with value Saved by demo save: create demo test in page area Form\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Label\",\"type\":\"text\",\"version\":\"21.0\",\"label_for_input\":{\"inner_text\":\"Label\"},\"sn_atf_mugshot_label_for_label_path\":\"Label\",\"interesting_element_path\":[\"body\",\"div\",\"div\",\"sp-page-row\",\"span\",\"div\",\"form\",\"sp-variable-layout\",\"div\",\"div\",\"input\"],\"get_value_result\":\"Saved by demo save: create demo test\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"label\",\"sn_atf_mugshot_value\":\"Saved by demo save: create demo test\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"sp_formfield_label\",\"label_path\":[\"Label\"],\"hash\":\"f18dce54ddedc683222e530780fa48f7\",\"html_value\":\"Saved by demo save: create demo test\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-21 17:39:01</sys_created_on>
+        <sys_id>5c62265597ac2910b2e1f97e6253af81</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_atf_step_5c62265597ac2910b2e1f97e6253af81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-21 22:42:18</sys_updated_on>
+        <table/>
+        <test display_value="Create Demo Task">7bff32ec97a46510b2e1f97e6253af81</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=5c62265597ac2910b2e1f97e6253af81"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>5c62265597ac2910b2e1f97e6253af81</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-21 17:39:01</sys_created_on>
+        <sys_id>ca72629597ac2910b2e1f97e6253af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-21 17:39:01</sys_updated_on>
+        <value>f18dce54ddedc683222e530780fa48f7=setting my my value^EQ</value>
+        <variable display_value="Component values">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_e5dd168473330300c79260bdfaf6a794^id=5c62265597ac2910b2e1f97e6253af81"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>sys_atf_step_5c62265597ac2910b2e1f97e6253af81</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Set the components on the page as follows:
+'Text &lt;input&gt;: Label' = 'setting my my value', Page area = 'Label'
+</description><display_name>Set Component Values (Custom UI)</display_name><inputs/><mugshots_cache_json>{"f18dce54ddedc683222e530780fa48f7":"{\"area\":\"Form\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Label\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [sp_formfield_label]: Label with value Saved by demo save: create demo test in page area Form\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Label\",\"type\":\"text\",\"version\":\"21.0\",\"label_for_input\":{\"inner_text\":\"Label\"},\"sn_atf_mugshot_label_for_label_path\":\"Label\",\"interesting_element_path\":[\"body\",\"div\",\"div\",\"sp-page-row\",\"span\",\"div\",\"form\",\"sp-variable-layout\",\"div\",\"div\",\"input\"],\"get_value_result\":\"Saved by demo save: create demo test\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"label\",\"sn_atf_mugshot_value\":\"Saved by demo save: create demo test\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"sp_formfield_label\",\"label_path\":[\"Label\"],\"hash\":\"f18dce54ddedc683222e530780fa48f7\",\"html_value\":\"Saved by demo save: create demo test\"}"}</mugshots_cache_json><notes/><order>8</order><step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-21 17:39:01</sys_created_on><sys_id>5c62265597ac2910b2e1f97e6253af81</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Set Component Values (Custom UI)</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_atf_step_5c62265597ac2910b2e1f97e6253af81</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-21 22:42:18</sys_updated_on><table/><test display_value="Create Demo Task">7bff32ec97a46510b2e1f97e6253af81</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=5c62265597ac2910b2e1f97e6253af81"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>5c62265597ac2910b2e1f97e6253af81</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-21 17:39:01</sys_created_on><sys_id>ca72629597ac2910b2e1f97e6253af2e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-21 17:39:01</sys_updated_on><value>f18dce54ddedc683222e530780fa48f7=setting my my value^EQ</value><variable display_value="Component values">d12fde8473330300c79260bdfaf6a7b5</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_e5dd168473330300c79260bdfaf6a794^id=5c62265597ac2910b2e1f97e6253af81"/></record_update>]]></payload>
+        <payload_hash>2049092770</payload_hash>
+        <record_name>Set Component Values (Custom UI)</record_name>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-21 22:42:18</sys_created_on>
+        <sys_id>e4e72b1197246910b2e1f97e6253af52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185d67f31fa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-21 22:42:18</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>ece72b118a246910e3b1647354452151</update_guid>
+        <update_guid_history>ece72b118a246910e3b1647354452151:2049092770,97732f9969e069107e292fd297158cb8:-965359517,7c73eb99e6e06910d57abbdcc352ca48:-1954985187,fc307e19d4ec29109d00aad850fc8811:-674470178,d9af2619a6ec2910d280b3dcf12a8856:-1954985187,4e72629559ac29105dd8737844443830:-965359517</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-21 22:42:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>1e1a36d34a3344c6850b0fac024d4a44</sys_id>
+        <sys_metadata>5c62265597ac2910b2e1f97e6253af81</sys_metadata>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_atf_step_5c62265597ac2910b2e1f97e6253af81</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_5c62265597ac2910b2e1f97e6253af81">e4e72b1197246910b2e1f97e6253af52</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
