@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Automatically generated Test using Regress ATF Recorder.&#13;
+Recorded at: 2023-02-09 06:57:29&#13;
+Recorded on: glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>SIMPLE Regress Recording by System Administrator</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 11:57:29</sys_created_on>
+        <sys_id>188acf1797702d10b2e1f97e6253aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIMPLE Regress Recording by System Administrator</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_atf_test_188acf1797702d10b2e1f97e6253aff5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 11:57:29</sys_updated_on>
+        <u_template>false</u_template>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=188acf1797702d10b2e1f97e6253aff5"/>
+</record_update>

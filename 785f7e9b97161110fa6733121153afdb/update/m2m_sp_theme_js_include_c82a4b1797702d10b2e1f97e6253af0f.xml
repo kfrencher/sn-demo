@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_js_include">
+    <m2m_sp_theme_js_include action="INSERT_OR_UPDATE">
+        <order/>
+        <sp_js_include display_value="RegressUI">941a8f1797702d10b2e1f97e6253afac</sp_js_include>
+        <sp_theme display_value="Demo EC Theme">081f177897831510b2e1f97e6253af88</sp_theme>
+        <sys_class_name>m2m_sp_theme_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 11:55:49</sys_created_on>
+        <sys_id>c82a4b1797702d10b2e1f97e6253af0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RegressUI.Demo EC Theme</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>m2m_sp_theme_js_include_c82a4b1797702d10b2e1f97e6253af0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 11:55:49</sys_updated_on>
+    </m2m_sp_theme_js_include>
+</record_update>

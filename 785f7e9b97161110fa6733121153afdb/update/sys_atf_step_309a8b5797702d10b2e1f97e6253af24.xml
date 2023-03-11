@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open "Request Demo" in the "Demo" portal</description>
+        <display_name>Open a Catalog Item (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Automatically generated using Regress</notes>
+        <order>2</order>
+        <step_config display_value="Open a Catalog Item (SP)">e81f02dc73e703008e6b0d573cf6a76f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 11:57:47</sys_created_on>
+        <sys_id>309a8b5797702d10b2e1f97e6253af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Catalog Item (SP)</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_atf_step_309a8b5797702d10b2e1f97e6253af24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 11:57:47</sys_updated_on>
+        <table/>
+        <test display_value="SIMPLE Regress Recording by System Administrator">188acf1797702d10b2e1f97e6253aff5</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=309a8b5797702d10b2e1f97e6253af24"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>309a8b5797702d10b2e1f97e6253af24</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 11:57:47</sys_created_on>
+        <sys_id>3c9a8b5797702d10b2e1f97e6253af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 11:57:47</sys_updated_on>
+        <value/>
+        <variable display_value="Query parameters">3a6e5fb15f1013001f1e1f9f2f7313e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>309a8b5797702d10b2e1f97e6253af24</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 11:57:47</sys_created_on>
+        <sys_id>789a8b5797702d10b2e1f97e6253af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 11:57:47</sys_updated_on>
+        <value>9f12251147132100ba13a5554ee490f4</value>
+        <variable display_value="Page">83d1dadc73e703008e6b0d573cf6a779</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>309a8b5797702d10b2e1f97e6253af24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 11:57:47</sys_created_on>
+        <sys_id>b09a8b5797702d10b2e1f97e6253af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 11:57:47</sys_updated_on>
+        <value>79f7171897329110b2e1f97e6253affa</value>
+        <variable display_value="Portal">3731d6dc73e703008e6b0d573cf6a788</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>309a8b5797702d10b2e1f97e6253af24</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 11:57:47</sys_created_on>
+        <sys_id>fc9a8b5797702d10b2e1f97e6253af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 11:57:47</sys_updated_on>
+        <value>281fb93097535110b2e1f97e6253af94</value>
+        <variable display_value="Catalog Item">ac615adc73e703008e6b0d573cf6a702</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_e81f02dc73e703008e6b0d573cf6a76f^id=309a8b5797702d10b2e1f97e6253af24"/>
+</record_update>
