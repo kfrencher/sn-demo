@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ts_configuration">
+    <ts_configuration action="INSERT_OR_UPDATE">
+        <applies_to>0</applies_to>
+        <format>v4</format>
+        <index_group/>
+        <sys_class_name>ts_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 14:52:33</sys_created_on>
+        <sys_id>a42d6b0997c35510b2e1f97e6253afac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_53417_demo_task</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>ts_configuration_a42d6b0997c35510b2e1f97e6253afac</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-07 14:53:44</sys_updated_on>
+        <table>x_53417_demo_task</table>
+    </ts_configuration>
+</record_update>

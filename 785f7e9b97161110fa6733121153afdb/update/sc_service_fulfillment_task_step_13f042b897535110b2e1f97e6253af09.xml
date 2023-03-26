@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_task_step">
+    <sc_service_fulfillment_task_step action="INSERT_OR_UPDATE">
+        <assigned_group display_value="Software Support" name="Software Support">6a42f4616fc331003b3c498f5d3ee46f</assigned_group>
+        <assigned_to/>
+        <catalog_conditions/>
+        <description/>
+        <include_variables>all</include_variables>
+        <priority/>
+        <service_fulfillment_stage display_value="">f011c2b897535110b2e1f97e6253af00</service_fulfillment_stage>
+        <service_fulfillment_step_configuration display_value="Task">dc0f364873122010ae42d31ee2f6a7f3</service_fulfillment_step_configuration>
+        <short_description>Perform demo</short_description>
+        <sys_class_name>sc_service_fulfillment_task_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 22:37:40</sys_created_on>
+        <sys_id>13f042b897535110b2e1f97e6253af09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Perform demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_service_fulfillment_task_step_13f042b897535110b2e1f97e6253af09</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 22:37:40</sys_updated_on>
+        <title>Perform demo</title>
+    </sc_service_fulfillment_task_step>
+</record_update>

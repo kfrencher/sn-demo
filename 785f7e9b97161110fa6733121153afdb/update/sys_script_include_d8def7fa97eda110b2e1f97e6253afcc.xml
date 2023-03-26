@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_53417_demo.DemoTodoFlowHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>DemoTodoFlowHelper</name>
+        <script><![CDATA[var DemoTodoFlowHelper = (function() {
+    return {
+        /**
+         * Uses the category and label fields to determine the list of approvers
+         * for a Demo Todo
+         * @param {string} category
+         * @param {string} label
+         * @returns {string[]} The comma concatenated list of approvers as sys_user_group.sys_id
+         */
+        getApprovers(category, label) {
+            var groupSysIds = [];
+            if (category == 'general') {
+                groupSysIds.push(gs.getProperty('x_53417_demo.todo.general.approver'));
+            }
+
+            if (label.startsWith('Hardware')) {
+                groupSysIds.push(gs.getProperty('x_53417_demo.todo.hardware.approver'));
+            }
+            return groupSysIds;
+        },
+
+        /**
+         * Returns the value of the specified property
+         * or the default value if the property is not set
+         * @param {string} propertyName property name
+         * @param {string} defaultValue
+         * @returns {string} property value or default value
+         */
+        getProperty(propertyName, defaultValue) {
+            return gs.getProperty(propertyName, defaultValue);
+        }
+    };
+})();]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-17 09:26:15</sys_created_on>
+        <sys_id>d8def7fa97eda110b2e1f97e6253afcc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>DemoTodoFlowHelper</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_script_include_d8def7fa97eda110b2e1f97e6253afcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-17 20:17:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

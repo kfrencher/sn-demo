@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation>Create a set of tasks that execute in parallel</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Creates a few tasks in parallel to see if artifacts created in a parallel branch work</description>
+        <internal_name>do_loop_in_parallel</internal_name>
+        <label_cache>[{"name":"1d0fe75d-951d-4395-986e-f2b11e985038.__dont_treat_as_error__","label":"4 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d0fe75d-951d-4395-986e-f2b11e985038.__action_status__","label":"4 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a375bdab-6307-4dec-95f0-b0782c8c7e0b.item","label":"2 - For Each➛3➛name","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.Names","label":"Input➛Names","reference":"","reference_display":"","type":"array.string","base_type":"array.string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84c1b827-c24e-42f8-860a-a15c51f949bb"}},{"name":"4c5b2820-412d-4f9e-a410-930e92a0a48f.__action_status__","label":"5 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4c5b2820-412d-4f9e-a410-930e92a0a48f.__dont_treat_as_error__","label":"5 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f855aefb-2166-4d46-a84c-e85df26b8d6f.Catalog Task","label":"4 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f855aefb-2166-4d46-a84c-e85df26b8d6f.__action_status__","label":"4 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"f855aefb-2166-4d46-a84c-e85df26b8d6f.__dont_treat_as_error__","label":"4 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"469bece4-508e-4288-bd83-7e838f4127d2.Record","label":"4 - Create Task➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"469bece4-508e-4288-bd83-7e838f4127d2.Table","label":"4 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"469bece4-508e-4288-bd83-7e838f4127d2.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"469bece4-508e-4288-bd83-7e838f4127d2.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Do Loop in Parallel</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 17:45:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78d956d897b96910b2e1f97e6253af8c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Do Loop in Parallel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_hub_flow_78d956d897b96910b2e1f97e6253af8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:50</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_variable_value action="DELETE" query="document_key=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=78d956d897b96910b2e1f97e6253af8c^sys_idNOT IN3cd956d897b96910b2e1f97e6253af8d"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>78d956d897b96910b2e1f97e6253af8c</id>
+        <name>Do Loop in Parallel</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 17:45:49</sys_created_on>
+        <sys_id>3cd956d897b96910b2e1f97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 17:45:49</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=3cd956d897b96910b2e1f97e6253af8d"/>
+    <sys_hub_flow_input action="DELETE" query="model=78d956d897b96910b2e1f97e6253af8c^sys_idNOT IN217dc8e097f1a910b2e1f97e6253af7c"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=name,child_name=name,child_type=string,child_type_label=String,child_uiUniqueId=c3417ea7-56fe-4fa3-a37b-ede4fcbc0ea1,co_type_name=FDa17d086073f1a910ed005d05f22a073f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=84c1b827-c24e-42f8-860a-a15c51f949bb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Names</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Names</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Do Loop in Parallel">78d956d897b96910b2e1f97e6253af8c</model>
+        <model_id>78d956d897b96910b2e1f97e6253af8c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_78d956d897b96910b2e1f97e6253af8c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:11:02</sys_created_on>
+        <sys_id>217dc8e097f1a910b2e1f97e6253af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:11:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_hub_action_instance action="DELETE" query="flow=78d956d897b96910b2e1f97e6253af8c^sys_idNOT IN2f3f8c6497f1a910b2e1f97e6253af4a,3f3f8c6497f1a910b2e1f97e6253af51"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create a task for each name</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do Loop in Parallel">78d956d897b96910b2e1f97e6253af8c</flow>
+        <order>4</order>
+        <parent_ui_id>a375bdab-6307-4dec-95f0-b0782c8c7e0b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:18:49</sys_created_on>
+        <sys_id>2f3f8c6497f1a910b2e1f97e6253af4a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <ui_id>469bece4-508e-4288-bd83-7e838f4127d2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=2f3f8c6497f1a910b2e1f97e6253af4a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f3f8c6497f1a910b2e1f97e6253af4a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:18:49</sys_created_on>
+        <sys_id>a33f8c6497f1a910b2e1f97e6253af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <value>x_53417_demo_sn_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f3f8c6497f1a910b2e1f97e6253af4a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:18:49</sys_created_on>
+        <sys_id>ab3f8c6497f1a910b2e1f97e6253af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=2f3f8c6497f1a910b2e1f97e6253af4a"/>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>2f3f8c6497f1a910b2e1f97e6253af4a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:18:49</sys_created_on>
+        <sys_id>2b3f8c6497f1a910b2e1f97e6253af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>short_description={{a375bdab-6307-4dec-95f0-b0782c8c7e0b.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>task_table</field>
+        <id>2f3f8c6497f1a910b2e1f97e6253af4a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:18:49</sys_created_on>
+        <sys_id>673f8c6497f1a910b2e1f97e6253af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>wait</field>
+        <id>2f3f8c6497f1a910b2e1f97e6253af4a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:18:49</sys_created_on>
+        <sys_id>a33f8c6497f1a910b2e1f97e6253af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=2f3f8c6497f1a910b2e1f97e6253af4a"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=2f3f8c6497f1a910b2e1f97e6253af4a"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment>Log that flow is done</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do Loop in Parallel">78d956d897b96910b2e1f97e6253af8c</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:18:49</sys_created_on>
+        <sys_id>3f3f8c6497f1a910b2e1f97e6253af51</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <ui_id>4c5b2820-412d-4f9e-a410-930e92a0a48f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=3f3f8c6497f1a910b2e1f97e6253af51"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3f3f8c6497f1a910b2e1f97e6253af51</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:18:49</sys_created_on>
+        <sys_id>7f3f8c6497f1a910b2e1f97e6253af52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <value>Done</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=3f3f8c6497f1a910b2e1f97e6253af51"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=3f3f8c6497f1a910b2e1f97e6253af51"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=3f3f8c6497f1a910b2e1f97e6253af51"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=78d956d897b96910b2e1f97e6253af8c^sys_idNOT IN317dc8e097f1a910b2e1f97e6253af88,b57dc8e097f1a910b2e1f97e6253af8a,fd7dc8e097f1a910b2e1f97e6253af84"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">7d7dc8e097f1a910b2e1f97e6253af87</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do Loop in Parallel">78d956d897b96910b2e1f97e6253af8c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>5cca252d-6d7b-4265-bffc-615654f0a161</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:11:03</sys_created_on>
+        <sys_id>317dc8e097f1a910b2e1f97e6253af88</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <ui_id>0b00a341-63b7-48b3-8cdb-d65840df29bd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=317dc8e097f1a910b2e1f97e6253af88"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=317dc8e097f1a910b2e1f97e6253af88"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=317dc8e097f1a910b2e1f97e6253af88"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">f17dc8e097f1a910b2e1f97e6253af8a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do Loop in Parallel">78d956d897b96910b2e1f97e6253af8c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2➛3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0b00a341-63b7-48b3-8cdb-d65840df29bd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:11:03</sys_created_on>
+        <sys_id>b57dc8e097f1a910b2e1f97e6253af8a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <ui_id>a375bdab-6307-4dec-95f0-b0782c8c7e0b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=b57dc8e097f1a910b2e1f97e6253af8a"/>
+    <sys_element_mapping action="DELETE" query="id=b57dc8e097f1a910b2e1f97e6253af8a"/>
+    <sys_element_mapping action="DELETE">
+        <field>items</field>
+        <id>b57dc8e097f1a910b2e1f97e6253af8a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:11:03</sys_created_on>
+        <sys_id>317dc8e097f1a910b2e1f97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:11:03</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{subflow.Names}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=b57dc8e097f1a910b2e1f97e6253af8a"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=b57dc8e097f1a910b2e1f97e6253af8a"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">f57dc8e097f1a910b2e1f97e6253af84</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do Loop in Parallel">78d956d897b96910b2e1f97e6253af8c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:11:03</sys_created_on>
+        <sys_id>fd7dc8e097f1a910b2e1f97e6253af84</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:49</sys_updated_on>
+        <ui_id>5cca252d-6d7b-4265-bffc-615654f0a161</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=fd7dc8e097f1a910b2e1f97e6253af84"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=fd7dc8e097f1a910b2e1f97e6253af84"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=fd7dc8e097f1a910b2e1f97e6253af84"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_hub_flow_variable action="DELETE" query="model=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_78d956d897b96910b2e1f97e6253af8c^sys_idNOT INb57dc8e097f1a910b2e1f97e6253af80"/>
+    <sys_documentation action="DELETE">
+        <element>Names</element>
+        <help/>
+        <hint/>
+        <label>Names</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_78d956d897b96910b2e1f97e6253af8c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:11:03</sys_created_on>
+        <sys_id>b57dc8e097f1a910b2e1f97e6253af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:11:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=78d956d897b96910b2e1f97e6253af8c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>sys_hub_flow_78d956d897b96910b2e1f97e6253af8c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation&gt;Create a set of tasks that execute in parallel&lt;/annotation&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Creates a few tasks in parallel to see if artifacts created in a parallel branch work&lt;/description&gt;&lt;internal_name&gt;do_loop_in_parallel&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"1d0fe75d-951d-4395-986e-f2b11e985038.__dont_treat_as_error__","label":"4 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d0fe75d-951d-4395-986e-f2b11e985038.__action_status__","label":"4 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a375bdab-6307-4dec-95f0-b0782c8c7e0b.item","label":"2 - For Each➛3➛name","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.Names","label":"Input➛Names","reference":"","reference_display":"","type":"array.string","base_type":"array.string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84c1b827-c24e-42f8-860a-a15c51f949bb"}},{"name":"4c5b2820-412d-4f9e-a410-930e92a0a48f.__action_status__","label":"5 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4c5b2820-412d-4f9e-a410-930e92a0a48f.__dont_treat_as_error__","label":"5 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f855aefb-2166-4d46-a84c-e85df26b8d6f.Catalog Task","label":"4 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f855aefb-2166-4d46-a84c-e85df26b8d6f.__action_status__","label":"4 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"f855aefb-2166-4d46-a84c-e85df26b8d6f.__dont_treat_as_error__","label":"4 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"469bece4-508e-4288-bd83-7e838f4127d2.Record","label":"4 - Create Task➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"469bece4-508e-4288-bd83-7e838f4127d2.Table","label":"4 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"469bece4-508e-4288-bd83-7e838f4127d2.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"469bece4-508e-4288-bd83-7e838f4127d2.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Do Loop in Parallel&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-21 17:45:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;78d956d897b96910b2e1f97e6253af8c&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Do Loop in Parallel&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Demo" source="x_53417_demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_78d956d897b96910b2e1f97e6253af8c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:50&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=78d956d897b96910b2e1f97e6253af8c^sys_idNOT IN3cd956d897b96910b2e1f97e6253af8d"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;78d956d897b96910b2e1f97e6253af8c&lt;/id&gt;&lt;name&gt;Do Loop in Parallel&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-21 17:45:49&lt;/sys_created_on&gt;&lt;sys_id&gt;3cd956d897b96910b2e1f97e6253af8d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-21 17:45:49&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3cd956d897b96910b2e1f97e6253af8d"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=78d956d897b96910b2e1f97e6253af8c^sys_idNOT IN217dc8e097f1a910b2e1f97e6253af7c"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=name,child_name=name,child_type=string,child_type_label=String,child_uiUniqueId=c3417ea7-56fe-4fa3-a37b-ede4fcbc0ea1,co_type_name=FDa17d086073f1a910ed005d05f22a073f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=84c1b827-c24e-42f8-860a-a15c51f949bb&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;Names&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Names&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="Do Loop in Parallel"&gt;78d956d897b96910b2e1f97e6253af8c&lt;/model&gt;&lt;model_id&gt;78d956d897b96910b2e1f97e6253af8c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_78d956d897b96910b2e1f97e6253af8c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:11:02&lt;/sys_created_on&gt;&lt;sys_id&gt;217dc8e097f1a910b2e1f97e6253af7c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:11:02&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=78d956d897b96910b2e1f97e6253af8c^sys_idNOT IN2f3f8c6497f1a910b2e1f97e6253af4a,3f3f8c6497f1a910b2e1f97e6253af51"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Task"&gt;2b3a6335531003003bf1d9109ec58759&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment&gt;Create a task for each name&lt;/comment&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Do Loop in Parallel"&gt;78d956d897b96910b2e1f97e6253af8c&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id&gt;a375bdab-6307-4dec-95f0-b0782c8c7e0b&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;2f3f8c6497f1a910b2e1f97e6253af4a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;469bece4-508e-4288-bd83-7e838f4127d2&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2f3f8c6497f1a910b2e1f97e6253af4a"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;2f3f8c6497f1a910b2e1f97e6253af4a&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;a33f8c6497f1a910b2e1f97e6253af4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;value&gt;x_53417_demo_sn_task&lt;/value&gt;&lt;variable display_value="Table"&gt;e73a6335531003003bf1d9109ec5875c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;2f3f8c6497f1a910b2e1f97e6253af4a&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;ab3f8c6497f1a910b2e1f97e6253af4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Wait"&gt;ff3a6335531003003bf1d9109ec58777&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=2f3f8c6497f1a910b2e1f97e6253af4a"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;field_values&lt;/field&gt;&lt;id&gt;2f3f8c6497f1a910b2e1f97e6253af4a&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;2b3f8c6497f1a910b2e1f97e6253af4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759&lt;/table&gt;&lt;value&gt;short_description={{a375bdab-6307-4dec-95f0-b0782c8c7e0b.item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;task_table&lt;/field&gt;&lt;id&gt;2f3f8c6497f1a910b2e1f97e6253af4a&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;673f8c6497f1a910b2e1f97e6253af4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;wait&lt;/field&gt;&lt;id&gt;2f3f8c6497f1a910b2e1f97e6253af4a&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;a33f8c6497f1a910b2e1f97e6253af4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=2f3f8c6497f1a910b2e1f97e6253af4a"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=2f3f8c6497f1a910b2e1f97e6253af4a"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Log"&gt;5bc1bcc6531003003bf1d9109ec587d4&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment&gt;Log that flow is done&lt;/comment&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Do Loop in Parallel"&gt;78d956d897b96910b2e1f97e6253af8c&lt;/flow&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;3f3f8c6497f1a910b2e1f97e6253af51&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;4c5b2820-412d-4f9e-a410-930e92a0a48f&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=3f3f8c6497f1a910b2e1f97e6253af51"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;3f3f8c6497f1a910b2e1f97e6253af51&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;7f3f8c6497f1a910b2e1f97e6253af52&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;value&gt;Done&lt;/value&gt;&lt;variable display_value="Message"&gt;23c1bcc6531003003bf1d9109ec587e5&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=3f3f8c6497f1a910b2e1f97e6253af51"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=3f3f8c6497f1a910b2e1f97e6253af51"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=3f3f8c6497f1a910b2e1f97e6253af51"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=78d956d897b96910b2e1f97e6253af8c^sys_idNOT IN317dc8e097f1a910b2e1f97e6253af88,b57dc8e097f1a910b2e1f97e6253af8a,fd7dc8e097f1a910b2e1f97e6253af84"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;7d7dc8e097f1a910b2e1f97e6253af87&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Do Loop in Parallel"&gt;78d956d897b96910b2e1f97e6253af8c&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Parallel Branch"&gt;a1168de173311300b61e66476bf6a7d0&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id&gt;5cca252d-6d7b-4265-bffc-615654f0a161&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:11:03&lt;/sys_created_on&gt;&lt;sys_id&gt;317dc8e097f1a910b2e1f97e6253af88&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;0b00a341-63b7-48b3-8cdb-d65840df29bd&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=317dc8e097f1a910b2e1f97e6253af88"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=317dc8e097f1a910b2e1f97e6253af88"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=317dc8e097f1a910b2e1f97e6253af88"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;f17dc8e097f1a910b2e1f97e6253af8a&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Do Loop in Parallel"&gt;78d956d897b96910b2e1f97e6253af8c&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="For Each"&gt;098e1dc5c3e232002841b63b12d3ae33&lt;/logic_definition&gt;&lt;order&gt;2➛3&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id&gt;0b00a341-63b7-48b3-8cdb-d65840df29bd&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:11:03&lt;/sys_created_on&gt;&lt;sys_id&gt;b57dc8e097f1a910b2e1f97e6253af8a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;a375bdab-6307-4dec-95f0-b0782c8c7e0b&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b57dc8e097f1a910b2e1f97e6253af8a"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=b57dc8e097f1a910b2e1f97e6253af8a"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;items&lt;/field&gt;&lt;id&gt;b57dc8e097f1a910b2e1f97e6253af8a&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:11:03&lt;/sys_created_on&gt;&lt;sys_id&gt;317dc8e097f1a910b2e1f97e6253af8d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:11:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33&lt;/table&gt;&lt;value&gt;{{subflow.Names}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b57dc8e097f1a910b2e1f97e6253af8a"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=b57dc8e097f1a910b2e1f97e6253af8a"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;f57dc8e097f1a910b2e1f97e6253af84&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Do Loop in Parallel"&gt;78d956d897b96910b2e1f97e6253af8c&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Do the following in Parallel"&gt;5d31e5dedfe50300b61ecae83df26326&lt;/logic_definition&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:11:03&lt;/sys_created_on&gt;&lt;sys_id&gt;fd7dc8e097f1a910b2e1f97e6253af84&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:18:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;5cca252d-6d7b-4265-bffc-615654f0a161&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=fd7dc8e097f1a910b2e1f97e6253af84"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fd7dc8e097f1a910b2e1f97e6253af84"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=fd7dc8e097f1a910b2e1f97e6253af84"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_78d956d897b96910b2e1f97e6253af8c^sys_idNOT INb57dc8e097f1a910b2e1f97e6253af80"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;Names&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Names&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_78d956d897b96910b2e1f97e6253af8c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-22 02:11:03&lt;/sys_created_on&gt;&lt;sys_id&gt;b57dc8e097f1a910b2e1f97e6253af80&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Demo" source="x_53417_demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-22 02:11:03&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=78d956d897b96910b2e1f97e6253af8c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1563195595</payload_hash>
+        <record_name>Do Loop in Parallel</record_name>
+        <reverted_from/>
+        <source>b2aa9fc89762d110b2e1f97e6253afd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 02:18:50</sys_created_on>
+        <sys_id>373f8c6497f1a910b2e1f97e6253af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187071ca5690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 02:18:50</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>3f3f8c64e4f1a910fab8f1c6f4f9e974</update_guid>
+        <update_guid_history>3f3f8c64e4f1a910fab8f1c6f4f9e974:1563195595,0a7dc8e0c4f1a91071b94307e04c7bad:-1306970688,05d9565c9fb969103ade6022d7ee9834:-1513456242</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-24 15:21:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>014080c36c6c4eb89f3338e8e1ca3a51</sys_id>
+        <sys_metadata>78d956d897b96910b2e1f97e6253af8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Do Loop in Parallel</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_78d956d897b96910b2e1f97e6253af8c</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_78d956d897b96910b2e1f97e6253af8c">373f8c6497f1a910b2e1f97e6253af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 15:21:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Check if all child tasks were rejected</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Returns a list of sys_user_group.sys_id that are the sysy_ids of the assigned groups on rejected sysapproval_group records.</description>
+        <internal_name>sub_get_rejected_approval_groups</internal_name>
+        <label_cache>[{"name":"d037a736-2b34-4c6e-b953-858d546a3885.item.assignment_group","label":"1 - For Each➛Group approval Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sysapproval_group","column_name":"assignment_group"},{"name":"flow_variable.groups","label":"Flow Variables➛Groups","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3e73fcf5-cd1c-4f49-b672-b604e3ea7a7f"}},{"name":"d037a736-2b34-4c6e-b953-858d546a3885.item","label":"1 - For Each➛Group approval Record","reference":"sysapproval_group","reference_display":"Group approval","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.group_approvals","label":"Input➛Group Approvals","reference":"sysapproval_group","reference_display":"Group approval","type":"glide_list","base_type":"glide_list","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c7245326-5c49-4b3f-b6c2-9c92f5de8112"}}]</label_cache>
+        <master_snapshot>6a42170c97f92910b2e1f97e6253af3b</master_snapshot>
+        <name>SUB Get Rejected Approval Groups</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:07:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7c0d38497f92910b2e1f97e6253af95</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>SUB Get Rejected Approval Groups</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_hub_flow_a7c0d38497f92910b2e1f97e6253af95</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:16:32</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a7c0d38497f92910b2e1f97e6253af95^id=a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a7c0d38497f92910b2e1f97e6253af95^sys_idNOT IN27c0d38497f92910b2e1f97e6253af96"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a7c0d38497f92910b2e1f97e6253af95</id>
+        <name>SUB Get Rejected Approval Groups</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:07:33</sys_created_on>
+        <sys_id>27c0d38497f92910b2e1f97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:07:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=27c0d38497f92910b2e1f97e6253af96"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a7c0d38497f92910b2e1f97e6253af95^sys_idNOT INb3f1978897f92910b2e1f97e6253af99"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=c7245326-5c49-4b3f-b6c2-9c92f5de8112</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sysapproval_group</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group_approvals</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_list</internal_type>
+        <label>Group Approvals</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</model>
+        <model_id>a7c0d38497f92910b2e1f97e6253af95</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a7c0d38497f92910b2e1f97e6253af95</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sysapproval_group">sysapproval_group</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:12:45</sys_created_on>
+        <sys_id>b3f1978897f92910b2e1f97e6253af99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:12:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a7c0d38497f92910b2e1f97e6253af95^sys_idNOT IN37f11fc897f92910b2e1f97e6253afc9"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=93fa92b5-88d2-43e3-b349-db18d4225147</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user_group</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>groups</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_list</internal_type>
+        <label>Groups</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</model>
+        <model_id>a7c0d38497f92910b2e1f97e6253af95</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_a7c0d38497f92910b2e1f97e6253af95</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user_group">sys_user_group</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:12:45</sys_created_on>
+        <sys_id>37f11fc897f92910b2e1f97e6253afc9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:12:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a7c0d38497f92910b2e1f97e6253af95^sys_idNOT IN6d42d30c97f92910b2e1f97e6253af3e,7bf11fc897f92910b2e1f97e6253afdd,fff11fc897f92910b2e1f97e6253afd8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a542d30c97f92910b2e1f97e6253af3e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>groups</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:13:58</sys_created_on>
+        <sys_id>6d42d30c97f92910b2e1f97e6253af3e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:16:32</sys_updated_on>
+        <ui_id>76648baf-8726-430c-b21e-5dc805cfae80</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6d42d30c97f92910b2e1f97e6253af3e"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_a7c0d38497f92910b2e1f97e6253af95^id=6d42d30c97f92910b2e1f97e6253af3e"/>
+    <sys_element_mapping action="delete_multiple" query="id=6d42d30c97f92910b2e1f97e6253af3e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groups</field>
+        <id>6d42d30c97f92910b2e1f97e6253af3e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:13:58</sys_created_on>
+        <sys_id>6942d30c97f92910b2e1f97e6253af41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:13:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_a7c0d38497f92910b2e1f97e6253af95</table>
+        <value>{{fd_transform:83bfe6ea-af90-427e-9cfc-58cf4e406b6f}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6d42d30c97f92910b2e1f97e6253af3e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6d42d30c97f92910b2e1f97e6253af3e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b3f11fc897f92910b2e1f97e6253afdd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>groups</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d037a736-2b34-4c6e-b953-858d546a3885</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:12:45</sys_created_on>
+        <sys_id>7bf11fc897f92910b2e1f97e6253afdd</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:16:32</sys_updated_on>
+        <ui_id>81e704a4-0ee6-4764-88ca-da95c429b891</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7bf11fc897f92910b2e1f97e6253afdd"/>
+    <sys_element_mapping action="delete_multiple" query="id=7bf11fc897f92910b2e1f97e6253afdd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groups</field>
+        <id>7bf11fc897f92910b2e1f97e6253afdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:12:45</sys_created_on>
+        <sys_id>8c021fc897f92910b2e1f97e6253afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:12:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_a7c0d38497f92910b2e1f97e6253af95</table>
+        <value>{{flow_variable.groups}},{{d037a736-2b34-4c6e-b953-858d546a3885.item.assignment_group}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a7c0d38497f92910b2e1f97e6253af95^id=7bf11fc897f92910b2e1f97e6253afdd"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7bf11fc897f92910b2e1f97e6253afdd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7bf11fc897f92910b2e1f97e6253afdd"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f3f11fc897f92910b2e1f97e6253afd8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:12:45</sys_created_on>
+        <sys_id>fff11fc897f92910b2e1f97e6253afd8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:16:32</sys_updated_on>
+        <ui_id>d037a736-2b34-4c6e-b953-858d546a3885</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fff11fc897f92910b2e1f97e6253afd8"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_a7c0d38497f92910b2e1f97e6253af95^id=fff11fc897f92910b2e1f97e6253afd8"/>
+    <sys_element_mapping action="delete_multiple" query="id=fff11fc897f92910b2e1f97e6253afd8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>fff11fc897f92910b2e1f97e6253afd8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:12:45</sys_created_on>
+        <sys_id>f7f11fc897f92910b2e1f97e6253afdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:12:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{subflow.group_approvals}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a7c0d38497f92910b2e1f97e6253af95^id=fff11fc897f92910b2e1f97e6253afd8"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fff11fc897f92910b2e1f97e6253afd8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fff11fc897f92910b2e1f97e6253afd8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a7c0d38497f92910b2e1f97e6253af95^sys_idNOT IN6142d30c97f92910b2e1f97e6253af43,a942d30c97f92910b2e1f97e6253af42"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7c0d38497f92910b2e1f97e6253af95</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>83bfe6ea-af90-427e-9cfc-58cf4e406b6f</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:13:58</sys_created_on>
+        <sys_id>6142d30c97f92910b2e1f97e6253af43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:13:58</sys_updated_on>
+        <transform_compositions>[{"id":"413bf6c573533300b61e66476bf6a741","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"start_index","label":"Start Index","order":0,"attributes":{"min_value":"0","max_value":"999"},"value":"1","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]},{"id":null,"name":"end_index","label":"End Index","order":1,"attributes":{"min_value":"0"},"value":"","type":"integer","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="substring">77faf6c573533300b61e66476bf6a7ba</transform_definition_id>
+        <ui_id>12c88d2a-7964-4897-a960-7e56c0d192b1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7c0d38497f92910b2e1f97e6253af95</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.groups}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:13:58</sys_created_on>
+        <sys_id>a942d30c97f92910b2e1f97e6253af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:13:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>83bfe6ea-af90-427e-9cfc-58cf4e406b6f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a7c0d38497f92910b2e1f97e6253af95^sys_idNOT IN77f11fc897f92910b2e1f97e6253afd2"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3e73fcf5-cd1c-4f49-b672-b604e3ea7a7f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>groups</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Groups</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</model>
+        <model_id>a7c0d38497f92910b2e1f97e6253af95</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_a7c0d38497f92910b2e1f97e6253af95</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:12:45</sys_created_on>
+        <sys_id>77f11fc897f92910b2e1f97e6253afd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Groups</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_77f11fc897f92910b2e1f97e6253afd2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:12:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a7c0d38497f92910b2e1f97e6253af95^sys_idNOT IN3ff11fc897f92910b2e1f97e6253afc6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>group_approvals</element>
+        <help/>
+        <hint/>
+        <label>Group Approvals</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a7c0d38497f92910b2e1f97e6253af95</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:12:45</sys_created_on>
+        <sys_id>3ff11fc897f92910b2e1f97e6253afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:12:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a7c0d38497f92910b2e1f97e6253af95^sys_idNOT INbff11fc897f92910b2e1f97e6253afce"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>groups</element>
+        <help/>
+        <hint/>
+        <label>Groups</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_a7c0d38497f92910b2e1f97e6253af95</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:12:45</sys_created_on>
+        <sys_id>bff11fc897f92910b2e1f97e6253afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:12:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a7c0d38497f92910b2e1f97e6253af95"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a7c0d38497f92910b2e1f97e6253af95^sys_idNOT INbe42570c97f92910b2e1f97e6253af19"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@84a9a3</plan>
+        <plan_id display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</plan_id>
+        <snapshot>6a42170c97f92910b2e1f97e6253af3b</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be42570c97f92910b2e1f97e6253af19</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:16:32</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Check if all child tasks were rejected</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Returns a list of sys_user_group.sys_id that are the sysy_ids of the assigned groups on rejected sysapproval_group records.</description>
+        <internal_name>sub_get_rejected_approval_groups</internal_name>
+        <label_cache>[{"name":"d037a736-2b34-4c6e-b953-858d546a3885.item.assignment_group","label":"1 - For Each➛Group approval Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sysapproval_group","column_name":"assignment_group"},{"name":"flow_variable.groups","label":"Flow Variables➛Groups","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3e73fcf5-cd1c-4f49-b672-b604e3ea7a7f"}},{"name":"d037a736-2b34-4c6e-b953-858d546a3885.item","label":"1 - For Each➛Group approval Record","reference":"sysapproval_group","reference_display":"Group approval","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.group_approvals","label":"Input➛Group Approvals","reference":"sysapproval_group","reference_display":"Group approval","type":"glide_list","base_type":"glide_list","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c7245326-5c49-4b3f-b6c2-9c92f5de8112"}}]</label_cache>
+        <master>true</master>
+        <name>SUB Get Rejected Approval Groups</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a42170c97f92910b2e1f97e6253af3b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:16:32</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6a42170c97f92910b2e1f97e6253af3b^id=6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6a42170c97f92910b2e1f97e6253af3b^sys_idNOT INaa42170c97f92910b2e1f97e6253af3c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6a42170c97f92910b2e1f97e6253af3b</id>
+        <name>SUB Get Rejected Approval Groups</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>aa42170c97f92910b2e1f97e6253af3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=aa42170c97f92910b2e1f97e6253af3c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6a42170c97f92910b2e1f97e6253af3b^sys_idNOT INea42170c97f92910b2e1f97e6253af3d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=c7245326-5c49-4b3f-b6c2-9c92f5de8112</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sysapproval_group</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group_approvals</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_list</internal_type>
+        <label>Group Approvals</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="SUB Get Rejected Approval Groups">6a42170c97f92910b2e1f97e6253af3b</model>
+        <model_id>6a42170c97f92910b2e1f97e6253af3b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_6a42170c97f92910b2e1f97e6253af3b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sysapproval_group">sysapproval_group</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>ea42170c97f92910b2e1f97e6253af3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=6a42170c97f92910b2e1f97e6253af3b^sys_idNOT IN3a42170c97f92910b2e1f97e6253afd4"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=93fa92b5-88d2-43e3-b349-db18d4225147</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user_group</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>groups</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_list</internal_type>
+        <label>Groups</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="SUB Get Rejected Approval Groups">6a42170c97f92910b2e1f97e6253af3b</model>
+        <model_id>6a42170c97f92910b2e1f97e6253af3b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_6a42170c97f92910b2e1f97e6253af3b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user_group">sys_user_group</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>3a42170c97f92910b2e1f97e6253afd4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6a42170c97f92910b2e1f97e6253af3b^sys_idNOT IN3a42170c97f92910b2e1f97e6253affb,7a42170c97f92910b2e1f97e6253aff7,ba42570c97f92910b2e1f97e6253af0b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b3f11fc897f92910b2e1f97e6253afdd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SUB Get Rejected Approval Groups">6a42170c97f92910b2e1f97e6253af3b</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>groups</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d037a736-2b34-4c6e-b953-858d546a3885</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>3a42170c97f92910b2e1f97e6253affb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:16:32</sys_updated_on>
+        <ui_id>81e704a4-0ee6-4764-88ca-da95c429b891</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3a42170c97f92910b2e1f97e6253affb"/>
+    <sys_element_mapping action="delete_multiple" query="id=3a42170c97f92910b2e1f97e6253affb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groups</field>
+        <id>3a42170c97f92910b2e1f97e6253affb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>7e42570c97f92910b2e1f97e6253af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_6a42170c97f92910b2e1f97e6253af3b</table>
+        <value>{{flow_variable.groups}},{{d037a736-2b34-4c6e-b953-858d546a3885.item.assignment_group}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6a42170c97f92910b2e1f97e6253af3b^id=3a42170c97f92910b2e1f97e6253affb"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3a42170c97f92910b2e1f97e6253affb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3a42170c97f92910b2e1f97e6253affb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f3f11fc897f92910b2e1f97e6253afd8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SUB Get Rejected Approval Groups">6a42170c97f92910b2e1f97e6253af3b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>7a42170c97f92910b2e1f97e6253aff7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:16:32</sys_updated_on>
+        <ui_id>d037a736-2b34-4c6e-b953-858d546a3885</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7a42170c97f92910b2e1f97e6253aff7"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_6a42170c97f92910b2e1f97e6253af3b^id=7a42170c97f92910b2e1f97e6253aff7"/>
+    <sys_element_mapping action="delete_multiple" query="id=7a42170c97f92910b2e1f97e6253aff7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>7a42170c97f92910b2e1f97e6253aff7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>7e42170c97f92910b2e1f97e6253affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{subflow.group_approvals}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6a42170c97f92910b2e1f97e6253af3b^id=7a42170c97f92910b2e1f97e6253aff7"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7a42170c97f92910b2e1f97e6253aff7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7a42170c97f92910b2e1f97e6253aff7"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a542d30c97f92910b2e1f97e6253af3e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SUB Get Rejected Approval Groups">6a42170c97f92910b2e1f97e6253af3b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>groups</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>ba42570c97f92910b2e1f97e6253af0b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:16:32</sys_updated_on>
+        <ui_id>76648baf-8726-430c-b21e-5dc805cfae80</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ba42570c97f92910b2e1f97e6253af0b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_6a42170c97f92910b2e1f97e6253af3b^id=ba42570c97f92910b2e1f97e6253af0b"/>
+    <sys_element_mapping action="delete_multiple" query="id=ba42570c97f92910b2e1f97e6253af0b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groups</field>
+        <id>ba42570c97f92910b2e1f97e6253af0b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>3a42570c97f92910b2e1f97e6253af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_6a42170c97f92910b2e1f97e6253af3b</table>
+        <value>{{fd_transform:83bfe6ea-af90-427e-9cfc-58cf4e406b6f}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ba42570c97f92910b2e1f97e6253af0b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ba42570c97f92910b2e1f97e6253af0b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6a42170c97f92910b2e1f97e6253af3b^sys_idNOT IN3e42570c97f92910b2e1f97e6253af0e,be42570c97f92910b2e1f97e6253af0e"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6a42170c97f92910b2e1f97e6253af3b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.groups}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>3e42570c97f92910b2e1f97e6253af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>83bfe6ea-af90-427e-9cfc-58cf4e406b6f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6a42170c97f92910b2e1f97e6253af3b</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>83bfe6ea-af90-427e-9cfc-58cf4e406b6f</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>be42570c97f92910b2e1f97e6253af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <transform_compositions>[{"id":"413bf6c573533300b61e66476bf6a741","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"start_index","label":"Start Index","order":0,"attributes":{"min_value":"0","max_value":"999"},"value":"1","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]},{"id":null,"name":"end_index","label":"End Index","order":1,"attributes":{"min_value":"0"},"value":"","type":"integer","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="substring">77faf6c573533300b61e66476bf6a7ba</transform_definition_id>
+        <ui_id>12c88d2a-7964-4897-a960-7e56c0d192b1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6a42170c97f92910b2e1f97e6253af3b^sys_idNOT INb242170c97f92910b2e1f97e6253aff2"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3e73fcf5-cd1c-4f49-b672-b604e3ea7a7f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>groups</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Groups</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SUB Get Rejected Approval Groups">6a42170c97f92910b2e1f97e6253af3b</model>
+        <model_id>6a42170c97f92910b2e1f97e6253af3b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_6a42170c97f92910b2e1f97e6253af3b</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>b242170c97f92910b2e1f97e6253aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Groups</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_b242170c97f92910b2e1f97e6253aff2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6a42170c97f92910b2e1f97e6253af3b^sys_idNOT IN2a42170c97f92910b2e1f97e6253afcf"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>group_approvals</element>
+        <help/>
+        <hint/>
+        <label>Group Approvals</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6a42170c97f92910b2e1f97e6253af3b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>2a42170c97f92910b2e1f97e6253afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6a42170c97f92910b2e1f97e6253af3b^sys_idNOT INfa42170c97f92910b2e1f97e6253afe9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>groups</element>
+        <help/>
+        <hint/>
+        <label>Groups</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_6a42170c97f92910b2e1f97e6253af3b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 03:14:02</sys_created_on>
+        <sys_id>fa42170c97f92910b2e1f97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 03:14:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6a42170c97f92910b2e1f97e6253af3b"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>a7c0d38497f92910b2e1f97e6253af95</sys_id>
+        <latest_snapshot>6a42170c97f92910b2e1f97e6253af3b</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Label">2412e22497bda910b2e1f97e6253af24</decision_input>
+        <decision_table display_value="ITEM Todo Label to Assignment Group">9aaede6c977da910b2e1f97e6253af9b</decision_table>
+        <default_operator>LIKE</default_operator>
+        <description>The label of the Todo</description>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Label</label>
+        <order>100</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 13:00:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7012aaa097bda910b2e1f97e6253af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_7012aaa097bda910b2e1f97e6253af26</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 13:00:20</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+</record_update>

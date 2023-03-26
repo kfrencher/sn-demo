@@ -6,9 +6,9 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
-        <delete_access>false</delete_access>
+        <delete_access>true</delete_access>
         <is_extendable>false</is_extendable>
         <label>SN Task</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -22,12 +22,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-09 14:05:20</sys_created_on>
         <sys_id>e5259c6b97ef1110b2e1f97e6253af31</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>SN Task</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_db_object_e5259c6b97ef1110b2e1f97e6253af31</sys_update_name>
-        <update_access>false</update_access>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-20 13:50:20</sys_updated_on>
+        <update_access>true</update_access>
         <user_role display_value="x_53417_demo.sn_task_user" name="x_53417_demo.sn_task_user">1905dc2b97ef1110b2e1f97e6253af31</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
