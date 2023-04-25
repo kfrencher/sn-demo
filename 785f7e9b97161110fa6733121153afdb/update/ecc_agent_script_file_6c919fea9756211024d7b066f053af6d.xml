@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_script_file">
+    <ecc_agent_script_file action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>pFhV8VPUigdP45IxlFJ2eQ==</checksum>
+        <description/>
+        <directory>false</directory>
+        <name>script.js</name>
+        <parent display_value="Demo">7271136e9756211024d7b066f053af62</parent>
+        <script>console.log('this iis a tesat');</script>
+        <script_attachment/>
+        <source/>
+        <sys_class_name>ecc_agent_script_file</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-22 18:07:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c919fea9756211024d7b066f053af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>script.js</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>ecc_agent_script_file_6c919fea9756211024d7b066f053af6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-22 18:07:31</sys_updated_on>
+        <use_attachment>false</use_attachment>
+        <version/>
+    </ecc_agent_script_file>
+</record_update>

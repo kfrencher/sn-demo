@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template display_value="Basic Http Configuration">24fe67399712211024d7b066f053af71</configuration_template>
+        <connection_type>http_connection</connection_type>
+        <id>x_53417_demo.Demo_Test_Spoke_Connection</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Demo Test Spoke Connection</name>
+        <parent display_value="x_53417_demo.Demo_Cat_Fact">b673a62d9712211024d7b066f053af02</parent>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 12:22:34</sys_created_on>
+        <sys_id>1e8fe7399712211024d7b066f053af17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.Demo_Test_Spoke_Connection</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_alias_1e8fe7399712211024d7b066f053af17</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 12:22:34</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>
