@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout">
+    <sys_ux_form_action_layout action="INSERT_OR_UPDATE">
+        <action_config display_value="Demo Actions">994d9e3d9776e11024d7b066f053afab</action_config>
+        <active>true</active>
+        <description/>
+        <name>Demo Layout</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-15 03:15:28</sys_created_on>
+        <sys_id>fae1e67197b6e11024d7b066f053afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Layout</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_fae1e67197b6e11024d7b066f053afca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-15 03:15:28</sys_updated_on>
+        <table>x_53417_demo_task</table>
+    </sys_ux_form_action_layout>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Request Demo">281fb93097535110b2e1f97e6253af94</sc_cat_item>
+        <sc_category display_value="Services">904088b8975b1110b2e1f97e6253afcc</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 22:38:00</sys_created_on>
+        <sys_id>3d2142f897535110b2e1f97e6253affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Request Demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_cat_item_category_3d2142f897535110b2e1f97e6253affc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 22:38:00</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sc_cat_item_category_3d2142f897535110b2e1f97e6253affc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Request Demo">281fb93097535110b2e1f97e6253af94</sc_cat_item><sc_category display_value="Services">904088b8975b1110b2e1f97e6253afcc</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-18 22:38:00</sys_created_on><sys_id>3d2142f897535110b2e1f97e6253affc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Request Demo</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sc_cat_item_category_3d2142f897535110b2e1f97e6253affc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-18 22:38:00</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>916844267</payload_hash>
+        <record_name>Services.Request Demo</record_name>
+        <reverted_from/>
+        <source>5d399c4197aa611024d7b066f053af53</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-29 23:06:25</sys_created_on>
+        <sys_id>21399c4197aa611024d7b066f053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187cf447e6e0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-29 23:06:25</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>e1399c4154aa6110d4f1434354d48367</update_guid>
+        <update_guid_history>e1399c4154aa6110d4f1434354d48367:916844267,a95f1a97c0422110bdbe9f9bc82a6d34:1160876509</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Request Demo">ad399c4197aa611024d7b066f053af70</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-29 23:06:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>10db647e82664e8682d12c6ad3d42a71</sys_id>
+        <sys_metadata>3d2142f897535110b2e1f97e6253affc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Request Demo</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_3d2142f897535110b2e1f97e6253affc</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_3d2142f897535110b2e1f97e6253affc">21399c4197aa611024d7b066f053af68</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-29 23:06:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

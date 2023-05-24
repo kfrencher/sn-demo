@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_flow_registry">
+    <sc_service_fulfillment_flow_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <service_fulfillment_flow display_value="Demo Step based request fulfillment">10c3e40d97aa611024d7b066f053afbf</service_fulfillment_flow>
+        <sys_class_name>sc_service_fulfillment_flow_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 23:53:32</sys_created_on>
+        <sys_id>b5f3ec0d97aa611024d7b066f053afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_service_fulfillment_flow_registry_b5f3ec0d97aa611024d7b066f053afc5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 23:53:32</sys_updated_on>
+    </sc_service_fulfillment_flow_registry>
+</record_update>

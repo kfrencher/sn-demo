@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_assignment_action_config">
+    <sys_ux_m2m_action_assignment_action_config action="DELETE">
+        <action_assignment display_value="demo_save">0a49d9c997b2211024d7b066f053af0f</action_assignment>
+        <action_configuration display_value="Demo Workspace Action Config">d25bdd4d97b2211024d7b066f053af79</action_configuration>
+        <sys_class_name>sys_ux_m2m_action_assignment_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 14:11:30</sys_created_on>
+        <sys_id>747bd94d97b2211024d7b066f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_assignment_action_config_747bd94d97b2211024d7b066f053af8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 14:11:30</sys_updated_on>
+    </sys_ux_m2m_action_assignment_action_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_m2m_action_assignment_action_config_747bd94d97b2211024d7b066f053af8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_assignment_action_config"><sys_ux_m2m_action_assignment_action_config action="INSERT_OR_UPDATE"><action_assignment display_value="demo_save">0a49d9c997b2211024d7b066f053af0f</action_assignment><action_configuration display_value="Demo Workspace Action Config">d25bdd4d97b2211024d7b066f053af79</action_configuration><sys_class_name>sys_ux_m2m_action_assignment_action_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-12 14:11:30</sys_created_on><sys_id>747bd94d97b2211024d7b066f053af8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_m2m_action_assignment_action_config_747bd94d97b2211024d7b066f053af8e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-12 14:11:30</sys_updated_on></sys_ux_m2m_action_assignment_action_config></record_update>]]></payload>
+        <payload_hash>1540721815</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 14:11:30</sys_created_on>
+        <sys_id>3c7bd94d97b2211024d7b066f053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188104d71940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 14:11:30</sys_updated_on>
+        <type>M2m Action Assig Ux Action Config</type>
+        <update_guid>707bd94dfab2211054ba89595f5a3490</update_guid>
+        <update_guid_history>707bd94dfab2211054ba89595f5a3490:1540721815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-13 15:03:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_m2m_action_assignment_action_config">sys_ux_m2m_action_assignment_action_config</sys_db_object>
+        <sys_id>0c1eb80b81ea475e8188069f5d7f0fe4</sys_id>
+        <sys_metadata>747bd94d97b2211024d7b066f053af8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_m2m_action_assignment_action_config_747bd94d97b2211024d7b066f053af8e</sys_update_name>
+        <sys_update_version display_value="sys_ux_m2m_action_assignment_action_config_747bd94d97b2211024d7b066f053af8e">3c7bd94d97b2211024d7b066f053af90</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-13 15:03:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1188,7 +1188,7 @@
       "items" : [ ],
       "styles" : { }
     } ],
-    "layout" : { }
+    "layout" : null
   },
   "isHidden" : {
     "type" : "JSON_LITERAL",
@@ -1198,13 +1198,15 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : {
-    "width" : "100%"
-  }
+  "styles" : null
 }, {
   "elementId" : "modalContainerViewport",
   "elementLabel" : "Modal Container (Viewport)",
   "propertyValues" : {
+    "labelledby" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
     "size" : {
       "type" : "JSON_LITERAL",
       "value" : "md"
@@ -1247,10 +1249,68 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : { }
+  "styles" : null
+}, {
+  "elementId" : "test_event_alert",
+  "elementLabel" : "Test Event Alert",
+  "propertyValues" : {
+    "preventDefaultAction" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defer" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "headerLabel" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Testing eventing",
+        "comment" : ""
+      }
+    },
+    "content" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Body of testing eventing",
+        "comment" : ""
+      }
+    },
+    "buttonLabel" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Got it",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "05d8b1515b230010b913cbd59b81c71a",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
 } ]</composition>
         <da_relay_models/>
         <data>[ {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "367f89e30b102010a8b1c96237673a85",
     "type" : "COMPOSITE"
@@ -1270,6 +1330,7 @@
   },
   "readEvaluationMode" : "EAGER"
 }, {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "e56aae0873231010a0a79329faf6a768",
     "type" : "CLIENT_STATE"
@@ -1359,6 +1420,7 @@
   },
   "readEvaluationMode" : "EAGER"
 }, {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "83114bc453231010c495ddeeff7b12d9",
     "type" : "COMPOSITE"
@@ -1405,6 +1467,7 @@
   },
   "readEvaluationMode" : "EXPLICIT"
 }, {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "0b84084c536910105a20ddeeff7b124b",
     "type" : "GRAPHQL"
@@ -1416,6 +1479,7 @@
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 }, {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "53f70741b7a32010415d6c91de11a9c0",
     "type" : "TRANSFORM"
@@ -1465,9 +1529,10 @@
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
         <description/>
-        <dispatched_events>41b3957f97179110b2e1f97e6253af99,5dd4f4050f121010036a83fa68767eb6,f008951d0fc21010036a83fa68767e1c,b408951d0fc21010036a83fa68767e21,7008951d0fc21010036a83fa68767e37,93e48589a9ee4a69f8d3f5d45ffeb05d</dispatched_events>
+        <dispatched_events>aaf843d1977a611024d7b066f053afa7,41b3957f97179110b2e1f97e6253af99,5dd4f4050f121010036a83fa68767eb6,f008951d0fc21010036a83fa68767e1c,b408951d0fc21010036a83fa68767e21,7008951d0fc21010036a83fa68767e37,93e48589a9ee4a69f8d3f5d45ffeb05d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events>f7d18e2cb7735010cd8af8e32e11a90b,8c1321d50f1310107d20409dc4767e52,2640a5150f1310107d20409dc4767e8a</handled_events>
         <interactions/>
         <interfaces/>
@@ -1518,6 +1583,30 @@
     "operation" : null,
     "targetId" : "ckgcbbbvpjaaaaaafddghhaaaggwhqbbnx",
     "type" : "CLIENT_SCRIPT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_53417_demo.MODAL_SELECTED_RELAY_da0c3b1f97db1110b2e1f97e6253af94",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : {
+          "modalId" : "[component-id$='test_event_alert']",
+          "showModal" : true,
+          "displayOptions" : null,
+          "bare" : false,
+          "viewportElementId" : "modalContainerViewport",
+          "viewportRoute" : null,
+          "viewportFields" : null
+        }
+      },
+      "sysId" : "aaf843d1977a611024d7b066f053afa7"
+    },
+    "operation" : null,
+    "targetId" : "clhmiibbbzsaaddohhddnhhtefiiufkbgg",
+    "type" : "EVENT"
   } ],
   "sn_uib_base_aw.LIST#NAV_ITEM_SELECTED" : [ {
     "broker" : null,
@@ -1657,7 +1746,16 @@
   "selectable" : false,
   "disabled" : false
 } ]</props>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[ {
+  "message" : "Body of testing eventing",
+  "comment" : ""
+}, {
+  "message" : "Got it",
+  "comment" : ""
+}, {
+  "message" : "Testing eventing",
+  "comment" : ""
+} ]</required_translations>
         <root_component/>
         <root_component_config>{
   "bare" : true
@@ -1859,10 +1957,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-27 01:59:42</sys_created_on>
         <sys_id>da0c3b1f97db1110b2e1f97e6253af94</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>List default</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_macroponent_da0c3b1f97db1110b2e1f97e6253af94</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-13 17:28:09</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=da0c3b1f97db1110b2e1f97e6253af94"/>
 </record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4e85a59a9732211024d7b066f053af3c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>8285ad1e9732211024d7b066f053afe3</answer>
+        <condition table="var__m_sys_decision_input_03436d5a9732211024d7b066f053afb7">u_category=hardware^EQ<item display_value="Hardware" endquery="false" field="u_category" goto="false" newquery="false" operator="=" or="false" value="hardware"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Demo Category to Assignment Groups">03436d5a9732211024d7b066f053afb7</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_03436d5a9732211024d7b066f053afb7</input_table>
+        <label>Demo Category to Assignment Groups_100</label>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 12:07:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e85a59a9732211024d7b066f053af3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Category to Assignment Groups_100</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_decision_question_4e85a59a9732211024d7b066f053af3c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 12:07:59</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 12:07:59</sys_created_on>
+        <sys_id>ce85a59a9732211024d7b066f053af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Category to Assignment Groups_100</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_metadata_link_ce85a59a9732211024d7b066f053af3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 12:07:59</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

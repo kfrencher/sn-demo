@@ -6,7 +6,7 @@
         <question display_value="Application">278ff57897535110b2e1f97e6253af19</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 22:32:27</sys_created_on>
+        <sys_created_on>2023-04-29 23:10:13</sys_created_on>
         <sys_id>60ef3d7897535110b2e1f97e6253af3a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>App 4</sys_name>
@@ -14,8 +14,8 @@
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>question_choice_60ef3d7897535110b2e1f97e6253af3a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 22:32:27</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-30 22:50:57</sys_updated_on>
         <text>App 4</text>
         <value>app_4</value>
     </question_choice>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_task_step">
+    <sc_service_fulfillment_task_step action="DELETE">
+        <assigned_group display_value="Software Support" name="Software Support">6a42f4616fc331003b3c498f5d3ee46f</assigned_group>
+        <assigned_to/>
+        <catalog_conditions/>
+        <description>Depending on selected application and target audience different scenarios need to be prepared</description>
+        <include_variables>all</include_variables>
+        <priority>3</priority>
+        <service_fulfillment_stage display_value="">7b80867897535110b2e1f97e6253af44</service_fulfillment_stage>
+        <service_fulfillment_step_configuration display_value="Task">dc0f364873122010ae42d31ee2f6a7f3</service_fulfillment_step_configuration>
+        <short_description>Prepare application scenario</short_description>
+        <sys_class_name>sc_service_fulfillment_task_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 22:35:25</sys_created_on>
+        <sys_id>524002b897535110b2e1f97e6253afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prepare application scenario</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_service_fulfillment_task_step_524002b897535110b2e1f97e6253afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 22:35:25</sys_updated_on>
+        <title>Prepare application scenario</title>
+    </sc_service_fulfillment_task_step>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sc_service_fulfillment_task_step_524002b897535110b2e1f97e6253afff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_task_step">
+    <sc_service_fulfillment_task_step action="INSERT_OR_UPDATE">
+        <assigned_group display_value="Software Support" name="Software Support">6a42f4616fc331003b3c498f5d3ee46f</assigned_group>
+        <assigned_to/>
+        <catalog_conditions/>
+        <description>Depending on selected application and target audience different scenarios need to be prepared</description>
+        <include_variables>all</include_variables>
+        <priority>3</priority>
+        <service_fulfillment_stage display_value="">7b80867897535110b2e1f97e6253af44</service_fulfillment_stage>
+        <service_fulfillment_step_configuration display_value="Task">dc0f364873122010ae42d31ee2f6a7f3</service_fulfillment_step_configuration>
+        <short_description>Prepare application scenario</short_description>
+        <sys_class_name>sc_service_fulfillment_task_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 22:35:25</sys_created_on>
+        <sys_id>524002b897535110b2e1f97e6253afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prepare application scenario</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_service_fulfillment_task_step_524002b897535110b2e1f97e6253afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 22:35:25</sys_updated_on>
+        <title>Prepare application scenario</title>
+    </sc_service_fulfillment_task_step>
+</record_update>]]></payload>
+        <payload_hash>412823639</payload_hash>
+        <record_name>Prepare application scenario</record_name>
+        <reverted_from/>
+        <source>f02fde179742211024d7b066f053af00</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 12:07:23</sys_created_on>
+        <sys_id>c25f1a979742211024d7b066f053affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187755d06300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:23</sys_updated_on>
+        <type>Service Fulfillment Task Step</type>
+        <update_guid>825f1a971542211002ae4d6b3f6f45fe</update_guid>
+        <update_guid_history>825f1a971542211002ae4d6b3f6f45fe:412823639</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Prepare application scenario">25399c4197aa611024d7b066f053af8c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-29 23:06:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_service_fulfillment_task_step">sc_service_fulfillment_task_step</sys_db_object>
+        <sys_id>424f5c10ea094080b04fb01ee7b00a40</sys_id>
+        <sys_metadata>524002b897535110b2e1f97e6253afff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prepare application scenario</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sc_service_fulfillment_task_step_524002b897535110b2e1f97e6253afff</sys_update_name>
+        <sys_update_version display_value="sc_service_fulfillment_task_step_524002b897535110b2e1f97e6253afff">c25f1a979742211024d7b066f053affe</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-29 23:06:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

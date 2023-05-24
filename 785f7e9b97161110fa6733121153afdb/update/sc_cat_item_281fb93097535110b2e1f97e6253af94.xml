@@ -14,7 +14,7 @@
         <description><![CDATA[<p>Request a demo of the demo application. Can be done on site or remote. Demo is interactive and very technical.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Step based request fulfillment">21ea92dd53622010fca7ddeeff7b12b1</flow_designer_flow>
+        <flow_designer_flow display_value="Demo Step based request fulfillment">10c3e40d97aa611024d7b066f053afbf</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -63,14 +63,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 22:29:52</sys_created_on>
         <sys_id>281fb93097535110b2e1f97e6253af94</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Request Demo</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sc_cat_item_281fb93097535110b2e1f97e6253af94</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-20 03:59:54</sys_updated_on>
+        <sys_updated_on>2023-04-30 22:50:58</sys_updated_on>
         <taxonomy_topic display_value="Demo">8b722b7c97831510b2e1f97e6253af20</taxonomy_topic>
         <template/>
         <template_manager_roles/>

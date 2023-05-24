@@ -71,11 +71,15 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : { }
+  "styles" : null
 }, {
   "elementId" : "modalContainerViewport",
   "elementLabel" : "Modal Container (Viewport)",
   "propertyValues" : {
+    "labelledby" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
     "size" : {
       "type" : "JSON_LITERAL",
       "value" : "md"
@@ -146,13 +150,14 @@
   },
   "isHero" : false,
   "extensionPoints" : [ {
-    "controllerElementId" : "rpCtrl",
+    "controllerDependencyMap" : { },
+    "controllerElementId" : "record",
     "name" : "Record page modals",
     "sysId" : "e38960c1c30301103581a5a1d840dd45"
   } ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : { }
+  "styles" : null
 }, {
   "elementId" : "resizable_panes",
   "elementLabel" : "Resizable panes",
@@ -242,7 +247,10 @@
           "type" : "JSON_LITERAL",
           "value" : null
         },
-        "defaultRoute" : null,
+        "defaultRoute" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
         "selectedTabIndex" : {
           "type" : "CONTEXT_BINDING",
           "binding" : {
@@ -656,7 +664,7 @@
                       },
                       "isHero" : false,
                       "preset" : {
-                        "controllerElementId" : "rpCtrl",
+                        "controllerElementId" : "record",
                         "disabledEventTargetIds" : [ ],
                         "id" : "2d14943d858c1db31f4aaeb0f8f6a938"
                       },
@@ -702,7 +710,7 @@
                       },
                       "isHero" : false,
                       "preset" : {
-                        "controllerElementId" : "rpCtrl",
+                        "controllerElementId" : "record",
                         "disabledEventTargetIds" : [ ],
                         "id" : "9cac0b2562f3b3bdd2039e0becc94f69"
                       },
@@ -719,7 +727,7 @@
                   },
                   "isHero" : false,
                   "preset" : {
-                    "controllerElementId" : "rpCtrl",
+                    "controllerElementId" : "record",
                     "disabledEventTargetIds" : [ ],
                     "id" : "9fe92d17e05fdb497036d3cb62d277fa"
                   },
@@ -728,7 +736,7 @@
                   "items" : [ ],
                   "styles" : { }
                 } ],
-                "layout" : { }
+                "layout" : null
               },
               "isHidden" : {
                 "type" : "JSON_LITERAL",
@@ -743,9 +751,7 @@
               "extensionPoints" : [ ],
               "isNonDestructive" : false,
               "items" : [ ],
-              "styles" : {
-                "width" : "100%"
-              }
+              "styles" : null
             } ],
             "layout" : {
               "default" : {
@@ -816,10 +822,6 @@
                 "hidePanelAdvanced" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
-                },
-                "daClientActionContract" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
                 },
                 "parentRecordSysId" : {
                   "type" : "REPEATER_ITEM_BINDING",
@@ -892,10 +894,6 @@
                   "type" : "JSON_LITERAL",
                   "value" : false
                 },
-                "recordSelectedTable" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : ""
-                },
                 "hideCheckboxHover" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
@@ -903,14 +901,6 @@
                 "hideNextPage" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
-                },
-                "recordSelectedSysId" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : ""
-                },
-                "recordSelectedView" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : ""
                 },
                 "hideColumnResizing" : {
                   "type" : "JSON_LITERAL",
@@ -941,16 +931,16 @@
                     "color" : ""
                   }
                 },
+                "groupByField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : ""
+                },
                 "listTitle" : {
                   "type" : "REPEATER_ITEM_BINDING",
                   "binding" : {
                     "address" : [ "displayName" ],
                     "category" : "value"
                   }
-                },
-                "groupByField" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : ""
                 },
                 "fixedQuery" : {
                   "type" : "REPEATER_ITEM_BINDING",
@@ -971,6 +961,10 @@
                   "type" : "JSON_LITERAL",
                   "value" : false
                 },
+                "hideDeclarativeActions" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
                 "relatedListName" : {
                   "type" : "REPEATER_ITEM_BINDING",
                   "binding" : {
@@ -978,17 +972,9 @@
                     "category" : "value"
                   }
                 },
-                "page" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : 1
-                },
                 "hidePanelRestore" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
-                },
-                "recordSelectedQuery" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : ""
                 },
                 "hidePersonalization" : {
                   "type" : "JSON_LITERAL",
@@ -1264,8 +1250,8 @@
           "script" : {
             "apiVersion" : "2.0.0",
             "controllerElementId" : null,
-            "inlineScript" : "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n\treturn api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';\n}",
-            "scriptSysId" : "d975731797db1110b2e1f97e6253af67",
+            "inlineScript" : null,
+            "scriptSysId" : "794be5089732211024d7b066f053af88",
             "target" : null
           }
         },
@@ -1447,7 +1433,16 @@
             "composition" : [ {
               "elementId" : "agent_assist",
               "elementLabel" : "Agent Assist tab item",
-              "propertyValues" : { },
+              "propertyValues" : {
+                "positionAbsolutely" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : true
+                },
+                "prefetchData" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                }
+              },
               "eventMappings" : [ {
                 "eventMappingId" : "clddvcwlqdaaaaeelddfhhjccqblaiiha",
                 "isConfiguration" : false,
@@ -1559,7 +1554,7 @@
               "extensionPoints" : [ ],
               "isNonDestructive" : false,
               "items" : [ ],
-              "styles" : { }
+              "styles" : null
             } ],
             "layout" : {
               "default" : {
@@ -1651,9 +1646,7 @@
               "extensionPoints" : [ ],
               "isNonDestructive" : false,
               "items" : [ ],
-              "styles" : {
-                "position" : "relative"
-              }
+              "styles" : null
             } ],
             "layout" : {
               "default" : {
@@ -1753,11 +1746,7 @@
               "extensionPoints" : [ ],
               "isNonDestructive" : false,
               "items" : [ ],
-              "styles" : {
-                "position" : "relative",
-                "width" : "100%",
-                "height" : "100%"
-              }
+              "styles" : null
             } ],
             "layout" : {
               "default" : {
@@ -1967,7 +1956,7 @@
         "overflow" : "hidden"
       }
     } ],
-    "layout" : { }
+    "layout" : null
   },
   "isHidden" : {
     "type" : "BINARY",
@@ -2078,9 +2067,7 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : {
-    "width" : "100%"
-  }
+  "styles" : null
 }, {
   "elementId" : "top_container",
   "elementLabel" : "Top Container",
@@ -2248,11 +2235,7 @@
               "extensionPoints" : [ ],
               "isNonDestructive" : false,
               "items" : [ ],
-              "styles" : {
-                "max-width" : "42px",
-                "height" : "42px",
-                "margin-inline-end" : "0.75rem"
-              }
+              "styles" : null
             }, {
               "elementId" : "header_content",
               "elementLabel" : "Header content",
@@ -2349,9 +2332,7 @@
                       "extensionPoints" : [ ],
                       "isNonDestructive" : false,
                       "items" : [ ],
-                      "styles" : {
-                        "min-width" : "0"
-                      }
+                      "styles" : null
                     }, {
                       "elementId" : "record_tags",
                       "elementLabel" : "Record tags",
@@ -2406,10 +2387,7 @@
                       "extensionPoints" : [ ],
                       "isNonDestructive" : false,
                       "items" : [ ],
-                      "styles" : {
-                        "margin-left" : "0.25rem",
-                        "margin-right" : "1rem"
-                      }
+                      "styles" : null
                     } ],
                     "layout" : {
                       "default" : {
@@ -2433,9 +2411,7 @@
                   "extensionPoints" : [ ],
                   "isNonDestructive" : false,
                   "items" : [ ],
-                  "styles" : {
-                    "flex-direction" : "column"
-                  }
+                  "styles" : null
                 }, {
                   "elementId" : "subheading",
                   "elementLabel" : "Subheading",
@@ -2490,9 +2466,7 @@
                   "extensionPoints" : [ ],
                   "isNonDestructive" : false,
                   "items" : [ ],
-                  "styles" : {
-                    "margin-top" : "0.5rem"
-                  }
+                  "styles" : null
                 }, {
                   "elementId" : "secondary_items",
                   "elementLabel" : "Secondary items",
@@ -2610,17 +2584,14 @@
                   },
                   "isHero" : false,
                   "preset" : {
-                    "controllerElementId" : "rpCtrl",
+                    "controllerElementId" : "record",
                     "disabledEventTargetIds" : [ ],
                     "id" : "06f0936926a6997bd5b952e61fea9290"
                   },
                   "extensionPoints" : [ ],
                   "isNonDestructive" : false,
                   "items" : [ ],
-                  "styles" : {
-                    "width" : "max-content",
-                    "max-width" : "200%"
-                  }
+                  "styles" : null
                 } ],
                 "layout" : {
                   "default" : {
@@ -2644,9 +2615,7 @@
               "extensionPoints" : [ ],
               "isNonDestructive" : false,
               "items" : [ ],
-              "styles" : {
-                "width" : ""
-              }
+              "styles" : null
             } ],
             "layout" : {
               "default" : {
@@ -2766,9 +2735,7 @@
           "extensionPoints" : [ ],
           "isNonDestructive" : false,
           "items" : [ ],
-          "styles" : {
-            "width" : "100%"
-          }
+          "styles" : null
         } ],
         "layout" : {
           "default" : {
@@ -2792,9 +2759,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : {
-        "min-width" : "550px"
-      }
+      "styles" : null
     }, {
       "elementId" : "top_right_container",
       "elementLabel" : "Top Right",
@@ -2960,9 +2925,7 @@
           "extensionPoints" : [ ],
           "isNonDestructive" : false,
           "items" : [ ],
-          "styles" : {
-            "width" : "100%"
-          }
+          "styles" : null
         } ],
         "layout" : {
           "default" : {
@@ -2986,9 +2949,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : {
-        "flex" : "1 0 auto"
-      }
+      "styles" : null
     } ],
     "layout" : {
       "default" : {
@@ -3012,9 +2973,7 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : {
-    "width" : "100%"
-  }
+  "styles" : null
 }, {
   "elementId" : "ribbon_container",
   "elementLabel" : "Ribbon Container",
@@ -3252,7 +3211,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : { }
+      "styles" : null
     } ],
     "layout" : {
       "default" : {
@@ -3276,9 +3235,7 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : {
-    "width" : "100%"
-  }
+  "styles" : null
 }, {
   "elementId" : "warning_messages_container",
   "elementLabel" : "Warning Messages Container",
@@ -3415,7 +3372,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : { }
+      "styles" : null
     }, {
       "elementId" : "security_constraints",
       "elementLabel" : "Security constraints",
@@ -3560,7 +3517,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : { }
+      "styles" : null
     } ],
     "layout" : {
       "default" : {
@@ -3584,12 +3541,11 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : {
-    "width" : "100%"
-  }
+  "styles" : null
 } ]</composition>
         <da_relay_models/>
         <data>[ {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "029f04e053610110ac9bddeeff7b1294",
     "type" : "CONTROLLER"
@@ -3641,16 +3597,37 @@
         "category" : "props"
       }
     },
+    "activityLogs" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
     "inputExtraParams" : {
       "type" : "CONTEXT_BINDING",
       "binding" : {
         "address" : [ "extraParams" ],
         "category" : "props"
       }
+    },
+    "screen" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "fields" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "userPrefs" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "selectedTabIndex" : {
+      "type" : "JSON_LITERAL",
+      "value" : 0
     }
   },
   "readEvaluationMode" : "EAGER"
 }, {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "0c3568c75bee0110d78e9e7fb681c784",
     "type" : "CONTROLLER"
@@ -3726,20 +3703,6 @@
         "category" : "props"
       }
     },
-    "table" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "table" ],
-        "category" : "props"
-      }
-    },
-    "sysId" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "sysId" ],
-        "category" : "props"
-      }
-    },
     "query" : {
       "type" : "CONTEXT_BINDING",
       "binding" : {
@@ -3775,6 +3738,7 @@
         <dispatched_events>027534ecc33201103581a5a1d840ddee</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -3845,7 +3809,7 @@
   "disabled" : false
 }, {
   "name" : "table",
-  "label" : "table",
+  "label" : "Table",
   "fieldType" : null,
   "typeMetadata" : null,
   "valueType" : null,
@@ -3970,10 +3934,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-27 01:30:57</sys_created_on>
         <sys_id>5d75731797db1110b2e1f97e6253af65</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Standard record page</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_macroponent_5d75731797db1110b2e1f97e6253af65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 12:46:45</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=5d75731797db1110b2e1f97e6253af65"/>
 </record_update>

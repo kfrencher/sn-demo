@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="x_53417_demo_task">labelLIKEhardware^ORlabelLIKElogistics<item endquery="false" field="label" goto="false" newquery="false" operator="LIKE" or="false" value="hardware"/>
+            <item endquery="false" field="label" goto="false" newquery="false" operator="LIKE" or="true" value="logistics"/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 11:35:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9daa2749703211024d7b066f053afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Group</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_filter_f9daa2749703211024d7b066f053afc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 11:35:36</sys_updated_on>
+        <table>x_53417_demo_task</table>
+        <title>Group</title>
+        <user/>
+    </sys_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9daa2749703211024d7b066f053afc6"/>
+</record_update>

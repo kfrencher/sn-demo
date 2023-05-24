@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Log Cat Breeds</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Logs all cat breeds</description>
+        <internal_name>demo_log_cat_breeds</internal_name>
+        <label_cache>[{"name":"6365daf0-5367-4486-a7b6-790f10657967.cat.breed","label":"1 - Demo Cat Breed (DS)➛Cat➛Breed","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master_snapshot>27242da39752211024d7b066f053afad</master_snapshot>
+        <name>Demo Log Cat Breeds</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:36:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6b2692b9712211024d7b066f053afd9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Demo Log Cat Breeds</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_hub_flow_a6b2692b9712211024d7b066f053afd9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:43:07</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a6b2692b9712211024d7b066f053afd9^sys_idNOT IN62b2692b9712211024d7b066f053afdb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a6b2692b9712211024d7b066f053afd9</id>
+        <name>Demo Log Cat Breeds</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:36:43</sys_created_on>
+        <sys_id>62b2692b9712211024d7b066f053afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:36:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=62b2692b9712211024d7b066f053afdb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a6b2692b9712211024d7b066f053afd9^sys_idNOT IN16d2a9239752211024d7b066f053af4f,5ad2a9239752211024d7b066f053af4a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Demo Log Cat Breeds">a6b2692b9712211024d7b066f053afd9</flow>
+        <order>2</order>
+        <parent_ui_id>6365daf0-5367-4486-a7b6-790f10657967</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:37:15</sys_created_on>
+        <sys_id>16d2a9239752211024d7b066f053af4f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:43:07</sys_updated_on>
+        <ui_id>656b6785-0d77-4c82-b68c-58542cc57f80</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=16d2a9239752211024d7b066f053af4f"/>
+    <sys_element_mapping action="delete_multiple" query="id=16d2a9239752211024d7b066f053af4f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>16d2a9239752211024d7b066f053af4f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:42</sys_created_on>
+        <sys_id>4e14a5a39752211024d7b066f053af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{6365daf0-5367-4486-a7b6-790f10657967.cat.breed}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>16d2a9239752211024d7b066f053af4f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:37:15</sys_created_on>
+        <sys_id>5ad2a9239752211024d7b066f053af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:37:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{6365daf0-5367-4486-a7b6-790f10657967.cat.breed}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=16d2a9239752211024d7b066f053af4f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=16d2a9239752211024d7b066f053af4f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Demo Log Cat Breeds">a6b2692b9712211024d7b066f053afd9</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:37:15</sys_created_on>
+        <sys_id>5ad2a9239752211024d7b066f053af4a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:43:07</sys_updated_on>
+        <ui_id>6365daf0-5367-4486-a7b6-790f10657967</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5ad2a9239752211024d7b066f053af4a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5ad2a9239752211024d7b066f053af4a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5ad2a9239752211024d7b066f053af4a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a6b2692b9712211024d7b066f053afd9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a6b2692b9712211024d7b066f053afd9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a6b2692b9712211024d7b066f053afd9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a6b2692b9712211024d7b066f053afd9"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a6b2692b9712211024d7b066f053afd9"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a6b2692b9712211024d7b066f053afd9^sys_idNOT IN4c346da39752211024d7b066f053afac"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@118f50b</plan>
+        <plan_id display_value="Demo Log Cat Breeds">a6b2692b9712211024d7b066f053afd9</plan_id>
+        <snapshot>27242da39752211024d7b066f053afad</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:43:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c346da39752211024d7b066f053afac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:43:07</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Log Cat Breeds</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Logs all cat breeds</description>
+        <internal_name>demo_log_cat_breeds</internal_name>
+        <label_cache>[{"name":"6365daf0-5367-4486-a7b6-790f10657967.cat.breed","label":"1 - Demo Cat Breed (DS)➛Cat➛Breed","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Demo Log Cat Breeds</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Demo Log Cat Breeds">a6b2692b9712211024d7b066f053afd9</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:43:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27242da39752211024d7b066f053afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:43:04</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=27242da39752211024d7b066f053afad"/>
+    <sys_variable_value action="delete_multiple" query="document_key=27242da39752211024d7b066f053afad"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=27242da39752211024d7b066f053afad"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=27242da39752211024d7b066f053afad"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=27242da39752211024d7b066f053afad^sys_idNOT INaf242da39752211024d7b066f053afad"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>27242da39752211024d7b066f053afad</id>
+        <name>Demo Log Cat Breeds</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:43:04</sys_created_on>
+        <sys_id>af242da39752211024d7b066f053afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:43:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=af242da39752211024d7b066f053afad"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=27242da39752211024d7b066f053afad"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=27242da39752211024d7b066f053afad"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=27242da39752211024d7b066f053afad"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=27242da39752211024d7b066f053afad^sys_idNOT IN3b242da39752211024d7b066f053afe0,a3242da39752211024d7b066f053afdc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Demo Log Cat Breeds">27242da39752211024d7b066f053afad</flow>
+        <order>2</order>
+        <parent_ui_id>6365daf0-5367-4486-a7b6-790f10657967</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:43:05</sys_created_on>
+        <sys_id>3b242da39752211024d7b066f053afe0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:43:05</sys_updated_on>
+        <ui_id>656b6785-0d77-4c82-b68c-58542cc57f80</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3b242da39752211024d7b066f053afe0"/>
+    <sys_element_mapping action="delete_multiple" query="id=3b242da39752211024d7b066f053afe0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>3b242da39752211024d7b066f053afe0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:43:05</sys_created_on>
+        <sys_id>f7242da39752211024d7b066f053afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:43:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{6365daf0-5367-4486-a7b6-790f10657967.cat.breed}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3b242da39752211024d7b066f053afe0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3b242da39752211024d7b066f053afe0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Demo Log Cat Breeds">27242da39752211024d7b066f053afad</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:43:05</sys_created_on>
+        <sys_id>a3242da39752211024d7b066f053afdc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:43:05</sys_updated_on>
+        <ui_id>6365daf0-5367-4486-a7b6-790f10657967</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a3242da39752211024d7b066f053afdc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a3242da39752211024d7b066f053afdc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a3242da39752211024d7b066f053afdc"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=27242da39752211024d7b066f053afad"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=27242da39752211024d7b066f053afad"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=27242da39752211024d7b066f053afad"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=27242da39752211024d7b066f053afad"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_27242da39752211024d7b066f053afad"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_27242da39752211024d7b066f053afad"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_27242da39752211024d7b066f053afad"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_27242da39752211024d7b066f053afad"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>a6b2692b9712211024d7b066f053afd9</sys_id>
+        <latest_snapshot>27242da39752211024d7b066f053afad</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+</record_update>

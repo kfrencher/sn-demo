@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_action_config">
+    <sc_wizard_action_config action="INSERT_OR_UPDATE">
+        <applies_to>normal</applies_to>
+        <button_type_override>secondary</button_type_override>
+        <declarative_action display_value="demo_log_priority">e34315369762211024d7b066f053afb2</declarative_action>
+        <force_save>false</force_save>
+        <global>false</global>
+        <label_override/>
+        <name>Demo Priority Log</name>
+        <overflow>false</overflow>
+        <sys_class_name>sc_wizard_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-05 13:53:18</sys_created_on>
+        <sys_id>c7f3dd369762211024d7b066f053afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Priority Log</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_wizard_action_config_c7f3dd369762211024d7b066f053afef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-05 13:53:18</sys_updated_on>
+    </sc_wizard_action_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7f3dd369762211024d7b066f053afef"/>
+</record_update>

@@ -8,42 +8,66 @@
         <annotation>Stream cat facts</annotation>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Stream cat facts</description>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>demo_rest_stream</internal_name>
         <label_cache>[{"name":"{{step[acc3815e-4b73-4194-b291-fc4fcfbffd8a].limit}}","label":"step➛Pagination Setup step➛limit","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acc3815e-4b73-4194-b291-fc4fcfbffd8a].page}}","label":"step➛Pagination Setup step➛page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
-        <name>Demo Cat Breed Stream</name>
+        <master_snapshot>ec2429a39752211024d7b066f053af26</master_snapshot>
+        <name>Demo Cat Breed (DS)</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 03:41:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5be5e439796a11024d7b066f053af41</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Demo Cat Breed Stream</sys_name>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Demo Cat Breed (DS)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_e5be5e439796a11024d7b066f053af41</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:35:56</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=e5be5e439796a11024d7b066f053af41"/>
     <sys_variable_value action="delete_multiple" query="document_key=e5be5e439796a11024d7b066f053af41"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>e5be5e439796a11024d7b066f053af41</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:11:44</sys_created_on>
+        <sys_id>a80dd9ab9712211024d7b066f053af3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:35:17</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD900dd9ab841221101ad5525889410012":{"country":"String","country.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Country\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"breed":"String","breed.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Breed\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD900dd9ab841221101ad5525889410012.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Cat\",\"mandatory\":\"false\",\"uiUniqueId\":\"66660470-618b-4512-8e9d-ea45c0b455ef\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD900dd9ab841221101ad5525889410012\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}},"complexObject":{"country":{"$cv":{"$c":"java.lang.String","$v":""}},"breed":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Cat">940dd9ab9712211024d7b066f053af28</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=e5be5e439796a11024d7b066f053af41"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cat</field>
+        <id>e5be5e439796a11024d7b066f053af41</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:11:44</sys_created_on>
+        <sys_id>e00dd9ab9712211024d7b066f053af3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:11:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</table>
+        <value/>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ds_parsed_stream</field>
         <id>e5be5e439796a11024d7b066f053af41</id>
@@ -106,7 +130,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=e5be5e439796a11024d7b066f053af41^sys_idNOT IN263f560397d6a11024d7b066f053afbd,377fda0397d6a11024d7b066f053afc3,5857941b97d2211024d7b066f053afa8,623f960397d6a11024d7b066f053af32,a63f560397d6a11024d7b066f053afdd,ae3f560397d6a11024d7b066f053afb7,ff7fda0397d6a11024d7b066f053afbc"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</action>
+        <action display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action>
         <cid>2ee203a2-e4a0-4e36-be34-6cd78b0496eb</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -162,7 +186,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=263f560397d6a11024d7b066f053afbd"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_263f560397d6a11024d7b066f053afbd"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</action>
+        <action display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action>
         <cid>07c5d50b-51a7-43cd-910d-b4e50020ee44</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -250,7 +274,7 @@ outputs.targetObject.country = item.country;
     <sys_hub_input_scripts action="delete_multiple" query="instance=377fda0397d6a11024d7b066f053afc3"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_377fda0397d6a11024d7b066f053afc3"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</action>
+        <action display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action>
         <cid>acc3815e-4b73-4194-b291-fc4fcfbffd8a</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -265,10 +289,10 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 12:28:47</sys_created_on>
         <sys_id>5857941b97d2211024d7b066f053afa8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:35:54</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:40:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5857941b97d2211024d7b066f053afa8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -279,14 +303,38 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 12:28:47</sys_created_on>
         <sys_id>2857941b97d2211024d7b066f053afdd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:35:54</sys_updated_on>
-        <value>(function paginate(variables, pageResponse) {&#13;
+        <sys_updated_on>2023-04-25 12:40:30</sys_updated_on>
+        <value>/**&#13;
+ *  {&#13;
+ *   "current_page": 1&#13;
+ *   "first_page_url": "https://catfact.ninja/breeds?page=1",&#13;
+ *   "from": 1,&#13;
+ *   "last_page": 10,&#13;
+ *   "last_page_url": "https://catfact.ninja/breeds?page=10",&#13;
+ *   "next_page_url": "https://catfact.ninja/breeds?page=2",&#13;
+ *   "path": "https://catfact.ninja/breeds",&#13;
+ *   "per_page": "10",&#13;
+ *   "prev_page_url": null,&#13;
+ *   "to": 10,&#13;
+ *   "total": 98,&#13;
+ *   "data": [&#13;
+ *       {&#13;
+ *           "breed": "Abyssinian",&#13;
+ *           "country": "Ethiopia",&#13;
+ *           "origin": "Natural/Standard",&#13;
+ *           "coat": "Short",&#13;
+ *           "pattern": "Ticked"&#13;
+ *       },&#13;
+ *     // ****&#13;
+ *   ]&#13;
+ *  }&#13;
+ */&#13;
+(function paginate(variables, pageResponse) {&#13;
     variables.getNextPage = true;&#13;
-    variables.limit = String(10);&#13;
     variables.page = String(parseInt(variables.page) + 1);&#13;
-    if(variables.page &gt; 3) {&#13;
+    if(variables.page &gt; parseInt(variables.lastPage)) {&#13;
         variables.getNextPage = false;&#13;
     }&#13;
 })(variables, pageResponse);</value>
@@ -300,22 +348,105 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 12:28:47</sys_created_on>
         <sys_id>e857941b97d2211024d7b066f053afdd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:28:47</sys_updated_on>
-        <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"page","initial_value":"0","value_from":"script","extract_using":"JSON","extract_expression":"$."},{"name":"limit","initial_value":"10","value_from":"script","extract_using":"","extract_expression":""}]</value>
+        <sys_updated_on>2023-04-25 12:40:30</sys_updated_on>
+        <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"page","initial_value":"1","value_from":"script","extract_using":"JSON","extract_expression":"$."},{"name":"limit","initial_value":"10","value_from":"script","extract_using":"","extract_expression":""},{"name":"lastPage","initial_value":"-1","value_from":"response_body","extract_using":"JSON","extract_expression":"$.last_page"}]</value>
         <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5857941b97d2211024d7b066f053afa8^id=5857941b97d2211024d7b066f053afa8"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_737c7540e713230007a64caac2f6a9b6^id=5857941b97d2211024d7b066f053afa8"/>
     <sys_translated_text action="delete_multiple" query="documentkey=5857941b97d2211024d7b066f053afa8"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=5857941b97d2211024d7b066f053afa8"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=5857941b97d2211024d7b066f053afa8^sys_idNOT INd057941b97d2211024d7b066f053afac,e457941b97d2211024d7b066f053afd8,ec57941b97d2211024d7b066f053afaf"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5857941b97d2211024d7b066f053afa8^sys_idNOT IN3193e5639752211024d7b066f053af6d,d057941b97d2211024d7b066f053afac,e457941b97d2211024d7b066f053afd8,ec57941b97d2211024d7b066f053afaf"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=79fa13a9-870c-4e7a-9d07-ca69a9dcfc07</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3e576f83-58c8-41b8-9771-5d4127e169aa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lastPage</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>lastPage</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pagination Setup step">5857941b97d2211024d7b066f053afa8</model>
+        <model_id>5857941b97d2211024d7b066f053afa8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5857941b97d2211024d7b066f053afa8</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:40:30</sys_created_on>
+        <sys_id>3193e5639752211024d7b066f053af6d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6a3983a0-aa78-47f5-bb2e-3a75cfd7f5ce</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -374,14 +505,14 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 12:28:47</sys_created_on>
         <sys_id>d057941b97d2211024d7b066f053afac</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:29:41</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:42:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -398,7 +529,7 @@ outputs.targetObject.country = item.country;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=abb1526a-37f5-499c-b93d-847f239af224</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0a29b2f0-8ebf-4dcd-9452-2de0ba768e47</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -457,14 +588,14 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 12:28:47</sys_created_on>
         <sys_id>e457941b97d2211024d7b066f053afd8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:29:41</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:42:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -481,7 +612,7 @@ outputs.targetObject.country = item.country;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=433d848e-1bbc-4920-973f-0c2cbd76003a</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8c59aa28-d9ae-4f58-8c2b-b41fc53551d6</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -540,14 +671,14 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 12:28:47</sys_created_on>
         <sys_id>ec57941b97d2211024d7b066f053afaf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:29:41</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:42:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -561,7 +692,7 @@ outputs.targetObject.country = item.country;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5857941b97d2211024d7b066f053afa8"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5857941b97d2211024d7b066f053afa8^sys_idNOT IN6c57941b97d2211024d7b066f053afda,a057941b97d2211024d7b066f053afaf,a857941b97d2211024d7b066f053afd7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5857941b97d2211024d7b066f053afa8^sys_idNOT IN6c57941b97d2211024d7b066f053afda,7d93e5639752211024d7b066f053af6f,a057941b97d2211024d7b066f053afaf,a857941b97d2211024d7b066f053afd7"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>limit</element>
         <help/>
@@ -582,6 +713,29 @@ outputs.targetObject.country = item.country;
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-24 12:28:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>lastPage</element>
+        <help/>
+        <hint/>
+        <label>lastPage</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5857941b97d2211024d7b066f053afa8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:40:30</sys_created_on>
+        <sys_id>7d93e5639752211024d7b066f053af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:40:30</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -632,7 +786,7 @@ outputs.targetObject.country = item.country;
         <url_target/>
     </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</action>
+        <action display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action>
         <cid>40b0e1b0-9499-44e2-b9af-446dc55da1c1</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -688,7 +842,7 @@ outputs.targetObject.country = item.country;
     <sys_hub_input_scripts action="delete_multiple" query="instance=623f960397d6a11024d7b066f053af32"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_623f960397d6a11024d7b066f053af32"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</action>
+        <action display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action>
         <cid>b7a4fc9f-e237-44ff-b198-20e1b492005f</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1136,7 +1290,7 @@ outputs.targetObject.country = item.country;
         <url_target/>
     </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</action>
+        <action display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action>
         <cid>1af57644-0f4b-464c-9c18-fce057b1f633</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1164,7 +1318,7 @@ outputs.targetObject.country = item.country;
     <sys_hub_input_scripts action="delete_multiple" query="instance=ae3f560397d6a11024d7b066f053afb7"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ae3f560397d6a11024d7b066f053afb7"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</action>
+        <action display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action>
         <cid>3d8fcf3d-4f7c-49a7-bfde-f6cd6696632e</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1257,7 +1411,7 @@ outputs.targetObject.country = item.country;
     <sys_hub_input_scripts action="delete_multiple" query="instance=ff7fda0397d6a11024d7b066f053afbc"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ff7fda0397d6a11024d7b066f053afbc"/>
     <sys_hub_action_input action="delete_multiple" query="model=e5be5e439796a11024d7b066f053af41"/>
-    <sys_hub_action_output action="delete_multiple" query="model=e5be5e439796a11024d7b066f053af41^sys_idNOT IN363f960397d6a11024d7b066f053af53,3a3f960397d6a11024d7b066f053af45,723f960397d6a11024d7b066f053af42,7e3f960397d6a11024d7b066f053af4f,b23f960397d6a11024d7b066f053af5a,b63f960397d6a11024d7b066f053af4c,ba3f960397d6a11024d7b066f053af3e,c88fda0397d6a11024d7b066f053afda,ea3f960397d6a11024d7b066f053af37,fa3f960397d6a11024d7b066f053af56,fe3f960397d6a11024d7b066f053af48"/>
+    <sys_hub_action_output action="delete_multiple" query="model=e5be5e439796a11024d7b066f053af41^sys_idNOT IN363f960397d6a11024d7b066f053af53,3a3f960397d6a11024d7b066f053af45,723f960397d6a11024d7b066f053af42,7e3f960397d6a11024d7b066f053af4f,940dd9ab9712211024d7b066f053af28,b23f960397d6a11024d7b066f053af5a,b63f960397d6a11024d7b066f053af4c,ba3f960397d6a11024d7b066f053af3e,c88fda0397d6a11024d7b066f053afda,ea3f960397d6a11024d7b066f053af37,fa3f960397d6a11024d7b066f053af56,fe3f960397d6a11024d7b066f053af48"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1300,7 +1454,7 @@ outputs.targetObject.country = item.country;
         <label>error_message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -1323,14 +1477,14 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 03:44:07</sys_created_on>
         <sys_id>363f960397d6a11024d7b066f053af53</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:35:56</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:42:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1387,7 +1541,7 @@ outputs.targetObject.country = item.country;
         <label>ds_count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -1474,7 +1628,7 @@ outputs.targetObject.country = item.country;
         <label>count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -1561,7 +1715,7 @@ outputs.targetObject.country = item.country;
         <label>response_headers</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -1584,14 +1738,14 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 03:44:07</sys_created_on>
         <sys_id>7e3f960397d6a11024d7b066f053af4f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:35:56</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:42:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1606,6 +1760,93 @@ outputs.targetObject.country = item.country;
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7e3f960397d6a11024d7b066f053af4f"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7e3f960397d6a11024d7b066f053af4f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD900dd9ab841221101ad5525889410012,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=66660470-618b-4512-8e9d-ea45c0b455ef</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cat</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Cat</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
+        <model_id>e5be5e439796a11024d7b066f053af41</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
+        <next_element/>
+        <order>12</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:11:43</sys_created_on>
+        <sys_id>940dd9ab9712211024d7b066f053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:11:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=940dd9ab9712211024d7b066f053af28"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=940dd9ab9712211024d7b066f053af28"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1648,7 +1889,7 @@ outputs.targetObject.country = item.country;
         <label>error_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -1671,14 +1912,14 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 03:44:07</sys_created_on>
         <sys_id>b23f960397d6a11024d7b066f053af5a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:35:56</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:42:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1735,7 +1976,7 @@ outputs.targetObject.country = item.country;
         <label>ds_output_page_variables</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -1822,7 +2063,7 @@ outputs.targetObject.country = item.country;
         <label>Page Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -1909,7 +2150,7 @@ outputs.targetObject.country = item.country;
         <label>ds_parsed_stream</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -1932,14 +2173,14 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 03:45:17</sys_created_on>
         <sys_id>c88fda0397d6a11024d7b066f053afda</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:35:56</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:42:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1996,7 +2237,7 @@ outputs.targetObject.country = item.country;
         <label>Item Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -2083,7 +2324,7 @@ outputs.targetObject.country = item.country;
         <label>status_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -2106,14 +2347,14 @@ outputs.targetObject.country = item.country;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 03:44:07</sys_created_on>
         <sys_id>fa3f960397d6a11024d7b066f053af56</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 12:35:56</sys_updated_on>
+        <sys_updated_on>2023-04-25 12:42:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2170,7 +2411,7 @@ outputs.targetObject.country = item.country;
         <label>item</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</model>
+        <model display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</model>
         <model_id>e5be5e439796a11024d7b066f053af41</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
@@ -2218,7 +2459,7 @@ outputs.targetObject.country = item.country;
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=e5be5e439796a11024d7b066f053af41"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=e5be5e439796a11024d7b066f053af41^sys_idNOT INfa3f960397d6a11024d7b066f053af6e"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Demo Cat Breed Stream">e5be5e439796a11024d7b066f053af41</action_type_id>
+        <action_type_id display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 03:44:07</sys_created_on>
         <sys_id>fa3f960397d6a11024d7b066f053af6e</sys_id>
@@ -2229,7 +2470,30 @@ outputs.targetObject.country = item.country;
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=fa3f960397d6a11024d7b066f053af6e"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e5be5e439796a11024d7b066f053af41"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_e5be5e439796a11024d7b066f053af41"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41^sys_idNOT IN323f960397d6a11024d7b066f053af56,363f960397d6a11024d7b066f053af48,7a3f960397d6a11024d7b066f053af52,7e3f960397d6a11024d7b066f053af44,b23f960397d6a11024d7b066f053af4f,b63f960397d6a11024d7b066f053af41,ba3f960397d6a11024d7b066f053af3d,be3f960397d6a11024d7b066f053af5c,c48fda0397d6a11024d7b066f053afdd,f63f960397d6a11024d7b066f053af59,fa3f960397d6a11024d7b066f053af4b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41^sys_idNOT IN2c0dd9ab9712211024d7b066f053af2b,323f960397d6a11024d7b066f053af56,363f960397d6a11024d7b066f053af48,7a3f960397d6a11024d7b066f053af52,7e3f960397d6a11024d7b066f053af44,b23f960397d6a11024d7b066f053af4f,b63f960397d6a11024d7b066f053af41,ba3f960397d6a11024d7b066f053af3d,be3f960397d6a11024d7b066f053af5c,c48fda0397d6a11024d7b066f053afdd,f63f960397d6a11024d7b066f053af59,fa3f960397d6a11024d7b066f053af4b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cat</element>
+        <help/>
+        <hint/>
+        <label>Cat</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:11:44</sys_created_on>
+        <sys_id>2c0dd9ab9712211024d7b066f053af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:11:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>error_message</element>
         <help/>
@@ -2484,5 +2748,2875 @@ outputs.targetObject.country = item.country;
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_e5be5e439796a11024d7b066f053af41"/>
-    <sys_hub_action_plan action="delete_multiple" query="action_id=e5be5e439796a11024d7b066f053af41"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=e5be5e439796a11024d7b066f053af41^sys_idNOT IN8224a9a39752211024d7b066f053af2f"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8224a9a39752211024d7b066f053af2f","name":"plan","plan_signature":null}}</plan>
+        <snapshot>cd2429a39752211024d7b066f053aff6</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8224a9a39752211024d7b066f053af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:58</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template>DATASTREAM</action_template>
+        <annotation>Stream cat facts</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Stream cat facts</description>
+        <internal_name>demo_cat_breed_ds</internal_name>
+        <label_cache>[{"name":"{{step[acc3815e-4b73-4194-b291-fc4fcfbffd8a].limit}}","label":"step➛Pagination Setup step➛limit","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acc3815e-4b73-4194-b291-fc4fcfbffd8a].page}}","label":"step➛Pagination Setup step➛page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Demo Cat Breed (DS)</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Demo Cat Breed (DS)">e5be5e439796a11024d7b066f053af41</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec2429a39752211024d7b066f053af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:52</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ec2429a39752211024d7b066f053af26"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ec2429a39752211024d7b066f053af26"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ec2429a39752211024d7b066f053af26</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>012429a39752211024d7b066f053aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <value/>
+        <variable display_value="ds_count">742429a39752211024d7b066f053af8f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ec2429a39752211024d7b066f053af26</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>092429a39752211024d7b066f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <value/>
+        <variable display_value="count">fc2429a39752211024d7b066f053af8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ec2429a39752211024d7b066f053af26</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>452429a39752211024d7b066f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDbc2429a355522110de0d1ce39eae8281":{"country":"String","country.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Country\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"breed":"String","breed.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Breed\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDbc2429a355522110de0d1ce39eae8281.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDbc2429a355522110de0d1ce39eae8281\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Cat\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"66660470-618b-4512-8e9d-ea45c0b455ef\"}"}},"complexObject":{"country":{"$cv":{"$c":"java.lang.String","$v":""}},"breed":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Cat">0d2429a39752211024d7b066f053afb6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ec2429a39752211024d7b066f053af26</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>812429a39752211024d7b066f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <value/>
+        <variable display_value="Item Count">f42429a39752211024d7b066f053af84</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ec2429a39752211024d7b066f053af26</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>c12429a39752211024d7b066f053aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <value/>
+        <variable display_value="Page Count">782429a39752211024d7b066f053af88</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ec2429a39752211024d7b066f053af26"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cat</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>c52429a39752211024d7b066f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>count</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>8d2429a39752211024d7b066f053afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ds_count</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>892429a39752211024d7b066f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ds_parsed_stream</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>052429a39752211024d7b066f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value>{{step[07c5d50b-51a7-43cd-910d-b4e50020ee44].parsed_stream}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_code</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>4d2429a39752211024d7b066f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value>{{step[b7a4fc9f-e237-44ff-b198-20e1b492005f].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_message</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>452429a39752211024d7b066f053afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value>{{step[b7a4fc9f-e237-44ff-b198-20e1b492005f].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>item_count</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>092429a39752211024d7b066f053afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>page_count</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>012429a39752211024d7b066f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_headers</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>412429a39752211024d7b066f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value>{{step[b7a4fc9f-e237-44ff-b198-20e1b492005f].response_headers}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>ec2429a39752211024d7b066f053af26</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>c92429a39752211024d7b066f053afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</table>
+        <value>{{step[b7a4fc9f-e237-44ff-b198-20e1b492005f].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=ec2429a39752211024d7b066f053af26^sys_idNOT IN202429a39752211024d7b066f053af2b,282429a39752211024d7b066f053af2f,302429a39752211024d7b066f053af56,302429a39752211024d7b066f053af70,302429a39752211024d7b066f053af7c,3c2429a39752211024d7b066f053af75,702429a39752211024d7b066f053af36"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</action>
+        <cid>1af57644-0f4b-464c-9c18-fce057b1f633</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Action Preprocessing</label>
+        <order>1</order>
+        <outputs/>
+        <section>DATASTREAM_PREPROCESS</section>
+        <step_type display_value="Action Preprocessing">235a47afcbfa2300a2fcb895634c9c04</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:52</sys_created_on>
+        <sys_id>202429a39752211024d7b066f053af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:52</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=202429a39752211024d7b066f053af2b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_235a47afcbfa2300a2fcb895634c9c04^id=202429a39752211024d7b066f053af2b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=202429a39752211024d7b066f053af2b"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=202429a39752211024d7b066f053af2b"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=202429a39752211024d7b066f053af2b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=202429a39752211024d7b066f053af2b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_202429a39752211024d7b066f053af2b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</action>
+        <cid>2ee203a2-e4a0-4e36-be34-6cd78b0496eb</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Request</label>
+        <order>2</order>
+        <outputs/>
+        <section>DATASTREAM_REQUEST</section>
+        <step_type display_value="Request">21ba87afcbfa2300a2fcb895634c9c3d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:52</sys_created_on>
+        <sys_id>282429a39752211024d7b066f053af2f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:52</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=282429a39752211024d7b066f053af2f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>282429a39752211024d7b066f053af2f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:52</sys_created_on>
+        <sys_id>2c2429a39752211024d7b066f053af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:52</sys_updated_on>
+        <value>rest_step</value>
+        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>282429a39752211024d7b066f053af2f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:52</sys_created_on>
+        <sys_id>642429a39752211024d7b066f053af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:52</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_21ba87afcbfa2300a2fcb895634c9c3d^id=282429a39752211024d7b066f053af2f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=282429a39752211024d7b066f053af2f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=282429a39752211024d7b066f053af2f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=282429a39752211024d7b066f053af2f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=282429a39752211024d7b066f053af2f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_282429a39752211024d7b066f053af2f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</action>
+        <cid>b7a4fc9f-e237-44ff-b198-20e1b492005f</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>4</order>
+        <outputs/>
+        <section>DATASTREAM_REQUEST</section>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>302429a39752211024d7b066f053af56</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=302429a39752211024d7b066f053af56"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>302429a39752211024d7b066f053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>382429a39752211024d7b066f053af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>3c2429a39752211024d7b066f053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>742429a39752211024d7b066f053af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>782429a39752211024d7b066f053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>7c2429a39752211024d7b066f053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b02429a39752211024d7b066f053af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b42429a39752211024d7b066f053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>/breeds</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b82429a39752211024d7b066f053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>f02429a39752211024d7b066f053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>a9e454d39752211024d7b066f053af10</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>f42429a39752211024d7b066f053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af56</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>fc2429a39752211024d7b066f053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>https://catfact.ninja</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_302429a39752211024d7b066f053af56^id=302429a39752211024d7b066f053af56"/>
+    <sys_element_mapping action="delete_multiple" query="id=302429a39752211024d7b066f053af56"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>fc2429a39752211024d7b066f053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>3c2429a39752211024d7b066f053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>782429a39752211024d7b066f053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>302429a39752211024d7b066f053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>742429a39752211024d7b066f053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b42429a39752211024d7b066f053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>f42429a39752211024d7b066f053af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>7c2429a39752211024d7b066f053af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_streaming</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>342429a39752211024d7b066f053af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b02429a39752211024d7b066f053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"limit","value":"{{step[acc3815e-4b73-4194-b291-fc4fcfbffd8a].limit}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"page","value":"{{step[acc3815e-4b73-4194-b291-fc4fcfbffd8a].page}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>f02429a39752211024d7b066f053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>302429a39752211024d7b066f053af56</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b82429a39752211024d7b066f053af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=302429a39752211024d7b066f053af56"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=302429a39752211024d7b066f053af56"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=302429a39752211024d7b066f053af56^sys_idNOT IN382429a39752211024d7b066f053af5d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=bfa60f8f-bac8-4543-98bb-04d3ed9a49e9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">302429a39752211024d7b066f053af56</model>
+        <model_id>302429a39752211024d7b066f053af56</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_302429a39752211024d7b066f053af56</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>382429a39752211024d7b066f053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=302429a39752211024d7b066f053af56"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_302429a39752211024d7b066f053af56^sys_idNOT INf42429a39752211024d7b066f053af60"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_302429a39752211024d7b066f053af56</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>f42429a39752211024d7b066f053af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</action>
+        <cid>40b0e1b0-9499-44e2-b9af-446dc55da1c1</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Parsing</label>
+        <order>5</order>
+        <outputs/>
+        <section>DATASTREAM_PARSING</section>
+        <step_type display_value="Parsing">1f1b8bafcbfa2300a2fcb895634c9c33</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>302429a39752211024d7b066f053af70</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=302429a39752211024d7b066f053af70"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af70</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b82429a39752211024d7b066f053af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>json_splitter</value>
+        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af70</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>f42429a39752211024d7b066f053af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>script_parser</value>
+        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_1f1b8bafcbfa2300a2fcb895634c9c33^id=302429a39752211024d7b066f053af70"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=302429a39752211024d7b066f053af70"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=302429a39752211024d7b066f053af70"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=302429a39752211024d7b066f053af70"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=302429a39752211024d7b066f053af70"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_302429a39752211024d7b066f053af70"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</action>
+        <cid>07c5d50b-51a7-43cd-910d-b4e50020ee44</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Script Parser step</label>
+        <order>7</order>
+        <outputs/>
+        <section>DATASTREAM_PARSING</section>
+        <step_type display_value="Script Parser">e83b26f68723230057a8ed4d87cb0b24</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>302429a39752211024d7b066f053af7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=302429a39752211024d7b066f053af7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>302429a39752211024d7b066f053af7c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>f82429a39752211024d7b066f053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>(function parse(inputs, outputs) {
+
+// Source item string is available in inputs.sourceItem.
+// Generate output by setting fields of outputs.targetObject.
+// 
+// The structure of outputs.targetObject corresponds to the
+// structure defined in the Data Stream Action output.
+// 
+// Optionally skip an item in the stream by setting
+// outputs.state = 'SKIP'
+//
+// JSON Example:
+// var item = JSON.parse(inputs.sourceItem);
+// outputs.targetObject.ffName = item.firstName;
+// outputs.targetObject.llName = item.lastName;
+// outputs.targetObject.address.home.city = item.address.home.city;
+var item = JSON.parse(inputs.sourceItem);
+outputs.targetObject.breed = item.breed;
+outputs.targetObject.country = item.country;
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=302429a39752211024d7b066f053af7c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>302429a39752211024d7b066f053af7c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>782429a39752211024d7b066f053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>split_stream</field>
+        <id>302429a39752211024d7b066f053af7c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b42429a39752211024d7b066f053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
+        <value>{{step[3d8fcf3d-4f7c-49a7-bfde-f6cd6696632e].split_stream}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=302429a39752211024d7b066f053af7c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=302429a39752211024d7b066f053af7c"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=302429a39752211024d7b066f053af7c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=302429a39752211024d7b066f053af7c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_302429a39752211024d7b066f053af7c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</action>
+        <cid>3d8fcf3d-4f7c-49a7-bfde-f6cd6696632e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Splitter step</label>
+        <order>6</order>
+        <outputs/>
+        <section>DATASTREAM_PARSING</section>
+        <step_type display_value="Splitter">f4fe7504e713230007a64caac2f6a9d0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>3c2429a39752211024d7b066f053af75</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3c2429a39752211024d7b066f053af75"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3c2429a39752211024d7b066f053af75</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>7c2429a39752211024d7b066f053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>$.data</value>
+        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3c2429a39752211024d7b066f053af75</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b82429a39752211024d7b066f053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>JSON</value>
+        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3c2429a39752211024d7b066f053af75"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>item_path</field>
+        <id>3c2429a39752211024d7b066f053af75</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>382429a39752211024d7b066f053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>split_using</field>
+        <id>3c2429a39752211024d7b066f053af75</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b02429a39752211024d7b066f053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stream</field>
+        <id>3c2429a39752211024d7b066f053af75</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>742429a39752211024d7b066f053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
+        <value>{{step[b7a4fc9f-e237-44ff-b198-20e1b492005f].response_stream}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c2429a39752211024d7b066f053af75"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=3c2429a39752211024d7b066f053af75"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3c2429a39752211024d7b066f053af75"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3c2429a39752211024d7b066f053af75"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_3c2429a39752211024d7b066f053af75"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</action>
+        <cid>acc3815e-4b73-4194-b291-fc4fcfbffd8a</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Pagination Setup step</label>
+        <order>3</order>
+        <outputs/>
+        <section>DATASTREAM_REQUEST</section>
+        <step_type display_value="Pagination Setup">737c7540e713230007a64caac2f6a9b6</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:52</sys_created_on>
+        <sys_id>702429a39752211024d7b066f053af36</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=702429a39752211024d7b066f053af36"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>702429a39752211024d7b066f053af36</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>302429a39752211024d7b066f053af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"page","initial_value":"1","value_from":"script","extract_using":"JSON","extract_expression":"$."},{"name":"limit","initial_value":"10","value_from":"script","extract_using":"","extract_expression":""},{"name":"lastPage","initial_value":"-1","value_from":"response_body","extract_using":"JSON","extract_expression":"$.last_page"}]</value>
+        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>702429a39752211024d7b066f053af36</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>7c2429a39752211024d7b066f053af53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <value>/**&#13;
+ *  {&#13;
+ *   "current_page": 1&#13;
+ *   "first_page_url": "https://catfact.ninja/breeds?page=1",&#13;
+ *   "from": 1,&#13;
+ *   "last_page": 10,&#13;
+ *   "last_page_url": "https://catfact.ninja/breeds?page=10",&#13;
+ *   "next_page_url": "https://catfact.ninja/breeds?page=2",&#13;
+ *   "path": "https://catfact.ninja/breeds",&#13;
+ *   "per_page": "10",&#13;
+ *   "prev_page_url": null,&#13;
+ *   "to": 10,&#13;
+ *   "total": 98,&#13;
+ *   "data": [&#13;
+ *       {&#13;
+ *           "breed": "Abyssinian",&#13;
+ *           "country": "Ethiopia",&#13;
+ *           "origin": "Natural/Standard",&#13;
+ *           "coat": "Short",&#13;
+ *           "pattern": "Ticked"&#13;
+ *       },&#13;
+ *     // ****&#13;
+ *   ]&#13;
+ *  }&#13;
+ */&#13;
+(function paginate(variables, pageResponse) {&#13;
+    variables.getNextPage = true;&#13;
+    variables.page = String(parseInt(variables.page) + 1);&#13;
+    if(variables.page &gt; parseInt(variables.lastPage)) {&#13;
+        variables.getNextPage = false;&#13;
+    }&#13;
+})(variables, pageResponse);</value>
+        <variable display_value="Pagination Script">f68d35c0e713230007a64caac2f6a959</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36^id=702429a39752211024d7b066f053af36"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_737c7540e713230007a64caac2f6a9b6^id=702429a39752211024d7b066f053af36"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=702429a39752211024d7b066f053af36"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=702429a39752211024d7b066f053af36"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=702429a39752211024d7b066f053af36^sys_idNOT IN302429a39752211024d7b066f053af49,302429a39752211024d7b066f053af4c,302429a39752211024d7b066f053af4f,702429a39752211024d7b066f053af45"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8c59aa28-d9ae-4f58-8c2b-b41fc53551d6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>page</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>page</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pagination Setup step">702429a39752211024d7b066f053af36</model>
+        <model_id>702429a39752211024d7b066f053af36</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>302429a39752211024d7b066f053af49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0a29b2f0-8ebf-4dcd-9452-2de0ba768e47</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>limit</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>limit</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pagination Setup step">702429a39752211024d7b066f053af36</model>
+        <model_id>702429a39752211024d7b066f053af36</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>302429a39752211024d7b066f053af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3e576f83-58c8-41b8-9771-5d4127e169aa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lastPage</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>lastPage</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pagination Setup step">702429a39752211024d7b066f053af36</model>
+        <model_id>702429a39752211024d7b066f053af36</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>302429a39752211024d7b066f053af4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6a3983a0-aa78-47f5-bb2e-3a75cfd7f5ce</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>getNextPage</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>getNextPage</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pagination Setup step">702429a39752211024d7b066f053af36</model>
+        <model_id>702429a39752211024d7b066f053af36</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:52</sys_created_on>
+        <sys_id>702429a39752211024d7b066f053af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=702429a39752211024d7b066f053af36"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36^sys_idNOT IN742429a39752211024d7b066f053af48,742429a39752211024d7b066f053af4b,742429a39752211024d7b066f053af4e,742429a39752211024d7b066f053af51"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>getNextPage</element>
+        <help/>
+        <hint/>
+        <label>getNextPage</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>742429a39752211024d7b066f053af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>page</element>
+        <help/>
+        <hint/>
+        <label>page</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>742429a39752211024d7b066f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>limit</element>
+        <help/>
+        <hint/>
+        <label>limit</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>742429a39752211024d7b066f053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>lastPage</element>
+        <help/>
+        <hint/>
+        <label>lastPage</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_702429a39752211024d7b066f053af36</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>742429a39752211024d7b066f053af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=ec2429a39752211024d7b066f053af26"/>
+    <sys_hub_action_output action="delete_multiple" query="model=ec2429a39752211024d7b066f053af26^sys_idNOT IN0d2429a39752211024d7b066f053afb6,412429a39752211024d7b066f053af96,492429a39752211024d7b066f053afa3,4d2429a39752211024d7b066f053af9c,742429a39752211024d7b066f053af8f,782429a39752211024d7b066f053af88,c12429a39752211024d7b066f053afa0,c52429a39752211024d7b066f053af99,c92429a39752211024d7b066f053af92,cd2429a39752211024d7b066f053afa6,f42429a39752211024d7b066f053af84,fc2429a39752211024d7b066f053af8b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDbc2429a355522110de0d1ce39eae8281,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=66660470-618b-4512-8e9d-ea45c0b455ef</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cat</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Cat</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>12</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>0d2429a39752211024d7b066f053afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0d2429a39752211024d7b066f053afb6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0d2429a39752211024d7b066f053afb6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ds_output_page_variables</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ds_output_page_variables</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>412429a39752211024d7b066f053af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=412429a39752211024d7b066f053af96"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=412429a39752211024d7b066f053af96"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_code</element>
+        <element_prototype display_value="Error Code" element="error_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">d1744b7347622200b4fad7527c9a7105</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error_code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>10</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>492429a39752211024d7b066f053afa3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=492429a39752211024d7b066f053afa3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=492429a39752211024d7b066f053afa3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_message</element>
+        <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">26a48b7347622200b4fad7527c9a71c0</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error_message</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>4d2429a39752211024d7b066f053af9c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4d2429a39752211024d7b066f053af9c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4d2429a39752211024d7b066f053af9c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ds_count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>ds_count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>742429a39752211024d7b066f053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=742429a39752211024d7b066f053af8f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=742429a39752211024d7b066f053af8f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,visible_in_ad=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>page_count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Page Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>782429a39752211024d7b066f053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=782429a39752211024d7b066f053af88"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=782429a39752211024d7b066f053af88"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status_code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>9</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>c12429a39752211024d7b066f053afa0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c12429a39752211024d7b066f053afa0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c12429a39752211024d7b066f053afa0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_headers</element>
+        <element_prototype display_value="Response Headers" element="response_headers" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">09d4cb7347622200b4fad7527c9a71e3</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_headers</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>c52429a39752211024d7b066f053af99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c52429a39752211024d7b066f053af99"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c52429a39752211024d7b066f053af99"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>item</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>item</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>c92429a39752211024d7b066f053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c92429a39752211024d7b066f053af92"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c92429a39752211024d7b066f053af92"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ds_parsed_stream</element>
+        <element_prototype display_value="Parsed Stream" element="parsed_stream" name="var__m_sys_flow_step_definition_output_e83b26f68723230057a8ed4d87cb0b24">b26ca2ba8763230057a8ed4d87cb0b5b</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ds_parsed_stream</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>11</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>cd2429a39752211024d7b066f053afa6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cd2429a39752211024d7b066f053afa6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cd2429a39752211024d7b066f053afa6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,visible_in_ad=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>item_count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Item Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>f42429a39752211024d7b066f053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f42429a39752211024d7b066f053af84"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f42429a39752211024d7b066f053af84"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</model>
+        <model_id>ec2429a39752211024d7b066f053af26</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>fc2429a39752211024d7b066f053af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fc2429a39752211024d7b066f053af8b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fc2429a39752211024d7b066f053af8b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ec2429a39752211024d7b066f053af26"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=ec2429a39752211024d7b066f053af26^sys_idNOT IN092429a39752211024d7b066f053aff6"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Demo Cat Breed (DS)">ec2429a39752211024d7b066f053af26</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>092429a39752211024d7b066f053aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=092429a39752211024d7b066f053aff6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ec2429a39752211024d7b066f053af26"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_ec2429a39752211024d7b066f053af26"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26^sys_idNOT IN012429a39752211024d7b066f053af92,052429a39752211024d7b066f053afa6,092429a39752211024d7b066f053af9f,092429a39752211024d7b066f053afb9,0d2429a39752211024d7b066f053af98,342429a39752211024d7b066f053af8b,412429a39752211024d7b066f053afb6,812429a39752211024d7b066f053af9c,852429a39752211024d7b066f053af95,8d2429a39752211024d7b066f053afa2,b82429a39752211024d7b066f053af8e,bc2429a39752211024d7b066f053af87"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ds_count</element>
+        <help/>
+        <hint/>
+        <label>ds_count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>012429a39752211024d7b066f053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_code</element>
+        <help/>
+        <hint/>
+        <label>error_code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>052429a39752211024d7b066f053afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_message</element>
+        <help/>
+        <hint/>
+        <label>error_message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>092429a39752211024d7b066f053af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cat</element>
+        <help/>
+        <hint/>
+        <label>Cat</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>092429a39752211024d7b066f053afb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ds_output_page_variables</element>
+        <help/>
+        <hint/>
+        <label>ds_output_page_variables</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>0d2429a39752211024d7b066f053af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>page_count</element>
+        <help/>
+        <hint/>
+        <label>Page Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>342429a39752211024d7b066f053af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ds_parsed_stream</element>
+        <help/>
+        <hint/>
+        <label>ds_parsed_stream</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>412429a39752211024d7b066f053afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response_headers</element>
+        <help/>
+        <hint/>
+        <label>response_headers</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>812429a39752211024d7b066f053af9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>item</element>
+        <help/>
+        <hint/>
+        <label>item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>852429a39752211024d7b066f053af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status_code</element>
+        <help/>
+        <hint/>
+        <label>status_code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:54</sys_created_on>
+        <sys_id>8d2429a39752211024d7b066f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>count</element>
+        <help/>
+        <hint/>
+        <label>count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>b82429a39752211024d7b066f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>item_count</element>
+        <help/>
+        <hint/>
+        <label>Item Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 12:42:53</sys_created_on>
+        <sys_id>bc2429a39752211024d7b066f053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 12:42:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_ec2429a39752211024d7b066f053af26"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>e5be5e439796a11024d7b066f053af41</sys_id>
+        <latest_snapshot>ec2429a39752211024d7b066f053af26</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip</compiler_build>
+    </sys_hub_action_type_definition>
 </record_update>

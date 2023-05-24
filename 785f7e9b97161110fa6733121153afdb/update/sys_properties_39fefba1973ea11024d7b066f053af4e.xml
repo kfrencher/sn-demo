@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>SN Task activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_53417_demo_sn_task_activity.fields</name>
+        <read_roles/>
+        <suffix>x_53417_demo</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-14 15:22:53</sys_created_on>
+        <sys_id>39fefba1973ea11024d7b066f053af4e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>glide.ui.x_53417_demo_sn_task_activity.fields</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_properties_39fefba1973ea11024d7b066f053af4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-14 15:23:55</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,state,priority,work_notes,comments,approval_history,approval</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=39fefba1973ea11024d7b066f053af4e"/>
+</record_update>
