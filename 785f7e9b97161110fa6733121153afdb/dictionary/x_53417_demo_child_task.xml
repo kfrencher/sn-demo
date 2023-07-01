@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c758bf819703211024d7b066f053afdc" label="Child Task" max_length="40" name="x_53417_demo_child_task" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent" mandatory="true" max_length="32" name="parent" reference="x_53417_demo_task" reference_cascade_rule="delete" type="reference"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

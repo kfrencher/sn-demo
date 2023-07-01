@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>500</order>
+        <sc_cat_item display_value="Demo Task">8f536d329747611024d7b066f053afac</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-30 11:53:27</sys_created_on>
+        <sys_id>f57861329747611024d7b066f053af42</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Credentials.Demo Task</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>io_set_item_f57861329747611024d7b066f053af42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-30 12:29:49</sys_updated_on>
+        <variable_set display_value="Credentials">84b3e5729747611024d7b066f053af43</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>io_set_item_f57861329747611024d7b066f053af42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>500</order><sc_cat_item display_value="Demo Task">8f536d329747611024d7b066f053afac</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-30 11:53:27</sys_created_on><sys_id>f57861329747611024d7b066f053af42</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Credentials.Demo Task</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>io_set_item_f57861329747611024d7b066f053af42</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-30 12:29:49</sys_updated_on><variable_set display_value="Credentials">84b3e5729747611024d7b066f053af43</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-1686528961</payload_hash>
+        <record_name>Credentials.Demo Task</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-30 12:29:49</sys_created_on>
+        <sys_id>2ec0f5be9747611024d7b066f053af19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1886ca2cfcb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-30 12:29:49</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>e2c0f5be95476110880347a0577a4f19</update_guid>
+        <update_guid_history>e2c0f5be95476110880347a0577a4f19:-1686528961,fd7861b6b7476110f24a58590e35f92f:-141461053</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Credentials.Demo Task">f6f479729787611024d7b066f053afb1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-30 12:48:07</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>38e665b75a83456b8cab173d71a156c1</sys_id>
+        <sys_metadata>f57861329747611024d7b066f053af42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credentials.Demo Task</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>io_set_item_f57861329747611024d7b066f053af42</sys_update_name>
+        <sys_update_version display_value="io_set_item_f57861329747611024d7b066f053af42">2ec0f5be9747611024d7b066f053af19</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-30 12:48:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

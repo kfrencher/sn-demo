@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard">
+    <sys_wizard action="INSERT_OR_UPDATE">
+        <back_panel/>
+        <intercepts>x_53417_demo_credential.do</intercepts>
+        <name>Credential Type</name>
+        <next_panel/>
+        <question>What type of credential are you creating?</question>
+        <sys_class_name>sys_wizard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 06:05:14</sys_created_on>
+        <sys_id>6142331997cf211024d7b066f053af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credential Type</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_wizard_6142331997cf211024d7b066f053af97</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 06:05:14</sys_updated_on>
+    </sys_wizard>
+</record_update>

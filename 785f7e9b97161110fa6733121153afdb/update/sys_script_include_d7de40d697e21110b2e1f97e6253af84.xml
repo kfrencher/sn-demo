@@ -10,6 +10,16 @@
         <script><![CDATA[const Utils = {
 
     /**
+     * @returns {GlideChoiceList}
+     */
+    getJobTitles: function() {
+        return ['Doctor', 'Nurse', 'Physician Assistant', 'Phlebotemist'].reduce(function( /** @type {GlideChoiceList} **/ choiceList, title) {
+            choiceList.add(title, title);
+            return choiceList;
+        }, new GlideChoiceList());
+    },
+
+    /**
      * Returns a {@link GlideDateTime} using the passed in date string in
      * the format of YYYY/MM/dd
      * @param {string} dateString in the format of YYYY/MM/dd
@@ -27,14 +37,14 @@
      * @param {GlideDateTime} end 
      * @returns {GlideDateTime}
      */
-    randomDateBetween: function (start, end) {
-        const startMillis = start.getNumericValue()
+    randomDateBetween: function(start, end) {
+        const startMillis = start.getNumericValue();
         const endMillis = end.getNumericValue();
         const range = endMillis - startMillis;
         const offset = Math.floor(Math.random() * range);
         const dateInMillis = startMillis + offset;
         const randomDateTime = new GlideDateTime();
-        randomDateTime.setValue(dateInMillis)
+        randomDateTime.setValue(dateInMillis);
         return randomDateTime;
     }
 };]]></script>
@@ -42,10 +52,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-16 23:22:28</sys_created_on>
         <sys_id>d7de40d697e21110b2e1f97e6253af84</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Utils</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_script_include_d7de40d697e21110b2e1f97e6253af84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-01 14:44:12</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Demo Task">8f536d329747611024d7b066f053afac</sc_cat_item>
+        <sc_category display_value="Services">904088b8975b1110b2e1f97e6253afcc</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-30 11:31:08</sys_created_on>
+        <sys_id>cf53ad329747611024d7b066f053afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Demo Task</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_cat_item_category_cf53ad329747611024d7b066f053afee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-30 11:31:08</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

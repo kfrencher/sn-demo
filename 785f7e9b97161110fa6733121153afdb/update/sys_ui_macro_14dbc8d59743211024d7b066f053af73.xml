@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>Called from the Parent Breadcrumbs formatter to display the hierarchy of parent records.</description>
+        <media_type/>
+        <name>parent_crumbs</name>
+        <scoped_name>x_53417_demo_parent_crumbs</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-25 13:17:47</sys_created_on>
+        <sys_id>14dbc8d59743211024d7b066f053af73</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>parent_crumbs</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ui_macro_14dbc8d59743211024d7b066f053af73</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-25 13:38:12</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <j2:if test="$[!current.isNewRecord() ${AND} !current.parent.nil() ${AND} current.parent.getRefRecord().isValidRecord()]">
+        <g2:evaluate var="jvar_crumbs">
+            //get real glide record
+            var gr = new GlideRecord(current.getTableName());
+            gr.get(current.getUniqueValue());
+
+            //parent crumb functions - script include
+            var pc = new x_53417_demo.ParentCrumbs(gr);
+            var crumbs = pc.getCrumbs();
+            crumbs;
+        </g2:evaluate>
+        <j2:if test="$[!jvar_crumbs.nil()]">
+            <td class="breadcrumb_container">
+				<div style="overflow: visible">
+					<label for="" dir="ltr" class="${jvar_cols_label} control-label">
+						<span title="" class="label-text">${gs.getMessage("Parents")}</span>
+					</label>
+				</div>
+				<div class="${jvar_cols_field} form-field input_controls" style="overflow: visible">
+					<div class="parent-breadcrumbs-container">
+						<g2:no_escape>
+							$[jvar_crumbs]
+						</g2:no_escape>
+					</div>
+				</div>
+				<div class="${jvar_cols_addons}"></div>
+            </td>
+        </j2:if>
+    </j2:if>
+</j:jelly>
+]]></xml>
+    </sys_ui_macro>
+</record_update>

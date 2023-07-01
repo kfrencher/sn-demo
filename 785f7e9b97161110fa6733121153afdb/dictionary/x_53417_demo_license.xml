@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d780739597cf211024d7b066f053af8c" extends="x_53417_demo_credential" label="License" max_length="40" name="x_53417_demo_license" type="collection">
+        <element label="License Type" mandatory="true" max_length="32" name="license_type" reference="x_53417_demo_license_type" type="reference"/>
+        <index name="index">
+            <element name="license_type"/>
+        </index>
+    </element>
+</database>
