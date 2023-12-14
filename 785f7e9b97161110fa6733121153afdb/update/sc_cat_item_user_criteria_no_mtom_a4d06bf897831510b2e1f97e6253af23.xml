@@ -5,11 +5,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-06 19:20:17</sys_created_on>
         <sys_id>a4d06bf897831510b2e1f97e6253af23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Copy of Demo Service.SNC External</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sc_cat_item_user_criteria_no_mtom_a4d06bf897831510b2e1f97e6253af23</sys_update_name>
-        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:22</sys_updated_on>
+        <user_criteria display_value="">66c1b50e730333009508738234f6a7c9</user_criteria>
     </sc_cat_item_user_criteria_no_mtom>
 </record_update>

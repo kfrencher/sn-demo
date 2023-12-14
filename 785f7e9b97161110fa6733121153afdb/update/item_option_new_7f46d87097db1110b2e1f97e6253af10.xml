@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>false</active>
         <attributes/>
-        <cat_item display_value="Demo Task">829c3b20975b1110b2e1f97e6253afad</cat_item>
+        <cat_item display_value="Demo Task Complete">829c3b20975b1110b2e1f97e6253afad</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -17,6 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>

@@ -253,7 +253,7 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>cat_json</element>
-        <element_prototype display_value="Payload" element="payload" name="var__m_sys_flow_step_definition_output_2429af02b3331300176b051a16a8dcab">21896b42b3331300176b051a16a8dc28</element_prototype>
+        <element_prototype display_value="payload" element="payload" name="var__m_sys_flow_step_definition_output_2429af02b3331300176b051a16a8dcab">21896b42b3331300176b051a16a8dc28</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>

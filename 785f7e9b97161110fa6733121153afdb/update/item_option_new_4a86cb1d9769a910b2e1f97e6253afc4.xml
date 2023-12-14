@@ -17,6 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -24,7 +26,7 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -35,7 +37,7 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -75,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-12 13:21:10</sys_created_on>
         <sys_id>4a86cb1d9769a910b2e1f97e6253afc4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Category</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>item_option_new_4a86cb1d9769a910b2e1f97e6253afc4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-12 13:21:10</sys_updated_on>
+        <sys_updated_on>2023-09-27 02:43:55</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>
@@ -92,7 +94,7 @@
         <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set display_value="Demo Request Details">20764b1d9769a910b2e1f97e6253afac</variable_set>
+        <variable_set display_value="Demo Request Details Section KLF">20764b1d9769a910b2e1f97e6253afac</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

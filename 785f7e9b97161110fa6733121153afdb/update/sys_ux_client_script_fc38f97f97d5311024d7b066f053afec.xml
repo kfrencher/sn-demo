@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Next Experience Landing Page">9838f97f97d5311024d7b066f053af83</macroponent>
+        <name>Set favorites</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+    let index = 0;
+    const normalizedFavorites =  [];
+
+    const flattenMenuItems = (head, returnArray = [], prefix = '') => {
+	    if (head) {
+		    returnArray.push({...head, label: prefix + head.label});
+		    head['subItems'] && head['subItems'].forEach((item) => flattenMenuItems(item, returnArray, `${prefix}${head.label} > `));
+	    }
+	    return returnArray.map((item) => ({...item, label: item.label.replace("Favorites > ", "")}));
+    };
+
+    const menus = api.data.landing_page_favorites_getter_1.output.result;
+    if  (menus && menus.length)  { 
+        const favorites = menus.find(({ id }) =>  id === '1b682fe1c3133010cbd77096e940dd18');
+        if (favorites && favorites.subItems && favorites.subItems.length) { 
+            const filteredFavorites  = flattenMenuItems(favorites).filter(({ subItems, route }) => route && (!subItems || !subItems.length));
+            if (filteredFavorites && filteredFavorites.length) { 
+                while (index < 6 && index < filteredFavorites.length) { 
+                    normalizedFavorites.push({
+                        label: filteredFavorites[index].label, 
+                        type: filteredFavorites[index].route.url ? 'external' : 'route',
+                        value: {...filteredFavorites[index].route, href: `/${filteredFavorites[index].route.url}`},
+                        opensWindow: false,
+                        startsWith: { 
+                            icon: api.state.iconMap[filteredFavorites[index].icon]
+                        }
+                    });
+                    index++;
+                }
+                api.setState('favoriteList', normalizedFavorites);
+            }
+        }
+    }
+    if (normalizedFavorites.length === 0) { 
+        api.setState('favoriteListEmpty', true); 
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-22 11:57:23</sys_created_on>
+        <sys_id>fc38f97f97d5311024d7b066f053afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set favorites</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_client_script_fc38f97f97d5311024d7b066f053afec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-22 11:57:23</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_rest">
+    <sys_ux_data_broker_rest action="INSERT_OR_UPDATE">
+        <api_name>x_53417_demo.Demo REST Task</api_name>
+        <api_url>/api/now/table/x_53417_demo_task</api_url>
+        <description/>
+        <http_method>GET</http_method>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Demo REST Task</name>
+        <output_schema/>
+        <parameters>[{ name: "sysparm_query", value: "status!=NULL"}, {name: "sysparm_fields", value:"sys_id,number,status"}, {name: "sysparm_limit", value: "10"}]</parameters>
+        <private>false</private>
+        <props>[{&#13;
+  "label": "Message",&#13;
+  "name": "message",&#13;
+  "mandatory": true,&#13;
+  "fieldType": "string",&#13;
+  "defaultValue": "Hello World"&#13;
+}]</props>
+        <request_body/>
+        <required_translations>[ {
+  "message" : "Message",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_rest</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-12 12:43:52</sys_created_on>
+        <sys_id>c6c0459e9731311024d7b066f053afd1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Demo REST Task</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_data_broker_rest_c6c0459e9731311024d7b066f053afd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-21 22:56:35</sys_updated_on>
+    </sys_ux_data_broker_rest>
+    <sys_translated_text action="delete_multiple" query="documentkey=c6c0459e9731311024d7b066f053afd1"/>
+</record_update>

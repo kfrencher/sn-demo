@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_graphql_schema">
+    <sys_graphql_schema action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application_namespace>x53417Demo</application_namespace>
+        <enforce_acl/>
+        <name>Demo Credentials</name>
+        <namespace>demoCredentials</namespace>
+        <paths>Credential:expiration_date,Credential:number,LabelAndValue:display_value,LabelAndValue:value,Query:getCredentialById</paths>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <schema>schema {&#13;
+    query: Query&#13;
+ }&#13;
+&#13;
+type Query {&#13;
+   getCredentialById(id:ID!): [Credential]&#13;
+}&#13;
+&#13;
+type Credential {&#13;
+	number: LabelAndValue!&#13;
+	expiration_date: LabelAndValue!&#13;
+}&#13;
+&#13;
+type LabelAndValue {&#13;
+	value: String!&#13;
+	display_value: String!&#13;
+}</schema>
+        <sys_class_name>sys_graphql_schema</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 13:26:13</sys_created_on>
+        <sys_id>aecb1c1a975d711024d7b066f053afa1</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Demo Credentials</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_graphql_schema_aecb1c1a975d711024d7b066f053afa1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 22:17:20</sys_updated_on>
+        <type_names/>
+    </sys_graphql_schema>
+</record_update>

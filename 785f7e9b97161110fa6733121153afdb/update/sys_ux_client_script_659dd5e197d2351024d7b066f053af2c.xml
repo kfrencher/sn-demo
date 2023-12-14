@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">e99d95e197d2351024d7b066f053aff3</macroponent>
+        <name>Open record handler for knowledge view</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[function script({
+            api,
+            helpers,
+            event,
+            imports
+        }) {
+            const {
+                payload
+            } = event;
+        const table = payload.table + "";
+        var redirectPayload = {
+            redirect: true,
+            targetRoute: 'current',
+            fields: {
+                sysId: payload.sys_id + "",
+                table: table
+            }
+        };
+        if(table == 'kb_knowledge' || table.startsWith('kb_template') || table.startsWith('u_kb_template') || table == 'kb_knowledge_block')
+            redirectPayload.route = 'kb_view';
+        else
+            redirectPayload.route = 'record';
+        api.emit("NAV_ITEM_SELECTED", redirectPayload);
+        }]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 03:17:34</sys_created_on>
+        <sys_id>659dd5e197d2351024d7b066f053af2c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open record handler for knowledge view</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_client_script_659dd5e197d2351024d7b066f053af2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 03:17:34</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

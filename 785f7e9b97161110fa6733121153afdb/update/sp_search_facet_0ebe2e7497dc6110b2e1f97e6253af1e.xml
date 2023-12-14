@@ -12,11 +12,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-07 19:01:27</sys_created_on>
         <sys_id>0ebe2e7497dc6110b2e1f97e6253af1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Status</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sp_search_facet_0ebe2e7497dc6110b2e1f97e6253af1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:27</sys_updated_on>
         <table>x_53417_demo_task</table>
     </sp_search_facet>
     <sys_translated_text action="delete_multiple" query="documentkey=0ebe2e7497dc6110b2e1f97e6253af1e"/>

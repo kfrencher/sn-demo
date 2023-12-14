@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation>Ask for Approval</annotation>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
@@ -144,6 +145,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3a2a21d29772211024d7b066f053af25"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -227,6 +229,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f22a21d29772211024d7b066f053af20"/>
     <sys_hub_flow_output action="delete_multiple" query="model=ae2a21d29772211024d7b066f053af17^sys_idNOT IN3e2a21d29772211024d7b066f053af2a"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -311,12 +314,14 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3e2a21d29772211024d7b066f053af2a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ae2a21d29772211024d7b066f053af17"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=ae2a21d29772211024d7b066f053af17^sys_idNOT IN362a21d29772211024d7b066f053af53,432a21d29772211024d7b066f053af58,722a21d29772211024d7b066f053af4e,b22a21d29772211024d7b066f053af46"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Rejected</comment>
         <compiled_snapshot>0e0ae8c2531003003bf1d9109ec587c8</compiled_snapshot>
         <display_text/>
@@ -355,6 +360,7 @@
         <action_inputs/>
         <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot>0e0ae8c2531003003bf1d9109ec587c8</compiled_snapshot>
         <display_text/>
@@ -393,6 +399,7 @@
         <action_inputs/>
         <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Approved</comment>
         <compiled_snapshot>0e0ae8c2531003003bf1d9109ec587c8</compiled_snapshot>
         <display_text/>
@@ -432,6 +439,7 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Approve only when all users approve</comment>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
@@ -570,6 +578,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ae2a21d29772211024d7b066f053af17"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=ae2a21d29772211024d7b066f053af17^sys_idNOT IN322a21d29772211024d7b066f053af35,3e2a21d29772211024d7b066f053af3e,b22a21d29772211024d7b066f053af30,b62a21d29772211024d7b066f053af38,f22a21d29772211024d7b066f053af3c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">4d0861129772211024d7b066f053af42</block>
         <comment/>
         <connected_to/>
@@ -617,6 +626,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=322a21d29772211024d7b066f053af35"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=322a21d29772211024d7b066f053af35"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">c10861129772211024d7b066f053af52</block>
         <comment/>
         <connected_to>75b3128b-9ed3-4246-af23-86cd707a89b9</connected_to>
@@ -650,6 +660,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3e2a21d29772211024d7b066f053af3e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=3e2a21d29772211024d7b066f053af3e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">010861129772211024d7b066f053af3c</block>
         <comment/>
         <connected_to/>
@@ -723,6 +734,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b22a21d29772211024d7b066f053af30"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=b22a21d29772211024d7b066f053af30"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">410861129772211024d7b066f053af48</block>
         <comment/>
         <connected_to>75b3128b-9ed3-4246-af23-86cd707a89b9</connected_to>
@@ -796,6 +808,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b62a21d29772211024d7b066f053af38"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=b62a21d29772211024d7b066f053af38"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">010861129772211024d7b066f053af4e</block>
         <comment/>
         <connected_to/>

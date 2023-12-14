@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">e453e92e9751f11024d7b066f053af20</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"dataPassthrough":null,"configVersion":"23.0.0-ci-SNAPSHOT","groupBy":null,"trendBy":null,"showMaximumRange":false,"enableRealTimeUpdate":false,"scoreType":null,"showScoreUpdateTime":false,"colorConfig":{"type":"default"},"showFilterIcon":true,"followFilters":true,"applyDateRange":false,"showChange":false,"showTarget":false,"showGapPercentage":false,"showScoreDate":false,"showChangePercentage":false,"showChangeFrom":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Task","sourceType":"table","tableOrViewName":"x_53417_demo_task","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzUzNDE3X2RlbW9fdGFzazE2OTUwNDI4ODQ1MzQ=","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4XzUzNDE3X2RlbW9fdGFzazE2OTUwNDI4ODQ1MzQ=","id":"ZEdGaWJHVjRYelV6TkRFM1gyUmxiVzlmZEdGemF6RTJPVFV3TkRJNE9EUTFNelE9MTY5NTA0Mjg4NTQ5Mw==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"headerTitle":"Task Count","showHeader":true}</component_props>
+        <h>10</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 13:15:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1ca3edea9751f11024d7b066f053af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_widget_1ca3edea9751f11024d7b066f053af27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 13:15:06</sys_updated_on>
+        <visualization/>
+        <w>8</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

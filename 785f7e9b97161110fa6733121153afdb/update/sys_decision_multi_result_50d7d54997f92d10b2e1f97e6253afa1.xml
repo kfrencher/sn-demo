@@ -7,6 +7,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-23 20:52:51</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>50d7d54997f92d10b2e1f97e6253afa1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Assignment Group: Trivium, Count: 0</sys_name>
@@ -30,7 +31,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-23 20:52:51</sys_updated_on>
         <value>15dc657e97cbd910b2e1f97e6253afac</value>
-        <variable display_value="Assignment Group">7c122e2497bda910b2e1f97e6253af2b</variable>
+        <variable display_value="">7c122e2497bda910b2e1f97e6253af2b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_decision_multi_result</document>
@@ -44,6 +45,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-23 20:52:51</sys_updated_on>
         <value>0</value>
-        <variable display_value="Count">cbb4e2e497bda910b2e1f97e6253aff1</variable>
+        <variable display_value="">cbb4e2e497bda910b2e1f97e6253aff1</variable>
     </sys_variable_value>
 </record_update>

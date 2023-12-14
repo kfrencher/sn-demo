@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "826ea77dac955d4ea78dce91584b2a1a",
+            "type": "MACROPONENT"
+        },
+        "elementId": "catalog_wizard_1",
+        "elementLabel": "Catalog Wizard 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "fieldSpace": {
+                "type": "JSON_LITERAL",
+                "value": "xl"
+            },
+            "forwardButtonType": {
+                "type": "JSON_LITERAL",
+                "value": "primary"
+            },
+            "hideBackButton": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "hideForwardButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHomeButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "homeButtonIcon": {
+                "type": "JSON_LITERAL",
+                "value": "home-outline"
+            },
+            "homeButtonTooltip": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Home"
+                }
+            },
+            "isTemplateMandatory": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "mode": {
+                "binding": {
+                    "address": [
+                        "mode"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "recordId": {
+                "type": "JSON_LITERAL",
+                "value": "@context.props.recordId"
+            },
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "templateId": {
+                "binding": {
+                    "address": [
+                        "templateId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "catalog_wizard_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpggffmiiaaaadduxddjhhsiimcffoggqi",
+        "inherited": false,
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpggffmiiaaaadduyddjhhsafcdccktcc",
+        "inherited": false,
+        "label": "mode",
+        "mandatory": false,
+        "name": "mode",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpggffmiiaaaadduzddjhhshheuqkmccq",
+        "inherited": false,
+        "label": "recordId",
+        "mandatory": false,
+        "name": "recordId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpggffmiiaaaaddvaaddjhhsffzaaeeaaxuj",
+        "inherited": false,
+        "label": "templateId",
+        "mandatory": false,
+        "name": "templateId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Home",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-19 23:45:29</sys_created_on>
+        <sys_id>b6768faa97ae711024d7b066f053afc1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_macroponent_b6768faa97ae711024d7b066f053afc1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-20 01:11:23</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6768faa97ae711024d7b066f053afc1"/>
+</record_update>

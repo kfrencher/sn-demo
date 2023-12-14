@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_customization">
+    <sys_ux_theme_customization action="INSERT_OR_UPDATE">
+        <customization>{"colors":[{"id":"isSecondaryColorUpdated","value":true,"type":"secondary_color_updated"}],"feedback":[]}</customization>
+        <name>Trivium</name>
+        <sys_class_name>sys_ux_theme_customization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-02 16:11:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6a273919741311024d7b066f053afb8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Trivium</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_theme_customization_c6a273919741311024d7b066f053afb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-02 16:29:19</sys_updated_on>
+        <theme display_value="Trivium">71a2b7559701311024d7b066f053af9e</theme>
+    </sys_ux_theme_customization>
+</record_update>

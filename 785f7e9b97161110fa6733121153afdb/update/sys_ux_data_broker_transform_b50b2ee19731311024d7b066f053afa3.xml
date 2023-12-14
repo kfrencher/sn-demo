@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_53417_demo.Demo Hello World</api_name>
+        <description>Print "Hello World" from data source</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Demo Hello World</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{&#13;
+  "label": "Message",&#13;
+  "name": "message",&#13;
+  "mandatory": true,&#13;
+  "fieldType": "string",&#13;
+  "defaultValue": "Hello World"&#13;
+}]</props>
+        <required_translations>[ {
+  "message" : "Message",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	return {
+		message: input.message,
+		success: true
+	};
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 12:26:02</sys_created_on>
+        <sys_id>b50b2ee19731311024d7b066f053afa3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Demo Hello World</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_b50b2ee19731311024d7b066f053afa3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 14:03:23</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=b50b2ee19731311024d7b066f053afa3"/>
+</record_update>

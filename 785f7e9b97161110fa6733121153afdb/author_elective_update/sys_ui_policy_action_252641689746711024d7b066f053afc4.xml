@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>country</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-19 12:45:45</sys_created_on>
+        <sys_id>252641689746711024d7b066f053afc4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>country</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ui_policy_action_252641689746711024d7b066f053afc4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-19 12:48:06</sys_updated_on>
+        <table>x_53417_demo_cat_breed</table>
+        <ui_policy display_value="Show Country">5c068d289746711024d7b066f053afeb</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ui_policy_action_252641689746711024d7b066f053afc4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>country</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-19 12:45:45</sys_created_on><sys_id>252641689746711024d7b066f053afc4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>country</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ui_policy_action_252641689746711024d7b066f053afc4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-19 12:48:06</sys_updated_on><table>x_53417_demo_cat_breed</table><ui_policy display_value="Show Country">5c068d289746711024d7b066f053afeb</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>718234754</payload_hash>
+        <record_name>country</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-19 12:48:06</sys_created_on>
+        <sys_id>b6b64d689746711024d7b066f053afba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b47fa957d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-19 12:48:06</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7eb64d688a4671102c8f0be9ee5730b9</update_guid>
+        <update_guid_history>7eb64d688a4671102c8f0be9ee5730b9:718234754,5c3681683546711007d118a5a04bbf9a:-1009046767</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-19 13:09:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>41b890298ea949e082eac2808e35b490</sys_id>
+        <sys_metadata>252641689746711024d7b066f053afc4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>country</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_252641689746711024d7b066f053afc4</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_252641689746711024d7b066f053afc4">b6b64d689746711024d7b066f053afba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-19 13:09:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

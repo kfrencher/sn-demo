@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Demo Technical DB</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>demo_technical_db1494944450</route_type>
+        <screen_type display_value="Demo Technical DB">0669641897fd311024d7b066f053af74</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 05:45:48</sys_created_on>
+        <sys_id>c269641897fd311024d7b066f053af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Technical DB</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_app_route_c269641897fd311024d7b066f053af8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 05:45:48</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=c269641897fd311024d7b066f053af8c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_app_route_c269641897fd311024d7b066f053af8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config><description/><extension_point/><fields/><icon/><name>Demo Technical DB</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>demo_technical_db1494944450</route_type><screen_type display_value="Demo Technical DB">0669641897fd311024d7b066f053af74</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-06 05:45:48</sys_created_on><sys_id>c269641897fd311024d7b066f053af8c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo Technical DB</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_app_route_c269641897fd311024d7b066f053af8c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-06 05:45:48</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=c269641897fd311024d7b066f053af8c"/></record_update>]]></payload>
+        <payload_hash>1996626096</payload_hash>
+        <record_name>Demo Technical DB</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 05:45:48</sys_created_on>
+        <sys_id>4a69641897fd311024d7b066f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b038547f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 05:45:48</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>8e69641812fd3110724629446e9aa28d</update_guid>
+        <update_guid_history>8e69641812fd3110724629446e9aa28d:1996626096</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 11:32:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>4e1f04b35d6a4058ac32bfba377b13a1</sys_id>
+        <sys_metadata>c269641897fd311024d7b066f053af8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Technical DB</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_c269641897fd311024d7b066f053af8c</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_c269641897fd311024d7b066f053af8c">4a69641897fd311024d7b066f053af8e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 11:32:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

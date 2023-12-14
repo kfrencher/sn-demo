@@ -2,7 +2,7 @@
     <sc_template action="INSERT_OR_UPDATE">
         <active>true</active>
         <available_for/>
-        <cat_item display_value="Demo Priority">2ebd5c6d976e211024d7b066f053aff0</cat_item>
+        <cat_item display_value="Demo Profile">2ebd5c6d976e211024d7b066f053aff0</cat_item>
         <name>Demo Priority Template</name>
         <short_description>Demo Priority Template Instance</short_description>
         <sys_class_name>sc_template</sys_class_name>

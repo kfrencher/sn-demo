@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
     <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
-        <decision_input display_value="Label">2412e22497bda910b2e1f97e6253af24</decision_input>
+        <decision_input display_value="">2412e22497bda910b2e1f97e6253af24</decision_input>
         <decision_table display_value="ITEM Todo Label to Assignment Group">9aaede6c977da910b2e1f97e6253af9b</decision_table>
         <default_operator>LIKE</default_operator>
         <description>The label of the Todo</description>

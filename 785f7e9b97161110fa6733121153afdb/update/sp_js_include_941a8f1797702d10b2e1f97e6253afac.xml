@@ -11,7 +11,7 @@
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_ui_script display_value="RegressUI">e8a46a83db99c410f0a2f28239961922</sys_ui_script>
+        <sys_ui_script display_value="">e8a46a83db99c410f0a2f28239961922</sys_ui_script>
         <sys_update_name>sp_js_include_941a8f1797702d10b2e1f97e6253afac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-09 11:55:49</sys_updated_on>

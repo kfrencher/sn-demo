@@ -16,6 +16,7 @@
         <sys_update_name>sys_ui_style_534e7f559703611024d7b066f053af12</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-05-26 07:16:03</sys_updated_on>
+        <themed_style/>
         <value>javascript:current.description=='test'</value>
     </sys_ui_style>
     <sys_translated_text action="delete_multiple" query="documentkey=534e7f559703611024d7b066f053af12"/>

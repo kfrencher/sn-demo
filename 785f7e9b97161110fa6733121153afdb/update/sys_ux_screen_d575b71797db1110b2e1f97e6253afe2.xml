@@ -3,53 +3,144 @@
         <active>true</active>
         <app_config display_value="Demo Experience">4b8b5bea97d75910b2e1f97e6253afc9</app_config>
         <description/>
-        <event_mappings>[ ]</event_mappings>
-        <macroponent display_value="Standard record page">5d75731797db1110b2e1f97e6253af65</macroponent>
-        <macroponent_config>{
-  "views" : {
-    "type" : "JSON_LITERAL",
-    "value" : ""
-  },
-  "selectedTabIndex" : {
-    "type" : "JSON_LITERAL",
-    "value" : 0
-  },
-  "label" : {
-    "type" : "TRANSLATION_LITERAL",
-    "value" : {
-      "code" : null,
-      "message" : "",
-      "comment" : ""
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    {
+        "eventMappingId": "clnggifflfiaacchlddnbuiieejjgfiiffw",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_53417_demo.MODAL_SELECTED_RELAY_5d75731797db1110b2e1f97e6253af65",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_53417_demo.MODAL_SELECTED_RELAY_5d75731797db1110b2e1f97e6253af65",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.MODAL_SELECTED",
+                    "payload": {
+                        "container": {
+                            "bare": {
+                                "binding": {
+                                    "address": [
+                                        "bare"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "displayOptions": {
+                                "binding": {
+                                    "address": [
+                                        "displayOptions"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "modalId": {
+                                "binding": {
+                                    "address": [
+                                        "modalId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "showModal": {
+                                "binding": {
+                                    "address": [
+                                        "showModal"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportElementId": {
+                                "binding": {
+                                    "address": [
+                                        "viewportElementId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportFields": {
+                                "binding": {
+                                    "address": [
+                                        "viewportFields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportRoute": {
+                                "binding": {
+                                    "address": [
+                                        "viewportRoute"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "882eed4091382d3a41f1bb3f382ae089"
+                },
+                "operation": null,
+                "targetId": "clnggifflfiaacchkddnbujrccaqkjhh",
+                "type": "EVENT"
+            }
+        ]
     }
-  },
-  "bare" : {
-    "type" : "JSON_LITERAL",
-    "value" : true
-  },
-  "scrollable" : {
-    "type" : "JSON_LITERAL",
-    "value" : "y"
-  },
-  "headerLevel" : {
-    "type" : "JSON_LITERAL",
-    "value" : "1"
-  },
-  "headingOnlyVisibleToScreenReaders" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  },
-  "interceptNotifications" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  },
-  "propagateNotifications" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  }
+]</event_mappings>
+        <macroponent display_value="KLF Form default">5d75731797db1110b2e1f97e6253af65</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "selectedTabIndex": {
+        "type": "JSON_LITERAL",
+        "value": 0
+    },
+    "views": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    }
 }</macroponent_config>
-        <name>Form default</name>
+        <name>KLF Form default</name>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
@@ -60,12 +151,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d575b71797db1110b2e1f97e6253afe2</sys_id>
-        <sys_name>Form default</sys_name>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>KLF Form default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_screen_d575b71797db1110b2e1f97e6253afe2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-01 12:48:12</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=d575b71797db1110b2e1f97e6253afe2"/>
 </record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Demo Task">829c3b20975b1110b2e1f97e6253afad</sc_cat_item>
+        <sc_cat_item display_value="Demo Task Complete">829c3b20975b1110b2e1f97e6253afad</sc_cat_item>
         <sc_category display_value="Services">904088b8975b1110b2e1f97e6253afcc</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -2,9 +2,9 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>demo_save</action_name>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
-
+	g_form.setValue('classification', 'Setting class from UI Action');
 }]]></client_script_v2>
         <comments/>
         <condition>current.canWrite()</condition>
@@ -28,16 +28,22 @@
         <list_style/>
         <messages/>
         <name>Demo Save UI Action</name>
-        <onclick/>
+        <onclick>demoSaveUiAction()</onclick>
         <order>150</order>
-        <script><![CDATA[current.work_notes = 'Saved by "Demo Save UI Action"';
-if(current.isNewRecord()) {
-	current.insert();
-} else {
-	current.update();
+        <script><![CDATA[function demoSaveUiAction() {
+	g_form.addInfoMessage('Running this client side');
 }
-gs.addInfoMessage('Saved by Demo Save UI Action');
-// action.setRedirectURL(current);]]></script>
+
+if (typeof window == 'undefined') {
+	current.work_notes = 'Saved by "Demo Save UI Action"';
+	if (current.isNewRecord()) {
+		current.insert();
+	} else {
+		current.update();
+	}
+	gs.addInfoMessage('Saved by Demo Save UI Action');
+	// action.setRedirectURL(current);
+}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -48,7 +54,7 @@ gs.addInfoMessage('Saved by Demo Save UI Action');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d82ee16a97df1910b2e1f97e6253af0e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Demo Save UI Action</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
@@ -56,7 +62,7 @@ gs.addInfoMessage('Saved by Demo Save UI Action');
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ui_action_d82ee16a97df1910b2e1f97e6253af0e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-13 15:11:55</sys_updated_on>
+        <sys_updated_on>2023-10-23 00:52:30</sys_updated_on>
         <table>x_53417_demo_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

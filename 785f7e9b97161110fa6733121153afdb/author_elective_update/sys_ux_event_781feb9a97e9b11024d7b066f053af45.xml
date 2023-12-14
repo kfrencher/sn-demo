@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>DEMO_FORM#DISPLAY_MODAL</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>DEMO_FORM#DISPLAY_MODAL</label>
+        <props>[{"name":"modalId","fieldType":"string","label":"Modal","interfaceApiName":"global.modal","typeMetadata":{"choices":[],"schema":{"type":"string"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"showModal","fieldType":"boolean","label":"Open modal dialog","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"boolean"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"displayOptions","fieldType":"json","label":"Display options (advanced)","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"object","properties":{"size":{"type":"string"},"disableDismiss":{"type":"boolean"}}},"translatable":false},"mandatory":false,"readOnly":false},{"name":"bare","fieldType":"boolean","label":"Use bare modal","interfaceApiName":"global.modal","typeMetadata":{"choices":[],"schema":{"type":"boolean"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"viewportElementId","fieldType":"string","label":"Viewport ID","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"string"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"viewportRoute","fieldType":"string","label":"Viewport Route","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"string"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"viewportFields","fieldType":"json","label":"Viewport Fields","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"object","properties":{}},"translatable":false},"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 15:01:34</sys_created_on>
+        <sys_id>781feb9a97e9b11024d7b066f053af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEMO_FORM#DISPLAY_MODAL</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_event_781feb9a97e9b11024d7b066f053af45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 15:01:34</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=781feb9a97e9b11024d7b066f053af45"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_event_781feb9a97e9b11024d7b066f053af45</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>DEMO_FORM#DISPLAY_MODAL</event_name><explicit_api_name/><interfaces/><label>DEMO_FORM#DISPLAY_MODAL</label><props>[{"name":"modalId","fieldType":"string","label":"Modal","interfaceApiName":"global.modal","typeMetadata":{"choices":[],"schema":{"type":"string"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"showModal","fieldType":"boolean","label":"Open modal dialog","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"boolean"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"displayOptions","fieldType":"json","label":"Display options (advanced)","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"object","properties":{"size":{"type":"string"},"disableDismiss":{"type":"boolean"}}},"translatable":false},"mandatory":false,"readOnly":false},{"name":"bare","fieldType":"boolean","label":"Use bare modal","interfaceApiName":"global.modal","typeMetadata":{"choices":[],"schema":{"type":"boolean"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"viewportElementId","fieldType":"string","label":"Viewport ID","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"string"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"viewportRoute","fieldType":"string","label":"Viewport Route","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"string"},"translatable":false},"mandatory":false,"readOnly":false},{"name":"viewportFields","fieldType":"json","label":"Viewport Fields","interfaceApiName":"","typeMetadata":{"choices":[],"schema":{"type":"object","properties":{}},"translatable":false},"mandatory":false,"readOnly":false}]</props><required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-30 15:01:34</sys_created_on><sys_id>781feb9a97e9b11024d7b066f053af45</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DEMO_FORM#DISPLAY_MODAL</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_event_781feb9a97e9b11024d7b066f053af45</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-30 15:01:34</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=781feb9a97e9b11024d7b066f053af45"/></record_update>]]></payload>
+        <payload_hash>2037521809</payload_hash>
+        <record_name>DEMO_FORM#DISPLAY_MODAL</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 15:01:34</sys_created_on>
+        <sys_id>341f279e97e9b11024d7b066f053aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ae69bf42a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 15:01:34</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>781f279ea8e9b110de5041d6f7087cf2</update_guid>
+        <update_guid_history>781f279ea8e9b110de5041d6f7087cf2:2037521809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 20:45:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>4b28151003f24bc8b993dfa6091fe4a4</sys_id>
+        <sys_metadata>781feb9a97e9b11024d7b066f053af45</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEMO_FORM#DISPLAY_MODAL</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_event_781feb9a97e9b11024d7b066f053af45</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_781feb9a97e9b11024d7b066f053af45">341f279e97e9b11024d7b066f053aff3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 20:45:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

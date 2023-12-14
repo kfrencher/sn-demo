@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="DELETE">
+        <dashboard display_value="Demo">9bb1833e9772d110b2e1f97e6253afd2</dashboard>
+        <experience display_value="Platform Analytics Workspace">08c73d60537101100834ddeeff7b1287</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 11:56:39</sys_created_on>
+        <sys_id>1fb1833e9772d110b2e1f97e6253afdc</sys_id>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_visibility_1fb1833e9772d110b2e1f97e6253afdc</sys_update_name>
+    </par_dashboard_visibility>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>par_dashboard_visibility_1fb1833e9772d110b2e1f97e6253afdc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Demo">9bb1833e9772d110b2e1f97e6253afd2</dashboard>
+        <experience display_value="Platform Analytics Workspace">08c73d60537101100834ddeeff7b1287</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 11:56:39</sys_created_on>
+        <sys_id>1fb1833e9772d110b2e1f97e6253afdc</sys_id>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_visibility_1fb1833e9772d110b2e1f97e6253afdc</sys_update_name>
+    </par_dashboard_visibility>
+</record_update>]]></payload>
+        <payload_hash>-2039990552</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f02fde179742211024d7b066f053af00</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 12:07:19</sys_created_on>
+        <sys_id>055fd6979742211024d7b066f053af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187755cf72c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:19</sys_updated_on>
+        <type>PAR Dashboard Visibility</type>
+        <update_guid>c15fd697334221104b0704d0f9bbc16f</update_guid>
+        <update_guid_history>c15fd697334221104b0704d0f9bbc16f:-2039990552</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6bb0b7679729311024d7b066f053af41</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 12:21:17</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_visibility">par_dashboard_visibility</sys_db_object>
+        <sys_id>1bb1451e1ba74e428a62109f5c7a2da4</sys_id>
+        <sys_metadata>1fb1833e9772d110b2e1f97e6253afdc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>par_dashboard_visibility_1fb1833e9772d110b2e1f97e6253afdc</sys_update_name>
+        <sys_update_version display_value="par_dashboard_visibility_1fb1833e9772d110b2e1f97e6253afdc">055fd6979742211024d7b066f053af6f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:21:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

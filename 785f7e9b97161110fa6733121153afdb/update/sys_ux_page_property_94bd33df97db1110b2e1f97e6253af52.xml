@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
     <sys_ux_page_property action="INSERT_OR_UPDATE">
         <choices/>
-        <description/>
+        <description>Demo Workspace sys_ux_list_menu_config</description>
         <name>listConfigId</name>
-        <page display_value="Demo Experience">478b5bea97d75910b2e1f97e6253afcc</page>
+        <page display_value="Demo Updated">478b5bea97d75910b2e1f97e6253afcc</page>
         <required_translations/>
         <route/>
         <suffix/>
@@ -13,11 +13,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>94bd33df97db1110b2e1f97e6253af52</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>listConfigId</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_page_property_94bd33df97db1110b2e1f97e6253af52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 21:29:12</sys_updated_on>
         <type>string</type>
         <unique_name>x_53417_demo.478b5bea97d75910b2e1f97e6253afcc.root.listConfigId</unique_name>
         <value>b47c775f97db1110b2e1f97e6253af71</value>

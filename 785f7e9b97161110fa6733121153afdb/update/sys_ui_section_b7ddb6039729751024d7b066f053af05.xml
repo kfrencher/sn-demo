@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Classification" section_id="b7ddb6039729751024d7b066f053af05" sys_domain="global" table="x_53417_demo_task" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element/>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-22 21:57:38</sys_created_on>
+            <sys_id>3941e26d970ab11024d7b066f053af09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Classification">6a11ee2d970ab11024d7b066f053afca</sys_ui_formatter>
+            <sys_ui_section caption="Classification" display_value="Classification" name="x_53417_demo_task" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">b7ddb6039729751024d7b066f053af05</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-22 21:57:38</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Classification</caption>
+            <header>false</header>
+            <name>x_53417_demo_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 19:22:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7ddb6039729751024d7b066f053af05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_53417_demo_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_ui_section_b7ddb6039729751024d7b066f053af05</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 19:22:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">0aaccb75e8a1211076da10591ad28743</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

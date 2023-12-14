@@ -8,7 +8,7 @@
         <name>Simple List</name>
         <optional_parameters>listTitle,query,disableInlineEditing</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>simplelist</route_type>
         <screen_type display_value="Simple List">0b6af83374d39110e7894c0f9fe94541</screen_type>
@@ -16,11 +16,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-28 01:10:46</sys_created_on>
         <sys_id>436af8338ed3911031611080dc8a153f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Simple List</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_app_route_436af8338ed3911031611080dc8a153f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:08:26</sys_updated_on>
     </sys_ux_app_route>
     <sys_translated_text action="delete_multiple" query="documentkey=436af8338ed3911031611080dc8a153f"/>
 </record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>KLF_CLASS_HEADER#UPDATED</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>KLF_CLASS_HEADER#UPDATED</label>
+        <props>[
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Message",
+        "mandatory": false,
+        "name": "message",
+        "readOnly": false,
+        "typeMetadata": null
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Message",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 01:37:51</sys_created_on>
+        <sys_id>b7a3dbed97cab11024d7b066f053af6b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>KLF_CLASS_HEADER#UPDATED</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_event_b7a3dbed97cab11024d7b066f053af6b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 12:38:02</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=b7a3dbed97cab11024d7b066f053af6b"/>
+</record_update>

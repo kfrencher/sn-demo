@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>Demo Dashboard</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 16:14:45</sys_created_on>
+        <sys_id>c2d55c8997c06d10b2e1f97e6253af2c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Demo Dashboard</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_c2d55c8997c06d10b2e1f97e6253af2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 03:35:31</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>par_dashboard_c2d55c8997c06d10b2e1f97e6253af2c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><experience/><grid>48</grid><name>Demo Dashboard</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-26 16:14:45</sys_created_on><sys_id>c2d55c8997c06d10b2e1f97e6253af2c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Demo Dashboard</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>par_dashboard_c2d55c8997c06d10b2e1f97e6253af2c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-04 03:35:31</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>1869100481</payload_hash>
+        <record_name>Demo Dashboard</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 03:35:32</sys_created_on>
+        <sys_id>0668f16f9721311024d7b066f053afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18af8c14bad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 03:35:32</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>ca68f16f54213110da8241be43c145b5</update_guid>
+        <update_guid_history>ca68f16f54213110da8241be43c145b5:1869100481,785fd6976a422110878c99d75f689e25:1775432616</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Demo Dashboard">ffb0b7679729311024d7b066f053af97</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 12:21:17</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>cbe30e7629ff47caa8516d6a26c98b51</sys_id>
+        <sys_metadata>c2d55c8997c06d10b2e1f97e6253af2c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Dashboard</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>par_dashboard_c2d55c8997c06d10b2e1f97e6253af2c</sys_update_name>
+        <sys_update_version display_value="par_dashboard_c2d55c8997c06d10b2e1f97e6253af2c">0668f16f9721311024d7b066f053afb6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:21:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

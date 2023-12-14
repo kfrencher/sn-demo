@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-07 14:57:53</sys_created_on>
+        <sys_id>c751fbac97b1311024d7b066f053afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_53417_demo.child_task2_user</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_security_acl/>
+        <sys_update_name>sys_security_acl_role_c751fbac97b1311024d7b066f053afc0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-07 14:57:53</sys_updated_on>
+        <sys_user_role display_value="x_53417_demo.child_task2_user" name="x_53417_demo.child_task2_user">3988ff819703211024d7b066f053af09</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "39dc3c19bd4d123411e95151c0c2b31a",
+            "type": "MACROPONENT"
+        },
+        "elementId": "kpi_details_1",
+        "elementLabel": "KPI Details 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "clemqpffaagaaeewddddbhhvccffoeewgdii",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_kpi_details_con.SN_KPI_DETAILS#FORMULA_COMPONENT_CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_kpi_details_con.SN_KPI_DETAILS#FORMULA_COMPONENT_CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_ed7ad8a1c313101001a6e0dd9740ddd1",
+                            "payload": {
+                                "container": {
+                                    "external": null,
+                                    "fields": {
+                                        "container": {
+                                            "uuid": {
+                                                "binding": {
+                                                    "address": [
+                                                        "indicatorSysid"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "params": {
+                                        "container": {
+                                            "breakdowns": {
+                                                "binding": {
+                                                    "address": [
+                                                        "breakdowns"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            },
+                                            "domain": {
+                                                "binding": {
+                                                    "address": [
+                                                        "domain"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            },
+                                            "scoreDate": {
+                                                "binding": {
+                                                    "address": [
+                                                        "scoreDate"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "ac_kpi_details"
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "KPI Details"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "d8582a2fc7601110ed6cdd34f2c260f1"
+                        },
+                        "operation": null,
+                        "targetId": "clemqpffaagaaeeweeddbhhvxvrcszpe",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clemqnoemaaeevsddbhhvnaapyccrik",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_kpi_details_con.SN_KPI_DETAILS#RECORD_LIST_ROW_CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_kpi_details_con.SN_KPI_DETAILS#RECORD_LIST_ROW_CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_ed7ad8a1c313101001a6e0dd9740ddd1",
+                            "payload": {
+                                "container": {
+                                    "external": null,
+                                    "fields": {
+                                        "container": {
+                                            "sysId": {
+                                                "binding": {
+                                                    "address": [
+                                                        "sys_id"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            },
+                                            "table": {
+                                                "binding": {
+                                                    "address": [
+                                                        "table"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "params": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "record"
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "d8582a2fc7601110ed6cdd34f2c260f1"
+                        },
+                        "operation": null,
+                        "targetId": "clemqnoemaaeevtddbhhveeieuljiy",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "aggregate": {
+                "binding": {
+                    "address": [
+                        "aggregate"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "breakdowns": {
+                "binding": {
+                    "address": [
+                        "breakdowns"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "domain": {
+                "binding": {
+                    "address": [
+                        "domain"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "endDateProp": {
+                "binding": {
+                    "address": [
+                        "endDate"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "indicatorSysid": {
+                "binding": {
+                    "address": [
+                        "uuid"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "kpiDetailsView": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "recordsListView": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "scoreDate": {
+                "binding": {
+                    "address": [
+                        "scoreDate"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "showCompareRecords": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "showHorizontalStatisticOrientation": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showRealTime": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showRecordQuickEdit": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "showRecordsView": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showTargetBadge": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "startDateProp": {
+                "binding": {
+                    "address": [
+                        "startDate"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "statisticsOrientation": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "user": {
+                "binding": {
+                    "address": [
+                        "user"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": {}
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description>Provides an exploratory view of indicators for detailed analysis. It lets users see trends, predictions, breakdowns, and associated records for a specific indicator. The KPI Details page also enables users to aggregate changes in indicators into discrete time intervals by selecting a time aggregation.</description>
+        <dispatched_events>d8582a2fc7601110ed6cdd34f2c260f1</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "kpi_details_1",
+                "styles": {
+                    "height": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "height": "100%"
+        },
+        "templateId": null,
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "endDate",
+        "mandatory": false,
+        "name": "endDate",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "startDate",
+        "mandatory": false,
+        "name": "startDate",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "aggregate",
+        "mandatory": false,
+        "name": "aggregate",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "domain",
+        "mandatory": false,
+        "name": "domain",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Breakdowns",
+        "mandatory": false,
+        "name": "breakdowns",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "scoreDate",
+        "mandatory": false,
+        "name": "scoreDate",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "uuid",
+        "mandatory": false,
+        "name": "uuid",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 03:08:22</sys_created_on>
+        <sys_id>be7b1ded9792351024d7b066f053afd1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_macroponent_be7b1ded9792351024d7b066f053afd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 03:08:22</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=be7b1ded9792351024d7b066f053afd1"/>
+</record_update>

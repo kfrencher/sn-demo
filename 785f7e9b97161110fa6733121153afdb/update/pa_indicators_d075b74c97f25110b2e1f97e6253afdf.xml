@@ -24,6 +24,8 @@
         <forecast_lower_limit/>
         <forecast_method>1</forecast_method>
         <forecast_periods>2</forecast_periods>
+        <forecast_preselect_observations>false</forecast_preselect_observations>
+        <forecast_robust_estimation>false</forecast_robust_estimation>
         <forecast_upper_limit/>
         <formula>[[76e41f4c97725110b2e1f97e6253af4d]] / [[1a5c364497325110b2e1f97e6253af5e]]</formula>
         <formula_aggregate_whole>false</formula_aggregate_whole>
@@ -62,12 +64,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d075b74c97f25110b2e1f97e6253afdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>DemoTask Ratio Closed to Opened</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>pa_indicators_d075b74c97f25110b2e1f97e6253afdf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:16</sys_updated_on>
         <type>2</type>
         <unit/>
         <users/>

@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Demo Experience">4b8b5bea97d75910b2e1f97e6253afc9</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ {
   "eventMappingId" : "clhmiibbnkaaaddogddnhhtskicckaaut",
   "isConfiguration" : false,

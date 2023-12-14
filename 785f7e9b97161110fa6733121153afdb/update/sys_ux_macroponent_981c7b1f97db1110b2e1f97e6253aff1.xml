@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
@@ -1467,6 +1468,7 @@
         <dispatched_events>5dd4f4050f121010036a83fa68767eb6,f008951d0fc21010036a83fa68767e1c,b408951d0fc21010036a83fa68767e21,7008951d0fc21010036a83fa68767e37,93e48589a9ee4a69f8d3f5d45ffeb05d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events>f7d18e2cb7735010cd8af8e32e11a90b,8c1321d50f1310107d20409dc4767e52,2640a5150f1310107d20409dc4767e8a</handled_events>
         <interactions/>
         <interfaces/>
@@ -1858,10 +1860,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-27 01:59:51</sys_created_on>
         <sys_id>981c7b1f97db1110b2e1f97e6253aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>List default</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_macroponent_981c7b1f97db1110b2e1f97e6253aff1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:08:30</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=981c7b1f97db1110b2e1f97e6253aff1"/>
 </record_update>

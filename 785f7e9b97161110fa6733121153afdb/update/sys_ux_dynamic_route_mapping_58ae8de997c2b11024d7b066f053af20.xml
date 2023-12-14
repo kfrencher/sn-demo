@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_dynamic_route_mapping">
+    <sys_ux_dynamic_route_mapping action="INSERT_OR_UPDATE">
+        <param_payload>{    "route" : "home",    "targetRoute": "",    "fields": null,    "params":{"message":"test route config"},    "redirect" : true,    "passiveNavigation" : "",    "title" : "",    "multiInstField" : "",    "external": "" }</param_payload>
+        <route_config display_value="Demo Route Config">d9e63f23975f5110b2e1f97e6253af43</route_config>
+        <source_component>button_3</source_component>
+        <sys_class_name>sys_ux_dynamic_route_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-22 15:59:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>58ae8de997c2b11024d7b066f053af20</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>button_3</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_dynamic_route_mapping_58ae8de997c2b11024d7b066f053af20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-22 17:05:48</sys_updated_on>
+        <table>x_53417_demo_cat_breed</table>
+    </sys_ux_dynamic_route_mapping>
+</record_update>

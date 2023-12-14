@@ -3,6 +3,7 @@
         <cat_item display_value="Request Demo">281fb93097535110b2e1f97e6253af94</cat_item>
         <name/>
         <order>200</order>
+        <published_ref/>
         <sys_class_name>sc_service_fulfillment_stage</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-29 23:10:13</sys_created_on>

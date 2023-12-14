@@ -82,6 +82,7 @@
         <url>/demo?id=form&amp;sys_id=-1&amp;table=x_53417_demo_request</url>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

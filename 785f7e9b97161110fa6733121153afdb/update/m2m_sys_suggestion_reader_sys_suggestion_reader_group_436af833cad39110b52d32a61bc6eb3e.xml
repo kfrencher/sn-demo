@@ -7,6 +7,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-28 01:10:47</sys_created_on>
         <sys_id>436af833cad39110b52d32a61bc6eb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
@@ -14,5 +15,7 @@
         <sys_suggestion_reader_group_id display_value="Suggested Query Reader Group for Starter Workspace - Workspace Search">036af8332ad39110bea6f80ea6689c42</sys_suggestion_reader_group_id>
         <sys_suggestion_reader_id display_value="User Search Term Reader">4b1cb27053231010dda1ddeeff7b12b8</sys_suggestion_reader_id>
         <sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_436af833cad39110b52d32a61bc6eb3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:11</sys_updated_on>
     </m2m_sys_suggestion_reader_sys_suggestion_reader_group>
 </record_update>

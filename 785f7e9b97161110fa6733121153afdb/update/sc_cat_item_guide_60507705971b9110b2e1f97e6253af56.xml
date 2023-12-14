@@ -59,7 +59,6 @@
         <sc_ic_version/>
         <sc_template/>
         <script/>
-        <sequencing_process/>
         <short_description>Trying out the order guide to order multiple cat items at once</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -84,6 +83,7 @@
         <use_sc_layout>true</use_sc_layout>
         <validator/>
         <vendor/>
+        <version/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

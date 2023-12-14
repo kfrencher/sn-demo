@@ -13,11 +13,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-09 14:33:19</sys_created_on>
         <sys_id>7a9bdca397235110b2e1f97e6253afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Closed Incomplete</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_state_transition_7a9bdca397235110b2e1f97e6253afae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:08:18</sys_updated_on>
         <terminal_state>false</terminal_state>
     </sys_state_transition>
 </record_update>

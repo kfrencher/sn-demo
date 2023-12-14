@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">e99d95e197d2351024d7b066f053aff3</macroponent>
+        <name>Show/Hide Blocks</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[function handler({api}) {
+            var flag = (api.state.isBlocksInfoShown != null) ? api.state.isBlocksInfoShown : false;
+            if(flag) {
+                api.setState('blocksButtonLabel', 'Show Blocks');
+            }
+            else {
+                api.setState('blocksButtonLabel', 'Hide Blocks');
+            }
+            api.setState('isBlocksInfoShown', !flag);
+        }]]></script>
+        <script_api_version>1.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 03:17:34</sys_created_on>
+        <sys_id>e59dd5e197d2351024d7b066f053af40</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Show/Hide Blocks</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_client_script_e59dd5e197d2351024d7b066f053af40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 03:17:34</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

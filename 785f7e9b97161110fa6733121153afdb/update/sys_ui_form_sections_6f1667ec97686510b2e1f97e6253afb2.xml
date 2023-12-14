@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_output_variable" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6f1667ec97686510b2e1f97e6253afb2</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6f16abec97686510b2e1f97e6253af6a</sys_ui_section>
+            <sys_ui_section display_value="">6f16abec97686510b2e1f97e6253af6a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-01-19 14:39:09</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_output_variable" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6f1667ec97686510b2e1f97e6253afb2</sys_ui_form>
-            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3b16abec97686510b2e1f97e6253af73</sys_ui_section>
+            <sys_ui_section display_value="">3b16abec97686510b2e1f97e6253af73</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-01-19 14:39:09</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_output_variable" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6f1667ec97686510b2e1f97e6253afb2</sys_ui_form>
-            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">231667ec97686510b2e1f97e6253afb5</sys_ui_section>
+            <sys_ui_section display_value="">231667ec97686510b2e1f97e6253afb5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-01-19 14:39:09</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_output_variable" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6f1667ec97686510b2e1f97e6253afb2</sys_ui_form>
-            <sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">a31667ec97686510b2e1f97e6253afb9</sys_ui_section>
+            <sys_ui_section display_value="">a31667ec97686510b2e1f97e6253afb9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-01-19 14:39:09</sys_updated_on>
         </sys_ui_form_section>
@@ -66,7 +66,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_output_variable" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6f1667ec97686510b2e1f97e6253afb2</sys_ui_form>
-            <sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">a316abec97686510b2e1f97e6253af67</sys_ui_section>
+            <sys_ui_section display_value="">a316abec97686510b2e1f97e6253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-01-19 14:39:09</sys_updated_on>
         </sys_ui_form_section>
@@ -80,7 +80,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_output_variable" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6f1667ec97686510b2e1f97e6253afb2</sys_ui_form>
-            <sys_ui_section caption="Default Value" display_value="Default Value" name="atf_output_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">ff16abec97686510b2e1f97e6253af7a</sys_ui_section>
+            <sys_ui_section display_value="">ff16abec97686510b2e1f97e6253af7a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-01-19 14:39:09</sys_updated_on>
         </sys_ui_form_section>
@@ -93,12 +93,15 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6f1667ec97686510b2e1f97e6253afb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>atf_output_variable</sys_name>
             <sys_overrides/>
             <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
             <sys_policy/>
             <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
             <sys_update_name>sys_ui_form_sections_6f1667ec97686510b2e1f97e6253afb2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 12:08:20</sys_updated_on>
             <sys_user/>
             <view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view>
             <view_name/>

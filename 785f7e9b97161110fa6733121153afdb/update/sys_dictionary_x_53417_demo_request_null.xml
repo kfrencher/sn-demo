@@ -57,6 +57,8 @@
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_dictionary_x_53417_demo_request_null</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-04 10:35:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>true</text_index>
         <unique>false</unique>

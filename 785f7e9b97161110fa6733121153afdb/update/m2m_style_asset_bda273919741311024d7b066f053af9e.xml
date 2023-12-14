@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_style_asset">
+    <m2m_style_asset action="INSERT_OR_UPDATE">
+        <asset display_value="Source Sans Pro">7382e471c7102010d447c17cf4c260b2</asset>
+        <properties>{
+  "font-style": "italic",
+  "font-weight": "600"
+}</properties>
+        <style display_value="Typography">75a273919741311024d7b066f053af3f</style>
+        <sys_class_name>m2m_style_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-02 16:11:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bda273919741311024d7b066f053af9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>m2m_style_asset_bda273919741311024d7b066f053af9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-02 16:11:53</sys_updated_on>
+    </m2m_style_asset>
+</record_update>

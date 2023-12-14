@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="dd78c09b972d751024d7b066f053af6d" sys_domain="global" table="Copy of x_53417_demo_task" version="3" view="sys_popup">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-03 00:47:55</sys_created_on>
+            <sys_id>9178c09b972d751024d7b066f053af6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="Copy of x_53417_demo_task" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">dd78c09b972d751024d7b066f053af6d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-03 00:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-03 00:47:55</sys_created_on>
+            <sys_id>9978c09b972d751024d7b066f053af6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="Copy of x_53417_demo_task" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">dd78c09b972d751024d7b066f053af6d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-03 00:47:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-03 00:47:55</sys_created_on>
+            <sys_id>9d78c09b972d751024d7b066f053af6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="Copy of x_53417_demo_task" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">dd78c09b972d751024d7b066f053af6d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-03 00:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-03 00:47:55</sys_created_on>
+            <sys_id>9578c09b972d751024d7b066f053af6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="Copy of x_53417_demo_task" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">dd78c09b972d751024d7b066f053af6d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-03 00:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>Copy of x_53417_demo_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-03 00:47:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd78c09b972d751024d7b066f053af6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Copy of x_53417_demo_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_ui_section_dd78c09b972d751024d7b066f053af6d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-03 00:47:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Sys_popup" name="sys_popup">c7402b100a0a0b8400cf971d83ee4384</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -3,6 +3,7 @@
         <configuration_template display_value="Basic Auth Demo Configuration">cbdcec63b70333008321e916de11a96c</configuration_template>
         <connection_type>sys_connection</connection_type>
         <id>x_53417_demo.Demo_Basic</id>
+        <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>Demo Basic</name>
         <parent/>

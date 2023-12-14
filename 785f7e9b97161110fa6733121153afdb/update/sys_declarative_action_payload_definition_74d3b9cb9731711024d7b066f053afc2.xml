@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>DEMO_CAT_ACTIVATE</action_key>
+        <applicable_to>035d270073151010c342d5fdbdf6a715</applicable_to>
+        <description/>
+        <label>DEMO_CAT_ACTIVATE</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_74d3b9cb9731711024d7b066f053afc2</payload_field_table>
+        <payload_template>{&#13;
+"table": "{{table}}",&#13;
+"sysId": "{{sys_id}}",&#13;
+"url": "{{url}}",&#13;
+"breed": "{{breed}}",&#13;
+"country":"{{country}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 00:14:41</sys_created_on>
+        <sys_id>74d3b9cb9731711024d7b066f053afc2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DEMO_CAT_ACTIVATE</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_74d3b9cb9731711024d7b066f053afc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 20:41:30</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_5d75731797db1110b2e1f97e6253af65</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Open or close modal dialog Relay (Form default)</label>
+        <props>[{"name":"modalId","fieldType":"string","interfaceApiName":"global.modal","label":"Modal"},{"name":"showModal","fieldType":"boolean","interfaceApiName":null,"label":"Open modal dialog"},{"name":"displayOptions","fieldType":"json","interfaceApiName":null,"label":"Display options (advanced)"},{"name":"bare","fieldType":"boolean","interfaceApiName":"global.modal","label":"Use bare modal"},{"name":"viewportElementId","fieldType":"string","interfaceApiName":null,"label":"Viewport ID"},{"name":"viewportRoute","fieldType":"string","interfaceApiName":null,"label":"Viewport Route"},{"name":"viewportFields","fieldType":"json","interfaceApiName":null,"label":"Viewport Fields"}]</props>
+        <required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 11:42:10</sys_created_on>
+        <sys_id>bb618b129769b11024d7b066f053afd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open or close modal dialog Relay (Form default)</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_event_bb618b129769b11024d7b066f053afd2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 11:42:10</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=bb618b129769b11024d7b066f053afd2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_event_bb618b129769b11024d7b066f053afd2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>MODAL_SELECTED_RELAY_5d75731797db1110b2e1f97e6253af65</event_name><explicit_api_name/><interfaces/><label>Open or close modal dialog Relay (Form default)</label><props>[{"name":"modalId","fieldType":"string","interfaceApiName":"global.modal","label":"Modal"},{"name":"showModal","fieldType":"boolean","interfaceApiName":null,"label":"Open modal dialog"},{"name":"displayOptions","fieldType":"json","interfaceApiName":null,"label":"Display options (advanced)"},{"name":"bare","fieldType":"boolean","interfaceApiName":"global.modal","label":"Use bare modal"},{"name":"viewportElementId","fieldType":"string","interfaceApiName":null,"label":"Viewport ID"},{"name":"viewportRoute","fieldType":"string","interfaceApiName":null,"label":"Viewport Route"},{"name":"viewportFields","fieldType":"json","interfaceApiName":null,"label":"Viewport Fields"}]</props><required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-30 11:42:10</sys_created_on><sys_id>bb618b129769b11024d7b066f053afd2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open or close modal dialog Relay (Form default)</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_event_bb618b129769b11024d7b066f053afd2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-30 11:42:10</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=bb618b129769b11024d7b066f053afd2"/></record_update>]]></payload>
+        <payload_hash>263160224</payload_hash>
+        <record_name>Open or close modal dialog Relay (Form default)</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 11:42:11</sys_created_on>
+        <sys_id>00718b129769b11024d7b066f053afd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ae5e566e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 11:42:11</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>44718b124d69b11020787dfa8ee000d4</update_guid>
+        <update_guid_history>44718b124d69b11020787dfa8ee000d4:263160224</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 15:13:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>2e4b2229093345f29a385857330cc841</sys_id>
+        <sys_metadata>bb618b129769b11024d7b066f053afd2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open or close modal dialog Relay (Form default)</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_event_bb618b129769b11024d7b066f053afd2</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_bb618b129769b11024d7b066f053afd2">00718b129769b11024d7b066f053afd5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 15:13:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

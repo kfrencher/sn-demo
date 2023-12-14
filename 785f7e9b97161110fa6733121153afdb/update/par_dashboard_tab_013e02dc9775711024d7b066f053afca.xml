@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dashboard display_value="Demo Credential Dashboard">7743be5797e5b51024d7b066f053af79</dashboard>
+        <name>Secondary KPI</name>
+        <order>1</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 13:06:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>013e02dc9775711024d7b066f053afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Secondary KPI</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_tab_013e02dc9775711024d7b066f053afca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 13:06:11</sys_updated_on>
+    </par_dashboard_tab>
+</record_update>

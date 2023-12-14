@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Demo Priority">2ebd5c6d976e211024d7b066f053aff0</sc_cat_item>
+        <sc_cat_item display_value="Demo Profile">2ebd5c6d976e211024d7b066f053aff0</sc_cat_item>
         <sc_category display_value="Services">904088b8975b1110b2e1f97e6253afcc</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

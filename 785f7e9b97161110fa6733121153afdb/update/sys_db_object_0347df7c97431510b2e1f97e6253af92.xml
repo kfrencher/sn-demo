@@ -17,16 +17,19 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="My Request Filter" name="request_filter">50fe798c752401100acb0f6766fcbf7c</super_class>
+        <super_class display_value="My Request Filter" name="request_filter">885d0bf9e8a1211076da10591ad2876f</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-06 18:39:39</sys_created_on>
         <sys_id>0347df7c97431510b2e1f97e6253af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Request Filter</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_db_object_0347df7c97431510b2e1f97e6253af92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:06:33</sys_updated_on>
         <update_access>true</update_access>
         <user_role display_value="x_53417_demo.request_filter_user" name="x_53417_demo.request_filter_user">9987d33097831510b2e1f97e6253af80</user_role>
         <ws_access>true</ws_access>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "f552e6a932780394b6f06c14071aa115",
+            "type": "MACROPONENT"
+        },
+        "elementId": "dashboard_1",
+        "elementLabel": "Dashboard 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "claagnddeeoqaacciirddwggyggoqshhikii",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "8672f70d97d6b11024d7b066f053affc"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "claagnddeeoqaacciisddwggyddkfaaffxig",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "dashboardSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "defaultDashboard": {
+                "type": "JSON_LITERAL",
+                "value": "203e2f0597d6b11024d7b066f053af6b"
+            },
+            "defaultDrilldowns": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "editMode": {
+                "binding": {
+                    "address": [
+                        "edit"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "element": {
+                "binding": {
+                    "address": [
+                        "element"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "experienceId": {
+                "binding": {
+                    "address": [
+                        "appId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "filterId": {
+                "binding": {
+                    "address": [
+                        "filter"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "hideCreateNewButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDashboardPicker": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideEditButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHeader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideShareButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showPrintPreview": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "tabSysId": {
+                "binding": {
+                    "address": [
+                        "tabSysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "userInfo": {
+                "binding": {
+                    "address": [
+                        "user"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description>Provides the ability to display multiple kinds of information, including data visualizations, filters, and text on a single screen with one or more tabs. Use dashboards to create a story with data that you can share with multiple users.</description>
+        <dispatched_events>166595d6b70201109fda8079ce11a904</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "dashboard_1",
+                "styles": {
+                    "height": ""
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "height": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Dashboard2</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Element",
+        "mandatory": false,
+        "name": "element",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "filter",
+        "mandatory": false,
+        "name": "filter",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "tabSysId",
+        "mandatory": false,
+        "name": "tabSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Edit",
+        "mandatory": false,
+        "name": "edit",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clohwgltgaahhaaaddnhhtqffwhhzggki",
+        "inherited": false,
+        "label": "message",
+        "mandatory": false,
+        "name": "message",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 00:51:05</sys_created_on>
+        <sys_id>8a72f30d97d6b11024d7b066f053afe0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Dashboard2</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_macroponent_8a72f30d97d6b11024d7b066f053afe0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 00:52:03</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=8a72f30d97d6b11024d7b066f053afe0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_macroponent_8a72f30d97d6b11024d7b066f053afe0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition>[
+    {
+        "definition": {
+            "id": "f552e6a932780394b6f06c14071aa115",
+            "type": "MACROPONENT"
+        },
+        "elementId": "dashboard_1",
+        "elementLabel": "Dashboard 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "claagnddeeoqaacciirddwggyggoqshhikii",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "8672f70d97d6b11024d7b066f053affc"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "claagnddeeoqaacciisddwggyddkfaaffxig",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "dashboardSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "defaultDashboard": {
+                "type": "JSON_LITERAL",
+                "value": "203e2f0597d6b11024d7b066f053af6b"
+            },
+            "defaultDrilldowns": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "editMode": {
+                "binding": {
+                    "address": [
+                        "edit"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "element": {
+                "binding": {
+                    "address": [
+                        "element"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "experienceId": {
+                "binding": {
+                    "address": [
+                        "appId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "filterId": {
+                "binding": {
+                    "address": [
+                        "filter"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "hideCreateNewButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDashboardPicker": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideEditButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHeader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideShareButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showPrintPreview": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "tabSysId": {
+                "binding": {
+                    "address": [
+                        "tabSysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "userInfo": {
+                "binding": {
+                    "address": [
+                        "user"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition><da_relay_models/><data>[
+    
+]</data><description>Provides the ability to display multiple kinds of information, including data visualizations, filters, and text on a single screen with one or more tabs. Use dashboards to create a story with data that you can share with multiple users.</description><dispatched_events>166595d6b70201109fda8079ce11a904</dispatched_events><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><handled_events/><interactions/><interfaces/><internal_event_mappings>{}</internal_event_mappings><layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "dashboard_1",
+                "styles": {
+                    "height": ""
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "height": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout><macroponent_dependencies/><name>Dashboard2</name><output_prop_mapping/><props>[
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Element",
+        "mandatory": false,
+        "name": "element",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "filter",
+        "mandatory": false,
+        "name": "filter",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "tabSysId",
+        "mandatory": false,
+        "name": "tabSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Edit",
+        "mandatory": false,
+        "name": "edit",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clohwgltgaahhaaaddnhhtqffwhhzggki",
+        "inherited": false,
+        "label": "message",
+        "mandatory": false,
+        "name": "message",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props><required_translations>[ ]</required_translations><root_component/><root_component_config>{}</root_component_config><root_component_definition/><schema_version>1.0.0</schema_version><state_properties>[
+    
+]</state_properties><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-03 00:51:05</sys_created_on><sys_id>8a72f30d97d6b11024d7b066f053afe0</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Dashboard2</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_macroponent_8a72f30d97d6b11024d7b066f053afe0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-03 00:52:03</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=8a72f30d97d6b11024d7b066f053afe0"/></record_update>]]></payload>
+        <payload_hash>1884724197</payload_hash>
+        <record_name>Dashboard2</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 00:52:03</sys_created_on>
+        <sys_id>90b27b0d97d6b11024d7b066f053afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b92aa68760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 00:52:03</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>d4b27b0d3bd6b11086f70881253836c4</update_guid>
+        <update_guid_history>d4b27b0d3bd6b11086f70881253836c4:1884724197,7582330dcdd6b1109d5bdd4cd740a7d2:-1232521592,ee723b0d38d6b110632abec7452a482e:-42569589,46723b0d47d6b110e70b52c8bff35502:-1241167061,4272f30d80d6b110542658772c4276e2:-437617338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 12:04:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>34ba55e6aeed40c1b4d11ee1ea0b1a81</sys_id>
+        <sys_metadata>8a72f30d97d6b11024d7b066f053afe0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard2</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_8a72f30d97d6b11024d7b066f053afe0</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_8a72f30d97d6b11024d7b066f053afe0">90b27b0d97d6b11024d7b066f053afc5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 12:04:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
         <composition>[ ]</composition>
@@ -10,6 +11,7 @@
         <dispatched_events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -41,10 +43,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-27 01:20:24</sys_created_on>
         <sys_id>2e03335397db1110b2e1f97e6253af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>home2</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_macroponent_2e03335397db1110b2e1f97e6253af15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:08:30</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=2e03335397db1110b2e1f97e6253af15"/>
 </record_update>

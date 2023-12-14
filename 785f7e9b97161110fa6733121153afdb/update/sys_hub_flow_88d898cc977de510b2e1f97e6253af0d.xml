@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation>Create parallel actions</annotation>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
@@ -143,6 +144,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18b9900097bde510b2e1f97e6253afe1"/>
     <sys_hub_flow_output action="delete_multiple" query="model=88d898cc977de510b2e1f97e6253af0d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=88d898cc977de510b2e1f97e6253af0d"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=88d898cc977de510b2e1f97e6253af0d^sys_idNOT IN00d898cc977de510b2e1f97e6253af5b,0ecf144897bde510b2e1f97e6253af3f,0ecf144897bde510b2e1f97e6253af46,46cf144897bde510b2e1f97e6253af55,673d584497bde510b2e1f97e6253afaa,6f3d584497bde510b2e1f97e6253af9d,a73d584497bde510b2e1f97e6253afb0,c2cf144897bde510b2e1f97e6253af50,e33d584497bde510b2e1f97e6253af95,e33d584497bde510b2e1f97e6253afb8"/>
@@ -151,6 +153,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment/>
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
@@ -188,6 +191,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Set Approval to Approved</comment>
         <compiled_snapshot/>
         <display_text/>
@@ -277,6 +281,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Log Task is Approved</comment>
         <compiled_snapshot/>
         <display_text/>
@@ -314,6 +319,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Log Task is Rejected</comment>
         <compiled_snapshot/>
         <display_text/>
@@ -351,6 +357,7 @@
         <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Create a child task that represents the approval</comment>
         <compiled_snapshot/>
         <display_text/>
@@ -414,6 +421,7 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Approve / Reject the child task</comment>
         <compiled_snapshot/>
         <display_text/>
@@ -567,6 +575,7 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Approve / Reject the child task</comment>
         <compiled_snapshot/>
         <display_text/>
@@ -720,6 +729,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Set Approval to Rejected</comment>
         <compiled_snapshot/>
         <display_text/>
@@ -809,6 +819,7 @@
         <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Create a child task that represents the approval</comment>
         <compiled_snapshot/>
         <display_text/>
@@ -872,6 +883,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment/>
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
@@ -906,6 +918,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e33d584497bde510b2e1f97e6253afb8"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=88d898cc977de510b2e1f97e6253af0d^sys_idNOT INc55f7e4497b92910b2e1f97e6253af7f,efdc7a4097b92910b2e1f97e6253af58"/>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
@@ -952,18 +965,6 @@
         <sys_updated_on>2023-03-21 01:51:12</sys_updated_on>
         <table>var__m_sys_hub_flow_input_970f364497b92910b2e1f97e6253af44</table>
         <value>{{subflow.task}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>c55f7e4497b92910b2e1f97e6253af7f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-21 01:51:12</sys_created_on>
-        <sys_id>5d5f7e4497b92910b2e1f97e6253af8c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-21 01:51:12</sys_updated_on>
-        <table>var__m_sys_hub_sub_flow_instance_inputs_c55f7e4497b92910b2e1f97e6253af7f</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_c55f7e4497b92910b2e1f97e6253af7f^id=c55f7e4497b92910b2e1f97e6253af7f"/>
     <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=c55f7e4497b92910b2e1f97e6253af7f^sys_idNOT INc55f7e4497b92910b2e1f97e6253af80"/>
@@ -1052,6 +1053,7 @@
     </sys_hub_sub_flow_instance_inputs>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c55f7e4497b92910b2e1f97e6253af7f"/>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
@@ -1098,18 +1100,6 @@
         <sys_updated_on>2023-03-21 01:40:26</sys_updated_on>
         <table>var__m_sys_hub_flow_input_25463e0897792910b2e1f97e6253af89</table>
         <value>{{subflow.task}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>efdc7a4097b92910b2e1f97e6253af58</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-21 01:40:26</sys_created_on>
-        <sys_id>abdc7a4097b92910b2e1f97e6253af8b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-21 01:40:26</sys_updated_on>
-        <table>var__m_sys_hub_sub_flow_instance_inputs_efdc7a4097b92910b2e1f97e6253af58</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_efdc7a4097b92910b2e1f97e6253af58^id=efdc7a4097b92910b2e1f97e6253af58"/>
     <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=efdc7a4097b92910b2e1f97e6253af58^sys_idNOT INafdc7a4097b92910b2e1f97e6253af66"/>
@@ -1199,6 +1189,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=efdc7a4097b92910b2e1f97e6253af58"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=88d898cc977de510b2e1f97e6253af0d^sys_idNOT IN273d584497bde510b2e1f97e6253afa4,8ecf144897bde510b2e1f97e6253af56,c0d898cc977de510b2e1f97e6253af17,cacf144897bde510b2e1f97e6253af36,cacf144897bde510b2e1f97e6253af48,ccd898cc977de510b2e1f97e6253af19"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">2b3d584497bde510b2e1f97e6253afa3</block>
         <comment/>
         <connected_to/>
@@ -1231,6 +1222,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=273d584497bde510b2e1f97e6253afa4"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=273d584497bde510b2e1f97e6253afa4"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">c6cf144897bde510b2e1f97e6253af56</block>
         <comment>Some combination of approved and rejected need to reconcile before continuing</comment>
         <connected_to>bc4d8a0e-fee7-4d0c-bf44-3243393335c4</connected_to>
@@ -1263,6 +1255,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8ecf144897bde510b2e1f97e6253af56"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8ecf144897bde510b2e1f97e6253af56"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">91729044977de510b2e1f97e6253af79</block>
         <comment>Get approvals from all stakeholders</comment>
         <connected_to/>
@@ -1295,6 +1288,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c0d898cc977de510b2e1f97e6253af17"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c0d898cc977de510b2e1f97e6253af17"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">cecf144897bde510b2e1f97e6253af35</block>
         <comment/>
         <connected_to/>
@@ -1367,6 +1361,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cacf144897bde510b2e1f97e6253af36"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cacf144897bde510b2e1f97e6253af36"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">06cf144897bde510b2e1f97e6253af48</block>
         <comment/>
         <connected_to>bc4d8a0e-fee7-4d0c-bf44-3243393335c4</connected_to>
@@ -1439,6 +1434,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cacf144897bde510b2e1f97e6253af48"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cacf144897bde510b2e1f97e6253af48"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">11729084977de510b2e1f97e6253af85</block>
         <comment/>
         <connected_to/>
@@ -1486,11 +1482,11 @@
         <sys_created_on>2023-03-20 13:47:31</sys_created_on>
         <sys_id>dcb91c0097bde510b2e1f97e6253afb7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Task</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_88d898cc977de510b2e1f97e6253af0d_task_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-20 13:47:31</sys_updated_on>
         <url/>

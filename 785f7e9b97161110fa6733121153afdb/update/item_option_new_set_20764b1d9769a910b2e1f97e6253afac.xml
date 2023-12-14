@@ -2,7 +2,7 @@
     <item_option_new_set action="INSERT_OR_UPDATE">
         <create_roles/>
         <description/>
-        <display_title>false</display_title>
+        <display_title>true</display_title>
         <internal_name>demo_request_details</internal_name>
         <layout>normal</layout>
         <name/>
@@ -13,16 +13,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-12 13:19:16</sys_created_on>
         <sys_id>20764b1d9769a910b2e1f97e6253afac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Demo Request Details</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Demo Request Details Section KLF</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>item_option_new_set_20764b1d9769a910b2e1f97e6253afac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-12 13:19:16</sys_updated_on>
-        <title>Demo Request Details</title>
+        <sys_updated_on>2023-09-27 02:30:47</sys_updated_on>
+        <title>Demo Request Details Section KLF</title>
         <type>one_to_one</type>
+        <version/>
         <write_roles/>
     </item_option_new_set>
 </record_update>

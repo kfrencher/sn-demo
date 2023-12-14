@@ -9,6 +9,7 @@
         <default_answer>false</default_answer>
         <input_table>var__m_sys_decision_input_9aaede6c977da910b2e1f97e6253af9b</input_table>
         <label>Test SN Task_100</label>
+        <marked_for_deletion>false</marked_for_deletion>
         <order>100</order>
         <sys_class_name>sys_decision_question</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_view_rule_ux_view_rule_config">
+    <sys_ux_m2m_workspace_view_rule_ux_view_rule_config action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 11:56:50</sys_created_on>
+        <sys_id>a9b1d96a9711f11024d7b066f053af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Workspace default for Task.Todo View Rules</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config_a9b1d96a9711f11024d7b066f053af0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 11:56:50</sys_updated_on>
+        <view_rules_configuration display_value="Todo View Rules">d481d56a9711f11024d7b066f053afd9</view_rules_configuration>
+        <workspace_view_rule display_value="Make Workspace default for Task">da8f09e69711f11024d7b066f053afc2</workspace_view_rule>
+    </sys_ux_m2m_workspace_view_rule_ux_view_rule_config>
+</record_update>

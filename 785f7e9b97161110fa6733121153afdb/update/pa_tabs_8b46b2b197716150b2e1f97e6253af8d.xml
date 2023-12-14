@@ -2,7 +2,7 @@
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA New Tab">4746b2b197716150b2e1f97e6253af7c</canvas_page>
         <name>SLA Overview</name>
-        <page display_value="PA New Tab">c34632b197716150b2e1f97e6253af74</page>
+        <page display_value="">c34632b197716150b2e1f97e6253af74</page>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-26 11:41:06</sys_created_on>

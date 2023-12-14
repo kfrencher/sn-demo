@@ -3,6 +3,7 @@
         <configuration_template display_value="Basic Http Configuration">24fe67399712211024d7b066f053af71</configuration_template>
         <connection_type>http_connection</connection_type>
         <id>x_53417_demo.Demo_Test_Spoke_Connection</id>
+        <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>Demo Test Spoke Connection</name>
         <parent display_value="x_53417_demo.Demo_Cat_Fact">b673a62d9712211024d7b066f053af02</parent>

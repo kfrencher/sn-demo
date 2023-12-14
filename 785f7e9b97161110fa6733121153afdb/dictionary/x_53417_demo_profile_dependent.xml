@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6f51232e9722b11024d7b066f053afaf" label="Profile Dependent" max_length="40" name="x_53417_demo_profile_dependent" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Profile" max_length="32" name="profile" reference="x_53417_demo_profile" type="reference"/>
+        <index name="index">
+            <element name="profile"/>
+        </index>
+    </element>
+</database>

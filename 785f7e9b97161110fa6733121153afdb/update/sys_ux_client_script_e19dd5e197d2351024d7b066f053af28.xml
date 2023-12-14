@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">e99d95e197d2351024d7b066f053aff3</macroponent>
+        <name>showNotificationOnArticleLoad</name>
+        <preset/>
+        <required_translations>[
+    {
+        "message": "Did this article help you?"
+    },
+    {
+        "message": "% found this helpful"
+    },
+    {
+        "message": "Article expired. Update its **Valid to**  date to make it available to users."
+    },
+    {
+        "message": "Flag Article"
+    },
+    {
+        "message": "Copy Link"
+    },
+    {
+        "message": "The article ** has been retired and replaced with the current article."
+    }
+]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports,
+    helpers
+}) {
+    helpers.translate('Did this article help you?').then((value) => api.setState('booleanFeedbackMessage', value));
+
+    const articleData = api.data.get_article_details_1.articleDetails;
+
+
+    var helpPercent = (articleData.usefulYesCount && articleData.totalUsefulCount) ? 
+        Math.round(articleData.usefulYesCount / articleData.totalUsefulCount *100) : 0;
+    if (helpPercent>0) {
+        helpers.translate('% found this helpful').then((value) => {
+        api.setState('helpPercentMessage', helpPercent + value);
+    });
+        api.setState('isHelpPercentInfoHidden', false);
+    }
+
+	const {screen,translate} = helpers;
+	if(articleData.articleSysId !=null){
+		let articleTooltip = articleData.articleInfo.number;
+
+        if(articleData.versionDetails.isInstalled && articleData.versionDetails.isEnabled){
+            let articleVersionInfo;
+            for(let counter=0; counter < articleData.versionInfo.versions.length; counter++){
+                if(articleData.versionInfo.versions[counter].id === articleData.articleSysId){
+                    articleVersionInfo = articleData.versionInfo.versions[counter].label;
+                    break;
+                }
+            }
+
+             articleTooltip += " v" + articleVersionInfo;
+        }
+
+       articleTooltip += " : " +  articleData.articleInfo.shortDescription;
+
+        screen.updateStatus( {
+            title : articleData.articleInfo.shortDescription,
+            tooltipPreview : {
+                primaryTitle : articleTooltip
+            }
+        });
+    }
+
+    if (articleData.versionDetails && articleData.versionDetails.newVersionAvailable) {
+        var message = articleData.versionDetails.warningMessage;
+        var versionMessage = "<div>"+message+"</div>";
+        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+            items: [{
+                id: "versionAlert",
+                status: "info",
+                icon: "info-circle-outline",
+                content: {
+                    type: "html",
+                    value: versionMessage
+                },
+                action: {
+                    type: "dismiss"
+                }
+            }],
+        });
+    }
+
+
+    if (articleData.articleInfo.isExpired) {
+        helpers.translate('Article expired. Update its **Valid to**  date to make it available to users.').then((value) => {
+            value = '<div>' + value.replace('**', '<i>').replace('**', '</i>') + '</div>';
+            api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                items: [{
+                    id: "expiryAlert",
+                    status: "info",
+                    icon: "info-circle-outline",
+                    content: {
+                        type: "html",
+                        value: value
+                    },
+                    action: {
+                        type: "dismiss"
+                    }
+                }],
+            });
+        });
+    }
+
+if(articleData.errorMessage && articleData.errorMessage != "") {
+        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+            items: [{
+                id: "errorMsg",
+                status: "critical",
+                content: {
+                    type: "string",
+                    value: articleData.errorMessage
+                },
+                action: {
+                    type: "dismiss"
+                }
+            }],
+        });
+    }
+
+    helpers.translate('Flag Article').then((value) => api.setState('flagArticleLabel', value));
+    helpers.translate('Copy Link').then((value) => api.setState('copyLinkLabel', value));
+
+    if(api.context.props.mode == 'redirect' && api.context.props.base != null) {
+        helpers.translate("The article ** has been retired and replaced with the current article.").then((value) => {
+            const baseArticleId = api.context.props.base;
+            const baseArticleNumber = api.data.look_up_base_article.result.number.value;
+            value = "<div>" + value.replace('**', "<a href='kb_view.do?sys_kb_id=" + baseArticleId + "'>" + baseArticleNumber + "</a>") + "</div>";
+
+            api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                items: [{
+                    id: "redirectionAlert",
+                    status: "info",
+                    icon: "info-circle-outline",
+                    content: {
+                        type: "html",
+                        value: value
+                    },
+                    action: {
+                        type: "dismiss"
+                    }
+                }],
+            });
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 03:17:34</sys_created_on>
+        <sys_id>e19dd5e197d2351024d7b066f053af28</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>showNotificationOnArticleLoad</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_client_script_e19dd5e197d2351024d7b066f053af28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 03:17:34</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

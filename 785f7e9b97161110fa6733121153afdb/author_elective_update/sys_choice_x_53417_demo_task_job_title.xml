@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="job_title" table="x_53417_demo_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>job_title</element>
+            <name>x_53417_demo_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 11:42:54</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>job_title</sys_name>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_choice_x_53417_demo_task_job_title</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 11:42:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>job_title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Doctor</label>
+            <language>en</language>
+            <name>x_53417_demo_task</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 11:42:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 11:42:54</sys_updated_on>
+            <value>Doctor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>job_title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nurse</label>
+            <language>en</language>
+            <name>x_53417_demo_task</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 11:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 11:42:55</sys_updated_on>
+            <value>Nurse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>job_title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physician Assistant</label>
+            <language>en</language>
+            <name>x_53417_demo_task</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 11:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 11:42:55</sys_updated_on>
+            <value>Physician Assistant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>job_title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phlebotemist</label>
+            <language>en</language>
+            <name>x_53417_demo_task</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 11:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 11:42:55</sys_updated_on>
+            <value>Phlebotemist</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

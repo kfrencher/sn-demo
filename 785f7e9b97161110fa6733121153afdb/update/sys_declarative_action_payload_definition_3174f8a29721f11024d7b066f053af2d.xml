@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>KLF_CLS#CLS_CHG</action_key>
+        <applicable_to>15920e6d534723003eddddeeff7b1244</applicable_to>
+        <description/>
+        <label>KLF Classification Change</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_3174f8a29721f11024d7b066f053af2d</payload_field_table>
+        <payload_template>{&#13;
+  "header": "test"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 20:06:07</sys_created_on>
+        <sys_id>3174f8a29721f11024d7b066f053af2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KLF Classification Change</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_3174f8a29721f11024d7b066f053af2d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 20:06:07</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

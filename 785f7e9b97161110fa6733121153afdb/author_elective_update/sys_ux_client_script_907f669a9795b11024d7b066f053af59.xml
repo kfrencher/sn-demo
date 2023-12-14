@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes>e75113c0c3302010de10a0f89d40dd0e</includes>
+        <macroponent display_value="List">7f6fa61a9795b11024d7b066f053af0e</macroponent>
+        <name>listSetPrefState</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.payload.interaction === "USER_ACTION") {
+        const listDividerPosition = event.payload.dividerPosition;
+        const listPreference = api.state.listRatioPreference;
+        
+        api.setState('listDividerPosition', listDividerPosition);
+
+        api.data.setListPreference.execute({
+            'name': listPreference,
+            'value': listDividerPosition
+        });    
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 00:07:51</sys_created_on>
+        <sys_id>907f669a9795b11024d7b066f053af59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>listSetPrefState</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_client_script_907f669a9795b11024d7b066f053af59</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 00:07:51</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_client_script_907f669a9795b11024d7b066f053af59</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes&gt;e75113c0c3302010de10a0f89d40dd0e&lt;/includes&gt;&lt;macroponent display_value="List"&gt;7f6fa61a9795b11024d7b066f053af0e&lt;/macroponent&gt;&lt;name&gt;listSetPrefState&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.payload.interaction === "USER_ACTION") {
+        const listDividerPosition = event.payload.dividerPosition;
+        const listPreference = api.state.listRatioPreference;
+        
+        api.setState('listDividerPosition', listDividerPosition);
+
+        api.data.setListPreference.execute({
+            'name': listPreference,
+            'value': listDividerPosition
+        });    
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-18 00:07:51&lt;/sys_created_on&gt;&lt;sys_id&gt;907f669a9795b11024d7b066f053af59&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;listSetPrefState&lt;/sys_name&gt;&lt;sys_package display_value="Demo" source="x_53417_demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;785f7e9b97161110fa6733121153afdb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_907f669a9795b11024d7b066f053af59&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-18 00:07:51&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2066192037</payload_hash>
+        <record_name>listSetPrefState</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 00:07:51</sys_created_on>
+        <sys_id>107f669a9795b11024d7b066f053af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aa59d6ae20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 00:07:51</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>947f669a3c95b1108201c4f5811c446c</update_guid>
+        <update_guid_history>947f669a3c95b1108201c4f5811c446c:-2066192037</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 00:10:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>55e2d550060e495891fa63ee4ac9a444</sys_id>
+        <sys_metadata>907f669a9795b11024d7b066f053af59</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>listSetPrefState</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_907f669a9795b11024d7b066f053af59</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_907f669a9795b11024d7b066f053af59">107f669a9795b11024d7b066f053af6d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 00:10:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

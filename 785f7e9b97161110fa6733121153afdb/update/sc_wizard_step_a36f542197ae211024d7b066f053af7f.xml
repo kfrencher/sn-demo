@@ -4,24 +4,24 @@
         <feedback/>
         <hide_on_template>false</hide_on_template>
         <macroponent/>
-        <name>Name Priority</name>
-        <order>0</order>
-        <short_description>Name Priority</short_description>
+        <name>Personal Information</name>
+        <order>100</order>
+        <short_description>Personal Information</short_description>
         <sys_class_name>sc_wizard_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-01 12:50:46</sys_created_on>
         <sys_id>a36f542197ae211024d7b066f053af7f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Name Priority</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Personal Information</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sc_wizard_step_a36f542197ae211024d7b066f053af7f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-01 12:50:46</sys_updated_on>
+        <sys_updated_on>2023-11-20 02:08:58</sys_updated_on>
         <template_feedback/>
         <use_same_feedback_in_template>true</use_same_feedback_in_template>
-        <wizard display_value="Demo Priority Wizard">ef4fd02197ae211024d7b066f053af46</wizard>
+        <wizard display_value="Demo Profile">ef4fd02197ae211024d7b066f053af46</wizard>
     </sc_wizard_step>
     <sys_translated_text action="delete_multiple" query="documentkey=a36f542197ae211024d7b066f053af7f"/>
 </record_update>

@@ -13,11 +13,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>4f6af833bfd39110f00daef68e99163b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_main</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_page_property_4f6af833bfd39110f00daef68e99163b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:08:31</sys_updated_on>
         <type>json</type>
         <unique_name>x_53417_demo.cf6af83353d39110e6f538a09a6e123b.root.chrome_main</unique_name>
         <value>{&#13;

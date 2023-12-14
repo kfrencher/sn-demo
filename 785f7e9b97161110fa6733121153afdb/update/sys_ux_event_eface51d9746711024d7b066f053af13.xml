@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>DEMO_VIEWPORT_MESSAGE_RELAY_25a3191d97c2711024d7b066f053afc5</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>DEMO_VIEWPORT_MESSAGE Relay (Default)</label>
+        <props>[{"name":"message","fieldType":"","interfaceApiName":"","label":"Message"}]</props>
+        <required_translations>[ {
+  "message" : "Message",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-21 23:29:21</sys_created_on>
+        <sys_id>eface51d9746711024d7b066f053af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEMO_VIEWPORT_MESSAGE Relay (Default)</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_event_eface51d9746711024d7b066f053af13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-21 23:29:21</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=eface51d9746711024d7b066f053af13"/>
+</record_update>

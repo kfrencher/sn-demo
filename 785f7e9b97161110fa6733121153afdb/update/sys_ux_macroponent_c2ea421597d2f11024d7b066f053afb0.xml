@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "456cfb8f9b8ab21c5312e4cb7f10957c",
+            "type": "MACROPONENT"
+        },
+        "elementId": "par_component_builder_1",
+        "elementLabel": "PAR Component Builder 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "clezxddovjjaaiiisddbhhwnaaaffeeaahhd",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_par_comp_design.SN_PAR_COMPONENT_DESIGNER#SHOW_AFFECTED_DASHBOARDS",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_par_comp_design.SN_PAR_COMPONENT_DESIGNER#SHOW_AFFECTED_DASHBOARDS",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "82ea421597d2f11024d7b066f053afb3"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "clezxddovjjaaiiitddbhhwjjdkriuqk",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clezwoiiffaaeewccddbhhwngcckcchho",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_par_comp_design.SN_PAR_COMPONENT_DESIGNER#ELEMENT_DELETED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_par_comp_design.SN_PAR_COMPONENT_DESIGNER#ELEMENT_DELETED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "caea8e5597d2f11024d7b066f053af65"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "clezwoiiffaaeewddddbhhwmdjjaaaddhhe",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clezwnriioaaeeusddbhhwrihuwzcz",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_par_comp_design.SN_PAR_COMPONENT_DESIGNER#SAVED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_par_comp_design.SN_PAR_COMPONENT_DESIGNER#SAVED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "c2ea8e5597d2f11024d7b066f053af62"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "clezwnriipaaeeutddbhhwjxhhccvjgee",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "extraPayloadForSaving": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "menuActions": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            },
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "filter"
+            },
+            "widgetId": {
+                "type": "JSON_LITERAL",
+                "value": "226449101138d0dff1abe0e1566c8b2a"
+            }
+        },
+        "slot": null,
+        "styles": {}
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "par_component_builder_1",
+                "styles": {
+                    "height": "100%",
+                    "margin": "0",
+                    "padding": "0",
+                    "width": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "height": "100%",
+            "margin": "0",
+            "padding": "0",
+            "width": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>another</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 11:57:05</sys_created_on>
+        <sys_id>c2ea421597d2f11024d7b066f053afb0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>another</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_macroponent_c2ea421597d2f11024d7b066f053afb0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 11:57:08</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2ea421597d2f11024d7b066f053afb0"/>
+</record_update>

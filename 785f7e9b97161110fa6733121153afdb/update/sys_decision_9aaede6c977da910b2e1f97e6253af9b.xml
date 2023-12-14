@@ -4,10 +4,13 @@
         <active>true</active>
         <answer_table>sys_decision_multi_result</answer_table>
         <answer_type>reference</answer_type>
+        <delta/>
         <description/>
+        <enable_publishing>false</enable_publishing>
         <label/>
         <name>ITEM Todo Label to Assignment Group</name>
         <reference_qualifier/>
+        <status/>
         <sys_class_name>sys_decision</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-22 12:45:26</sys_created_on>

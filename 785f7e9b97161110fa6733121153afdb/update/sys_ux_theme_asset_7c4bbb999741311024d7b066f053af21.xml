@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="INSERT_OR_UPDATE">
+        <category>image</category>
+        <name>trivium_logo_transparent</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-02 16:49:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c4bbb999741311024d7b066f053af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trivium_logo_transparent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_7c4bbb999741311024d7b066f053af21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-02 16:49:30</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>trivium_logo_transparent.png</file_name>
+        <hash>2d06827877a7cce22b11ef88f7431eba04b1591a7f740bf77574261c6541b816</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>5770</size_bytes>
+        <size_compressed>5793</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-02 16:49:31</sys_created_on>
+        <sys_id>894bbb999741311024d7b066f053af24</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-02 16:49:32</sys_updated_on>
+        <table_name>sys_ux_theme_asset</table_name>
+        <table_sys_id>7c4bbb999741311024d7b066f053af21</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="trivium_logo_transparent.png" sys_id="894bbb999741311024d7b066f053af24">894bbb999741311024d7b066f053af24</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-02 16:49:31</sys_created_on>
+        <sys_id>c94bbb999741311024d7b066f053af24</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>7712</length>
+        <position>1</position>
+        <sys_attachment display_value="trivium_logo_transparent.png" sys_id="894bbb999741311024d7b066f053af24">894bbb999741311024d7b066f053af24</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-02 16:49:31</sys_created_on>
+        <sys_id>4d4bbb999741311024d7b066f053af24</sys_id>
+    </sys_attachment_doc>
+</record_update>

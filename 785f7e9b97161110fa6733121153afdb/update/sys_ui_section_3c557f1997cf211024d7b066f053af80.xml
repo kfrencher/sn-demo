@@ -4,13 +4,13 @@
             <element>description</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-26 06:56:52</sys_created_on>
-            <sys_id>4a3efb559703611024d7b066f053af6c</sys_id>
+            <sys_created_on>2023-09-02 21:46:23</sys_created_on>
+            <sys_id>f53f70ad9745311024d7b066f053af96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_license" sys_domain="global" view="Default view">3c557f1997cf211024d7b066f053af80</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-26 06:56:52</sys_updated_on>
+            <sys_updated_on>2023-09-02 21:46:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,69 @@
             <element>license_type</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-26 06:56:52</sys_created_on>
-            <sys_id>823efb559703611024d7b066f053af6d</sys_id>
+            <sys_created_on>2023-09-02 21:46:23</sys_created_on>
+            <sys_id>793f70ad9745311024d7b066f053af96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_license" sys_domain="global" view="Default view">3c557f1997cf211024d7b066f053af80</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-26 06:56:52</sys_updated_on>
+            <sys_updated_on>2023-09-02 21:46:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requirements</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-02 21:46:23</sys_created_on>
+            <sys_id>f93f70ad9745311024d7b066f053af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_license" sys_domain="global" view="Default view">3c557f1997cf211024d7b066f053af80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-02 21:46:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attachment</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-02 21:46:23</sys_created_on>
+            <sys_id>7d3f70ad9745311024d7b066f053af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_license" sys_domain="global" view="Default view">3c557f1997cf211024d7b066f053af80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-02 21:46:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_attachment</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-02 21:46:23</sys_created_on>
+            <sys_id>fd3f70ad9745311024d7b066f053af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_license" sys_domain="global" view="Default view">3c557f1997cf211024d7b066f053af80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-02 21:46:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_attachment_icon</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-02 21:46:23</sys_created_on>
+            <sys_id>713f70ad9745311024d7b066f053af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_license" sys_domain="global" view="Default view">3c557f1997cf211024d7b066f053af80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-02 21:46:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

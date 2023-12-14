@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field>number</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CRED Hide bg satelite when list empty</name>
+        <order/>
+        <script><![CDATA[/**
+ * I am executing this function outside of the onCellEdit call because I want to always execute this function
+ * on the list view. I'm only using the onCellEdit as a mechanism to execute this code when the list is displayed
+ * The code is adding a stylesheet that hides the satelite background image when the list is empty. ServiceNow provides
+ * no way to do this. So I am manually hiding it by injecting some CSS into the page. I need to do it this way because
+ * lists are displayed on both dashboards and in normal list views. There really is no good mechanism to get arbitrary
+ * JavaScript to run on a responsive dashboard, so I'm using the onCellEdit to run this code every time the list is
+ * displayed
+ */
+(function() {
+	if(!top.gsft_main) return;
+	
+	// Injects a stylesheet into the page that will hide the satelite image for an empty list
+	// getting a reference to document. ServiceNow blocks this reference so I am going around to get the reference myself
+	var document = top.gsft_main.document;
+	// The sys_id is the sys_id of the stylesheet in content_css
+    if (!document.getElementById('a1fcb8399745711024d7b066f053af11')) {
+        var link = document.createElement('link');
+        link.id = 'a1fcb8399745711024d7b066f053af11';
+        link.type = "text/css";
+        link.href = '/a1fcb8399745711024d7b066f053af11.cssdbx'; // hide_empty_list_satelite.css
+        link.rel = "stylesheet";
+        document.head.appendChild(link);
+    }
+})();
+
+// This is unused intentionally
+function onCellEdit(sysIDs, table, oldValues, newValue, callback) {}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-03 20:52:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c4cb5f59749711024d7b066f053afaa</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>CRED Hide bg satelite when list empty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_script_client_7c4cb5f59749711024d7b066f053afaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-03 21:53:42</sys_updated_on>
+        <table>x_53417_demo_credential</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

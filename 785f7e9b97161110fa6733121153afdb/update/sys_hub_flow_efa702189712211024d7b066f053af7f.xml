@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
@@ -277,6 +278,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=23a702189712211024d7b066f053af8a"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -360,6 +362,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2ba702189712211024d7b066f053afcc"/>
     <sys_hub_flow_output action="delete_multiple" query="model=efa702189712211024d7b066f053af7f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=efa702189712211024d7b066f053af7f"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=efa702189712211024d7b066f053af7f^sys_idNOT IN2fa702189712211024d7b066f053afeb,37a742189712211024d7b066f053af07,37a742189712211024d7b066f053af48,77a742189712211024d7b066f053af43,b7a742189712211024d7b066f053af3e,eba702189712211024d7b066f053afff"/>
@@ -368,6 +371,7 @@
         <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
         <comment>Select the catalog item and variables to use in your flow</comment>
         <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
         <display_text/>
@@ -430,6 +434,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment>Add your own Actions for a declined request</comment>
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
@@ -468,6 +473,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment>Add your own Actions that occur when the request is completed</comment>
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
@@ -492,6 +498,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment>Add your own Actions to occur when the Request is complete</comment>
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
@@ -530,6 +537,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment>Add your own Actions for approved request</comment>
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
@@ -569,6 +577,7 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
         <comment>Ask the requester's Manager for approval</comment>
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
@@ -734,6 +743,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=efa702189712211024d7b066f053af7f"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=efa702189712211024d7b066f053af7f^sys_idNOT IN2fa702189712211024d7b066f053afe4,e3a702189712211024d7b066f053afd3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">23a702189712211024d7b066f053afd8</block>
         <comment/>
         <connected_to/>
@@ -806,6 +816,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2fa702189712211024d7b066f053afe4"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2fa702189712211024d7b066f053afe4"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">6ba702189712211024d7b066f053afd2</block>
         <comment/>
         <connected_to/>

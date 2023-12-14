@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_scriptlet">
+    <sys_ux_data_broker_scriptlet action="INSERT_OR_UPDATE">
+        <api_name>x_53417_demo.Demo Flatten Lookup Records</api_name>
+        <description>Takes results from lookup record and grabs only display values</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Demo Flatten Lookup Records</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{&#13;
+  "label": "Results",&#13;
+  "name": "results",&#13;
+  "mandatory": true,&#13;
+  "fieldType": "JSON",&#13;
+  "defaultValue": null&#13;
+}]</props>
+        <required_translations>[ {
+  "message" : "Results",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	if(!input.results) {
+		return [];
+	}
+	const results = input.results;
+	return results.map(record => Object.entries(record).reduce((newRecord, entry) => {
+		const [fieldName, value] = entry;
+		newRecord[fieldName] = value.displayValue;
+		return newRecord;
+	}, {}));
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_scriptlet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 14:10:26</sys_created_on>
+        <sys_id>95c2c36d9771311024d7b066f053af8a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Demo Flatten Lookup Records</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_data_broker_scriptlet_95c2c36d9771311024d7b066f053af8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 14:26:50</sys_updated_on>
+    </sys_ux_data_broker_scriptlet>
+    <sys_translated_text action="delete_multiple" query="documentkey=95c2c36d9771311024d7b066f053af8a"/>
+</record_update>

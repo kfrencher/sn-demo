@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Demo Open Modal</name>
+        <parent_macroponent display_value="Standard record page">5d75731797db1110b2e1f97e6253af65</parent_macroponent>
+        <source_component/>
+        <source_da display_value="demo_update_classification">23b81d1a97a1b11024d7b066f053af89</source_da>
+        <source_element_id>ui_action_bar</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 12:05:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d568b569769b11024d7b066f053afac</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Demo Open Modal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_5d568b569769b11024d7b066f053afac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 15:10:03</sys_updated_on>
+        <target_event display_value="DEMO_FORM#DISPLAY_MODAL">781feb9a97e9b11024d7b066f053af45</target_event>
+        <target_payload_mapping/>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_addon_event_mapping_5d568b569769b11024d7b066f053afac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description/><name>Demo Open Modal</name><parent_macroponent display_value="Standard record page">5d75731797db1110b2e1f97e6253af65</parent_macroponent><source_component/><source_da display_value="demo_update_classification">23b81d1a97a1b11024d7b066f053af89</source_da><source_element_id>ui_action_bar</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-30 12:05:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5d568b569769b11024d7b066f053afac</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Demo Open Modal</sys_name><sys_overrides/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_addon_event_mapping_5d568b569769b11024d7b066f053afac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-30 15:10:03</sys_updated_on><target_event display_value="DEMO_FORM#DISPLAY_MODAL">781feb9a97e9b11024d7b066f053af45</target_event><target_payload_mapping/></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>-425109413</payload_hash>
+        <record_name>Demo Open Modal</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 15:10:03</sys_created_on>
+        <sys_id>c101bf9e97e9b11024d7b066f053af99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ae6a3b6fc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 15:10:03</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>8901bf9e64e9b1100f7f7d0c9f375e98</update_guid>
+        <update_guid_history>8901bf9e64e9b1100f7f7d0c9f375e98:-425109413,3140fbde54e9b110e82fe465bf68f326:-532067221,238f275e63e9b110008dc445f55117b1:-1205272769,de1d27daa0e9b1102edf32a6c1bd147b:-1060774334,d8e68b56a869b11003cd0b2be48f2a20:-744482041</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 20:08:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>9d7067a7d4b748409d656afb610b1000</sys_id>
+        <sys_metadata>5d568b569769b11024d7b066f053afac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Open Modal</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_5d568b569769b11024d7b066f053afac</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_5d568b569769b11024d7b066f053afac">c101bf9e97e9b11024d7b066f053af99</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 20:08:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

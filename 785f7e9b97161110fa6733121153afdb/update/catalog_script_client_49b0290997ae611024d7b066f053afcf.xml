@@ -17,6 +17,7 @@
         <messages/>
         <name>User or group both should not be empty</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onSubmit() {
 	var users = g_form.getValue("users");
 	var groups = g_form.getValue("groups");

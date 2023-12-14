@@ -13,7 +13,7 @@
         <sys_update_name>sc_wizard_action_config_mapping_8ec59db69762211024d7b066f053af31</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-05-05 14:00:25</sys_updated_on>
-        <wizard display_value="Demo Priority Wizard">ef4fd02197ae211024d7b066f053af46</wizard>
+        <wizard display_value="Demo Profile">ef4fd02197ae211024d7b066f053af46</wizard>
         <wizard_action_config display_value="Demo Priority Log">c7f3dd369762211024d7b066f053afef</wizard_action_config>
     </sc_wizard_action_config_mapping>
 </record_update>

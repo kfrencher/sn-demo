@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="DELETE">
+        <declarative_action_assignment/>
+        <predicate display_value="Cat">8aba08c397b9311024d7b066f053af30</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 00:11:57</sys_created_on>
+        <sys_id>2b433d8b9731711024d7b066f053af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_2b433d8b9731711024d7b066f053af50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 00:11:57</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_predicate_m2m_action_assignment_2b433d8b9731711024d7b066f053af50</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment"><sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE"><declarative_action_assignment/><predicate display_value="Cat">8aba08c397b9311024d7b066f053af30</predicate><sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-15 00:11:57</sys_created_on><sys_id>2b433d8b9731711024d7b066f053af50</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_predicate_m2m_action_assignment_2b433d8b9731711024d7b066f053af50</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-15 00:11:57</sys_updated_on></sys_ux_predicate_m2m_action_assignment></record_update>]]></payload>
+        <payload_hash>-871985385</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 00:27:21</sys_created_on>
+        <sys_id>81d6bd8f9731711024d7b066f053afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b30baf8af0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 00:27:21</sys_updated_on>
+        <type>EVAM View Config Action Assignment M2M</type>
+        <update_guid>6f433d8b743171102d34c0c568d85151</update_guid>
+        <update_guid_history>6f433d8b743171102d34c0c568d85151:2066568370,6f433d8b743171102d34c0c568d85151:2066568370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 00:27:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_predicate_m2m_action_assignment">sys_ux_predicate_m2m_action_assignment</sys_db_object>
+        <sys_id>3c0d23bb12cd4028950bba2b8d9c5cc4</sys_id>
+        <sys_metadata>2b433d8b9731711024d7b066f053af50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_2b433d8b9731711024d7b066f053af50</sys_update_name>
+        <sys_update_version display_value="sys_ux_predicate_m2m_action_assignment_2b433d8b9731711024d7b066f053af50">81d6bd8f9731711024d7b066f053afee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 00:27:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

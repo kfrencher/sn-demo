@@ -3,8 +3,10 @@
         <active>true</active>
         <apply_to_child_topics>false</apply_to_child_topics>
         <banner_image>ce46080197471510b2e1f97e6253af7c</banner_image>
+        <banner_image_url/>
         <description/>
         <icon/>
+        <icon_url/>
         <name>Demo</name>
         <order/>
         <parent_topic/>
@@ -12,11 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-06 19:27:51</sys_created_on>
         <sys_id>8b722b7c97831510b2e1f97e6253af20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Demo</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>topic_8b722b7c97831510b2e1f97e6253af20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:08:35</sys_updated_on>
         <taxonomy display_value="Demo Requesters">57622f3c97831510b2e1f97e6253af24</taxonomy>
         <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
         <topic_based_navigation>false</topic_based_navigation>
@@ -24,12 +29,12 @@
         <topic_manager/>
         <topic_path>Demo</topic_path>
     </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b722b7c97831510b2e1f97e6253af20"/>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#7993a4</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>banner_image</file_name>
         <hash>8bca6e62a3af52d10caab0c1e2563f22df28ec7de8703c30a9a73796bc416708</hash>
         <image_height>1262</image_height>

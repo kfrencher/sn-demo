@@ -4,6 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation>Get group approvers from approval records </annotation>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -29,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b1181b4f97ede110b2e1f97e6253af94</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>SUB Todo Get Approvers From Group Approval Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
@@ -37,7 +38,7 @@
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_hub_flow_b1181b4f97ede110b2e1f97e6253af94</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-24 15:55:51</sys_updated_on>
+        <sys_updated_on>2023-04-12 12:07:57</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b1181b4f97ede110b2e1f97e6253af94"/>
@@ -142,6 +143,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=455ad30397212510b2e1f97e6253aff7"/>
     <sys_hub_flow_output action="delete_multiple" query="model=b1181b4f97ede110b2e1f97e6253af94^sys_idNOT INcd5ad30397212510b2e1f97e6253afff"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -226,11 +228,13 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cd5ad30397212510b2e1f97e6253afff"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=b1181b4f97ede110b2e1f97e6253af94"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=b1181b4f97ede110b2e1f97e6253af94"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b1181b4f97ede110b2e1f97e6253af94"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=b1181b4f97ede110b2e1f97e6253af94^sys_idNOT IN155a170397212510b2e1f97e6253af0f,515a170397212510b2e1f97e6253af14,595a170397212510b2e1f97e6253af17"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">195a170397212510b2e1f97e6253af0e</block>
         <comment/>
         <connected_to/>
@@ -279,6 +283,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=155a170397212510b2e1f97e6253af0f"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=155a170397212510b2e1f97e6253af0f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">995a170397212510b2e1f97e6253af13</block>
         <comment/>
         <connected_to/>
@@ -326,6 +331,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=515a170397212510b2e1f97e6253af14"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=515a170397212510b2e1f97e6253af14"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">915a170397212510b2e1f97e6253af17</block>
         <comment>Trim leading comman and assign comma concatenated list of sys_user_group.sys_id to Groups</comment>
         <connected_to/>
@@ -506,11 +512,11 @@
         <sys_created_on>2023-03-18 01:15:14</sys_created_on>
         <sys_id>015a170397212510b2e1f97e6253af09</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Group Sys IDs</sys_name>
+        <sys_name/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_015a170397212510b2e1f97e6253af09</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-18 01:15:14</sys_updated_on>
         <table_reference>false</table_reference>
@@ -539,11 +545,11 @@
         <sys_created_on>2023-03-18 01:15:14</sys_created_on>
         <sys_id>c55ad30397212510b2e1f97e6253affd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Group Approvals</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b1181b4f97ede110b2e1f97e6253af94_group_approvals_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-18 01:15:14</sys_updated_on>
         <url/>
@@ -564,39 +570,23 @@
         <sys_created_on>2023-03-18 01:15:14</sys_created_on>
         <sys_id>495a170397212510b2e1f97e6253af05</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Groups</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_b1181b4f97ede110b2e1f97e6253af94_groups_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-18 01:15:14</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b1181b4f97ede110b2e1f97e6253af94"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b1181b4f97ede110b2e1f97e6253af94"/>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b1181b4f97ede110b2e1f97e6253af94^sys_idNOT INe42b574397212510b2e1f97e6253aff9"/>
-    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"e42b574397212510b2e1f97e6253aff9","name":"plan","plan_signature":null}}</plan>
-        <plan_id display_value="SUB Todo Get Approvers From Group Approval Records">b1181b4f97ede110b2e1f97e6253af94</plan_id>
-        <snapshot>e1ad95519735ad10b2e1f97e6253af5d</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-18 01:18:44</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>e42b574397212510b2e1f97e6253aff9</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-24 15:55:51</sys_updated_on>
-    </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
         <active>true</active>
         <annotation>Get group approvers from approval records </annotation>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -733,6 +723,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=942b574397212510b2e1f97e6253af8b"/>
     <sys_hub_flow_output action="delete_multiple" query="model=102b574397212510b2e1f97e6253af89^sys_idNOT IN942b574397212510b2e1f97e6253afc0"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -817,11 +808,13 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=942b574397212510b2e1f97e6253afc0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=102b574397212510b2e1f97e6253af89"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=102b574397212510b2e1f97e6253af89"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=102b574397212510b2e1f97e6253af89"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=102b574397212510b2e1f97e6253af89^sys_idNOT IN102b574397212510b2e1f97e6253afd7,982b574397212510b2e1f97e6253afde,dc2b574397212510b2e1f97e6253afda"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">195a170397212510b2e1f97e6253af0e</block>
         <comment/>
         <connected_to/>
@@ -870,6 +863,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=102b574397212510b2e1f97e6253afd7"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=102b574397212510b2e1f97e6253afd7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">915a170397212510b2e1f97e6253af17</block>
         <comment>Trim leading comman and assign comma concatenated list of sys_user_group.sys_id to Groups</comment>
         <connected_to/>
@@ -917,6 +911,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=982b574397212510b2e1f97e6253afde"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=982b574397212510b2e1f97e6253afde"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">995a170397212510b2e1f97e6253af13</block>
         <comment/>
         <connected_to/>
@@ -1097,11 +1092,11 @@
         <sys_created_on>2023-03-18 01:18:44</sys_created_on>
         <sys_id>582b574397212510b2e1f97e6253afd1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Group Sys IDs</sys_name>
+        <sys_name/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_582b574397212510b2e1f97e6253afd1</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-18 01:18:44</sys_updated_on>
         <table_reference>false</table_reference>
@@ -1130,11 +1125,11 @@
         <sys_created_on>2023-03-18 01:18:43</sys_created_on>
         <sys_id>dc2b574397212510b2e1f97e6253afae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Group Approvals</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_102b574397212510b2e1f97e6253af89_group_approvals_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-18 01:18:43</sys_updated_on>
         <url/>
@@ -1155,11 +1150,11 @@
         <sys_created_on>2023-03-18 01:18:44</sys_created_on>
         <sys_id>902b574397212510b2e1f97e6253afc9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Groups</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_102b574397212510b2e1f97e6253af89_groups_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-18 01:18:44</sys_updated_on>
         <url/>
@@ -1171,4 +1166,21 @@
         <latest_snapshot>102b574397212510b2e1f97e6253af89</latest_snapshot>
         <compiler_build>glide-tokyo-07-08-2022__patch4a-01-03-2023_01-11-2023_0813.zip</compiler_build>
     </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b1181b4f97ede110b2e1f97e6253af94"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b1181b4f97ede110b2e1f97e6253af94^sys_idNOT INe42b574397212510b2e1f97e6253aff9"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"e42b574397212510b2e1f97e6253aff9","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="SUB Todo Get Approvers From Group Approval Records">b1181b4f97ede110b2e1f97e6253af94</plan_id>
+        <snapshot>e1ad95519735ad10b2e1f97e6253af5d</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-18 01:18:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e42b574397212510b2e1f97e6253aff9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 15:55:51</sys_updated_on>
+    </sys_flow_subflow_plan>
 </record_update>

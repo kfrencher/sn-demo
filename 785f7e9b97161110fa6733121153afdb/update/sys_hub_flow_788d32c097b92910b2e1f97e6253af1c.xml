@@ -4,6 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation>Check if all child tasks were approved</annotation>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>38cb3ecc97792910b2e1f97e6253af9d</copied_from>
@@ -29,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>788d32c097b92910b2e1f97e6253af1c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>SUB Are All Child Tasks Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
@@ -37,7 +38,7 @@
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_hub_flow_788d32c097b92910b2e1f97e6253af1c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-21 01:50:00</sys_updated_on>
+        <sys_updated_on>2023-04-12 12:07:50</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=788d32c097b92910b2e1f97e6253af1c"/>
@@ -142,6 +143,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bc8d32c097b92910b2e1f97e6253af3d"/>
     <sys_hub_flow_output action="delete_multiple" query="model=788d32c097b92910b2e1f97e6253af1c^sys_idNOT INb48d32c097b92910b2e1f97e6253af46"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -226,6 +228,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b48d32c097b92910b2e1f97e6253af46"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=788d32c097b92910b2e1f97e6253af1c"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=788d32c097b92910b2e1f97e6253af1c^sys_idNOT IN0d8d32c097b92910b2e1f97e6253af6c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -233,6 +236,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="SUB Are All Child Tasks Rejected">788d32c097b92910b2e1f97e6253af1c</flow>
@@ -331,6 +335,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=788d32c097b92910b2e1f97e6253af1c"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=788d32c097b92910b2e1f97e6253af1c^sys_idNOT IN348d32c097b92910b2e1f97e6253af56,708d32c097b92910b2e1f97e6253af59,7c8d32c097b92910b2e1f97e6253af5b,b88d32c097b92910b2e1f97e6253af51,f08d32c097b92910b2e1f97e6253af4d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">0b6164c897bde510b2e1f97e6253afa6</block>
         <comment/>
         <connected_to/>
@@ -364,6 +369,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=348d32c097b92910b2e1f97e6253af56"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=348d32c097b92910b2e1f97e6253af56"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">476164c897bde510b2e1f97e6253afa9</block>
         <comment/>
         <connected_to/>
@@ -397,6 +403,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=708d32c097b92910b2e1f97e6253af59"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=708d32c097b92910b2e1f97e6253af59"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">436164c897bde510b2e1f97e6253afac</block>
         <comment>If you have reached this point then all child tasks must be rejected so set output to true</comment>
         <connected_to/>
@@ -444,6 +451,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7c8d32c097b92910b2e1f97e6253af5b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7c8d32c097b92910b2e1f97e6253af5b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">076164c897bde510b2e1f97e6253afa2</block>
         <comment>If you find a task that is not rejected set the output to false and end this flow</comment>
         <connected_to/>
@@ -517,6 +525,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b88d32c097b92910b2e1f97e6253af51"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=b88d32c097b92910b2e1f97e6253af51"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">8f6164c897bde510b2e1f97e6253af9d</block>
         <comment/>
         <connected_to/>
@@ -579,11 +588,11 @@
         <sys_created_on>2023-03-21 01:43:15</sys_created_on>
         <sys_id>bc8d32c097b92910b2e1f97e6253af43</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Task</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_788d32c097b92910b2e1f97e6253af1c_task_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-21 01:43:15</sys_updated_on>
         <url/>
@@ -604,39 +613,23 @@
         <sys_created_on>2023-03-21 01:43:15</sys_created_on>
         <sys_id>7c8d32c097b92910b2e1f97e6253af49</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Is All Rejected</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_788d32c097b92910b2e1f97e6253af1c_is_all_rejected_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-21 01:43:15</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_788d32c097b92910b2e1f97e6253af1c"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=788d32c097b92910b2e1f97e6253af1c"/>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=788d32c097b92910b2e1f97e6253af1c^sys_idNOT INa30f364497b92910b2e1f97e6253aff5"/>
-    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@a8e6c1</plan>
-        <plan_id display_value="SUB Are All Child Tasks Rejected">788d32c097b92910b2e1f97e6253af1c</plan_id>
-        <snapshot>970f364497b92910b2e1f97e6253af44</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-21 01:50:00</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>a30f364497b92910b2e1f97e6253aff5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-21 01:50:00</sys_updated_on>
-    </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
         <active>true</active>
         <annotation>Check if all child tasks were approved</annotation>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -773,6 +766,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1f0f364497b92910b2e1f97e6253af46"/>
     <sys_hub_flow_output action="delete_multiple" query="model=970f364497b92910b2e1f97e6253af44^sys_idNOT INeb0f364497b92910b2e1f97e6253af7c"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -857,6 +851,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eb0f364497b92910b2e1f97e6253af7c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=970f364497b92910b2e1f97e6253af44"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=970f364497b92910b2e1f97e6253af44^sys_idNOT IN2f0f364497b92910b2e1f97e6253afcd"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -864,6 +859,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="SUB Are All Child Tasks Rejected">970f364497b92910b2e1f97e6253af44</flow>
@@ -924,6 +920,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=970f364497b92910b2e1f97e6253af44"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=970f364497b92910b2e1f97e6253af44^sys_idNOT IN270f364497b92910b2e1f97e6253afb9,a70f364497b92910b2e1f97e6253af94,a70f364497b92910b2e1f97e6253af9d,ab0f364497b92910b2e1f97e6253af98,e30f364497b92910b2e1f97e6253afbc"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">476164c897bde510b2e1f97e6253afa9</block>
         <comment/>
         <connected_to/>
@@ -957,6 +954,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=270f364497b92910b2e1f97e6253afb9"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=270f364497b92910b2e1f97e6253afb9"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">8f6164c897bde510b2e1f97e6253af9d</block>
         <comment/>
         <connected_to/>
@@ -1004,6 +1002,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a70f364497b92910b2e1f97e6253af94"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a70f364497b92910b2e1f97e6253af94"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">0b6164c897bde510b2e1f97e6253afa6</block>
         <comment/>
         <connected_to/>
@@ -1037,6 +1036,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a70f364497b92910b2e1f97e6253af9d"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a70f364497b92910b2e1f97e6253af9d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">076164c897bde510b2e1f97e6253afa2</block>
         <comment>If you find a task that is not rejected set the output to false and end this flow</comment>
         <connected_to/>
@@ -1110,6 +1110,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ab0f364497b92910b2e1f97e6253af98"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ab0f364497b92910b2e1f97e6253af98"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">436164c897bde510b2e1f97e6253afac</block>
         <comment>If you have reached this point then all child tasks must be rejected so set output to true</comment>
         <connected_to/>
@@ -1172,11 +1173,11 @@
         <sys_created_on>2023-03-21 01:49:59</sys_created_on>
         <sys_id>270f364497b92910b2e1f97e6253af6b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Task</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_970f364497b92910b2e1f97e6253af44_task_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-21 01:49:59</sys_updated_on>
         <url/>
@@ -1197,11 +1198,11 @@
         <sys_created_on>2023-03-21 01:49:59</sys_created_on>
         <sys_id>630f364497b92910b2e1f97e6253af82</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Is All Rejected</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_970f364497b92910b2e1f97e6253af44_is_all_rejected_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-21 01:49:59</sys_updated_on>
         <url/>
@@ -1213,4 +1214,21 @@
         <latest_snapshot>970f364497b92910b2e1f97e6253af44</latest_snapshot>
         <compiler_build/>
     </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=788d32c097b92910b2e1f97e6253af1c"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=788d32c097b92910b2e1f97e6253af1c^sys_idNOT INa30f364497b92910b2e1f97e6253aff5"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@a8e6c1</plan>
+        <plan_id display_value="SUB Are All Child Tasks Rejected">788d32c097b92910b2e1f97e6253af1c</plan_id>
+        <snapshot>970f364497b92910b2e1f97e6253af44</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 01:50:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a30f364497b92910b2e1f97e6253aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 01:50:00</sys_updated_on>
+    </sys_flow_subflow_plan>
 </record_update>

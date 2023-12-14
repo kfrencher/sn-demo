@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>DEMO_CAT_BREED_SAVED</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>DEMO_CAT_BREED_SAVED</label>
+        <props>[{"name":"sysId","fieldType":"","label":"SYS ID","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[ {
+  "message" : "SYS ID",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 22:31:51</sys_created_on>
+        <sys_id>63e5d4859702311024d7b066f053af7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEMO_CAT_BREED_SAVED</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_event_63e5d4859702311024d7b066f053af7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-20 22:31:51</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=63e5d4859702311024d7b066f053af7d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_event_63e5d4859702311024d7b066f053af7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>DEMO_CAT_BREED_SAVED</event_name><explicit_api_name/><interfaces/><label>DEMO_CAT_BREED_SAVED</label><props>[{"name":"sysId","fieldType":"","label":"SYS ID","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props><required_translations>[ {
+  "message" : "SYS ID",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-20 22:31:51</sys_created_on><sys_id>63e5d4859702311024d7b066f053af7d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DEMO_CAT_BREED_SAVED</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_event_63e5d4859702311024d7b066f053af7d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-20 22:31:51</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=63e5d4859702311024d7b066f053af7d"/></record_update>]]></payload>
+        <payload_hash>-1422166858</payload_hash>
+        <record_name>DEMO_CAT_BREED_SAVED</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 22:31:51</sys_created_on>
+        <sys_id>63e5d4859702311024d7b066f053af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b4f3763430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-20 22:31:51</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>a7e5d485740231106b068aebaa13cb7e</update_guid>
+        <update_guid_history>a7e5d485740231106b068aebaa13cb7e:-1422166858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 22:47:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>0a8ed357d1d54e0681df34a10b5be891</sys_id>
+        <sys_metadata>63e5d4859702311024d7b066f053af7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEMO_CAT_BREED_SAVED</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_event_63e5d4859702311024d7b066f053af7d</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_63e5d4859702311024d7b066f053af7d">63e5d4859702311024d7b066f053af7f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-20 22:47:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

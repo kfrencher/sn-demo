@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f5f6708f97e1e110b2e1f97e6253afa7</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Todo Get System Property</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_f5f6708f97e1e110b2e1f97e6253afa7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-17 21:51:19</sys_updated_on>
+        <sys_updated_on>2023-04-12 12:07:39</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -162,18 +162,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=965e70c79725e110b2e1f97e6253afc8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>965e70c79725e110b2e1f97e6253afc8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-17 13:53:44</sys_created_on>
-        <sys_id>925e70c79725e110b2e1f97e6253afec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-17 13:53:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>default</field>
         <id>965e70c79725e110b2e1f97e6253afc8</id>
         <sys_created_by>admin</sys_created_by>
@@ -197,20 +185,9 @@
         <table>var__m_sys_hub_step_ext_input_965e70c79725e110b2e1f97e6253afc8</table>
         <value>{{action.property_name}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>965e70c79725e110b2e1f97e6253afc8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-17 13:53:44</sys_created_on>
-        <sys_id>5a5e70c79725e110b2e1f97e6253afec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-17 13:53:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_965e70c79725e110b2e1f97e6253afc8^id=965e70c79725e110b2e1f97e6253afc8"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=965e70c79725e110b2e1f97e6253afc8"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=965e70c79725e110b2e1f97e6253afc8"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=965e70c79725e110b2e1f97e6253afc8^sys_idNOT IN5a5e70c79725e110b2e1f97e6253afe0,de5e70c79725e110b2e1f97e6253afdc"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -477,11 +454,11 @@
         <sys_created_on>2023-03-17 13:53:44</sys_created_on>
         <sys_id>1a5e70c79725e110b2e1f97e6253afe7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_965e70c79725e110b2e1f97e6253afc8_value_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 13:53:44</sys_updated_on>
         <url/>
@@ -944,11 +921,11 @@
         <sys_created_on>2023-03-17 13:53:44</sys_created_on>
         <sys_id>525e70c79725e110b2e1f97e6253afc2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property Name</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f5f6708f97e1e110b2e1f97e6253afa7_property_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 13:53:44</sys_updated_on>
         <url/>
@@ -967,11 +944,11 @@
         <sys_created_on>2023-03-17 13:53:44</sys_created_on>
         <sys_id>925e70c79725e110b2e1f97e6253afc6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Default</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f5f6708f97e1e110b2e1f97e6253afa7_default_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 13:53:44</sys_updated_on>
         <url/>
@@ -992,11 +969,11 @@
         <sys_created_on>2023-03-17 13:53:57</sys_created_on>
         <sys_id>2d6ef0c79725e110b2e1f97e6253af34</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f5f6708f97e1e110b2e1f97e6253afa7___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 13:53:57</sys_updated_on>
         <url/>
@@ -1015,11 +992,11 @@
         <sys_created_on>2023-03-17 13:53:44</sys_created_on>
         <sys_id>5e5eb0c79725e110b2e1f97e6253af01</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f5f6708f97e1e110b2e1f97e6253afa7_value_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 13:53:44</sys_updated_on>
         <url/>
@@ -1038,11 +1015,11 @@
         <sys_created_on>2023-03-17 13:53:57</sys_created_on>
         <sys_id>a16ef0c79725e110b2e1f97e6253af3b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f5f6708f97e1e110b2e1f97e6253afa7___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 13:53:57</sys_updated_on>
         <url/>
@@ -1225,18 +1202,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c6ab620b972de110b2e1f97e6253affd"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>c6ab620b972de110b2e1f97e6253affd</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-17 21:51:19</sys_created_on>
-        <sys_id>caaba20b972de110b2e1f97e6253af11</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-17 21:51:19</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>default</field>
         <id>c6ab620b972de110b2e1f97e6253affd</id>
         <sys_created_by>admin</sys_created_by>
@@ -1260,20 +1225,9 @@
         <table>var__m_sys_hub_step_ext_input_c6ab620b972de110b2e1f97e6253affd</table>
         <value>{{action.property_name}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>c6ab620b972de110b2e1f97e6253affd</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-17 21:51:19</sys_created_on>
-        <sys_id>82aba20b972de110b2e1f97e6253af12</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-17 21:51:19</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c6ab620b972de110b2e1f97e6253affd^id=c6ab620b972de110b2e1f97e6253affd"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=c6ab620b972de110b2e1f97e6253affd"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c6ab620b972de110b2e1f97e6253affd"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=c6ab620b972de110b2e1f97e6253affd^sys_idNOT IN02aba20b972de110b2e1f97e6253af01,8aaba20b972de110b2e1f97e6253af05"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1540,11 +1494,11 @@
         <sys_created_on>2023-03-17 21:51:19</sys_created_on>
         <sys_id>46aba20b972de110b2e1f97e6253af0d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_c6ab620b972de110b2e1f97e6253affd_value_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 21:51:19</sys_updated_on>
         <url/>
@@ -2007,11 +1961,11 @@
         <sys_created_on>2023-03-17 21:51:18</sys_created_on>
         <sys_id>8eab620b972de110b2e1f97e6253afee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Default</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_71ab620b972de110b2e1f97e6253afe3_default_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 21:51:18</sys_updated_on>
         <url/>
@@ -2030,11 +1984,11 @@
         <sys_created_on>2023-03-17 21:51:18</sys_created_on>
         <sys_id>ceab620b972de110b2e1f97e6253afea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property Name</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_71ab620b972de110b2e1f97e6253afe3_property_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 21:51:18</sys_updated_on>
         <url/>
@@ -2055,11 +2009,11 @@
         <sys_created_on>2023-03-17 21:51:19</sys_created_on>
         <sys_id>02aba20b972de110b2e1f97e6253af1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_71ab620b972de110b2e1f97e6253afe3___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 21:51:19</sys_updated_on>
         <url/>
@@ -2078,11 +2032,11 @@
         <sys_created_on>2023-03-17 21:51:19</sys_created_on>
         <sys_id>46aba20b972de110b2e1f97e6253af25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_71ab620b972de110b2e1f97e6253afe3___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 21:51:19</sys_updated_on>
         <url/>
@@ -2101,11 +2055,11 @@
         <sys_created_on>2023-03-17 21:51:19</sys_created_on>
         <sys_id>ceaba20b972de110b2e1f97e6253af1a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_71ab620b972de110b2e1f97e6253afe3_value_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-17 21:51:19</sys_updated_on>
         <url/>

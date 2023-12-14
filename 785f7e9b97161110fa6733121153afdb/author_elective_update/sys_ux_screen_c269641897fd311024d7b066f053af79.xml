@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Demo Experience">4b8b5bea97d75910b2e1f97e6253afc9</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent/>
+        <macroponent_config>{&#13;
+  "label" : {&#13;
+    "type" : "TRANSLATION_LITERAL",&#13;
+    "value" : {&#13;
+      "code" : null,&#13;
+      "message" : "",&#13;
+      "comment" : ""&#13;
+    }&#13;
+  },&#13;
+  "bare" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : true&#13;
+  },&#13;
+  "scrollable" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "y"&#13;
+  },&#13;
+  "headerLevel" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "1"&#13;
+  },&#13;
+  "headingOnlyVisibleToScreenReaders" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "interceptNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "propagateNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  }&#13;
+}</macroponent_config>
+        <name>Demo Technical DB default</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Home">b733bb5397db1110b2e1f97e6253afc3</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 05:45:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c269641897fd311024d7b066f053af79</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Demo Technical DB default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_screen_c269641897fd311024d7b066f053af79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 11:30:07</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=c269641897fd311024d7b066f053af79"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_screen_c269641897fd311024d7b066f053af79</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Demo Experience">4b8b5bea97d75910b2e1f97e6253afc9</app_config><description/><event_mappings>[ ]</event_mappings><macroponent/><macroponent_config>{&#13;
+  "label" : {&#13;
+    "type" : "TRANSLATION_LITERAL",&#13;
+    "value" : {&#13;
+      "code" : null,&#13;
+      "message" : "",&#13;
+      "comment" : ""&#13;
+    }&#13;
+  },&#13;
+  "bare" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : true&#13;
+  },&#13;
+  "scrollable" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "y"&#13;
+  },&#13;
+  "headerLevel" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "1"&#13;
+  },&#13;
+  "headingOnlyVisibleToScreenReaders" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "interceptNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "propagateNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  }&#13;
+}</macroponent_config><name>Demo Technical DB default</name><order>0</order><parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Home">b733bb5397db1110b2e1f97e6253afc3</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-06 05:45:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c269641897fd311024d7b066f053af79</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Demo Technical DB default</sys_name><sys_overrides/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_screen_c269641897fd311024d7b066f053af79</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-06 11:30:07</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=c269641897fd311024d7b066f053af79"/></record_update>]]></payload>
+        <payload_hash>1750436654</payload_hash>
+        <record_name>Demo Technical DB default</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 11:32:06</sys_created_on>
+        <sys_id>36a8fdd49735711024d7b066f053afcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b04c253ab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 11:32:06</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>f538f5d47f3571103ac09c7837a65efd</update_guid>
+        <update_guid_history>f538f5d47f3571103ac09c7837a65efd:33437761,f538f5d47f3571103ac09c7837a65efd:33437761,e847b59435357110cd66be31fce0be33:598449260,477ae45830fd31106ad49b6ddbfb94f0:652056722,4e696418b8fd311045326ca2e6d3037a:1884420112</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 11:32:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>449cbc1f9bda4651a6d767e172c654d9</sys_id>
+        <sys_metadata>c269641897fd311024d7b066f053af79</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Technical DB default</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_c269641897fd311024d7b066f053af79</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_c269641897fd311024d7b066f053af79">36a8fdd49735711024d7b066f053afcd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 11:32:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

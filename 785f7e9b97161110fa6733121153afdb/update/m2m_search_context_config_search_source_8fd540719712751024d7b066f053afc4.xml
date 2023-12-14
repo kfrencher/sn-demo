@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="Demo Another Demo">7cd540f19712751024d7b066f053af8d</search_context_config>
+        <source display_value="Demo Task - x_53417_demo_task">142aaf4d97835510b2e1f97e6253afa5</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 15:32:58</sys_created_on>
+        <sys_id>8fd540719712751024d7b066f053afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_8fd540719712751024d7b066f053afc4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 15:32:58</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

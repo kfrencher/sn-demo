@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation>Log parsed users</annotation>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
@@ -67,6 +68,7 @@
         <action_inputs/>
         <action_type display_value="Demo JSON Parser">b75b4876975a211024d7b066f053af9f</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -111,6 +113,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -146,6 +149,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=cc47db7e971a611024d7b066f053aff2"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=cc47db7e971a611024d7b066f053aff2^sys_idNOT INde77dbbe971a611024d7b066f053af64"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">9677dbbe971a611024d7b066f053af64</block>
         <comment/>
         <connected_to/>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <dashboard display_value="DemoTasks">47f4f1f497f6d110b2e1f97e6253afda</dashboard>
+        <name>Tab</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-25 01:13:26</sys_created_on>
+        <sys_id>4bf4f1f497f6d110b2e1f97e6253afde</sys_id>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_tab_4bf4f1f497f6d110b2e1f97e6253afde</sys_update_name>
+    </par_dashboard_tab>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>par_dashboard_tab_4bf4f1f497f6d110b2e1f97e6253afde</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dashboard display_value="DemoTasks">47f4f1f497f6d110b2e1f97e6253afda</dashboard>
+        <name>Tab</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-25 01:13:26</sys_created_on>
+        <sys_id>4bf4f1f497f6d110b2e1f97e6253afde</sys_id>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>par_dashboard_tab_4bf4f1f497f6d110b2e1f97e6253afde</sys_update_name>
+    </par_dashboard_tab>
+</record_update>]]></payload>
+        <payload_hash>-1459444232</payload_hash>
+        <record_name>Tab</record_name>
+        <reverted_from/>
+        <source>f02fde179742211024d7b066f053af00</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 12:07:19</sys_created_on>
+        <sys_id>055fd6979742211024d7b066f053af58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187755cf6a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:19</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>c15fd6974942211022f8c19a5ecee058</update_guid>
+        <update_guid_history>c15fd6974942211022f8c19a5ecee058:-1459444232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tab">cdf0bb679729311024d7b066f053afb7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 12:22:12</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>3d513bd52a1843dba8c2562a9e17a091</sys_id>
+        <sys_metadata>4bf4f1f497f6d110b2e1f97e6253afde</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_4bf4f1f497f6d110b2e1f97e6253afde</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_4bf4f1f497f6d110b2e1f97e6253afde">055fd6979742211024d7b066f053af58</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:22:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

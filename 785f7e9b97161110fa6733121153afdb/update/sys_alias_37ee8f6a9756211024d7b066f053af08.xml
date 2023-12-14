@@ -3,6 +3,7 @@
         <configuration_template/>
         <connection_type>jdbc_connection</connection_type>
         <id>x_53417_demo.DEMO_AWS_MariaDB</id>
+        <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>DEMO AWS MariaDB</name>
         <parent/>

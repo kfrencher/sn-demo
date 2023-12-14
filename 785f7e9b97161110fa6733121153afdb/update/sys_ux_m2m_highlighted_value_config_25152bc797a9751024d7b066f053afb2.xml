@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_highlighted_value_config">
+    <sys_ux_m2m_highlighted_value_config action="INSERT_OR_UPDATE">
+        <highlighted_value display_value="label">cbe3ef0397a9751024d7b066f053af4c</highlighted_value>
+        <highlighted_value_config display_value="Demo Highlight Config">a3052f8797a9751024d7b066f053af5c</highlighted_value_config>
+        <order>0</order>
+        <sys_class_name>sys_ux_m2m_highlighted_value_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 22:13:23</sys_created_on>
+        <sys_id>25152bc797a9751024d7b066f053afb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_m2m_highlighted_value_config_25152bc797a9751024d7b066f053afb2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 22:13:23</sys_updated_on>
+    </sys_ux_m2m_highlighted_value_config>
+</record_update>

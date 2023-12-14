@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="7a8529279752211024d7b066f053af30" extends="sys_import_set_row" label="Demo Cat Breeds" max_length="40" name="x_53417_demo_import_cat_breed" type="collection">
+    <element db_object_id="7a8529279752211024d7b066f053af30" extends="sys_import_set_row" label="Import Cat Breed" max_length="40" name="x_53417_demo_import_cat_breed" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=breed" label="breed" max_length="40" name="u_breed" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=country" label="country" max_length="61" name="u_country" type="string"/>
     </element>

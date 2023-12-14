@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="is_all_rejected" label="Is All Rejected" language="en" table="var__m_sys_hub_flow_output_788d32c097b92910b2e1f97e6253af1c">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>is_all_rejected</element>
+            <help/>
+            <hint/>
+            <label>Is All Rejected</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_788d32c097b92910b2e1f97e6253af1c</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 01:43:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Is All Rejected</sys_name>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_788d32c097b92910b2e1f97e6253af1c_is_all_rejected_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 01:43:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

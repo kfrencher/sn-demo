@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Tasks Dataset">d9513bac68b131102f7b561f84a06be1</dataset>
+        <datasource display_value="Custom Portal Landing - My Tasks Datasource (Task table)">95513bac41b13110c483d8176fe81fe0</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-07 14:57:48</sys_created_on>
+        <sys_id>d5513bacdeb13110c0d60d5c1b6f7fdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_d5513bacdeb13110c0d60d5c1b6f7fdf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-07 14:57:48</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

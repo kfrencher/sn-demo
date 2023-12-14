@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_53417_demo.Ajax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Ajax</name>
+        <script><![CDATA[var Ajax = Class.create();
+Ajax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	createAuditEntry: function() {
+		gs.info('KLF: adding audit entry');
+		var entryDataJson = this.getParameter('entry_data');
+		if(!entryDataJson) {
+			return;
+		}
+		var task = new GlideRecord('task');
+		task.newRecord();
+		var entryData = JSON.parse(entryDataJson);
+		task.short_description = entryData.data.display_value + ': ' + entryData.data.operation;
+		task.description = entryDataJson;
+		task.update();
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 08:07:14</sys_created_on>
+        <sys_id>c7ea4e3d97c7f51024d7b066f053afb2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Ajax</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_script_include_c7ea4e3d97c7f51024d7b066f053afb2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 08:18:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

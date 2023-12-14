@@ -4,6 +4,7 @@
         <api_name>x_53417_demo.Demo</api_name>
         <description/>
         <name>Demo</name>
+        <role_names/>
         <roles>e823eb5897275510b2e1f97e6253afe6,2831a114c611228501d4ea6c309d626d</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>

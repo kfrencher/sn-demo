@@ -3,8 +3,10 @@
         <active>true</active>
         <apply_to_child_topics>false</apply_to_child_topics>
         <banner_image/>
+        <banner_image_url/>
         <description>All demo tasks</description>
         <icon/>
+        <icon_url/>
         <name>Task</name>
         <order/>
         <parent_topic display_value="Demo">8b722b7c97831510b2e1f97e6253af20</parent_topic>
@@ -12,11 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-06 19:28:30</sys_created_on>
         <sys_id>df922b7c97831510b2e1f97e6253af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Task</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>topic_df922b7c97831510b2e1f97e6253af24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:08:36</sys_updated_on>
         <taxonomy display_value="Demo Requesters">57622f3c97831510b2e1f97e6253af24</taxonomy>
         <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
         <topic_based_navigation>false</topic_based_navigation>
@@ -24,4 +29,5 @@
         <topic_manager/>
         <topic_path>Demo / Task</topic_path>
     </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=df922b7c97831510b2e1f97e6253af24"/>
 </record_update>

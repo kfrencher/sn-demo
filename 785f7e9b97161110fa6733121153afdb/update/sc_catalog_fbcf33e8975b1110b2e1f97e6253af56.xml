@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
     <sc_catalog action="INSERT_OR_UPDATE">
         <active>true</active>
-        <background_color>yellow</background_color>
         <description>Catalog for demo items</description>
         <desktop_continue_shopping/>
         <desktop_home_page>/catalog_home.do?sysparm_catalog=fbcf33e8975b1110b2e1f97e6253af56&amp;sysparm_catalog_view=demo_catalog_homepage</desktop_home_page>
         <desktop_image>e9a9f9cd97139110b2e1f97e6253af47</desktop_image>
         <editors/>
         <enable_wish_list>true</enable_wish_list>
-        <manager display_value="Kenneth Frencher">aeece57e97cbd910b2e1f97e6253afd8</manager>
+        <manager display_value="">aeece57e97cbd910b2e1f97e6253afd8</manager>
         <sys_class_name>sc_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 13:13:42</sys_created_on>
         <sys_id>fbcf33e8975b1110b2e1f97e6253af56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Demo</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sc_catalog_fbcf33e8975b1110b2e1f97e6253af56</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:22</sys_updated_on>
         <title>Demo</title>
     </sc_catalog>
     <sys_translated_text action="delete_multiple" query="documentkey=fbcf33e8975b1110b2e1f97e6253af56"/>
@@ -26,7 +28,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/svg+xml</content_type>
-        <encryption_context/>
         <file_name>desktop_image</file_name>
         <hash>2fab3cd4592c1bb336ce3d52789ffb955ba72d183622c1741dab9e38ec8d9751</hash>
         <image_height/>

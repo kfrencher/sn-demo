@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation>Get assignment group</annotation>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
@@ -144,6 +145,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2d1a51b897f9e910b2e1f97e6253afd2"/>
     <sys_hub_flow_output action="delete_multiple" query="model=1d74d9b097f9e910b2e1f97e6253afc9^sys_idNOT IN211a51b897f9e910b2e1f97e6253afd9"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -228,11 +230,13 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=211a51b897f9e910b2e1f97e6253afd9"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1d74d9b097f9e910b2e1f97e6253afc9"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=1d74d9b097f9e910b2e1f97e6253afc9"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1d74d9b097f9e910b2e1f97e6253afc9"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=1d74d9b097f9e910b2e1f97e6253afc9^sys_idNOT INad1a51b897f9e910b2e1f97e6253afe1,ed1a51b897f9e910b2e1f97e6253afec"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">a51a51b897f9e910b2e1f97e6253afe1</block>
         <comment/>
         <connected_to/>
@@ -321,42 +325,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ad1a51b897f9e910b2e1f97e6253afe1"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>ad1a51b897f9e910b2e1f97e6253afe1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-23 02:24:18</sys_created_on>
-        <sys_id>211a51b897f9e910b2e1f97e6253afea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-23 02:24:18</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>ad1a51b897f9e910b2e1f97e6253afe1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-23 02:24:18</sys_created_on>
-        <sys_id>a91a51b897f9e910b2e1f97e6253afea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-23 02:24:18</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>ad1a51b897f9e910b2e1f97e6253afe1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-23 02:24:18</sys_created_on>
-        <sys_id>e51a51b897f9e910b2e1f97e6253afea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-23 02:24:18</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>u_label</field>
         <id>ad1a51b897f9e910b2e1f97e6253afe1</id>
         <sys_created_by>admin</sys_created_by>
@@ -373,6 +341,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ad1a51b897f9e910b2e1f97e6253afe1"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ad1a51b897f9e910b2e1f97e6253afe1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">2d1a51b897f9e910b2e1f97e6253afec</block>
         <comment/>
         <connected_to/>
@@ -434,11 +403,11 @@
         <sys_created_on>2023-03-23 02:24:18</sys_created_on>
         <sys_id>6d1a51b897f9e910b2e1f97e6253afd6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Label</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1d74d9b097f9e910b2e1f97e6253afc9_label_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-23 02:24:18</sys_updated_on>
         <url/>
@@ -459,11 +428,11 @@
         <sys_created_on>2023-03-23 02:24:18</sys_created_on>
         <sys_id>251a51b897f9e910b2e1f97e6253afde</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Group</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_1d74d9b097f9e910b2e1f97e6253afc9_group_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-23 02:24:18</sys_updated_on>
         <url/>

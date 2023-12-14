@@ -24,6 +24,8 @@
         <forecast_lower_limit/>
         <forecast_method>1</forecast_method>
         <forecast_periods>2</forecast_periods>
+        <forecast_preselect_observations>false</forecast_preselect_observations>
+        <forecast_robust_estimation>false</forecast_robust_estimation>
         <forecast_upper_limit/>
         <formula/>
         <formula_aggregate_whole>false</formula_aggregate_whole>
@@ -49,7 +51,7 @@
         <roles/>
         <score_periods>-1</score_periods>
         <scores_format>kMGTPE</scores_format>
-        <scores_modified_at>2023-01-21 05:00:07</scores_modified_at>
+        <scores_modified_at>2023-12-14 05:00:08</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
@@ -62,12 +64,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d1976bee97406550b2e1f97e6253af1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Demo.Manual</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>pa_indicators_d1976bee97406550b2e1f97e6253af1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:16</sys_updated_on>
         <type>3</type>
         <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
         <users/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_global_search_config">
+    <sys_aw_global_search_config action="INSERT_OR_UPDATE">
+        <default>false</default>
+        <name>Demo2</name>
+        <recent_items_count>5</recent_items_count>
+        <recent_terms_count>5</recent_terms_count>
+        <recent_ttl_in_days>30</recent_ttl_in_days>
+        <sys_class_name>sys_aw_global_search_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 16:35:25</sys_created_on>
+        <sys_id>aa241cb59752751024d7b066f053afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo2</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_aw_global_search_config_aa241cb59752751024d7b066f053afbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 16:35:25</sys_updated_on>
+        <tab_drilldown_items_per_page>20</tab_drilldown_items_per_page>
+        <tab_overview_items_per_section>10</tab_overview_items_per_section>
+    </sys_aw_global_search_config>
+</record_update>

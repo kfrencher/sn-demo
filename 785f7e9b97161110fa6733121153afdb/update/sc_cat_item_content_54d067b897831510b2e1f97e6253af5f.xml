@@ -4,7 +4,7 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Services">887224483bc02300bfe04d72f3efc469</category>
+        <category display_value="">887224483bc02300bfe04d72f3efc469</category>
         <checked_out/>
         <content_type>external</content_type>
         <cost>0</cost>
@@ -66,11 +66,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-06 19:20:16</sys_created_on>
         <sys_id>54d067b897831510b2e1f97e6253af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Real Demo Service</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sc_cat_item_content_54d067b897831510b2e1f97e6253af5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:07:21</sys_updated_on>
         <target>internal</target>
         <taxonomy_topic display_value="IT for IT">676497a7c3053010069aec4b7d40dd89</taxonomy_topic>
         <template/>
@@ -79,6 +82,7 @@
         <url>/demo?id=form&amp;sys_id=-1&amp;table=x_53417_demo_task</url>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
@@ -108,7 +112,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>icon</file_name>
         <hash>d0e7a909bb5233aa2c527af0b7fa4084c14d1b8a1f8a4e7f4b37df8a57a2975e</hash>
         <image_height>1554</image_height>
@@ -148,7 +151,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>picture</file_name>
         <hash>d0e7a909bb5233aa2c527af0b7fa4084c14d1b8a1f8a4e7f4b37df8a57a2975e</hash>
         <image_height>1554</image_height>

@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Demo Priority">2ebd5c6d976e211024d7b066f053aff0</cat_item>
+        <cat_item display_value="Demo Profile">2ebd5c6d976e211024d7b066f053aff0</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -54,7 +54,7 @@
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_53417_demo_priority</record_producer_table>
+        <record_producer_table>x_53417_demo_profile</record_producer_table>
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-01 12:43:07</sys_created_on>
         <sys_id>b6bddc6d976e211024d7b066f053afbc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Name</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>item_option_new_b6bddc6d976e211024d7b066f053afbc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-01 12:43:07</sys_updated_on>
+        <sys_updated_on>2023-11-20 01:38:28</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

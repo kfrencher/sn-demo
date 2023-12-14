@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "dashboard_1",
+  "elementLabel" : "Dashboard 1",
+  "propertyValues" : {
+    "userInfo" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user" ],
+        "category" : "session"
+      }
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideShareButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "editMode" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "edit" ],
+        "category" : "props"
+      }
+    },
+    "dashboardSysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "hideCreateNewButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideEditButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defaultDashboard" : {
+      "type" : "JSON_LITERAL",
+      "value" : "4374336b9729311024d7b066f053afe6"
+    },
+    "defaultDrilldowns" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideDashboardPicker" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "claagnddeeoqaacciirddwggyggoqshhikii",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "a02ce34c97f9311024d7b066f053afe0"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "claagnddeeoqaacciisddwggyddkfaaffxig",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : null,
+  "definition" : {
+    "id" : "f552e6a932780394b6f06c14071aa115",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events>166595d6b70201109fda8079ce11a904</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"dashboard_1","styles":{"height":""}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column","height":"100%"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Dashboards</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "edit",
+  "label" : "Edit",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 01:18:05</sys_created_on>
+        <sys_id>dc2c634c97f9311024d7b066f053afc8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Dashboards</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_macroponent_dc2c634c97f9311024d7b066f053afc8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 01:18:35</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=dc2c634c97f9311024d7b066f053afc8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sys_ux_macroponent_dc2c634c97f9311024d7b066f053afc8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><category>page</category><component_dependencies/><composition>[ {
+  "elementId" : "dashboard_1",
+  "elementLabel" : "Dashboard 1",
+  "propertyValues" : {
+    "userInfo" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user" ],
+        "category" : "session"
+      }
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideShareButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "editMode" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "edit" ],
+        "category" : "props"
+      }
+    },
+    "dashboardSysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "hideCreateNewButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideEditButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defaultDashboard" : {
+      "type" : "JSON_LITERAL",
+      "value" : "4374336b9729311024d7b066f053afe6"
+    },
+    "defaultDrilldowns" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideDashboardPicker" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "claagnddeeoqaacciirddwggyggoqshhikii",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "a02ce34c97f9311024d7b066f053afe0"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "claagnddeeoqaacciisddwggyddkfaaffxig",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : null,
+  "definition" : {
+    "id" : "f552e6a932780394b6f06c14071aa115",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+} ]</composition><da_relay_models/><data>[ ]</data><description/><dispatched_events>166595d6b70201109fda8079ce11a904</dispatched_events><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><handled_events/><interactions/><interfaces/><internal_event_mappings>{ }</internal_event_mappings><layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"dashboard_1","styles":{"height":""}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column","height":"100%"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout><macroponent_dependencies/><name>Dashboards</name><output_prop_mapping/><props>[ {
+  "name" : "edit",
+  "label" : "Edit",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props><required_translations>[ ]</required_translations><root_component/><root_component_config>{ }</root_component_config><root_component_definition/><schema_version>1.0.0</schema_version><state_properties>[ ]</state_properties><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-06 01:18:05</sys_created_on><sys_id>dc2c634c97f9311024d7b066f053afc8</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Dashboards</sys_name><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sys_ux_macroponent_dc2c634c97f9311024d7b066f053afc8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-06 01:18:35</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=dc2c634c97f9311024d7b066f053afc8"/></record_update>]]></payload>
+        <payload_hash>1907156131</payload_hash>
+        <record_name>Dashboards</record_name>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 01:18:35</sys_created_on>
+        <sys_id>7b3ca74c97f9311024d7b066f053af18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b0290a4ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 01:18:35</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>ff3ca74c0af9311077fa076d606ea817</update_guid>
+        <update_guid_history>ff3ca74c0af9311077fa076d606ea817:1907156131,a82c274c1ff931101807eb65f9d1d911:-1832490538,ec2ce34cf7f93110795604ecc17143ec:-264392060,ec2c274c2df93110ff9ee062686c270c:-1832490538,282ce34c2cf93110960e2d0bfbb4d1e8:-264392060,a02c634c2bf931101e3186a96e8ca0cf:-627398714,a42c634ca9f9311094f8158aa68b5bcb:229355844</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 01:20:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>9c6bba7a5160494a8946119a27e9b4a4</sys_id>
+        <sys_metadata>dc2c634c97f9311024d7b066f053afc8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboards</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_dc2c634c97f9311024d7b066f053afc8</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_dc2c634c97f9311024d7b066f053afc8">7b3ca74c97f9311024d7b066f053af18</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 01:20:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

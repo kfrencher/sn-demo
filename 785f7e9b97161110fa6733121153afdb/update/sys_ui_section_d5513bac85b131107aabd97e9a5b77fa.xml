@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="d5513bac85b131107aabd97e9a5b77fa" sys_domain="global" table="sys_user" version="3" view="custom_portal_settings_x_53417_demo">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-10-07 14:57:49</sys_created_on>
+            <sys_id>59513bacc1b13110c5b81f0d1c83a2fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="d1513baceab131103fa755db155d29fb">d5513bac85b131107aabd97e9a5b77fa</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2023-10-07 14:57:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-10-07 14:57:49</sys_created_on>
+            <sys_id>51513bac9cb13110a3487e295be826fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="d1513baceab131103fa755db155d29fb">d5513bac85b131107aabd97e9a5b77fa</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2023-10-07 14:57:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-10-07 14:57:49</sys_created_on>
+            <sys_id>99513bac40b131100cfd1fbcc0d1aafa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="d1513baceab131103fa755db155d29fb">d5513bac85b131107aabd97e9a5b77fa</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2023-10-07 14:57:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-10-07 14:57:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5513bac85b131107aabd97e9a5b77fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_ui_section_d5513bac85b131107aabd97e9a5b77fa</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2023-10-07 14:57:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal settings (x_53417_demo)" name="custom_portal_settings_x_53417_demo">d1513baceab131103fa755db155d29fb</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

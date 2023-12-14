@@ -9,6 +9,7 @@
         <default_answer>false</default_answer>
         <input_table>var__m_sys_decision_input_03436d5a9732211024d7b066f053afb7</input_table>
         <label>Demo Category to Assignment Groups_300</label>
+        <marked_for_deletion>false</marked_for_deletion>
         <order>300</order>
         <sys_class_name>sys_decision_question</sys_class_name>
         <sys_created_by>admin</sys_created_by>

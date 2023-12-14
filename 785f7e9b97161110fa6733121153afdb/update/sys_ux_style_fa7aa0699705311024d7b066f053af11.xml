@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_style">
+    <sys_ux_style action="INSERT_OR_UPDATE">
+        <name>Colors</name>
+        <style>{&#13;
+    "colorGenerationVersion": "V1",&#13;
+    "base": {&#13;
+        "--now-color--neutral": "204, 204, 204",&#13;
+        "--now-color--primary": "176, 224, 230",&#13;
+        "--now-color--secondary": "156, 175, 136"&#13;
+    }&#13;
+}</style>
+        <sys_class_name>sys_ux_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-02 20:15:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa7aa0699705311024d7b066f053af11</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Colors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_style_fa7aa0699705311024d7b066f053af11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-02 20:26:44</sys_updated_on>
+        <type>core</type>
+    </sys_ux_style>
+</record_update>

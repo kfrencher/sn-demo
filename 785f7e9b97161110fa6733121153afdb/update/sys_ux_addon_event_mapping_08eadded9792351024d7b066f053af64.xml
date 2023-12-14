@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Edit Record In New Tab</name>
+        <parent_macroponent display_value="Default">8fda9ded9792351024d7b066f053af59</parent_macroponent>
+        <source_component/>
+        <source_da display_value="edit_({{count}})">d655b480c59f5510f877a9d5199de99c</source_da>
+        <source_element_id>nam_kpis</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 03:05:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08eadded9792351024d7b066f053af64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit Record In New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_08eadded9792351024d7b066f053af64</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 03:05:43</sys_updated_on>
+        <target_event display_value="Edit NAM KPIs">e713bad2a32211103ebf37af26fcdabe</target_event>
+        <target_payload_mapping>{
+    "container": {
+        "sysId": {
+            "type": "JSON_LITERAL"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

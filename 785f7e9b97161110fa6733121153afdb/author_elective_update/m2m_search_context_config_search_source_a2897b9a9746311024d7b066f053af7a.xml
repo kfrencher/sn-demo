@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="DELETE">
+        <order>100</order>
+        <search_context_config display_value="Demo Workspace Search Config">2c6ca55397531110b2e1f97e6253af42</search_context_config>
+        <source display_value="Demo App Engine - x_53417_demo_task">947a3c3397d39110b2e1f97e6253afda</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 12:19:11</sys_created_on>
+        <sys_id>a2897b9a9746311024d7b066f053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_a2897b9a9746311024d7b066f053af7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 12:19:11</sys_updated_on>
+    </m2m_search_context_config_search_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>m2m_search_context_config_search_source_a2897b9a9746311024d7b066f053af7a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source"><m2m_search_context_config_search_source action="INSERT_OR_UPDATE"><order>100</order><search_context_config display_value="Demo Workspace Search Config">2c6ca55397531110b2e1f97e6253af42</search_context_config><source display_value="Demo App Engine - x_53417_demo_task">947a3c3397d39110b2e1f97e6253afda</source><sys_class_name>m2m_search_context_config_search_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-25 12:19:11</sys_created_on><sys_id>a2897b9a9746311024d7b066f053af7a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>m2m_search_context_config_search_source_a2897b9a9746311024d7b066f053af7a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-25 12:19:11</sys_updated_on></m2m_search_context_config_search_source></record_update>]]></payload>
+        <payload_hash>1258679465</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 12:19:11</sys_created_on>
+        <sys_id>caa9779a9746311024d7b066f053af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b66c645600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 12:19:11</sys_updated_on>
+        <type>Application Search Sources</type>
+        <update_guid>02a9779aec46311098f4d94125ca4f34</update_guid>
+        <update_guid_history>02a9779aec46311098f4d94125ca4f34:1258679465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">47d9bf9a9746311024d7b066f053af89</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 12:20:05</sys_created_on>
+        <sys_db_object display_value="" name="m2m_search_context_config_search_source">m2m_search_context_config_search_source</sys_db_object>
+        <sys_id>3320bd90acc343e19f3137f2665f9de1</sys_id>
+        <sys_metadata>a2897b9a9746311024d7b066f053af7a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>m2m_search_context_config_search_source_a2897b9a9746311024d7b066f053af7a</sys_update_name>
+        <sys_update_version display_value="m2m_search_context_config_search_source_a2897b9a9746311024d7b066f053af7a">caa9779a9746311024d7b066f053af34</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 12:20:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

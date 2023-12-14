@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_question">
+    <sc_wizard_question action="DELETE">
+        <item_option_new display_value="Age">61002b6a9722b11024d7b066f053af21</item_option_new>
+        <map_to_set>false</map_to_set>
+        <order>200</order>
+        <question_or_set>Age</question_or_set>
+        <set/>
+        <sys_class_name>sc_wizard_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-20 01:57:41</sys_created_on>
+        <sys_id>f4b4ef229762b11024d7b066f053af5b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sc_wizard_question_f4b4ef229762b11024d7b066f053af5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-20 01:57:52</sys_updated_on>
+        <wizard_section display_value="Detail">cd8fd42197ae211024d7b066f053af70</wizard_section>
+    </sc_wizard_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">785f7e9b97161110fa6733121153afdb</application>
+        <file_path/>
+        <instance_id>ac212348db1f19180288c59705961994</instance_id>
+        <instance_name>dev144209</instance_name>
+        <name>sc_wizard_question_f4b4ef229762b11024d7b066f053af5b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_question"><sc_wizard_question action="INSERT_OR_UPDATE"><item_option_new display_value="Age">61002b6a9722b11024d7b066f053af21</item_option_new><map_to_set>false</map_to_set><order>200</order><question_or_set>Age</question_or_set><set/><sys_class_name>sc_wizard_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-20 01:57:41</sys_created_on><sys_id>f4b4ef229762b11024d7b066f053af5b</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package><sys_policy/><sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope><sys_update_name>sc_wizard_question_f4b4ef229762b11024d7b066f053af5b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-20 01:57:52</sys_updated_on><wizard_section display_value="Detail">cd8fd42197ae211024d7b066f053af70</wizard_section></sc_wizard_question></record_update>]]></payload>
+        <payload_hash>1502941036</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>29b502949712211024d7b066f053af5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-20 01:57:52</sys_created_on>
+        <sys_id>0ac423629762b11024d7b066f053afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bea72c6e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-20 01:57:52</sys_updated_on>
+        <type>Catalog Wizard Question</type>
+        <update_guid>4ec42362c862b11038f253bd6ddfeae0</update_guid>
+        <update_guid_history>4ec42362c862b11038f253bd6ddfeae0:1502941036,1fb4ef22f962b110ca542b181a5e9599:-76910806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d5540a76976eb11024d7b066f053af6f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-20 13:34:57</sys_created_on>
+        <sys_db_object display_value="" name="sc_wizard_question">sc_wizard_question</sys_db_object>
+        <sys_id>2a9242ce96e14570b8ca50d4b09fb640</sys_id>
+        <sys_metadata>f4b4ef229762b11024d7b066f053af5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_scope_delete display_value="">014225fbeb3648a6800d99a79dc47f24</sys_scope_delete>
+        <sys_update_name>sc_wizard_question_f4b4ef229762b11024d7b066f053af5b</sys_update_name>
+        <sys_update_version display_value="sc_wizard_question_f4b4ef229762b11024d7b066f053af5b">0ac423629762b11024d7b066f053afe1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-20 13:34:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
-        <legacy_page display_value="PA New Tab">c34632b197716150b2e1f97e6253af74</legacy_page>
+        <legacy_page display_value="">c34632b197716150b2e1f97e6253af74</legacy_page>
         <name>PA New Tab</name>
         <sys_class_name>sys_grid_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>

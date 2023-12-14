@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Demo App Engine Config">c76af8335fd39110b80a53651e650a42</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ {&#13;
   "eventMappingId" : "ckdeecffptcaaaaaajddghheejjiaajjbbaaiim",&#13;
   "isConfiguration" : false,&#13;
@@ -240,7 +241,7 @@
         <macroponent_config/>
         <name>List Default</name>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[]</required_translations>
         <rollback_screen/>
         <screen_condition/>
@@ -251,12 +252,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>076af833dfd39110500cd6a913ad2040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>List Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_screen_076af833dfd39110500cd6a913ad2040</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 12:08:32</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=076af833dfd39110500cd6a913ad2040"/>
 </record_update>

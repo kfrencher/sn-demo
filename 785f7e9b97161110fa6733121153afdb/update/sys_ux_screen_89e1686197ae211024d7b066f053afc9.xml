@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Demo Experience">4b8b5bea97d75910b2e1f97e6253afc9</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Default">05e1686197ae211024d7b066f053afc6</macroponent>
         <macroponent_config>{

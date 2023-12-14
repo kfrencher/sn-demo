@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>fdacb518b7320110aab961d9ce11a989</includes>
+        <macroponent display_value="Default">4dbe9d2597d2351024d7b066f053af61</macroponent>
+        <name>Handle item clicked/view all</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    const {getPayload} = imports['sn_app_analytics_w.ParWidgetsDrilldowns']();
+    // Needed by script include
+    const getEventOrigin = (type) => {
+        switch (type) {
+            case 'NOW_RECORD_LIST_CONNECTED#ROW_CLICKED':
+                return 'NOW_RECORD_LIST_CONNECTED#ROW_CLICKED';
+
+            case 'SN_PAR_CALENDAR_CONNECTED#EVENT_CLICKED':
+                return 'SN_PAR_CALENDAR_CONNECTED#EVENT_CLICKED';
+
+            case 'NOW_RECORD_LIST_CONNECTED#VIEW_ALL_CLICKED':
+                return 'NOW_RECORD_LIST_CONNECTED#VIEW_ALL_CLICKED';
+
+            case 'NOW_VIS_WRAPPER#CLICKED': 
+                return 'NOW_VIS_WRAPPER#CLICKED';
+
+            default:
+                return 'ITEM_SELECTED';
+        }
+    };
+
+    // Script include requried format
+    const getUnifiedPayload = (type, payload) => {
+        switch (type) {
+            case 'NOW_RECORD_LIST_CONNECTED#ROW_CLICKED':
+                return {
+                    ...payload,
+                    title: payload.listTitle,
+                };
+
+            case 'SN_SCORECARD_LIST#ITEM_SELECTED':
+                return {params: payload};
+
+            default:
+                return payload;
+        }
+    };
+
+    const payload = getPayload({
+        payload: {
+            ...getUnifiedPayload(event.payload.type, event.payload.payload),
+            eventOrigin: getEventOrigin(event.payload.type),
+        }
+    });
+
+    api.emit('NAV_ITEM_SELECTED', payload);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 03:22:27</sys_created_on>
+        <sys_id>59be9d2597d2351024d7b066f053af81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Handle item clicked/view all</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_client_script_59be9d2597d2351024d7b066f053af81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 03:22:27</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

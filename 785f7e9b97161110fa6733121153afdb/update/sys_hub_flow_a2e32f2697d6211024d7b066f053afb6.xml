@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation>Log Demo Users From Demo DB</annotation>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
@@ -68,6 +69,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -104,6 +106,7 @@
         <action_inputs/>
         <action_type display_value="Demo Get JDBC User">aece876a9756211024d7b066f053af0d</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -126,6 +129,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a2e32f2697d6211024d7b066f053afb6"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=a2e32f2697d6211024d7b066f053afb6^sys_idNOT IN8524276697d6211024d7b066f053aff7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">8d24276697d6211024d7b066f053aff6</block>
         <comment/>
         <connected_to/>
