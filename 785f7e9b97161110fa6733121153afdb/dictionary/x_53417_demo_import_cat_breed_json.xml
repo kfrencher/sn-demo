@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="618a03a097b77d1024d7b066f053affc" extends="sys_import_set_row" label="Data Cat Breeds (JSON FILE)" max_length="40" name="x_53417_demo_import_cat_breed_json" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=breed" label="breed" max_length="40" name="u_breed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=coat" label="coat" max_length="40" name="u_coat" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=country" label="country" max_length="61" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=origin" label="origin" max_length="40" name="u_origin" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=pattern" label="pattern" max_length="40" name="u_pattern" type="string"/>
+    </element>
+</database>

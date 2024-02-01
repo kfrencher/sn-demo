@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b7b68f859708421024d7b066f053afa6" extends="x_53417_demo_task" label="Flow Task" max_length="40" name="x_53417_demo_flow_task" type="collection">
+        <element choice="1" choice_field="approval" choice_table="task" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not requested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="icons=WorkflowIconsSCR" label="Stage" max_length="80" name="stage" type="workflow"/>
+    </element>
+</database>

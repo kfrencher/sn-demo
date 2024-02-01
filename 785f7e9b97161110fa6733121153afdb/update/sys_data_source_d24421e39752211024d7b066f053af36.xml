@@ -41,7 +41,7 @@
         <limit/>
         <maximum_rows/>
         <mid_server/>
-        <name>Demo Cat Breeds</name>
+        <name>Demo Cat Breeds (STREAM)</name>
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
@@ -64,14 +64,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-25 12:43:58</sys_created_on>
         <sys_id>d24421e39752211024d7b066f053af36</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Demo Cat Breeds</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Demo Cat Breeds (STREAM)</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_data_source_d24421e39752211024d7b066f053af36</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-25 12:48:51</sys_updated_on>
+        <sys_updated_on>2024-01-14 20:48:20</sys_updated_on>
         <table_name/>
         <type>data_stream</type>
         <use_batch_import>false</use_batch_import>
@@ -81,4 +81,5 @@
         <zipped>false</zipped>
     </sys_data_source>
     <sys_variable_value action="delete_multiple" query="document_key=d24421e39752211024d7b066f053af36"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_ec2429a39752211024d7b066f053af26^id=d24421e39752211024d7b066f053af36"/>
 </record_update>

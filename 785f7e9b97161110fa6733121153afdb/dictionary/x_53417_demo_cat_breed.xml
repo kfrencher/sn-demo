@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="74848c0f9779311024d7b066f053af96" label="Cat Breed" max_length="40" name="x_53417_demo_cat_breed" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Breed" max_length="255" name="breed" type="string"/>
+        <element display="true" label="Breed" max_length="255" name="breed" type="string"/>
         <element label="Country" max_length="255" name="country" type="string"/>
+        <index name="index">
+            <element name="breed"/>
+        </index>
     </element>
 </database>

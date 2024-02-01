@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>94c399a697cfb91024d7b066f053af4f</category>
+        <channels/>
+        <connect_queue/>
+        <description>Topic allows users to view a list of all their open demo requests</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.51",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "1b05a186517340d982d32d115db540b8": {
+          "id": "1b05a186517340d982d32d115db540b8",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello clarice, what can i do for you today"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "4c4695b5960843bfb2860e35bda96f83": {
+          "id": "4c4695b5960843bfb2860e35bda96f83",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Goodbye"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "c6543c4f766a450ea9ad26102ef99fa6": {
+          "name": "Select user",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "What user do you want details for?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Looking up details for user: "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.select_user}}",
+                      "displayValue": "Input Variables➛Select User"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "00e0572e883c4af0a09c928c11a2bbb5",
+          "detailDescription": "",
+          "id": "c6543c4f766a450ea9ad26102ef99fa6",
+          "stepType": "ReferenceChoicePrompt",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "No user found by that name"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "active=true"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "4438083fc50f4cacbdd9a584e43cd1d6": {
+          "id": "4438083fc50f4cacbdd9a584e43cd1d6",
+          "stepType": "RecordOutput",
+          "name": "Display user details",
+          "variableId": "00e0572e883c4af0a09c928c11a2bbb5",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "sys_user",
+          "fields": [
+            "name",
+            "email",
+            "home_phone"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "691b642e51f64180ad4b846e3f3b0da8",
+          "edgeType": "Edge",
+          "source": "1b05a186517340d982d32d115db540b8",
+          "target": "c6543c4f766a450ea9ad26102ef99fa6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c1567f4cc0314fdfbd5adc15a50cc14e",
+          "edgeType": "Edge",
+          "source": "c6543c4f766a450ea9ad26102ef99fa6",
+          "target": "4438083fc50f4cacbdd9a584e43cd1d6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c6fe05174e554c9b95c36c9ad81f487f",
+          "edgeType": "Edge",
+          "source": "4438083fc50f4cacbdd9a584e43cd1d6",
+          "target": "4c4695b5960843bfb2860e35bda96f83",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "30797d1655c34b2089842ae21a0feafe": {
+      "id": "30797d1655c34b2089842ae21a0feafe",
+      "name": "LiveAgent_application",
+      "value": {
+        "mode": "simple",
+        "value": null
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "00e0572e883c4af0a09c928c11a2bbb5": {
+      "id": "00e0572e883c4af0a09c928c11a2bbb5",
+      "name": "select_user",
+      "label": "Select User",
+      "varType": "reference",
+      "table": "sys_user",
+      "category": "vaInputs",
+      "nodeId": "4438083fc50f4cacbdd9a584e43cd1d6",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Demo View Open Demo Requests,Demo Request,request,demo</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Demo View Open Demo Requests</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 12:00:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c8d499a697cfb91024d7b066f053af07</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Demo View Open Demo Requests</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_cb_topic_c8d499a697cfb91024d7b066f053af07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 01:02:29</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=c8d499a697cfb91024d7b066f053af07"/>
+</record_update>

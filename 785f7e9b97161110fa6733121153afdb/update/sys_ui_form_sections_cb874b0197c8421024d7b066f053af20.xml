@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="cb874b0197c8421024d7b066f053af20" sys_domain="global" table="x_53417_demo_flow_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-28 21:33:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97874f0197c8421024d7b066f053afbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_53417_demo_flow_task" name="x_53417_demo_flow_task" sys_domain="global" view="Default view">cb874b0197c8421024d7b066f053af20</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_53417_demo_flow_task" sys_domain="global" view="Default view">c3874f0197c8421024d7b066f053afb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-28 21:33:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-28 21:33:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b874f0197c8421024d7b066f053afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_53417_demo_flow_task" name="x_53417_demo_flow_task" sys_domain="global" view="Default view">cb874b0197c8421024d7b066f053af20</sys_ui_form>
+            <sys_ui_section caption="Assignment Details" display_value="Assignment Details" name="x_53417_demo_flow_task" sys_domain="global" view="Default view">df874f0197c8421024d7b066f053afbb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-28 21:33:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-28 21:33:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db874f0197c8421024d7b066f053afc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_53417_demo_flow_task" name="x_53417_demo_flow_task" sys_domain="global" view="Default view">cb874b0197c8421024d7b066f053af20</sys_ui_form>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_53417_demo_flow_task" sys_domain="global" view="Default view">df874f0197c8421024d7b066f053afbf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-28 21:33:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_53417_demo_flow_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-28 21:33:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb874b0197c8421024d7b066f053af20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_53417_demo_flow_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_cb874b0197c8421024d7b066f053af20</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-28 21:33:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
