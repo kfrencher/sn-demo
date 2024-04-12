@@ -10,6 +10,7 @@ Recorded on: glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</desc
         <name>SIMPLE Regress Recording by System Administrator</name>
         <parameters/>
         <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-09 11:57:29</sys_created_on>

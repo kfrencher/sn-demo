@@ -29,6 +29,10 @@
         "type": "JSON_LITERAL",
         "value": ""
     },
+    "myProp": {
+        "type": "JSON_LITERAL",
+        "value": "Setting My Prop to Something"
+    },
     "propagateNotifications": {
         "type": "JSON_LITERAL",
         "value": false
@@ -51,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c1a5dad9792351024d7b066f053af44</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
@@ -59,7 +63,7 @@
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_ux_screen_9c1a5dad9792351024d7b066f053af44</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-04 13:02:55</sys_updated_on>
+        <sys_updated_on>2024-03-04 00:02:06</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=9c1a5dad9792351024d7b066f053af44"/>
 </record_update>

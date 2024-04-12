@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation>Get assignment group</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Returns the assignment group based on the label</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>sub_demo_decision</internal_name>
         <label_cache>[{"name":"6c996a16-89d2-4737-b77c-44e3b4906a51.answer","label":"1 - Make a decision➛Result Record","reference":"var__m_sys_decision_multi_result_element_9aaede6c977da910b2e1f97e6253af9b","reference_display":"Result","type":"reference","base_type":"reference","attributes":{}},{"name":"6c996a16-89d2-4737-b77c-44e3b4906a51.table_name","label":"1 - Make a decision➛Result Table","reference":"var__m_sys_decision_multi_result_element_9aaede6c977da910b2e1f97e6253af9b","reference_display":"Result Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"subflow.label","label":"Input➛Label","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b6e90017-a086-4439-9d02-88d46794657b"}},{"name":"6c996a16-89d2-4737-b77c-44e3b4906a51.answer.u_assignment_group","label":"1 - Make a decision➛Result Record➛Assignment Group","reference":"sys_user_group","reference_display":"Assignment Group","type":"reference","base_type":"reference","parent_table_name":"var__m_sys_decision_multi_result_element_9aaede6c977da910b2e1f97e6253af9b","column_name":"u_assignment_group"}]</label_cache>
         <latest_snapshot/>
@@ -248,6 +251,7 @@
         <flow display_value="SUB Demo Decision">1d74d9b097f9e910b2e1f97e6253afc9</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>1</order>
@@ -352,6 +356,7 @@
         <flow display_value="SUB Demo Decision">1d74d9b097f9e910b2e1f97e6253afc9</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>2</order>

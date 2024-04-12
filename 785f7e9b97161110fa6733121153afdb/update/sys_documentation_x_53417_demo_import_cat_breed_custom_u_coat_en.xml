@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_coat" label="coat" language="en" table="x_53417_demo_import_cat_breed_custom">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_coat</element>
+            <help/>
+            <hint/>
+            <label>coat</label>
+            <language>en</language>
+            <name>x_53417_demo_import_cat_breed_custom</name>
+            <plural>coats</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-14 23:56:20</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>coat</sys_name>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_documentation_x_53417_demo_import_cat_breed_custom_u_coat_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-14 23:56:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

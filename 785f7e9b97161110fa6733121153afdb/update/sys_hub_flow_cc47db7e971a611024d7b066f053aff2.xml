@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation>Log parsed users</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Log the parsed users from a JSON Parser action</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demo_log_parsed_users</internal_name>
         <label_cache>[{"name":"57056b6c-dd18-41ee-ad86-80e33172ddc5.people","label":"1 - Demo JSON Parser➛people","reference_display":"people","type":"array.object","base_type":"array.object","attributes":{"sourceId":"f4919674-e582-4e22-945f-958c751a9eb1","child_name":"people_object","uiUniqueId":"f860ffea-a4d8-413f-af8d-2c60cddf5cad","uiTypeLabel":"Array.Object","co_type_name":"FD15f613be641a6110241d4b8810c94b3e","child_label":"people_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6b7ce58e-219a-45dd-a64a-f118c498a184","uiType":"array.object","child_type":"object","child_uiUniqueId":"95eda2b6-4f77-47f4-9fe4-6e885fb32fe2"}},{"name":"157e977f-5b10-47a9-b940-9d810068292b.item.firstName","label":"2 - For Each➛people_object➛firstName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
         <latest_snapshot/>
@@ -73,6 +76,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo Log Parsed Users">cc47db7e971a611024d7b066f053aff2</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -118,6 +122,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo Log Parsed Users">cc47db7e971a611024d7b066f053aff2</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>157e977f-5b10-47a9-b940-9d810068292b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -160,6 +165,7 @@
         <flow display_value="Demo Log Parsed Users">cc47db7e971a611024d7b066f053aff2</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>

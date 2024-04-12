@@ -2,9 +2,9 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <condition/>
-        <description/>
+        <description>ACL for data broker: Demo Hello World</description>
         <local_or_existing>Local</local_or_existing>
         <name>b50b2ee19731311024d7b066f053afa3</name>
         <operation display_value="execute">execute</operation>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 12:30:14</sys_created_on>
         <sys_id>e40c22659731311024d7b066f053af9e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>b50b2ee19731311024d7b066f053afa3</sys_name>
         <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
         <sys_update_name>sys_security_acl_e40c22659731311024d7b066f053af9e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-10 12:30:14</sys_updated_on>
+        <sys_updated_on>2024-03-05 13:53:14</sys_updated_on>
         <type display_value="ux_data_broker">6d9c40e9531210101cb3ddeeff7b12f6</type>
     </sys_security_acl>
 </record_update>

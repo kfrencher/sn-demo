@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="Demo Credential Dashboard">7743be5797e5b51024d7b066f053af79</dashboard>
-        <experience display_value="Platform Analytics Workspace">08c73d60537101100834ddeeff7b1287</experience>
+        <experience display_value="Platform Analytics Experience">08c73d60537101100834ddeeff7b1287</experience>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 13:14:23</sys_created_on>

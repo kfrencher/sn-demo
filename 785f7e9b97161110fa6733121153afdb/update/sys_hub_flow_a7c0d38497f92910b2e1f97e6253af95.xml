@@ -5,11 +5,14 @@
         <active>true</active>
         <annotation>Check if all child tasks were rejected</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Returns a list of sys_user_group.sys_id that are the sysy_ids of the assigned groups on rejected sysapproval_group records.</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>sub_get_rejected_approval_groups</internal_name>
         <label_cache>[{"name":"d037a736-2b34-4c6e-b953-858d546a3885.item.assignment_group","label":"1 - For Each➛Group approval Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sysapproval_group","column_name":"assignment_group"},{"name":"flow_variable.groups","label":"Flow Variables➛Groups","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3e73fcf5-cd1c-4f49-b672-b604e3ea7a7f"}},{"name":"d037a736-2b34-4c6e-b953-858d546a3885.item","label":"1 - For Each➛Group approval Record","reference":"sysapproval_group","reference_display":"Group approval","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.group_approvals","label":"Input➛Group Approvals","reference":"sysapproval_group","reference_display":"Group approval","type":"glide_list","base_type":"glide_list","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c7245326-5c49-4b3f-b6c2-9c92f5de8112"}}]</label_cache>
         <master_snapshot>6a42170c97f92910b2e1f97e6253af3b</master_snapshot>
@@ -245,6 +248,7 @@
         <flow display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>3</order>
@@ -294,6 +298,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>groups</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -341,6 +346,7 @@
         <flow display_value="SUB Get Rejected Approval Groups">a7c0d38497f92910b2e1f97e6253af95</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -553,11 +559,13 @@
         <active>true</active>
         <annotation>Check if all child tasks were rejected</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Returns a list of sys_user_group.sys_id that are the sysy_ids of the assigned groups on rejected sysapproval_group records.</description>
+        <flow_priority/>
         <internal_name>sub_get_rejected_approval_groups</internal_name>
         <label_cache>[{"name":"d037a736-2b34-4c6e-b953-858d546a3885.item.assignment_group","label":"1 - For Each➛Group approval Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sysapproval_group","column_name":"assignment_group"},{"name":"flow_variable.groups","label":"Flow Variables➛Groups","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3e73fcf5-cd1c-4f49-b672-b604e3ea7a7f"}},{"name":"d037a736-2b34-4c6e-b953-858d546a3885.item","label":"1 - For Each➛Group approval Record","reference":"sysapproval_group","reference_display":"Group approval","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.group_approvals","label":"Input➛Group Approvals","reference":"sysapproval_group","reference_display":"Group approval","type":"glide_list","base_type":"glide_list","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c7245326-5c49-4b3f-b6c2-9c92f5de8112"}}]</label_cache>
         <master>true</master>
@@ -792,6 +800,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>groups</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -839,6 +848,7 @@
         <flow display_value="SUB Get Rejected Approval Groups">6a42170c97f92910b2e1f97e6253af3b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -888,6 +898,7 @@
         <flow display_value="SUB Get Rejected Approval Groups">6a42170c97f92910b2e1f97e6253af3b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>3</order>

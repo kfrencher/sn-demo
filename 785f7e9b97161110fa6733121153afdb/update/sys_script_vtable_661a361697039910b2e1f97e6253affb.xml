@@ -5,6 +5,8 @@
         <cache_isolation_level>USER</cache_isolation_level>
         <cache_strategy>CACHE_BY_QUERY</cache_strategy>
         <cache_ttl>60</cache_ttl>
+        <enhanced_capacity>false</enhanced_capacity>
+        <flow/>
         <name>Demo Group</name>
         <script><![CDATA[(function executeQuery(v_table, v_query) {
 	const groupService = new global.LdapGroupService();

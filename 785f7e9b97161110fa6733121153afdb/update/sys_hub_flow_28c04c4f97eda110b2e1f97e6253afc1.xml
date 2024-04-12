@@ -5,11 +5,14 @@
         <active>true</active>
         <annotation>Get list of approvers for Todo request</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Returns a list of approvers for Todo Requests based on the Category and Label inputs. The list of approvers is a list of sys_user_group.sys_id</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demotodo_get_approvers</internal_name>
         <label_cache>[{"name":"subflow.category","label":"Input➛Category","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ff8c4690-abd4-4fdf-8216-5853b1ede391","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.group_json","label":"Flow Variables➛Group JSON","reference":"","reference_display":"","type":"json","base_type":"json","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"463acd27-fddf-4d7d-8ac5-b5c54af0ee80"}},{"name":"8292e135-9758-419c-a4c6-12e9f2fbbe45.value","label":"2 - Todo Get System Property➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6a3372b3-e05d-4352-a4f4-a9c8aa3ef874"}},{"name":"8292e135-9758-419c-a4c6-12e9f2fbbe45.__action_status__","label":"2 - Todo Get System Property➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"1f129a6c-b367-49cd-8dbb-96e83ff1e928"}},{"name":"8292e135-9758-419c-a4c6-12e9f2fbbe45.__dont_treat_as_error__","label":"2 - Todo Get System Property➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"15a3aeca-5e99-41fb-85c9-1f0789273302"}},{"name":"subflow.label","label":"Input➛Label","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cdc241fe-c3ea-4ac9-8deb-9837483bb37f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"73f52af4-9282-4e1c-a17b-36e3e7593a6e.value","label":"5 - Todo Get System Property➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6a3372b3-e05d-4352-a4f4-a9c8aa3ef874"}},{"name":"73f52af4-9282-4e1c-a17b-36e3e7593a6e.__action_status__","label":"5 - Todo Get System Property➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"1f129a6c-b367-49cd-8dbb-96e83ff1e928"}},{"name":"73f52af4-9282-4e1c-a17b-36e3e7593a6e.__dont_treat_as_error__","label":"5 - Todo Get System Property➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"15a3aeca-5e99-41fb-85c9-1f0789273302"}},{"name":"flow_variable.group_sys_ids","label":"Flow Variables➛Group Sys IDs","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"463acd27-fddf-4d7d-8ac5-b5c54af0ee80"}}]</label_cache>
         <master_snapshot>8cbb260b972de110b2e1f97e6253af5b</master_snapshot>
@@ -407,6 +410,7 @@
         <comment>Get General Approver Group SysId from system property</comment>
         <display_text/>
         <flow display_value="SUB Get Approvers">28c04c4f97eda110b2e1f97e6253afc1</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>4390996e-5f96-42eb-a676-b26011989d56</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -445,6 +449,7 @@
         <comment>Get Hardware Approver Group SysId from system property</comment>
         <display_text/>
         <flow display_value="SUB Get Approvers">28c04c4f97eda110b2e1f97e6253afc1</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id>cc988007-78f2-493e-b5f1-a9b25e10c792</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -490,6 +495,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_sys_ids</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>6</order>
@@ -537,6 +543,7 @@
         <flow display_value="SUB Get Approvers">28c04c4f97eda110b2e1f97e6253afc1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>8</order>
@@ -599,6 +606,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_sys_ids</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>7</order>
@@ -646,6 +654,7 @@
         <flow display_value="SUB Get Approvers">28c04c4f97eda110b2e1f97e6253afc1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -722,6 +731,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_sys_ids</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>3</order>
@@ -769,6 +779,7 @@
         <flow display_value="SUB Get Approvers">28c04c4f97eda110b2e1f97e6253afc1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1172,11 +1183,13 @@
         <active>true</active>
         <annotation>Get list of approvers for Todo request</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Returns a list of approvers for Todo Requests based on the Category and Label inputs. The list of approvers is a list of sys_user_group.sys_id</description>
+        <flow_priority/>
         <internal_name>demotodo_get_approvers</internal_name>
         <label_cache>[{"name":"subflow.category","label":"Input➛Category","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ff8c4690-abd4-4fdf-8216-5853b1ede391","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.group_json","label":"Flow Variables➛Group JSON","reference":"","reference_display":"","type":"json","base_type":"json","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"463acd27-fddf-4d7d-8ac5-b5c54af0ee80"}},{"name":"8292e135-9758-419c-a4c6-12e9f2fbbe45.value","label":"2 - Todo Get System Property➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6a3372b3-e05d-4352-a4f4-a9c8aa3ef874"}},{"name":"8292e135-9758-419c-a4c6-12e9f2fbbe45.__action_status__","label":"2 - Todo Get System Property➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"1f129a6c-b367-49cd-8dbb-96e83ff1e928"}},{"name":"8292e135-9758-419c-a4c6-12e9f2fbbe45.__dont_treat_as_error__","label":"2 - Todo Get System Property➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"15a3aeca-5e99-41fb-85c9-1f0789273302"}},{"name":"subflow.label","label":"Input➛Label","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cdc241fe-c3ea-4ac9-8deb-9837483bb37f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"73f52af4-9282-4e1c-a17b-36e3e7593a6e.value","label":"5 - Todo Get System Property➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6a3372b3-e05d-4352-a4f4-a9c8aa3ef874"}},{"name":"73f52af4-9282-4e1c-a17b-36e3e7593a6e.__action_status__","label":"5 - Todo Get System Property➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"1f129a6c-b367-49cd-8dbb-96e83ff1e928"}},{"name":"73f52af4-9282-4e1c-a17b-36e3e7593a6e.__dont_treat_as_error__","label":"5 - Todo Get System Property➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"15a3aeca-5e99-41fb-85c9-1f0789273302"}},{"name":"flow_variable.group_sys_ids","label":"Flow Variables➛Group Sys IDs","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"463acd27-fddf-4d7d-8ac5-b5c54af0ee80"}}]</label_cache>
         <master>true</master>
@@ -1572,6 +1585,7 @@
         <comment>Get Hardware Approver Group SysId from system property</comment>
         <display_text/>
         <flow display_value="SUB Get Approvers">8cbb260b972de110b2e1f97e6253af5b</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id>cc988007-78f2-493e-b5f1-a9b25e10c792</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1610,6 +1624,7 @@
         <comment>Get General Approver Group SysId from system property</comment>
         <display_text/>
         <flow display_value="SUB Get Approvers">8cbb260b972de110b2e1f97e6253af5b</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>4390996e-5f96-42eb-a676-b26011989d56</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1654,6 +1669,7 @@
         <flow display_value="SUB Get Approvers">8cbb260b972de110b2e1f97e6253af5b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1730,6 +1746,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_sys_ids</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>6</order>
@@ -1778,6 +1795,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_sys_ids</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>3</order>
@@ -1825,6 +1843,7 @@
         <flow display_value="SUB Get Approvers">8cbb260b972de110b2e1f97e6253af5b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>8</order>
@@ -1887,6 +1906,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_sys_ids</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>7</order>
@@ -1934,6 +1954,7 @@
         <flow display_value="SUB Get Approvers">8cbb260b972de110b2e1f97e6253af5b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>

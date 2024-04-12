@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="eef3f7d0977c021024d7b066f053af27" sys_domain="global" table="sys_ux_list" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 23:39:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ef3f7d0977c021024d7b066f053af2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_ux_list" name="sys_ux_list" sys_domain="global" view="83737790977c021024d7b066f053af7a">eef3f7d0977c021024d7b066f053af27</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_ux_list" sys_domain="global" view="83737790977c021024d7b066f053af7a">22f3f7d0977c021024d7b066f053af26</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-03 23:39:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 23:39:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2af3f7d0977c021024d7b066f053af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_ux_list" name="sys_ux_list" sys_domain="global" view="83737790977c021024d7b066f053af7a">eef3f7d0977c021024d7b066f053af27</sys_ui_form>
+            <sys_ui_section caption="List Feature Flags" display_value="List Feature Flags" name="sys_ux_list" sys_domain="global" view="83737790977c021024d7b066f053af7a">a6f3f7d0977c021024d7b066f053af27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-03 23:39:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_ux_list</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 23:39:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eef3f7d0977c021024d7b066f053af27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_ux_list</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_eef3f7d0977c021024d7b066f053af27</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-03 23:39:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Demo" name="demo">83737790977c021024d7b066f053af7a</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

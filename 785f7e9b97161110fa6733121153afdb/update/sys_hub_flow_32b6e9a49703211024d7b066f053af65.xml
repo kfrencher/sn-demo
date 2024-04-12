@@ -5,11 +5,14 @@
         <active>true</active>
         <annotation>Get first non-empty value</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Looks at each value passed into subflow and returns the first value found that is a non-empty string</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>getfirstnonemptyvalue</internal_name>
         <label_cache>[{"name":"subflow.value2","label":"Input➛Value2","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"eb3216c8-e42f-44a7-b047-548259e8e9cf"}},{"name":"subflow.value1","label":"Input➛Value1","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7664dc18-160b-4c39-b6dc-fedb6e592f61"}}]</label_cache>
         <master_snapshot>297729289703211024d7b066f053afc7</master_snapshot>
@@ -329,6 +332,7 @@
         <flow display_value="GetFirstNonEmptyValue">32b6e9a49703211024d7b066f053af65</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -377,6 +381,7 @@
         <flow display_value="GetFirstNonEmptyValue">32b6e9a49703211024d7b066f053af65</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>2</order>
@@ -424,6 +429,7 @@
         <flow display_value="GetFirstNonEmptyValue">32b6e9a49703211024d7b066f053af65</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>4</order>
@@ -471,6 +477,7 @@
         <flow display_value="GetFirstNonEmptyValue">32b6e9a49703211024d7b066f053af65</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -588,11 +595,13 @@
         <active>true</active>
         <annotation>Get first non-empty value</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Looks at each value passed into subflow and returns the first value found that is a non-empty string</description>
+        <flow_priority/>
         <internal_name>getfirstnonemptyvalue</internal_name>
         <label_cache>[{"name":"subflow.value2","label":"Input➛Value2","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"eb3216c8-e42f-44a7-b047-548259e8e9cf"}},{"name":"subflow.value1","label":"Input➛Value1","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7664dc18-160b-4c39-b6dc-fedb6e592f61"}}]</label_cache>
         <master>true</master>
@@ -910,6 +919,7 @@
         <flow display_value="GetFirstNonEmptyValue">297729289703211024d7b066f053afc7</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>4</order>
@@ -957,6 +967,7 @@
         <flow display_value="GetFirstNonEmptyValue">297729289703211024d7b066f053afc7</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1005,6 +1016,7 @@
         <flow display_value="GetFirstNonEmptyValue">297729289703211024d7b066f053afc7</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>2</order>
@@ -1052,6 +1064,7 @@
         <flow display_value="GetFirstNonEmptyValue">297729289703211024d7b066f053afc7</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>

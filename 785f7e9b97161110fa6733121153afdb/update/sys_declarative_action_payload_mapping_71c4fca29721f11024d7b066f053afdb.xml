@@ -4,6 +4,7 @@
         <label>KLF Classification Change Field</label>
         <model display_value="Field">15920e6d534723003eddddeeff7b1244</model>
         <payload_map>header=test^EQ</payload_map>
+        <required_translations/>
         <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-30 20:06:07</sys_created_on>

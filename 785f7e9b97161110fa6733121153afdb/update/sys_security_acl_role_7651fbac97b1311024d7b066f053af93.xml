@@ -14,6 +14,5 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-10-07 14:57:52</sys_updated_on>
         <sys_user_role display_value="x_53417_demo.request_filter_user" name="x_53417_demo.request_filter_user">9987d33097831510b2e1f97e6253af80</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

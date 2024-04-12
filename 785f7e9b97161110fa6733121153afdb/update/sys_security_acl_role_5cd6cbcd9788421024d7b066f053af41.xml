@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-28 21:30:15</sys_updated_on>
         <sys_user_role display_value="x_53417_demo.flow_task_user" name="x_53417_demo.flow_task_user">18d6078d9788421024d7b066f053af97</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

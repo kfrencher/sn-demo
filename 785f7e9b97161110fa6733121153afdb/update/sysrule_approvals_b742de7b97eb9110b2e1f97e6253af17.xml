@@ -29,6 +29,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-20 14:06:21</sys_updated_on>
         <table>x_53417_demo_sn_task</table>
-        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <user display_value="admin">6816f79cc0a8016401c5a33be04be441</user>
     </sysrule_approvals>
 </record_update>

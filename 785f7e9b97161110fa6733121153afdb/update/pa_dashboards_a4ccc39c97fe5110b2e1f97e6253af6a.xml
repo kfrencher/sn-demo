@@ -10,12 +10,13 @@
         <managed_breakdown/>
         <managed_publisher/>
         <name>Demo</name>
+        <no_bulk_migration>false</no_bulk_migration>
         <no_tabs>false</no_tabs>
         <notification_link_label/>
         <notification_link_url/>
         <notification_text/>
         <order>100</order>
-        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="admin">6816f79cc0a8016401c5a33be04be441</owner>
         <restrict_to_roles/>
         <role_override>true</role_override>
         <roles/>

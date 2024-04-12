@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_criteria_m2m_inclusion">
+    <sys_ux_criteria_m2m_inclusion action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Demo Anyone">fa22fb9c97675510b2e1f97e6253af32</applicability>
+        <sys_class_name>sys_ux_criteria_m2m_inclusion</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-03 21:59:37</sys_created_on>
+        <sys_id>962d931497f8021024d7b066f053afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_ux_criteria_m2m_inclusion_962d931497f8021024d7b066f053afda</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-03 21:59:37</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sys_ux_criteria_m2m_inclusion>
+</record_update>

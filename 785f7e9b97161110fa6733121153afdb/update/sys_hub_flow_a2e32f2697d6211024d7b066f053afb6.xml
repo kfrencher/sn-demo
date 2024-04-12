@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation>Log Demo Users From Demo DB</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Logs the demo users from the demo DB</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demo_log_demo_users</internal_name>
         <label_cache>[{"name":"2857aed0-d3d6-48ea-a416-bac92062c77f.result_set.Records","label":"1➛Result Set➛Records","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"39fc45c6-4d44-4c02-b502-f1100fe49894.item.first_name","label":"2 - For Each➛Record➛first_name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"2857aed0-d3d6-48ea-a416-bac92062c77f.demo_users","label":"1➛Demo Users","type":"array.object","base_type":"array.object","attributes":{"sourceId":"539c8792-1d8a-48f4-8763-8c79c727cb58","child_name":"Record","uiUniqueId":"e8905da5-4edb-4593-88a0-6d1df1aa6724","uiTypeLabel":"Array.Object","co_type_name":"FD29c3eb26d8d621101fb407e06ab3b773","child_label":"Record","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"7f660cdf-4729-404b-ac2b-ed1a2fd522c5","uiType":"array.object","child_type":"object","child_uiUniqueId":"0642a6a7-e282-4ab3-ac42-7439437d252f"}},{"name":"2857aed0-d3d6-48ea-a416-bac92062c77f.users","label":"1 - Demo Get JDBC User➛Users","reference_display":"Users","type":"array.object","base_type":"array.object","attributes":{"sourceId":"539c8792-1d8a-48f4-8763-8c79c727cb58","child_name":"Record","uiUniqueId":"6e3589de-9c55-41a1-b1cb-04f7007bf981","uiTypeLabel":"Array.Object","co_type_name":"FD7f9b6f221e1a21104f015c403a03b5f0","child_label":"Record","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"26b21ec2-f4bb-4538-8eea-a6b6708b9292","uiType":"array.object","child_type":"object","child_uiUniqueId":"0642a6a7-e282-4ab3-ac42-7439437d252f"}}]</label_cache>
         <latest_snapshot/>
@@ -74,6 +77,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo Log Demo Users">a2e32f2697d6211024d7b066f053afb6</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>39fc45c6-4d44-4c02-b502-f1100fe49894</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -111,6 +115,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo Log Demo Users">a2e32f2697d6211024d7b066f053afb6</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -140,6 +145,7 @@
         <flow display_value="Demo Log Demo Users">a2e32f2697d6211024d7b066f053afb6</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>

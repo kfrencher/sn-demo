@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation>Create parallel actions</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>2a711080977de510b2e1f97e6253af6c</copied_from>
         <copied_from_name>SUB Parallel Tasks</copied_from_name>
         <description>Handling parallel subflows</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>sub_parallel_approvals</internal_name>
         <label_cache>[{"name":"74816e65-4d0a-4d1c-bfa2-a85aba59fb64.is_all_approved","label":"10 - SUB Are All Child Tasks Approved➛Is All Approved","reference_display":"Is All Approved","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"68781607-9025-454e-9c2a-41e0b61bd3c7"}},{"name":"74816e65-4d0a-4d1c-bfa2-a85aba59fb64.context","label":"10 - SUB Are All Child Tasks Approved➛Context","reference":"sys_flow_context","reference_display":"Context","type":"reference","base_type":"reference","attributes":{}},{"name":"916b2394-686e-45de-865a-3af5802d8152.__dont_treat_as_error__","label":"17 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"916b2394-686e-45de-865a-3af5802d8152.__action_status__","label":"17 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"140343b6-e9ef-46a4-bc82-619d9810acc8.__dont_treat_as_error__","label":"16 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"140343b6-e9ef-46a4-bc82-619d9810acc8.__action_status__","label":"16 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"140343b6-e9ef-46a4-bc82-619d9810acc8.table_name","label":"16 - Update Record➛SN Task Table","reference":"x_53417_demo_sn_task","reference_display":"SN Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"140343b6-e9ef-46a4-bc82-619d9810acc8.record","label":"16 - Update Record➛SN Task Record","reference":"x_53417_demo_sn_task","reference_display":"SN Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a9c676c-a985-441c-bcec-dbc0fcda21bd.__dont_treat_as_error__","label":"9 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a9c676c-a985-441c-bcec-dbc0fcda21bd.__action_status__","label":"9 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a3c69f9-fb0e-4119-8b93-a644926fdf64.__dont_treat_as_error__","label":"8 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a3c69f9-fb0e-4119-8b93-a644926fdf64.__action_status__","label":"8 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a3c69f9-fb0e-4119-8b93-a644926fdf64.approval_state","label":"8 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ac7694b-b371-4f0a-a09b-d2961937fa84.__dont_treat_as_error__","label":"6 - Create Task➛7➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ac7694b-b371-4f0a-a09b-d2961937fa84.__action_status__","label":"6 - Create Task➛7➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ac7694b-b371-4f0a-a09b-d2961937fa84.Table","label":"6 - Create Task➛7➛SN Task Table","reference":"x_53417_demo_sn_task","reference_display":"SN Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ac7694b-b371-4f0a-a09b-d2961937fa84.Record","label":"6 - Create Task➛7➛SN Task Record","reference":"x_53417_demo_sn_task","reference_display":"SN Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"938c9a52-e8d6-496f-aaed-c69b1186d618.__dont_treat_as_error__","label":"4 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"938c9a52-e8d6-496f-aaed-c69b1186d618.__action_status__","label":"4 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"938c9a52-e8d6-496f-aaed-c69b1186d618.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c3d02791-3e9e-4b1a-97c0-8bb49cb1832f.__dont_treat_as_error__","label":"2 - Create Task➛3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c3d02791-3e9e-4b1a-97c0-8bb49cb1832f.__action_status__","label":"2 - Create Task➛3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c3d02791-3e9e-4b1a-97c0-8bb49cb1832f.Table","label":"2 - Create Task➛3➛SN Task Table","reference":"x_53417_demo_sn_task","reference_display":"SN Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c3d02791-3e9e-4b1a-97c0-8bb49cb1832f.Record","label":"2 - Create Task➛3➛SN Task Record","reference":"x_53417_demo_sn_task","reference_display":"SN Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8877b5d1-18f9-4a2d-ac7d-2e3daff6a106.Record","label":"2 - Create Task➛3➛SN Task Record","reference":"x_53417_demo_sn_task","reference_display":"SN Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8877b5d1-18f9-4a2d-ac7d-2e3daff6a106.Table","label":"2 - Create Task➛3➛SN Task Table","reference":"x_53417_demo_sn_task","reference_display":"SN Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8877b5d1-18f9-4a2d-ac7d-2e3daff6a106.__action_status__","label":"2 - Create Task➛3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8877b5d1-18f9-4a2d-ac7d-2e3daff6a106.__dont_treat_as_error__","label":"2 - Create Task➛3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"06aa786d-3d62-4121-85a6-3a4c50ddffd9.__action_status__","label":"5 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"06aa786d-3d62-4121-85a6-3a4c50ddffd9.__dont_treat_as_error__","label":"5 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8877b5d1-18f9-4a2d-ac7d-2e3daff6a106.Record.short_description","label":"2 - Create Task➛3➛SN Task Record➛SN Task Record➛SN Task Record➛SN Task Record➛3➛3➛3➛SN Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_53417_demo_sn_task","column_name":"short_description"},{"name":"2509b4e5-9f89-4e94-97c1-f6f640bb4b7b.Record","label":"5 - Create Task➛6➛SN Task Record","reference":"x_53417_demo_sn_task","reference_display":"SN Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2509b4e5-9f89-4e94-97c1-f6f640bb4b7b.Table","label":"5 - Create Task➛6➛SN Task Table","reference":"x_53417_demo_sn_task","reference_display":"SN Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2509b4e5-9f89-4e94-97c1-f6f640bb4b7b.__action_status__","label":"5 - Create Task➛6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2509b4e5-9f89-4e94-97c1-f6f640bb4b7b.__dont_treat_as_error__","label":"5 - Create Task➛6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"56ec2637-a781-4330-9fcb-3f564eca8182.__action_status__","label":"5 - Log➛6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"56ec2637-a781-4330-9fcb-3f564eca8182.__dont_treat_as_error__","label":"5 - Log➛6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2509b4e5-9f89-4e94-97c1-f6f640bb4b7b.Record.short_description","label":"5 - Create Task➛6➛SN Task Record➛6➛SN Task Record➛SN Task Record➛SN Task Record➛SN Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_53417_demo_sn_task","column_name":"short_description"},{"name":"1b6c2c70-2643-4b1c-9f42-e6fbb0871856.__action_status__","label":"10 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1b6c2c70-2643-4b1c-9f42-e6fbb0871856.__dont_treat_as_error__","label":"10 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"51ad8473-16f0-4465-8ea2-ad1de6ac43b9.approval_state","label":"2 - Ask For Approval➛3➛3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"51ad8473-16f0-4465-8ea2-ad1de6ac43b9.__action_status__","label":"2 - Ask For Approval➛3➛3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"51ad8473-16f0-4465-8ea2-ad1de6ac43b9.__dont_treat_as_error__","label":"2 - Ask For Approval➛3➛3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.task","label":"Input➛Task","reference":"x_53417_demo_sn_task","reference_display":"SN Task","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"392796bb-60c4-437b-9bd4-65c2519da052","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{static.f253da061b13200050fdfbcd2c0713ab}}","label":"WM Agents","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.8a5055c9c61122780043563ef53438e3}}","label":"Hardware","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"c66d5619-61ed-4ce7-be07-d282d2392962.approval_state","label":"6 - Ask For Approval➛7➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c66d5619-61ed-4ce7-be07-d282d2392962.__action_status__","label":"6 - Ask For Approval➛7➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c66d5619-61ed-4ce7-be07-d282d2392962.__dont_treat_as_error__","label":"6 - Ask For Approval➛7➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d61317d7-c2bd-487d-b3b1-75adb4f2036a.__action_status__","label":"6 - Log➛7➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d61317d7-c2bd-487d-b3b1-75adb4f2036a.__dont_treat_as_error__","label":"6 - Log➛7➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2b928480-19ec-4284-bc7c-0ece7b7cc830.record","label":"13 - Update Record➛SN Task Record","reference":"x_53417_demo_sn_task","reference_display":"SN Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2b928480-19ec-4284-bc7c-0ece7b7cc830.table_name","label":"13 - Update Record➛SN Task Table","reference":"x_53417_demo_sn_task","reference_display":"SN Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2b928480-19ec-4284-bc7c-0ece7b7cc830.__action_status__","label":"13 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2b928480-19ec-4284-bc7c-0ece7b7cc830.__dont_treat_as_error__","label":"13 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f2b8ed-bebf-4d1a-b032-369d3176c64e.__action_status__","label":"14 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f2b8ed-bebf-4d1a-b032-369d3176c64e.__dont_treat_as_error__","label":"14 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.task.number","label":"Input➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_53417_demo_sn_task","column_name":"number"},{"name":"36953948-7f9d-4a14-91bf-7cb100609738.context","label":"11 - SUB Are All Child Tasks Rejected➛Context","reference":"sys_flow_context","reference_display":"Context","type":"reference","base_type":"reference","attributes":{}},{"name":"36953948-7f9d-4a14-91bf-7cb100609738.is_all_rejected","label":"11 - SUB Are All Child Tasks Rejected➛Is All Rejected","reference_display":"Is All Rejected","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"68781607-9025-454e-9c2a-41e0b61bd3c7"}}]</label_cache>
         <latest_snapshot/>
@@ -158,6 +161,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id>12195038-4fc3-4aa1-b003-891c34960ae5</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -196,6 +200,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>13</order>
         <parent_ui_id>bc4d8a0e-fee7-4d0c-bf44-3243393335c4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -286,6 +291,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>14</order>
         <parent_ui_id>bc4d8a0e-fee7-4d0c-bf44-3243393335c4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -324,6 +330,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>17</order>
         <parent_ui_id>47478ebc-3178-4394-ae99-562546319e1e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -362,6 +369,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>6➛7</order>
         <parent_ui_id>503a7f2f-1542-4efe-894d-bb8593cb6e6a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -426,6 +434,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>12195038-4fc3-4aa1-b003-891c34960ae5</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -580,6 +589,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>503a7f2f-1542-4efe-894d-bb8593cb6e6a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -734,6 +744,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>16</order>
         <parent_ui_id>47478ebc-3178-4394-ae99-562546319e1e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -824,6 +835,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>2➛3</order>
         <parent_ui_id>12195038-4fc3-4aa1-b003-891c34960ae5</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -888,6 +900,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <order>9</order>
         <parent_ui_id>503a7f2f-1542-4efe-894d-bb8593cb6e6a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -922,6 +935,7 @@
         <comment/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <order>11</order>
@@ -1057,6 +1071,7 @@
         <comment/>
         <display_text/>
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <order>10</order>
@@ -1200,6 +1215,7 @@
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>6</order>
@@ -1233,6 +1249,7 @@
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>18</order>
@@ -1266,6 +1283,7 @@
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
         <order>1</order>
@@ -1299,6 +1317,7 @@
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1372,6 +1391,7 @@
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -1445,6 +1465,7 @@
         <flow display_value="SUB Parallel Approvals">88d898cc977de510b2e1f97e6253af0d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>2</order>

@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Test the approval to see what happens in various scenarios</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demo_test_approval</internal_name>
         <label_cache>[]</label_cache>
         <latest_snapshot/>

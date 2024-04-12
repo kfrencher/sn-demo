@@ -4,6 +4,7 @@
         <label>Demo Open Modal List</label>
         <model display_value="List">c3547169534723003eddddeeff7b126c</model>
         <payload_map>EQ</payload_map>
+        <required_translations/>
         <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-13 16:46:11</sys_created_on>

@@ -45,6 +45,7 @@
         <name>Demo Click a UI Action (SP)</name>
         <order>7300</order>
         <outputs/>
+        <performance_include>false</performance_include>
         <step_env display_value="UI">d2cb02e1870312009dccc9ded0e3ec7c</step_env>
         <step_execution_generator><![CDATA[(function(step, stepResult, assertionObject) {
 

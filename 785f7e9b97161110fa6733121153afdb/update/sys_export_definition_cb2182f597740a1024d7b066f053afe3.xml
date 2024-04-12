@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>breed,active,country,attachment_1,comments,cost,sys_created_on,sys_created_by,group_approvers,price,sys_id,sys_tags,sys_updated_on,sys_updated_by,sys_mod_count,assigned_to,assignment_group</field_list>
+        <filter table="x_53417_demo_cat_breed">sys_id=8cf4884f9779311024d7b066f053af8c^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="8cf4884f9779311024d7b066f053af8c"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <name>x_53417_demo_cat_breed</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 07:08:54</sys_created_on>
+        <sys_id>cb2182f597740a1024d7b066f053afe3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_53417_demo_cat_breed</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_export_definition_cb2182f597740a1024d7b066f053afe3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-10 14:47:59</sys_updated_on>
+        <table_name>x_53417_demo_cat_breed</table_name>
+        <view display_value="Exp_dcb2182f597740a1024d7b066f053afe3" name="exp_dcb2182f597740a1024d7b066f053afe3">454182f597740a1024d7b066f053af7d</view>
+    </sys_export_definition>
+</record_update>

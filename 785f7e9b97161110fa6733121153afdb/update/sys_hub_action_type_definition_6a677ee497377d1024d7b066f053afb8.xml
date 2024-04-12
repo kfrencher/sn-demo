@@ -6,11 +6,14 @@
         <action_template>DATASOURCE_REQUEST</action_template>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>demo_cat_breed_rest</internal_name>
         <label_cache>[{"name":"{{action.limit}}","label":"action➛Limit","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.offset}}","label":"action➛Offset","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment_name}}","label":"action➛Attachment Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.last_success_import_time}}","label":"action➛Last Success Import Time","type":"action","ref":"","reference_display":"","base_type":"longint","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.import_start_time}}","label":"action➛Import Start Time","type":"action","ref":"","reference_display":"","base_type":"longint","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bcca23b0-37bc-4d5d-80fc-eb2770616c89].page}}","label":"step➛Script step➛page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"7e590061-5c12-43dc-811c-424f0cae2166"}}]</label_cache>
@@ -2464,11 +2467,14 @@
         <action_status/>
         <action_template>DATASOURCE_REQUEST</action_template>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>demo_cat_breed_rest</internal_name>
         <label_cache>[{"name":"{{action.limit}}","label":"action➛Limit","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.offset}}","label":"action➛Offset","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment_name}}","label":"action➛Attachment Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.last_success_import_time}}","label":"action➛Last Success Import Time","type":"action","ref":"","reference_display":"","base_type":"longint","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.import_start_time}}","label":"action➛Import Start Time","type":"action","ref":"","reference_display":"","base_type":"longint","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bcca23b0-37bc-4d5d-80fc-eb2770616c89].page}}","label":"step➛Script step➛page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"7e590061-5c12-43dc-811c-424f0cae2166"}}]</label_cache>
         <master>true</master>

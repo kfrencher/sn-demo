@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-11-20 01:39:02</sys_updated_on>
         <sys_user_role display_value="x_53417_demo.profile_address_user" name="x_53417_demo.profile_address_user">ce7063aa9722b11024d7b066f053af63</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

@@ -6,6 +6,7 @@
         <category>94c399a697cfb91024d7b066f053af4f</category>
         <channels/>
         <connect_queue/>
+        <context_profiles/>
         <description>Topic allows users to view a list of all their open demo requests</description>
         <dialog_acts_enabled>false</dialog_acts_enabled>
         <expose_on_palette>false</expose_on_palette>

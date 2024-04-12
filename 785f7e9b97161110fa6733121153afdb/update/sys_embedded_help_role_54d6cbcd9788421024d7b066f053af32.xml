@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_53417_demo.flow_task_user" name="x_53417_demo.flow_task_user">18d6078d9788421024d7b066f053af97</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-28 21:30:15</sys_created_on>
+        <sys_id>54d6cbcd9788421024d7b066f053af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>18d6078d9788421024d7b066f053af97</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_embedded_help_role_54d6cbcd9788421024d7b066f053af32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-28 21:30:15</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

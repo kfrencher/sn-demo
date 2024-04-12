@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-05-25 11:53:03</sys_updated_on>
         <sys_user_role display_value="x_53417_demo.child_task_user" name="x_53417_demo.child_task_user">3e6833c19703211024d7b066f053af57</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

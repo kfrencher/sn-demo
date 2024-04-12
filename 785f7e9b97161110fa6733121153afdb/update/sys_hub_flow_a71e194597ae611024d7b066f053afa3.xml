@@ -5,11 +5,14 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Service Catalog">bf2f2fec73f70300b61e66476bf6a774</category>
         <copied_from>44ba526a537160105408ddeeff7b12b2</copied_from>
         <copied_from_name>Service Fulfillment Steps - Cust</copied_from_name>
         <description/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demo_service_fulfillment_steps__custom_approval</internal_name>
         <label_cache>[{"name":"subflow.service_fulfillment_step_data","label":"Input➛Service Fulfillment Step Data","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0b3ffb1f-9d34-4b1b-b255-08aa18ae3038","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.service_fulfillment_step","label":"Input➛Service Fulfillment Step","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b510bdd2-04df-413d-99bf-20dbd0c1dfbc","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"5badd684-654d-4740-9795-a63a8e7632ff.table_name","label":"16 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5badd684-654d-4740-9795-a63a8e7632ff.record","label":"16 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a50896c7-6b04-42ff-99a9-bc9cbf87777a.table_name","label":"14 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a50896c7-6b04-42ff-99a9-bc9cbf87777a.record","label":"14 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4162c542-7000-4316-91ec-ff3673855c61.table_name","label":"12 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4162c542-7000-4316-91ec-ff3673855c61.record","label":"12 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0f8a65f4-b7d2-497a-8ee3-45ab1d9bfac7.approval_state","label":"10 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"728c498f-eb54-4ffa-8412-05e8d7e06911.table_name","label":"8 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"728c498f-eb54-4ffa-8412-05e8d7e06911.record","label":"8 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8845e3dd-d00f-4bdf-a945-e09f4d09dd63.table_name","label":"6 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8845e3dd-d00f-4bdf-a945-e09f4d09dd63.record","label":"6 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd839d5f-a912-4205-b285-48c3b5b6ae24.table_name","label":"4 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd839d5f-a912-4205-b285-48c3b5b6ae24.record","label":"4 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.service_fulfillment_step_data.state","label":"Input➛Service Fulfillment Step Data➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_service_fulfillment_stage_data","column_name":"state","choices":[{"used":false,"rawLabel":"Not started","selected":false,"label":"Not started","missing":false,"image":"","reference":false,"value":"not_started","parameters":{"name":"sc_service_fulfillment_stage_data"}},{"used":false,"rawLabel":"In progress","selected":false,"label":"In progress","missing":false,"image":"","reference":false,"value":"progress","parameters":{"name":"sc_service_fulfillment_stage_data"}},{"used":false,"rawLabel":"Complete","selected":false,"label":"Complete","missing":false,"image":"","reference":false,"value":"complete","parameters":{"name":"sc_service_fulfillment_stage_data"}},{"used":false,"rawLabel":"Failed","selected":false,"label":"Failed","missing":false,"image":"","reference":false,"value":"failed","parameters":{"name":"sc_service_fulfillment_stage_data"}},{"used":false,"rawLabel":"Canceled","selected":false,"label":"Canceled","missing":false,"image":"","reference":false,"value":"canceled","parameters":{"name":"sc_service_fulfillment_stage_data"}}]},{"name":"subflow.service_fulfillment_approval_step.users","label":"Input➛Service Fulfillment Approval Step➛Users","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"users"},{"name":"subflow.service_fulfillment_approval_step.groups","label":"Input➛Service Fulfillment Approval Step➛Groups","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"groups"},{"name":"subflow.requested_item","label":"Input➛Requested Item","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"81dd618a-acee-4cda-8630-956c7a405ac3"}},{"name":"fb07fb96-5be0-469b-a18c-c9731c384957.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.service_fulfillment_approval_step.approval_type","label":"Input➛Service Fulfillment Approval Step➛Approval type","reference":"","reference_display":"Approval type","type":"choice","base_type":"choice","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"approval_type","choices":[{"used":false,"rawLabel":"All approve","selected":false,"label":"All approve","missing":false,"image":"","reference":false,"value":"all_approve","parameters":{"name":"sc_service_fulfillment_approval_step"}},{"used":false,"rawLabel":"Anyone approves","selected":false,"label":"Anyone approves","missing":false,"image":"","reference":false,"value":"anyone_approves","parameters":{"name":"sc_service_fulfillment_approval_step"}}]},{"name":"subflow.service_fulfillment_approval_step.sys_created_on","label":"Input➛Service Fulfillment Approval Step➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"sys_created_on"},{"name":"subflow.requested_item.sc_catalog","label":"Input➛Requested Item➛Catalog","reference":"sc_catalog","reference_display":"Catalog","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"sc_catalog"},{"name":"subflow.requested_item.cat_item","label":"Input➛Requested Item➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item"},{"name":"subflow.service_fulfillment_step.approval_type","label":"Input➛Service Fulfillment Step➛Approval type","reference":"","reference_display":"Approval type","type":"choice","base_type":"choice","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"approval_type","choices":[{"used":false,"rawLabel":"All approve","selected":false,"label":"All approve","missing":false,"image":"","reference":false,"value":"all_approve","parameters":{"name":"sc_service_fulfillment_approval_step"}},{"used":false,"rawLabel":"Anyone approves","selected":false,"label":"Anyone approves","missing":false,"image":"","reference":false,"value":"anyone_approves","parameters":{"name":"sc_service_fulfillment_approval_step"}}]},{"name":"subflow.service_fulfillment_step.groups","label":"Input➛Service Fulfillment Step➛Groups","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"groups"},{"name":"subflow.service_fulfillment_step.users","label":"Input➛Service Fulfillment Step➛Users","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"users"}]</label_cache>
         <master_snapshot>839fd1c597ae611024d7b066f053af96</master_snapshot>
@@ -323,6 +326,7 @@
         <comment>State as Canceled</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
+        <generation_source/>
         <order>14</order>
         <parent_ui_id>5ab6861c-3b8c-4884-993f-846d120f0032</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -476,6 +480,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>7d443f80-75a9-482a-85b1-bb815e954248</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -757,6 +762,7 @@
         <comment>State as Failed</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
+        <generation_source/>
         <order>12</order>
         <parent_ui_id>b390c81a-88d4-4eff-9ba2-0d68cd350f91</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -910,6 +916,7 @@
         <comment>State as Failed</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>6c991ab3-7c9b-486e-913b-46309434c759</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1063,6 +1070,7 @@
         <comment>State as Canceled</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>0d42f00e-0c06-4c82-a5b5-67f8179af42a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1216,6 +1224,7 @@
         <comment>State as Complete</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>bb648a0a-67cc-4f20-b4c8-a068d5ca0c29</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1369,6 +1378,7 @@
         <comment>State as Complete</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
+        <generation_source/>
         <order>16</order>
         <parent_ui_id>a6dbfbd6-3ed8-4c9b-8251-691656e633d6</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1522,6 +1532,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>816998cd-e6e3-41dd-8424-d79b12248703</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1808,6 +1819,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1881,6 +1893,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>7</order>
@@ -1914,6 +1927,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -1987,6 +2001,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -2060,6 +2075,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -2133,6 +2149,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>15</order>
@@ -2166,6 +2183,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -2239,6 +2257,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">a71e194597ae611024d7b066f053afa3</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -2381,11 +2400,13 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Service Catalog">bf2f2fec73f70300b61e66476bf6a774</category>
         <copied_from>44ba526a537160105408ddeeff7b12b2</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>demo_service_fulfillment_steps__custom_approval</internal_name>
         <label_cache>[{"name":"subflow.service_fulfillment_step_data","label":"Input➛Service Fulfillment Step Data","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0b3ffb1f-9d34-4b1b-b255-08aa18ae3038","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.service_fulfillment_step","label":"Input➛Service Fulfillment Step","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b510bdd2-04df-413d-99bf-20dbd0c1dfbc","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"5badd684-654d-4740-9795-a63a8e7632ff.table_name","label":"16 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5badd684-654d-4740-9795-a63a8e7632ff.record","label":"16 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a50896c7-6b04-42ff-99a9-bc9cbf87777a.table_name","label":"14 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a50896c7-6b04-42ff-99a9-bc9cbf87777a.record","label":"14 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4162c542-7000-4316-91ec-ff3673855c61.table_name","label":"12 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4162c542-7000-4316-91ec-ff3673855c61.record","label":"12 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0f8a65f4-b7d2-497a-8ee3-45ab1d9bfac7.approval_state","label":"10 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"728c498f-eb54-4ffa-8412-05e8d7e06911.table_name","label":"8 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"728c498f-eb54-4ffa-8412-05e8d7e06911.record","label":"8 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8845e3dd-d00f-4bdf-a945-e09f4d09dd63.table_name","label":"6 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8845e3dd-d00f-4bdf-a945-e09f4d09dd63.record","label":"6 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd839d5f-a912-4205-b285-48c3b5b6ae24.table_name","label":"4 - Update Record➛Service Fulfillment Step Data Table","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd839d5f-a912-4205-b285-48c3b5b6ae24.record","label":"4 - Update Record➛Service Fulfillment Step Data Record","reference":"sc_service_fulfillment_step_data","reference_display":"Service Fulfillment Step Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.service_fulfillment_step_data.state","label":"Input➛Service Fulfillment Step Data➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_service_fulfillment_stage_data","column_name":"state","choices":[{"used":false,"rawLabel":"Not started","selected":false,"label":"Not started","missing":false,"image":"","reference":false,"value":"not_started","parameters":{"name":"sc_service_fulfillment_stage_data"}},{"used":false,"rawLabel":"In progress","selected":false,"label":"In progress","missing":false,"image":"","reference":false,"value":"progress","parameters":{"name":"sc_service_fulfillment_stage_data"}},{"used":false,"rawLabel":"Complete","selected":false,"label":"Complete","missing":false,"image":"","reference":false,"value":"complete","parameters":{"name":"sc_service_fulfillment_stage_data"}},{"used":false,"rawLabel":"Failed","selected":false,"label":"Failed","missing":false,"image":"","reference":false,"value":"failed","parameters":{"name":"sc_service_fulfillment_stage_data"}},{"used":false,"rawLabel":"Canceled","selected":false,"label":"Canceled","missing":false,"image":"","reference":false,"value":"canceled","parameters":{"name":"sc_service_fulfillment_stage_data"}}]},{"name":"subflow.service_fulfillment_approval_step.users","label":"Input➛Service Fulfillment Approval Step➛Users","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"users"},{"name":"subflow.service_fulfillment_approval_step.groups","label":"Input➛Service Fulfillment Approval Step➛Groups","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"groups"},{"name":"subflow.requested_item","label":"Input➛Requested Item","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"81dd618a-acee-4cda-8630-956c7a405ac3"}},{"name":"fb07fb96-5be0-469b-a18c-c9731c384957.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.service_fulfillment_approval_step.approval_type","label":"Input➛Service Fulfillment Approval Step➛Approval type","reference":"","reference_display":"Approval type","type":"choice","base_type":"choice","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"approval_type","choices":[{"used":false,"rawLabel":"All approve","selected":false,"label":"All approve","missing":false,"image":"","reference":false,"value":"all_approve","parameters":{"name":"sc_service_fulfillment_approval_step"}},{"used":false,"rawLabel":"Anyone approves","selected":false,"label":"Anyone approves","missing":false,"image":"","reference":false,"value":"anyone_approves","parameters":{"name":"sc_service_fulfillment_approval_step"}}]},{"name":"subflow.service_fulfillment_approval_step.sys_created_on","label":"Input➛Service Fulfillment Approval Step➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"sys_created_on"},{"name":"subflow.requested_item.sc_catalog","label":"Input➛Requested Item➛Catalog","reference":"sc_catalog","reference_display":"Catalog","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"sc_catalog"},{"name":"subflow.requested_item.cat_item","label":"Input➛Requested Item➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item"},{"name":"subflow.service_fulfillment_step.approval_type","label":"Input➛Service Fulfillment Step➛Approval type","reference":"","reference_display":"Approval type","type":"choice","base_type":"choice","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"approval_type","choices":[{"used":false,"rawLabel":"All approve","selected":false,"label":"All approve","missing":false,"image":"","reference":false,"value":"all_approve","parameters":{"name":"sc_service_fulfillment_approval_step"}},{"used":false,"rawLabel":"Anyone approves","selected":false,"label":"Anyone approves","missing":false,"image":"","reference":false,"value":"anyone_approves","parameters":{"name":"sc_service_fulfillment_approval_step"}}]},{"name":"subflow.service_fulfillment_step.groups","label":"Input➛Service Fulfillment Step➛Groups","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"groups"},{"name":"subflow.service_fulfillment_step.users","label":"Input➛Service Fulfillment Step➛Users","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"sc_service_fulfillment_approval_step","column_name":"users"}]</label_cache>
         <master>true</master>
@@ -2697,6 +2718,7 @@
         <comment>State as Canceled</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
+        <generation_source/>
         <order>14</order>
         <parent_ui_id>5ab6861c-3b8c-4884-993f-846d120f0032</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2786,6 +2808,7 @@
         <comment>State as Canceled</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>0d42f00e-0c06-4c82-a5b5-67f8179af42a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2875,6 +2898,7 @@
         <comment>State as Complete</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
+        <generation_source/>
         <order>16</order>
         <parent_ui_id>a6dbfbd6-3ed8-4c9b-8251-691656e633d6</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2964,6 +2988,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>816998cd-e6e3-41dd-8424-d79b12248703</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3117,6 +3142,7 @@
         <comment>State as Failed</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
+        <generation_source/>
         <order>12</order>
         <parent_ui_id>b390c81a-88d4-4eff-9ba2-0d68cd350f91</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3206,6 +3232,7 @@
         <comment>State as Complete</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>bb648a0a-67cc-4f20-b4c8-a068d5ca0c29</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3295,6 +3322,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>7d443f80-75a9-482a-85b1-bb815e954248</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3448,6 +3476,7 @@
         <comment>State as Failed</comment>
         <display_text/>
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>6c991ab3-7c9b-486e-913b-46309434c759</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3542,6 +3571,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3615,6 +3645,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -3688,6 +3719,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -3761,6 +3793,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -3834,6 +3867,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>7</order>
@@ -3867,6 +3901,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3940,6 +3975,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -4013,6 +4049,7 @@
         <flow display_value="Demo Service Fulfillment Steps - Custom approval">839fd1c597ae611024d7b066f053af96</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>15</order>

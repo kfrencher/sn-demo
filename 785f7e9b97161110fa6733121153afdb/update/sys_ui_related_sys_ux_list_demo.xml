@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_ux_list" version="2" view="demo">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="UX List - Demo" name="sys_ux_list" related_list="NULL" sys_domain="global" view="83737790977c021024d7b066f053af7a">49837b50977c021024d7b066f053afe4</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sys_ux_applicability_m2m_list.list</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 23:37:11</sys_created_on>
+            <sys_id>05837b50977c021024d7b066f053afe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-03 23:37:11</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="UX List - Demo" name="sys_ux_list" related_list="NULL" sys_domain="global" view="83737790977c021024d7b066f053af7a">49837b50977c021024d7b066f053afe4</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:67bdac52374010008687ddb1967334ee</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 23:37:11</sys_created_on>
+            <sys_id>09837b50977c021024d7b066f053afe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-03 23:37:11</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>UX List - Demo</calculated_name>
+            <filter/>
+            <name>sys_ux_list</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 23:37:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49837b50977c021024d7b066f053afe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>UX List - Demo</sys_name>
+            <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+            <sys_update_name>sys_ui_related_sys_ux_list_demo</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-03 23:37:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Demo" name="demo">83737790977c021024d7b066f053af7a</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

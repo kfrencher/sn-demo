@@ -6,12 +6,15 @@
         <action_template/>
         <active>true</active>
         <annotation>To Cat Fact</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Takes a cat fact and returns a cat object</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>demo_to_cat_fact</internal_name>
         <label_cache>[{"name":"{{action.cat_fact}}","label":"action➛Cat fact","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.cat_fact.Text}}","label":"action➛Cat fact➛Text","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.cat_fact.text}}","label":"action➛Cat fact➛Text","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.cat_fact.Type}}","label":"action➛Cat fact➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.cat_fact.type}}","label":"action➛Cat fact➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f9781bcf-624e-4ed1-bfad-94ebe2fbd63b].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
@@ -139,6 +142,29 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=f62a784f97de611024d7b066f053af18"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f62a784f97de611024d7b066f053af18"/>
     <sys_hub_action_input action="delete_multiple" query="model=3618788b97de611024d7b066f053af2a^sys_idNOT INba2abc4797de611024d7b066f053af18"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD3a2abc4742de61108748ff351cf39e15</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>785f7e9b97161110fa6733121153afdb</scope_name>
+        <serialized_content>{"FlowDesigner:FD3a2abc4742de61108748ff351cf39e15":{"text":"String","text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Text\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FD3a2abc4742de61108748ff351cf39e15.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD3a2abc4742de61108748ff351cf39e15\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Cat fact\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8cb21b9e-1ad6-47ca-8a56-b6bc0ddf659c\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-23 20:22:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa2abc4797de611024d7b066f053af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD3a2abc4742de61108748ff351cf39e15</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_complex_object_fa2abc4797de611024d7b066f053af15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-23 20:22:34</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>

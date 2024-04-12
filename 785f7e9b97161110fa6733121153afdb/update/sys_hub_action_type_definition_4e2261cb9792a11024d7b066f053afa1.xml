@@ -6,12 +6,15 @@
         <action_template/>
         <active>true</active>
         <annotation>Execute SSH command</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Execute SSH command</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>demo_ssh</internal_name>
         <label_cache>[{"name":"{{step[49539d5e-a20f-44d3-9519-8d31ca9d4a15].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>

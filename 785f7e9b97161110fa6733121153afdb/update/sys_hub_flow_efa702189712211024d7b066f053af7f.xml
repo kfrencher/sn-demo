@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>3e5538b40f112010157b31ef68767e8f</copied_from>
         <copied_from_name>Flow Template: Create an approva</copied_from_name>
         <description>Require manager approval when item value is above 100</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demo_request_above_100_approval</internal_name>
         <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.price","label":"Trigger➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price"},{"name":"d9557edf-8362-4b28-9bad-1862cef8068e.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
@@ -376,6 +379,7 @@
         <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
         <display_text/>
         <flow display_value="Demo Request Above 100 Approval">efa702189712211024d7b066f053af7f</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -439,6 +443,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Demo Request Above 100 Approval">efa702189712211024d7b066f053af7f</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id>cea77095-25a8-4c7e-99b9-d06ffef8e5fd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -478,6 +483,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Demo Request Above 100 Approval">efa702189712211024d7b066f053af7f</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -503,6 +509,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Demo Request Above 100 Approval">efa702189712211024d7b066f053af7f</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -542,6 +549,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Demo Request Above 100 Approval">efa702189712211024d7b066f053af7f</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -582,6 +590,7 @@
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Demo Request Above 100 Approval">efa702189712211024d7b066f053af7f</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>747207aa-3f7d-4cd3-89ae-6165526f373c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -754,6 +763,7 @@
         <flow display_value="Demo Request Above 100 Approval">efa702189712211024d7b066f053af7f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -827,6 +837,7 @@
         <flow display_value="Demo Request Above 100 Approval">efa702189712211024d7b066f053af7f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>

@@ -5,11 +5,14 @@
         <active>true</active>
         <annotation>Get group approvers from approval records </annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Returns a list of sys_user_group.sys_id that are the approvers for the list of approval records</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>get_approvers_from_group_approval_records</internal_name>
         <label_cache>[{"name":"subflow.group_approvals","label":"Input➛Group Approvals","reference":"sysapproval_group","reference_display":"Group approval","type":"records","base_type":"records","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5a55f5b9-bba1-455c-b964-a13f487d0d76"}},{"name":"f32c4e24-e4ed-4e27-8ba4-9e7871522b12.item","label":"1 - For Each➛Group approval Record","reference":"sysapproval_group","reference_display":"Group approval","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f32c4e24-e4ed-4e27-8ba4-9e7871522b12.item.assignment_group","label":"1 - For Each➛Group approval Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sysapproval_group","column_name":"assignment_group"},{"name":"f32c4e24-e4ed-4e27-8ba4-9e7871522b12.item.assignment_group.sys_id","label":"1 - For Each➛Group approval Record➛Assignment group➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id"},{"name":"flow_variable.group_sys_ids","label":"Flow Variables➛Group Sys IDs","reference":"","reference_display":"","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b27230b7-1444-4fd4-9444-a1a736565f78"}}]</label_cache>
         <master_snapshot>102b574397212510b2e1f97e6253af89</master_snapshot>
@@ -245,6 +248,7 @@
         <flow display_value="SUB Todo Get Approvers From Group Approval Records">b1181b4f97ede110b2e1f97e6253af94</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -295,6 +299,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_sys_ids</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -342,6 +347,7 @@
         <flow display_value="SUB Todo Get Approvers From Group Approval Records">b1181b4f97ede110b2e1f97e6253af94</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>3</order>
@@ -587,11 +593,13 @@
         <active>true</active>
         <annotation>Get group approvers from approval records </annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Returns a list of sys_user_group.sys_id that are the approvers for the list of approval records</description>
+        <flow_priority/>
         <internal_name>demo_todo_get_approvers_from_group_approval_records</internal_name>
         <label_cache>[{"name":"subflow.group_approvals","label":"Input➛Group Approvals","reference":"sysapproval_group","reference_display":"Group approval","type":"records","base_type":"records","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5a55f5b9-bba1-455c-b964-a13f487d0d76"}},{"name":"f32c4e24-e4ed-4e27-8ba4-9e7871522b12.item","label":"1 - For Each➛Group approval Record","reference":"sysapproval_group","reference_display":"Group approval","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f32c4e24-e4ed-4e27-8ba4-9e7871522b12.item.assignment_group","label":"1 - For Each➛Group approval Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sysapproval_group","column_name":"assignment_group"},{"name":"f32c4e24-e4ed-4e27-8ba4-9e7871522b12.item.assignment_group.sys_id","label":"1 - For Each➛Group approval Record➛Assignment group➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id"},{"name":"flow_variable.group_sys_ids","label":"Flow Variables➛Group Sys IDs","reference":"","reference_display":"","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b27230b7-1444-4fd4-9444-a1a736565f78"}}]</label_cache>
         <master>true</master>
@@ -825,6 +833,7 @@
         <flow display_value="SUB Todo Get Approvers From Group Approval Records">102b574397212510b2e1f97e6253af89</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -874,6 +883,7 @@
         <flow display_value="SUB Todo Get Approvers From Group Approval Records">102b574397212510b2e1f97e6253af89</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>3</order>
@@ -923,6 +933,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_sys_ids</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>

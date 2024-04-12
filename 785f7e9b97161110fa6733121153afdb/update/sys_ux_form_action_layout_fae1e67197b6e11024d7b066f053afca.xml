@@ -18,5 +18,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-11-28 13:18:24</sys_updated_on>
         <table>x_53417_demo_task</table>
+        <use_layout_items_only>false</use_layout_items_only>
     </sys_ux_form_action_layout>
 </record_update>

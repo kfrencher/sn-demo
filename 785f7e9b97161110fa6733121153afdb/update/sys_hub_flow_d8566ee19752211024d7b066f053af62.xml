@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Retrieves a Cat Fact every morning and prints it to the log</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demo_get_cat_fact_each_morning</internal_name>
         <label_cache>[{"name":"c50df91e-b8a7-47a3-835a-74822e1607b9.cat_json","label":"6 - Demo To Cat Fact➛Cat JSON","reference_display":"Cat JSON","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cd8d22f3-b925-499f-9234-0f7bc3772374"}},{"name":"flow_variable.response","label":"Flow Variables➛Response","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"118c7724-85b3-4617-823e-69b423621e82"}},{"name":"2dcd37c9-9047-411a-a7a4-dfcdd512f438.item.text","label":"4➛Fact➛text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a9087bf-920f-44ab-a3ec-07d71368292d.facts","label":"1 - Demo Cat Service➛Facts","reference_display":"Facts","type":"array.object","base_type":"array.object","attributes":{"sourceId":"c7c4bde9-bf27-4def-a146-3902387545c6","child_name":"Fact","uiUniqueId":"4494dbe5-9124-450e-b4f2-06c8b581a5b8","uiTypeLabel":"Array.Object","co_type_name":"FD74c2a4c5161221101db7b3f17f24d991","child_label":"Fact","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"b1d2ff51-c8fc-4b05-85ca-1406a3bdbad2","uiType":"array.object","child_type":"object","child_uiUniqueId":"5da8a1ad-5fe3-4edf-819f-ad91f1ed8abc"}},{"name":"2dcd37c9-9047-411a-a7a4-dfcdd512f438.item","label":"4 - For Each➛Fact","reference_display":"Fact","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
         <latest_snapshot/>
@@ -108,6 +111,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo Get Cat Fact Each Morning">d8566ee19752211024d7b066f053af62</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>2dcd37c9-9047-411a-a7a4-dfcdd512f438</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -146,6 +150,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo Get Cat Fact Each Morning">d8566ee19752211024d7b066f053af62</flow>
+        <generation_source/>
         <order>12</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -184,6 +189,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo Get Cat Fact Each Morning">d8566ee19752211024d7b066f053af62</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -222,6 +228,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo Get Cat Fact Each Morning">d8566ee19752211024d7b066f053af62</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id>2dcd37c9-9047-411a-a7a4-dfcdd512f438</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -259,6 +266,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo Get Cat Fact Each Morning">d8566ee19752211024d7b066f053af62</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -288,6 +296,7 @@
         <flow display_value="Demo Get Cat Fact Each Morning">d8566ee19752211024d7b066f053af62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -336,6 +345,7 @@
         <flow display_value="Demo Get Cat Fact Each Morning">d8566ee19752211024d7b066f053af62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>9</order>
@@ -370,6 +380,7 @@
         <flow display_value="Demo Get Cat Fact Each Morning">d8566ee19752211024d7b066f053af62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>3</order>
@@ -404,6 +415,7 @@
         <flow display_value="Demo Get Cat Fact Each Morning">d8566ee19752211024d7b066f053af62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -453,6 +465,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>response</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>10</order>
@@ -500,6 +513,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>response</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>11</order>
@@ -547,6 +561,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>response</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>8</order>

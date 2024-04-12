@@ -6,6 +6,7 @@
         <category>3efd22da0b203300a1b16c2367673a10</category>
         <channels/>
         <connect_queue/>
+        <context_profiles/>
         <description>ITSM conversation for searching and submitting catalog items</description>
         <dialog_acts_enabled>false</dialog_acts_enabled>
         <expose_on_palette>false</expose_on_palette>

@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation>Test the Get Approvers Sub Flow</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Test the Get Approvers Sub Flow</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>test_get_approvers</internal_name>
         <label_cache>[{"name":"eab2da4e-2bc6-4d9e-b5cf-0ae1c54648f6.__dont_treat_as_error__","label":"9 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eab2da4e-2bc6-4d9e-b5cf-0ae1c54648f6.__action_status__","label":"9 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.task","label":"Input➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"bc3dafb9-1cf3-4e25-8aa4-ad95274e00b0"}},{"name":"293057ac-c43a-456f-b0d5-5a957d24a107.__dont_treat_as_error__","label":"8 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"293057ac-c43a-456f-b0d5-5a957d24a107.__action_status__","label":"8 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"293057ac-c43a-456f-b0d5-5a957d24a107.approval_state","label":"8 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2d3353c-009c-4dd7-bbaf-decc05debf17.__dont_treat_as_error__","label":"3 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2d3353c-009c-4dd7-bbaf-decc05debf17.__action_status__","label":"3 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2d3353c-009c-4dd7-bbaf-decc05debf17.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2d3353c-009c-4dd7-bbaf-decc05debf17.Table","label":"3 - Look Up Records➛Group approval Table","reference":"sysapproval_group","reference_display":"Group approval Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2d3353c-009c-4dd7-bbaf-decc05debf17.Records","label":"3 - Look Up Records➛Group approval Records","reference":"sysapproval_group","reference_display":"Group approval Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f335ac14-ef45-4882-a2fd-63adcb26b14d.groups","label":"4 - SUB Todo Get Approvers From Group Approval Records➛Groups","reference":"sys_user_group","reference_display":"Groups","type":"glide_list","base_type":"glide_list","attributes":{"uiType":"glide_list","uiTypeLabel":"List","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"bad16227-0fbb-4124-baab-1a0ce477f467"}},{"name":"f335ac14-ef45-4882-a2fd-63adcb26b14d.context","label":"4 - SUB Todo Get Approvers From Group Approval Records➛Context","reference":"sys_flow_context","reference_display":"Context","type":"reference","base_type":"reference","attributes":{}},{"name":"6752f852-0f06-4df6-9760-99f9e73fbb8a.groups","label":"1 - SUB Get Approvers➛Groups","reference":"sys_user_group","reference_display":"Groups","type":"glide_list","base_type":"glide_list","attributes":{"uiType":"glide_list","uiTypeLabel":"List","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0136dc2b-91c8-4d85-9226-883ef0a9d82e"}},{"name":"6752f852-0f06-4df6-9760-99f9e73fbb8a.count","label":"1 - SUB Get Approvers➛Count","reference_display":"Count","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a8d6ed42-6977-4364-af36-e715fa48817c"}},{"name":"6752f852-0f06-4df6-9760-99f9e73fbb8a.context","label":"1 - SUB Get Approvers➛Context","reference":"sys_flow_context","reference_display":"Context","type":"reference","base_type":"reference","attributes":{}},{"name":"56b31941-5618-4cec-a48f-b3d81bcab09d.groups","label":"1 - Demo Todo Get Approvers From Group Approval Records➛Groups","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","attributes":{"uiType":"glide_list","uiTypeLabel":"List","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"bad16227-0fbb-4124-baab-1a0ce477f467"}},{"name":"56b31941-5618-4cec-a48f-b3d81bcab09d.context","label":"1 - Demo Todo Get Approvers From Group Approval Records➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"6001fe4c-d410-4729-adf6-5d290576e7f7.__action_status__","label":"2 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6001fe4c-d410-4729-adf6-5d290576e7f7.__dont_treat_as_error__","label":"2 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8272c639-5967-4ded-8b3a-e67607604daa.__action_status__","label":"5 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8272c639-5967-4ded-8b3a-e67607604daa.__dont_treat_as_error__","label":"5 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"98a464ca-0c01-47f0-8911-493143a96046.item","label":"6 - For Each➛Group Record","reference":"sys_user_group","reference_display":"Group Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a654e601-44da-4fd4-ba39-8246ee7d141f.__action_status__","label":"7 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a654e601-44da-4fd4-ba39-8246ee7d141f.__dont_treat_as_error__","label":"7 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
@@ -157,6 +160,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Test Get Approvers">d1665dd197f1ad10b2e1f97e6253afc5</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>98a464ca-0c01-47f0-8911-493143a96046</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -182,6 +186,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Test Get Approvers">d1665dd197f1ad10b2e1f97e6253afc5</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -235,6 +240,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Test Get Approvers">d1665dd197f1ad10b2e1f97e6253afc5</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -274,6 +280,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Test Get Approvers">d1665dd197f1ad10b2e1f97e6253afc5</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -375,6 +382,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Test Get Approvers">d1665dd197f1ad10b2e1f97e6253afc5</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -414,6 +422,7 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Test Get Approvers">d1665dd197f1ad10b2e1f97e6253afc5</flow>
+        <generation_source/>
         <order>9</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -448,6 +457,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test Get Approvers">d1665dd197f1ad10b2e1f97e6253afc5</flow>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <order>4</order>
@@ -583,6 +593,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test Get Approvers">d1665dd197f1ad10b2e1f97e6253afc5</flow>
+        <generation_source/>
         <inputs/>
         <order>1</order>
         <parent_ui_id/>
@@ -741,6 +752,7 @@
         <flow display_value="Test Get Approvers">d1665dd197f1ad10b2e1f97e6253afc5</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>

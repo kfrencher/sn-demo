@@ -4,6 +4,7 @@
         <label>Demo Button Clicked Form</label>
         <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
         <payload_map>header=Header from declarative action^EQ</payload_map>
+        <required_translations/>
         <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-30 04:03:54</sys_created_on>

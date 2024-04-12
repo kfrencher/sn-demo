@@ -5,11 +5,14 @@
         <active>true</active>
         <annotation>Log Cat Breeds</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Logs all cat breeds</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demo_log_cat_breeds</internal_name>
         <label_cache>[{"name":"6365daf0-5367-4486-a7b6-790f10657967.cat.breed","label":"1 - Demo Cat Breed (DS)➛Cat➛Breed","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
         <master_snapshot>27242da39752211024d7b066f053afad</master_snapshot>
@@ -71,6 +74,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Log Cat Breeds">a6b2692b9712211024d7b066f053afd9</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>6365daf0-5367-4486-a7b6-790f10657967</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -119,6 +123,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Log Cat Breeds">a6b2692b9712211024d7b066f053afd9</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -132,6 +137,7 @@
         <ui_id>6365daf0-5367-4486-a7b6-790f10657967</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5ad2a9239752211024d7b066f053af4a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_e5be5e439796a11024d7b066f053af41^id=5ad2a9239752211024d7b066f053af4a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5ad2a9239752211024d7b066f053af4a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5ad2a9239752211024d7b066f053af4a"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a6b2692b9712211024d7b066f053afd9"/>
@@ -148,11 +154,13 @@
         <active>true</active>
         <annotation>Log Cat Breeds</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Logs all cat breeds</description>
+        <flow_priority/>
         <internal_name>demo_log_cat_breeds</internal_name>
         <label_cache>[{"name":"6365daf0-5367-4486-a7b6-790f10657967.cat.breed","label":"1 - Demo Cat Breed (DS)➛Cat➛Breed","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
         <master>true</master>
@@ -212,6 +220,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Log Cat Breeds">27242da39752211024d7b066f053afad</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>6365daf0-5367-4486-a7b6-790f10657967</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -248,6 +257,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Log Cat Breeds">27242da39752211024d7b066f053afad</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -261,6 +271,7 @@
         <ui_id>6365daf0-5367-4486-a7b6-790f10657967</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a3242da39752211024d7b066f053afdc"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_ec2429a39752211024d7b066f053af26^id=a3242da39752211024d7b066f053afdc"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a3242da39752211024d7b066f053afdc"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a3242da39752211024d7b066f053afdc"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=27242da39752211024d7b066f053afad"/>

@@ -16,8 +16,9 @@
         <logo>974773719752211024d7b066f053af49</logo>
         <menu display_value="Demo">95af7e1397561110fa6733121153af5c</menu>
         <name>Demo</name>
+        <package_json/>
         <private>false</private>
-        <restrict_table_access>false</restrict_table_access>
+        <restrict_table_access>true</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_53417_demo</scope>
         <scoped_administration>false</scoped_administration>
@@ -31,13 +32,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-08 04:31:39</sys_created_on>
         <sys_id>785f7e9b97161110fa6733121153afdb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-28 23:43:21</sys_updated_on>
+        <sys_updated_on>2024-03-01 23:58:18</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
-        <user_role/>
+        <user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>2.0.0</version>

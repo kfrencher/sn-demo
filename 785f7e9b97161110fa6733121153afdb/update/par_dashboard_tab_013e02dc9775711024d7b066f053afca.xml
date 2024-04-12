@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
     <par_dashboard_tab action="INSERT_OR_UPDATE">
         <active>true</active>
+        <background_color/>
         <dashboard display_value="Demo Credential Dashboard">7743be5797e5b51024d7b066f053af79</dashboard>
         <name>Secondary KPI</name>
         <order>1</order>

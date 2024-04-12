@@ -5,11 +5,14 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>21ea92dd53622010fca7ddeeff7b12b1</copied_from>
         <copied_from_name>Step based request fulfillment</copied_from_name>
         <description/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demo_step_based_request_fulfillment</internal_name>
         <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"80942c96-a078-42c4-875a-ecb6c5ac8ff8.context","label":"1 - Service Fulfillment Steps base flow➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"80942c96-a078-42c4-875a-ecb6c5ac8ff8.output","label":"1➛Output","reference_display":"Output","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"38e39209-e90d-4c66-ac75-b12d46cba12f"}},{"name":"39c2a893-f3f5-4847-9da8-99d05bf178e9.record","label":"2➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39c2a893-f3f5-4847-9da8-99d05bf178e9.table_name","label":"2➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2f0764bc-68e7-4807-a2ab-230f25d3b382.record","label":"3 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2f0764bc-68e7-4807-a2ab-230f25d3b382.table_name","label":"3 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ecbcc42f-f3fc-4e22-894d-3699eccf93d2.record","label":"5➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ecbcc42f-f3fc-4e22-894d-3699eccf93d2.table_name","label":"5➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b302f009-186b-4442-b793-4bff7a46d580.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b302f009-186b-4442-b793-4bff7a46d580.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"80942c96-a078-42c4-875a-ecb6c5ac8ff8.state","label":"1 - Service Fulfillment Steps base flow➛State","reference_display":"State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4d266e4f-7a08-4946-b39f-be2a78845ae1"}},{"name":"2f0764bc-68e7-4807-a2ab-230f25d3b382.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2f0764bc-68e7-4807-a2ab-230f25d3b382.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b302f009-186b-4442-b793-4bff7a46d580.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b302f009-186b-4442-b793-4bff7a46d580.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>c8d3e80d97aa611024d7b066f053af37</master_snapshot>
@@ -359,6 +362,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Step based request fulfillment">10c3e40d97aa611024d7b066f053afbf</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>8762eb99-2fa3-41f5-98da-2fecb0bb3fe9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -525,6 +529,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Step based request fulfillment">10c3e40d97aa611024d7b066f053afbf</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>ae08155e-4072-452f-889e-e47240665fe5</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -675,6 +680,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Step based request fulfillment">10c3e40d97aa611024d7b066f053afbf</flow>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <order>1</order>
@@ -830,6 +836,7 @@
         <flow display_value="Demo Step based request fulfillment">10c3e40d97aa611024d7b066f053afbf</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -903,6 +910,7 @@
         <flow display_value="Demo Step based request fulfillment">10c3e40d97aa611024d7b066f053afbf</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -976,6 +984,7 @@
         <flow display_value="Demo Step based request fulfillment">10c3e40d97aa611024d7b066f053afbf</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -1009,6 +1018,7 @@
         <flow display_value="Demo Step based request fulfillment">10c3e40d97aa611024d7b066f053afbf</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>
@@ -1088,11 +1098,13 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>21ea92dd53622010fca7ddeeff7b12b1</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>demo_step_based_request_fulfillment</internal_name>
         <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"80942c96-a078-42c4-875a-ecb6c5ac8ff8.context","label":"1 - Service Fulfillment Steps base flow➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"80942c96-a078-42c4-875a-ecb6c5ac8ff8.output","label":"1➛Output","reference_display":"Output","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"38e39209-e90d-4c66-ac75-b12d46cba12f"}},{"name":"39c2a893-f3f5-4847-9da8-99d05bf178e9.record","label":"2➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39c2a893-f3f5-4847-9da8-99d05bf178e9.table_name","label":"2➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2f0764bc-68e7-4807-a2ab-230f25d3b382.record","label":"3 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2f0764bc-68e7-4807-a2ab-230f25d3b382.table_name","label":"3 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ecbcc42f-f3fc-4e22-894d-3699eccf93d2.record","label":"5➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ecbcc42f-f3fc-4e22-894d-3699eccf93d2.table_name","label":"5➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b302f009-186b-4442-b793-4bff7a46d580.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b302f009-186b-4442-b793-4bff7a46d580.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"80942c96-a078-42c4-875a-ecb6c5ac8ff8.state","label":"1 - Service Fulfillment Steps base flow➛State","reference_display":"State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4d266e4f-7a08-4946-b39f-be2a78845ae1"}},{"name":"2f0764bc-68e7-4807-a2ab-230f25d3b382.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2f0764bc-68e7-4807-a2ab-230f25d3b382.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b302f009-186b-4442-b793-4bff7a46d580.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b302f009-186b-4442-b793-4bff7a46d580.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
@@ -1422,6 +1434,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Step based request fulfillment">c8d3e80d97aa611024d7b066f053af37</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>ae08155e-4072-452f-889e-e47240665fe5</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1511,6 +1524,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Step based request fulfillment">c8d3e80d97aa611024d7b066f053af37</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>8762eb99-2fa3-41f5-98da-2fecb0bb3fe9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1610,6 +1624,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Demo Step based request fulfillment">c8d3e80d97aa611024d7b066f053af37</flow>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <order>1</order>
@@ -1765,6 +1780,7 @@
         <flow display_value="Demo Step based request fulfillment">c8d3e80d97aa611024d7b066f053af37</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1838,6 +1854,7 @@
         <flow display_value="Demo Step based request fulfillment">c8d3e80d97aa611024d7b066f053af37</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>
@@ -1871,6 +1888,7 @@
         <flow display_value="Demo Step based request fulfillment">c8d3e80d97aa611024d7b066f053af37</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -1904,6 +1922,7 @@
         <flow display_value="Demo Step based request fulfillment">c8d3e80d97aa611024d7b066f053af37</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
