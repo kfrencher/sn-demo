@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_53417_demo_flow_task</basic_apply_to>
+        <basic_query_from>sysapproval_approver</basic_query_from>
+        <insert_callback/>
+        <name>Approvals</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	current.addQuery('document_id', parent.getUniqueValue());
+	current.addQuery('source_table', parent.getRecordClassName());
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 14:38:22</sys_created_on>
+        <sys_id>a54acef59765421024d7b066f053afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approvals</sys_name>
+        <sys_package display_value="Demo" source="x_53417_demo">785f7e9b97161110fa6733121153afdb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">785f7e9b97161110fa6733121153afdb</sys_scope>
+        <sys_update_name>sys_relationship_a54acef59765421024d7b066f053afa7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 14:38:22</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=a54acef59765421024d7b066f053afa7"/>
+</record_update>
